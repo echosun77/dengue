@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 # import adata_utilis as au  # au.split
 
-def interaction_analysis_same(datas1, datas2, cond1, cond2, ct, res):
+def interaction_analysis_same(datas1, datas2, cond1, cond2, ct, res, save=None):
     '''analysis of the interactions between ct and other cell_types,
     Args:
         datas1, cond1 --> requiremets for interaction_a
@@ -55,9 +55,14 @@ def interaction_analysis_same(datas1, datas2, cond1, cond2, ct, res):
                      'avg1','avg2', 
                      'fra_sum', 'av_sum'])
 
+    if save is not None:
+        for cell_type in cell_types:
+            same_inters[cell_type].to_excel(save + cell_type + '.xls', index=False)
+
+
     return same_inters
 
-def interaction_analysis_only_a(datas1, datas2, cond1, cond2, ct, res):
+def interaction_analysis_only_a(datas1, datas2, cond1, cond2, ct, res, save=None):
     '''analysis of the interactions between ct and other cell_types,
     Args:
         datas1, cond1 --> requiremets for interaction_a
@@ -67,7 +72,7 @@ def interaction_analysis_only_a(datas1, datas2, cond1, cond2, ct, res):
                 res = average_fraction(adatag, ['dataset', 'Condition', 'cell_type'], 
                                        axis='obs', greater_than=0, log=False)
     Returns:
-    dict containing DataFrame with interactions expressed only in interaction_a
+        dict containing DataFrame with interactions expressed only in interaction_a
     '''
     from collections import defaultdict
     
@@ -102,10 +107,14 @@ def interaction_analysis_only_a(datas1, datas2, cond1, cond2, ct, res):
                      'frac1', 'frac2',
                      'avg1','avg2', 
                      'fra_sum', 'av_sum'])
+
+    if save is not None:
+        for cell_type in cell_types:
+            only_a_inters[cell_type].to_excel(save + cell_type + '.xls', index=False)
     
     return only_a_inters
 
-def interaction_analysis_only_b(datas1, datas2, cond1, cond2, ct, res):
+def interaction_analysis_only_b(datas1, datas2, cond1, cond2, ct, res, save=None):
     '''analysis of the interactions between ct and other cell_types,
     Args:
         datas1, cond1 --> requiremets for interaction_a
@@ -151,6 +160,10 @@ def interaction_analysis_only_b(datas1, datas2, cond1, cond2, ct, res):
                      'frac1', 'frac2',
                      'avg1','avg2', 
                      'fra_sum', 'av_sum'])
+
+    if save is not None:
+        for cell_type in cell_types:
+            only_b_inters[cell_type].to_excel(save + cell_type + '.xls', index=False)
     
     return only_b_inters
 
@@ -258,7 +271,7 @@ def special_interactions(datas1, datas2, datas3, cond1, cond2, cond3, ct, res, s
                 res = average_fraction(adatag, ['dataset', 'Condition', 'cell_type'], 
                                        axis='obs', greater_than=0, log=False)
     Returns:
-        dict containing DataFrame with interactions expressed both in 
+        DataFrame with interactions expressed both in 
         [only in interaction_1 compared with interaction_2] & [only in interaction_1 compared with interaction_3]
     '''
     from collections import defaultdict
@@ -287,14 +300,34 @@ def special_interactions(datas1, datas2, datas3, cond1, cond2, cond3, ct, res, s
                       'frac1', 'frac2',
                       'avg1','avg2', 
                       'fra_sum', 'av_sum'])
+    
+    same_inters2=[]
+    for _,row in same_inters.iterrows():
+        cell_type = row['cell_type2']
+        if cell_type == ct:
+            same_inters2.append(row.tolist())
+        else:
+            row = row[['dataset', 'Condition',
+                        'cell_type2','cell_type1', 
+                        'gene_name_b', 'gene_name_a',
+                        'frac2','frac1', 
+                        'avg2', 'avg1', 
+                        'fra_sum', 'av_sum']]
+            same_inters2.append(row.tolist())
+
+    same_inters2 = pd.DataFrame(
+        same_inters2,
+        columns = ['dataset', 'Condition',
+                  'cell_type1','cell_type2', 
+                  'gene_name_a', 'gene_name_b',
+                  'frac1', 'frac2',
+                  'avg1','avg2', 
+                  'fra_sum', 'av_sum'])
 
     if save is not None:
-        same_inters.to_excel(save)
-        
-    #fdn = '/home/yike/phd/dengue/data/excels/interaction_analysis/'
-    #same_inters.to_excel(fdn + ct + '_special_inters.xls')
+        same_inters2.to_excel(save, index=None)
 
-    return same_inters
+    return same_inters2
 
 def interaction_by_ct_kdeplot(adata, interactions, save=None):
     '''kdeplot of gene expression in interactions, the plots shown as:
@@ -316,6 +349,7 @@ def interaction_by_ct_kdeplot(adata, interactions, save=None):
     
     colors = sns.color_palette('hls', len(IDs))
     sns.set_palette(colors)
+    sns.set_style('darkgrid')
 
     from collections import defaultdict
     # adata_dic = defaultdic(list)
@@ -331,7 +365,7 @@ def interaction_by_ct_kdeplot(adata, interactions, save=None):
         gene2 = interaction[1]
         fig, axs = plt.subplots(n_column, 2, figsize = (8, 22), dpi=80, facecolor='white', sharex=True, sharey=True)
         for i in range(n_column):
-            
+            avg_g1_pats, avg_g2_pats = [], []
             for ID in IDs:
                 if i == 0: # epression in all samples
                     cell_type = 'all'
@@ -340,22 +374,34 @@ def interaction_by_ct_kdeplot(adata, interactions, save=None):
                 
                 gene1_ct = adata_dic[(cell_type, ID)][:, gene1].X.toarray()[:, 0]
                 np_gene1_ct = np.log10(0.1 + gene1_ct)
-                sns.kdeplot(np_gene1_ct, bw_method=0.5, ax=axs[i, 0], bw=0.1, label='_nolegend_')
+                sns.kdeplot(np_gene1_ct, bw_method=0.5, ax=axs[i, 0], label='_nolegend_')
                 
                 gene2_ct = adata_dic[(cell_type, ID)][:, gene2].X.toarray()[:, 0]
                 np_gene2_ct = np.log10(0.1 + gene2_ct)
                 if i == 0:
-                    sns.kdeplot(np_gene2_ct, bw_method=0.5, ax=axs[i, 1], bw=0.1, label=ID)
+                    sns.kdeplot(np_gene2_ct, bw_method=0.5, ax=axs[i, 1], label=ID)
                 else:
-                    sns.kdeplot(np_gene2_ct, bw_method=0.5, ax=axs[i, 1], bw=0.1, label='_nolegend_')
+                    sns.kdeplot(np_gene2_ct, bw_method=0.5, ax=axs[i, 1], label='_nolegend_')
                 
                 gene1_ct_avg = np.log10(0.1 + np.mean(gene1_ct))
                 gene2_ct_avg = np.log10(0.1 + np.mean(gene2_ct))
                 sns.scatterplot(x=[gene1_ct_avg], y=[4], ax=axs[i, 0])
                 sns.scatterplot(x=[gene2_ct_avg], y=[4], ax=axs[i, 1])
+                avg_g1_pats.append(gene1_ct_avg)
+                avg_g2_pats.append(gene2_ct_avg)
+            
+            x = np.sort(avg_g1_pats)
+            y = 1.0 - np.linspace(0, 1, len(x))
+            axs[i, 0].plot(x, y + 3.5, color='grey', lw=2)
+            
+            x = np.sort(avg_g2_pats)
+            y = 1.0 - np.linspace(0, 1, len(x))
+            axs[i, 1].plot(x, y + 3.5, color='grey', lw=2)
             
             axs[i, 0].set_ylim(0, 5)
             axs[i, 1].set_ylim(0, 5)
+            axs[i, 0].set_xlim(-1.2, 5)            
+            axs[i, 1].set_xlim(-1.2, 5)
             axs[i, 0].tick_params(labelsize=15)
             axs[i, 1].tick_params(labelsize=15)
             axs[i, 0].set_ylabel(None)
@@ -364,17 +410,17 @@ def interaction_by_ct_kdeplot(adata, interactions, save=None):
             #axs[0, 1].legend(loc='upper left', ncol=2, bbox_to_anchor=(1, 1, 0, 0), bbox_transform=axs[0, 1].transAxes, fontsize=6)
             axs[i, 0].set_title(gene1 + ' in ' + cell_type, fontsize=15)
             axs[i, 1].set_title(gene2 + ' in ' + cell_type, fontsize=15)
-        
+
         fig.text(0, 0.5, 'density of cells', va='center', rotation='vertical', fontsize=20)
         fig.text(0.5, 0, 'gene expression [log10(cpm+0.1)]', ha='center', fontsize=20)
         
-        fig.tight_layout(rect=[0.05,0.02,1,1], pad=0, h_pad=0, w_pad=0)
+        fig.tight_layout(rect=[0.05,0.02,1.02,1], pad=0, h_pad=0, w_pad=0)
         
         if save is not None:
-            fig.savefig(save + gene1 + '-' + gene2 + '_by_ct_kde.png')
+            fig.savefig(save + gene1 + '-' + gene2 + '_by_ct_kde.png', bbox_inches='tight')
              
 
-def interaction_by_ID_kdeplot(adata, interactions):
+def interaction_by_ID_kdeplot(adata, interactions, save=None):
     '''kdeplot of gene expression in interactions, the plots shown as:
     subplots by different samples (IDs),
     in each subplot: 'density of cells' vs 'gene expression [log10(cpm+0.1)]' in different cell_types,
@@ -394,6 +440,7 @@ def interaction_by_ID_kdeplot(adata, interactions):
     
     colors = sns.color_palette('hls', len(cell_types))
     sns.set_palette(colors)
+    sns.set_style('darkgrid')
 
     from collections import defaultdict
     adata_dic = {}
@@ -409,6 +456,7 @@ def interaction_by_ID_kdeplot(adata, interactions):
         
         fig, axs = plt.subplots(n_column, 2, figsize=(8, 20), dpi=80, facecolor='white')
         for i in range(n_column):
+            avg_g1_pats, avg_g2_pats = [], []
             for cell_type in cell_types:
                 if i == 0: # epression in all samples
                     ID = 'all'
@@ -431,14 +479,26 @@ def interaction_by_ID_kdeplot(adata, interactions):
                 gene2_ct_avg = np.log10(0.1 + np.mean(gene2_ct))
                 sns.scatterplot(x=[gene1_ct_avg], y=[4], ax=axs[i, 0])
                 sns.scatterplot(x=[gene2_ct_avg], y=[4], ax=axs[i, 1])
+                avg_g1_pats.append(gene1_ct_avg)
+                avg_g2_pats.append(gene2_ct_avg)
+            
+            x = np.sort(avg_g1_pats)
+            y = 1.0 - np.linspace(0, 1, len(x))
+            axs[i, 0].plot(x, y + 3.5, color='grey', lw=2)
+            
+            x = np.sort(avg_g2_pats)
+            y = 1.0 - np.linspace(0, 1, len(x))
+            axs[i, 1].plot(x, y + 3.5, color='grey', lw=2)
                     
             axs[i, 0].set_ylim(0, 5)
             axs[i, 1].set_ylim(0, 5)
+            axs[i, 0].set_xlim(-1.2, 5)
+            axs[i, 1].set_xlim(-1.2, 5)
             axs[i, 0].tick_params(labelsize=15)
             axs[i, 1].tick_params(labelsize=15)
             axs[i, 0].set_ylabel(None)
             axs[i, 1].set_ylabel(None)
-            axs[0, 1].legend(loc='upper right', markerscale=0.1, frameon=False, framealpha=0, fontsize=8)
+            axs[0, 1].legend(loc='upper right', ncol=2, markerscale=0.1, frameon=False, framealpha=0, fontsize=8, columnspacing=12.5)
             #axs[0, 1].legend(loc='upper left', ncol=2, bbox_to_anchor=(1, 1, 0, 0), bbox_transform=axs[0, 1].transAxes, fontsize=6)
             axs[i, 0].set_title(gene1 + ' in ' + ID, fontsize=15)
             axs[i, 1].set_title(gene2 + ' in ' + ID, fontsize=15)
@@ -446,10 +506,196 @@ def interaction_by_ID_kdeplot(adata, interactions):
         fig.text(0, 0.5, 'density of cells', va='center', rotation='vertical', fontsize=20)
         fig.text(0.5, 0, 'gene expression [log10(cpm+0.1)]', ha='center', fontsize=20)
         
-        fig.tight_layout(rect=[0.05,0.02,1,1], pad=0, h_pad=0, w_pad=0)
+        fig.tight_layout(rect=[0.05,0.02,1.02,1], pad=0, h_pad=0, w_pad=0)
         
         if save is not None:
-            fig.savefig(save + gene1 + '-' + gene2 + '_by_ID_kde.png')
+            fig.savefig(save + gene1 + '-' + gene2 + '_by_ID_kde.png', bbox_inches='tight')
 
+def interaction_by_ct_culplot(adata, interactions, save=None):
+    '''culmative plot of gene expression in interactions, the plots shown as:
+    subplots by different cell_types,
+    in each subplot: 'fract of cells expressing ≥ x' vs 'gene expression [log10(cpm+0.1)]' in different samples (IDs),
+    Args:
+        adata: --> the data that want to analyze, eg. adata_sick, adata_healthy
+        interactions --> a list containing interaction pairs, eg. [['TNFRSF14', 'BTLA'],['TNFSF13B', 'TNFRSF13B']]
+    Returns:
+        Return nothing
+        will save plots into save with the name as gene1+'-'+gene2+'_by_ct_kde.png'
+    '''
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    
+    cell_types = list(adata.obs['cell_type'].astype('category').cat.categories)
+    IDs = list(adata.obs['ID'].astype('category').cat.categories)
+    n_column = len(cell_types) +1 
+    
+    colors = sns.color_palette('hls', len(IDs))
+    sns.set_palette(colors)
+    sns.set_style('darkgrid')
 
+    from collections import defaultdict
+    # adata_dic = defaultdic(list)
+    adata_dic = {}
+    for cell_type in cell_types:
+        adata_ct = adata[adata.obs['cell_type'] == cell_type]
+        for ID in IDs:
+            adata_dic[(cell_type, ID)] = adata_ct[adata_ct.obs['ID'] == ID]
+            adata_dic[('all', ID)] = adata[adata.obs['ID'] == ID]
 
+    for interaction in interactions:
+        gene1 = interaction[0]
+        gene2 = interaction[1]
+        fig, axs = plt.subplots(n_column, 2, figsize = (8, 22), dpi=80, facecolor='white', sharex=True, sharey=True)
+        for i in range(n_column):
+            
+            avg_g1_pats, avg_g2_pats = [], []
+            for ID in IDs:
+                if i == 0: # epression in all samples
+                    cell_type = 'all'
+                else:      # expression in different samples (IDs)
+                    cell_type = cell_types[i-1]
+                
+                gene1_ct = adata_dic[(cell_type, ID)][:, gene1].X.toarray()[:, 0]
+                np_gene1_ct = np.log10(0.1 + gene1_ct)
+                x1 = np.sort(np_gene1_ct)
+                y1 = 1-np.linspace(0,1,len(x1))
+                axs[i, 0].plot(x1,y1,label='_nolegend_',lw=2) 
+                
+                gene2_ct = adata_dic[(cell_type, ID)][:, gene2].X.toarray()[:, 0]
+                np_gene2_ct = np.log10(0.1 + gene2_ct)
+                x2 = np.sort(np_gene2_ct)
+                y2 = 1-np.linspace(0,1,len(x2))
+                
+                if i == 0:
+                    axs[i, 1].plot(x2,y2,label=ID,lw=2) 
+                else:
+                    axs[i, 1].plot(x2,y2,label='_nolegend_',lw=2)
+                
+                gene1_ct_avg = np.log10(0.1 + np.mean(gene1_ct))
+                gene2_ct_avg = np.log10(0.1 + np.mean(gene2_ct))
+                sns.scatterplot(x=[gene1_ct_avg], y=[1.5], ax=axs[i, 0])
+                sns.scatterplot(x=[gene2_ct_avg], y=[1.5], ax=axs[i, 1])
+                avg_g1_pats.append(gene1_ct_avg)
+                avg_g2_pats.append(gene2_ct_avg)
+            
+            x = np.sort(avg_g1_pats)
+            y = 1.0 - np.linspace(0, 1, len(x))
+            axs[i, 0].plot(x, y + 1, color='grey', lw=2)
+            
+            x = np.sort(avg_g2_pats)
+            y = 1.0 - np.linspace(0, 1, len(x))
+            axs[i, 1].plot(x, y + 1, color='grey', lw=2)
+            
+            axs[i, 0].set_ylim(-0.02, 2.02)
+            axs[i, 1].set_ylim(-0.02, 2.02)
+            axs[i, 0].set_xlim(-1.2, 5)
+            axs[i, 1].set_xlim(-1.2, 5)
+            axs[i, 0].tick_params(labelsize=15)
+            axs[i, 1].tick_params(labelsize=15)
+            axs[i, 0].set_ylabel(None)
+            axs[i, 1].set_ylabel(None)
+            axs[0, 1].legend(loc='upper right', ncol=2, markerscale=0.1, frameon=False, framealpha=0, fontsize=8, columnspacing=12.5)
+            axs[i, 0].set_title(gene1 + ' in ' + cell_type, fontsize=15)
+            axs[i, 1].set_title(gene2 + ' in ' + cell_type, fontsize=15)
+        
+        fig.text(0, 0.5, 'fract of cells expressing ≥ x', va='center', rotation='vertical', fontsize=20)
+        fig.text(0.5, 0, 'gene expression [log10(cpm+0.1)]', ha='center', fontsize=20)
+        
+        fig.tight_layout(rect=[0.07,0.02,1.02,1], pad=0, h_pad=0, w_pad=0)
+        
+        if save is not None:
+            fig.savefig(save + gene1 + '-' + gene2 + '_by_ct_cul.png', bbox_inches='tight')
+
+def interaction_by_ID_culplot(adata, interactions, save=None):
+    '''culmative plot of gene expression in interactions, the plots shown as:
+    subplots by different samples (IDs),
+    in each subplot: 'fract of cells expressing ≥ x' vs 'gene expression [log10(cpm+0.1)]' in different cell_types,
+    Args:
+        adata: --> the data that want to analyze, eg. adata_sick, adata_healthy
+        interactions --> a list containing interaction pairs, eg. [['TNFRSF14', 'BTLA'],['TNFSF13B', 'TNFRSF13B']]
+    Returns:
+        Return nothing
+        will save plots into save with the name as gene1+'-'+gene2+'_by_ID_kde.png'
+    '''
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    cell_types = list(adata.obs['cell_type'].astype('category').cat.categories)
+    IDs = list(adata.obs['ID'].astype('category').cat.categories)
+    n_column = len(IDs) +1 
+    
+    colors = sns.color_palette('hls', len(cell_types))
+    sns.set_palette(colors)
+    sns.set_style('darkgrid')
+
+    from collections import defaultdict
+    adata_dic = {}
+    for ID in IDs:
+        adata_ID = adata[adata.obs['ID'] == ID]
+        for cell_type in cell_types:
+            adata_dic[(ID, cell_type)] = adata_ID[adata_ID.obs['cell_type'] == cell_type]
+            adata_dic[('all', cell_type)] = adata[adata.obs['cell_type'] == cell_type]
+
+    for interaction in interactions:
+        gene1 = interaction[0]
+        gene2 = interaction[1]
+        
+        fig, axs = plt.subplots(n_column, 2, figsize=(8, 20), dpi=80, facecolor='white')
+        for i in range(n_column):
+            avg_g1_pats, avg_g2_pats = [], []
+            for cell_type in cell_types:
+                if i == 0: # epression in all samples
+                    ID = 'all'
+                else:      # expression in different samples (IDs)
+                    ID = IDs[i-1] 
+                
+                gene1_ct = adata_dic[(ID, cell_type)][:, gene1].X.toarray()[:, 0]
+                np_gene1_ct = np.log10(0.1 + gene1_ct)
+                x1 = np.sort(np_gene1_ct)
+                y1 = 1-np.linspace(0,1,len(x1))
+                axs[i, 0].plot(x1,y1,label='_nolegend_',lw=2) 
+                
+                gene2_ct = adata_dic[(ID, cell_type)][:, gene2].X.toarray()[:, 0]
+                np_gene2_ct = np.log10(0.1 + gene2_ct)
+                x2 = np.sort(np_gene2_ct)
+                y2 = 1-np.linspace(0,1,len(x2))
+                
+                if i == 0:
+                    axs[i, 1].plot(x2,y2,label=cell_type,lw=2) 
+                else:
+                    axs[i, 1].plot(x2,y2,label='_nolegend_',lw=2)
+                    
+                gene1_ct_avg = np.log10(0.1 + np.mean(gene1_ct))
+                gene2_ct_avg = np.log10(0.1 + np.mean(gene2_ct))
+                sns.scatterplot(x=[gene1_ct_avg], y=[1.5], ax=axs[i, 0])
+                sns.scatterplot(x=[gene2_ct_avg], y=[1.5], ax=axs[i, 1])
+                avg_g1_pats.append(gene1_ct_avg)
+                avg_g2_pats.append(gene2_ct_avg)
+            
+            x = np.sort(avg_g1_pats)
+            y = 1.0 - np.linspace(0, 1, len(x))
+            axs[i, 0].plot(x, y + 1, color='grey', lw=2)
+            
+            x = np.sort(avg_g2_pats)
+            y = 1.0 - np.linspace(0, 1, len(x))
+            axs[i, 1].plot(x, y + 1, color='grey', lw=2)
+                    
+            axs[i, 0].set_ylim(-0.02, 2.02)
+            axs[i, 1].set_ylim(-0.02, 2.02)
+            axs[i, 0].set_xlim(-1.2, 5)
+            axs[i, 1].set_xlim(-1.2, 5)
+            axs[i, 0].tick_params(labelsize=15)
+            axs[i, 1].tick_params(labelsize=15)
+            axs[i, 0].set_ylabel(None)
+            axs[i, 1].set_ylabel(None)
+            axs[0, 1].legend(loc='upper right', ncol=2, markerscale=0.1, frameon=False, framealpha=0, fontsize=8, columnspacing=12.5)
+            axs[i, 0].set_title(gene1 + ' in ' + ID, fontsize=15)
+            axs[i, 1].set_title(gene2 + ' in ' + ID, fontsize=15)
+        
+        fig.text(0, 0.5, 'fract of cells expressing ≥ x', va='center', rotation='vertical', fontsize=20)
+        fig.text(0.5, 0, 'gene expression [log10(cpm+0.1)]', ha='center', fontsize=20)
+        
+        fig.tight_layout(rect=[0.07,0.02,1.02,1], pad=0, h_pad=0, w_pad=0)
+        
+        if save is not None:
+            fig.savefig(save + gene1 + '-' + gene2 + '_by_ID_cul.png', bbox_inches='tight')
