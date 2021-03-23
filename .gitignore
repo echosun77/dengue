@@ -1,8 +1,10 @@
 *.h5ad
 *.loom
+*.tsv
 docs
 figures
 dengue_children/.ipynb_checkpoints/*.ipynb
 Fabios
 data/excels
 data/old_code
+data/dataset_from_google

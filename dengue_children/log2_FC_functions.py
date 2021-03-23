@@ -98,7 +98,7 @@ def log2_FC_all(genes, adata, cond1, cond2, datas, save=None):
     return [list_log2_fc, log2_fc_all, df_log2_fc]
 
 def top_inters(interactions,genes, adata, cond1, cond2, datas, top_n, save=None):
-    '''the log2 fold_change of genes by comparision between each cond1 and cond2, eg., 'sick' vs 'Healthy', 'DWS' vs 'Healthy'
+    '''the interactions with one gene with the top_n largest log2_FC by comparision between each cond1 and cond2, eg., 'sick' vs 'Healthy', 'DWS' vs 'Healthy'
     Args:
         interactions: list containing pairs of ligand and receptor genes for cell-cell communication, usually obtained from the 'interaction_unpacked_mouse.tsv'
         genes, adata, cond1, cond2, datas： parameters for function 'log2_FC_all'
@@ -134,9 +134,45 @@ def top_inters(interactions,genes, adata, cond1, cond2, datas, top_n, save=None)
     
     return top_inter_list
 
+def last_inters(interactions,genes, adata, cond1, cond2, datas, last_n, save=None):
+    '''the interactions with one gene with the last_n smallest log2_FC by comparision between each cond1 and cond2, eg., 'sick' vs 'Healthy', 'DWS' vs 'Healthy'
+    Args:
+        interactions: list containing pairs of ligand and receptor genes for cell-cell communication, usually obtained from the 'interaction_unpacked_mouse.tsv'
+        genes, adata, cond1, cond2, datas： parameters for function 'log2_FC_all'
+            log2_FC_all(genes, adata, cond1, cond2, datas) returns list containing two tuple, 
+                tuple 1: dict containing list with log2 fold_change of genes from log2_fc, keys are gene_names
+                tuple 2: DataFrame containing the average of log2 fold_change by comparision beteen each sick and each healthy, index are gene_names
+        last_n: int that the last number of genes to be analyzed
+    Returns:
+        DataFrame containing interactions with at least one gene in the last_n log2 fold_change list, and their average log2 fold_change
+    '''
+    
+    from collections import defaultdict
+    
+    interactions_new = interactions.drop_duplicates()
+    
+    log2_fc_all = log2_FC_all(genes, adata, cond1, cond2, datas)[1]
+    last_log2_fc = list(log2_fc_all[-last_n:].index)
+
+    last_inters = []
+    for _,row in interactions_new.iterrows():
+        gene_a = row['gene_name_a']
+        gene_b = row['gene_name_b']
+        if gene_a in last_log2_fc:
+            last_inters.append([gene_a, gene_b, log2_fc_all.loc[gene_a][0], log2_fc_all.loc[gene_b][0]])
+        elif gene_b in last_log2_fc:
+            last_inters.append([gene_b, gene_a, log2_fc_all.loc[gene_b][0], log2_fc_all.loc[gene_a][0]])
+    last_inter_list = pd.DataFrame(last_inters, columns = ['gene_name_a', 'gene_name_b', 'log2_fc_ga', 'log2_fc_gb']).drop_duplicates()
+    last_inter_list['sum_log2_fc'] = last_inter_list['log2_fc_ga'] + last_inter_list['log2_fc_gb']
+    last_inter_list = last_inter_list.sort_values('sum_log2_fc', ascending = False)
+    
+    if save is not None:
+        last_inter_list.to_csv(save + cond1 + ' in ' + datas + '_last_inters.tsv')
+    
+    return last_inter_list
 
 def top_inters_gbs(interactions,genes, adata, cond1, cond2, datas, top_n, groupby, save=None):
-    '''the log2 fold_change of genes by comparision between each cond1 and cond2, eg., 'sick' vs 'Healthy', 'DWS' vs 'Healthy'
+    '''the interactions with one gene with the top_n largest log2_FC in each groupby by comparision between each cond1 and cond2, eg., 'sick' vs 'Healthy', 'DWS' vs 'Healthy' 
     Args:
         interactions: list containing pairs of ligand and receptor genes for cell-cell communication, usually obtained from the 'interaction_unpacked_mouse.tsv'
         genes, adata, cond1, cond2, datas： parameters for function 'log2_FC_all'
@@ -147,12 +183,16 @@ def top_inters_gbs(interactions,genes, adata, cond1, cond2, datas, top_n, groupb
         groupby: name of group used to analyze the data, eg., 'cell_type', 'cell_subtype' 
     Returns:
         DataFrame containing interactions with the gene & its log2_FC in the top_n log2 fold_change list, and the log2_FC of the other gene in each groupby
+        List containing Datafram interactions with the gene & its log2_FC in the top_n log2 fold_change list, and the log2_FC of the other gene, with groupby as key
     '''
     
     from collections import defaultdict
     
-    gbs = list(adata.obs[groupby].astype('category').cat.categories)
-    
+    if 'doublets' in list(adata.obs[groupby].astype('category').cat.categories):
+        gbs = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    else:
+        gbs = list(adata.obs[groupby].astype('category').cat.categories)
+
     adata_gb = {}
     log2_fc_all = {}
     top_log2_fc = {}
@@ -186,10 +226,68 @@ def top_inters_gbs(interactions,genes, adata, cond1, cond2, datas, top_n, groupb
         top_inter_list = pd.concat([top_inter_list, top_its[gb]])
 
     if save is not None:
-        top_inter_list.to_excel(save + cond1 + '_in_' + datas + '_by_' + groupby + '_top_inters.xls')
+        top_inter_list.to_csv(save + cond1 + '_in_' + datas + '_by_' + groupby + '_top_inters.tsv')
 
     return [top_inter_list, top_its]
 
+def last_inters_gbs(interactions,genes, adata, cond1, cond2, datas, last_n, groupby, save=None):
+    '''the interactions with one gene with the last_n largest log2_FC in each groupby by comparision between each cond1 and cond2, eg., 'sick' vs 'Healthy', 'DWS' vs 'Healthy' 
+    Args:
+        interactions: list containing pairs of ligand and receptor genes for cell-cell communication, usually obtained from the 'interaction_unpacked_mouse.tsv'
+        genes, adata, cond1, cond2, datas： parameters for function 'log2_FC_all'
+            log2_FC_all(genes, adata, cond1, cond2, datas) returns list containing two tuple, 
+                tuple 1: dict containing list with log2 fold_change of genes from log2_fc, keys are gene_names
+                tuple 2: DataFrame containing the average of log2 fold_change by comparision beteen each sick and each healthy, index are gene_names
+        last_n: int that the last number of genes to be analyzed
+        groupby: name of group used to analyze the data, eg., 'cell_type', 'cell_subtype' 
+    Returns:
+        DataFrame containing interactions with the gene & its log2_FC in the last_n log2 fold_change list, and the log2_FC of the other gene in each groupby
+        List containing Datafram interactions with the gene & its log2_FC in the last_n log2 fold_change list, and the log2_FC of the other gene, with groupby as key
+    '''
+    
+    from collections import defaultdict
+    
+    if 'doublets' in list(adata.obs[groupby].astype('category').cat.categories):
+        gbs = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    else:
+        gbs = list(adata.obs[groupby].astype('category').cat.categories)
+
+    adata_gb = {}
+    log2_fc_all = {}
+    last_log2_fc = {}
+    inters = {}
+    for gb in gbs:
+        adata_gb[gb] = adata[adata.obs[groupby] == gb]
+        log2_fc_all[gb] = log2_FC_all(genes, adata_gb[gb], cond1, cond2, datas)[1]
+        last_log2_fc[gb] = list(log2_fc_all[gb][-last_n:].index)
+        inters[gb] = last_inters(interactions, genes, adata_gb[gb], cond1, cond2, datas, last_n)
+        
+    last_its = defaultdict(list)
+    for gb1 in gbs:
+        for _,row in inters[gb1].iterrows():
+            gene_a = row['gene_name_a']
+            gene_b = row['gene_name_b']
+            
+            last_inter = [gene_a, gb1, log2_fc_all[gb1].loc[gene_a][0], gene_b]
+            global cls
+            cls = ['gene_name_a',
+                   'ga_ct',
+                   'log2_fc_ga',
+                   'gene_name_b']
+            for gb2 in gbs:
+                last_inter.extend([log2_fc_all[gb2].loc[gene_b][0]])
+                cls.extend(['log2_fc_gb_' + gb2])
+            last_its[gb1].append(last_inter)
+
+    last_inter_list = pd.DataFrame([])
+    for gb in gbs:
+        last_its[gb] = pd.DataFrame(last_its[gb], columns=cls, index=pd.Index([gb]*len(last_its[gb]))).sort_values('log2_fc_ga', ascending=False)
+        last_inter_list = pd.concat([last_inter_list, last_its[gb]])
+
+    if save is not None:
+        last_inter_list.to_csv(save + cond1 + '_in_' + datas + '_by_' + groupby + '_last_inters.tsv')
+
+    return [last_inter_list, last_its]
 
 def cul_plot_log2_FC(genes, adata, cond1, cond2, datas, top_n, save=None):
     '''cumulative plots of top_n genes with largest log2 fold_change by comparision between cond1 and cond2 in datas
@@ -234,7 +332,7 @@ def cul_plot_log2_FC(genes, adata, cond1, cond2, datas, top_n, save=None):
         ax.grid(True)
         ax.set_xlim(-10, 15)
         ax.set_ylim(-0.01, 1.01)
-        ax.set_ylabel('Fraction of comparison between sick\nand healthy with log2FC > x', fontsize=15)
+        ax.set_ylabel('Fraction of comparison between\n'  + cond1 +' ' + 'and ' + cond2 + ' with log2FC > x', fontsize=15)
         ax.set_xlabel('log2FC', fontsize=15)
         if save is not None:
             plt.savefig(save + gene +'.png')
@@ -254,7 +352,11 @@ def cul_plot_log2_FC_gb(genes, adata, cond1, cond2, datas, top_n, groupby, save=
     '''
     from collections import defaultdict
     
-    gbs = list(adata.obs[groupby].astype('category').cat.categories)
+    if 'doublets' in list(adata.obs[groupby].astype('category').cat.categories):
+        gbs = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    else:
+        gbs = list(adata.obs[groupby].astype('category').cat.categories)
+
     n_gbs = len(gbs)
     
     adata_gb = {}
@@ -298,7 +400,7 @@ def cul_plot_log2_FC_gb(genes, adata, cond1, cond2, datas, top_n, groupby, save=
             ax.grid(True)
             ax.set_xlim(-10, 15)
             ax.set_ylim(-0.01, 1.01)
-            ax.set_ylabel('Fraction of comparison between sick\nand healthy with log2FC > x', fontsize=15)
+            ax.set_ylabel('Fraction of comparison between\n'  + cond1 +' ' + 'and ' + cond2 + ' with log2FC > x', fontsize=15)
             ax.set_xlabel('log2FC', fontsize=15) 
 
             if save is not None:
@@ -319,7 +421,11 @@ def cul_plot_log2_FC_gbs(genes, adata, cond1, cond2, datas, top_n, groupby, save
     '''
     from collections import defaultdict
     
-    gbs = list(adata.obs[groupby].astype('category').cat.categories)
+    if 'doublets' in list(adata.obs[groupby].astype('category').cat.categories):
+        gbs = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    else:
+        gbs = list(adata.obs[groupby].astype('category').cat.categories)
+
     n_gbs = len(gbs)
     colors = sns.color_palette('hls', n_gbs)
     
@@ -366,7 +472,7 @@ def cul_plot_log2_FC_gbs(genes, adata, cond1, cond2, datas, top_n, groupby, save
             ax.grid(True)
             ax.set_xlim(-10, 15)
             ax.set_ylim(-0.01, 1.01)
-            ax.set_ylabel('Fraction of comparison between sick\nand healthy with log2FC > x', fontsize=15)
+            ax.set_ylabel('Fraction of comparison between\n'  + cond1 +' ' + 'and ' + cond2 + ' with log2FC > x', fontsize=15)
             ax.set_xlabel('log2FC', fontsize=15) 
 
             if save is not None:
@@ -387,7 +493,11 @@ def cul_plot_log2_FC_inters(interactions, genes, adata, cond1, cond2, datas, top
     '''
     from collections import defaultdict
     
-    gbs = list(adata.obs[groupby].astype('category').cat.categories)
+    if 'doublets' in list(adata.obs[groupby].astype('category').cat.categories):
+        gbs = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    else:
+        gbs = list(adata.obs[groupby].astype('category').cat.categories)
+
     n_gbs = len(gbs)
     colors = sns.color_palette('hls', n_gbs)
     
@@ -442,40 +552,48 @@ def cul_plot_log2_FC_inters(interactions, genes, adata, cond1, cond2, datas, top
             for i in [0, 1]:
                 axs[i].axvline(0, lw=2, color='grey') 
                 axs[i].grid(True)
-                axs[i].set_xlim(-5, 10)
+                axs[i].set_xlim(-10, 15)
                 axs[i].set_ylim(-0.01, 1.01)
                 axs[i].legend(loc='upper right')
 
             fig.text(0.5, 0, 'log2FC', ha='center', fontsize=15)
-            fig.text(0, 0.5,'Fraction of comparison between sick\nand healthy with log2FC > x', va='center', rotation='vertical', fontsize=15)
+            fig.text(0, 0.5,'Fraction of comparison between\n'  + cond1 +' ' + 'and ' + cond2 + ' with log2FC > x', va='center', rotation='vertical', fontsize=15)
 
             fig.tight_layout(rect=[0.04,0.04,1.02,1], pad=0, h_pad=0, w_pad=0)
 
             if save is not None:
                 plt.savefig(save + gene_a + '_in_' + gb1 + '_&_' + gene_b + '.png', bbox_inches='tight')
 
-def dotplot_log2_FC(adata, datas, top_genes, inters, genes_increase, genes_decrease, save=None):
+def dotplot_log2_FC(adata, cond1, cond2, datas, top_genes, inters, genes_increase, genes_decrease, save=None):
     sc.pp.log1p(adata)
 
+    from collections import defaultdict
+
+    conditions = list(adata.obs['Condition'].astype('category').cat.categories)
     datasets = list(adata.obs['dataset'].astype('category').cat.categories)
     sicks = list(adata.obs['sick'].astype('category').cat.categories)
-    from collections import defaultdict
+
+    n_ID = {}
     adata_dic = {}
-    for dataset in datasets:
-        adata_ds = adata[adata.obs['dataset'] == dataset]
-        for sick in sicks:
-            adata_dic[(dataset, sick)] = adata_ds[adata_ds.obs['sick'] == sick]
-            
+    for condition in conditions:
+        for dataset in datasets:
+            adata_dic[(condition, dataset)] = adata[adata.obs['Condition'] == condition][adata[adata.obs['Condition'] == condition].obs['dataset'] == dataset]
+            n_ID[(condition, dataset)] = len(adata_dic[(condition, dataset)].obs['ID'].astype('category').cat.categories)
+
+    for sick in sicks:
+        for dataset in datasets:
+            adata_dic[(sick, dataset)] = adata[adata.obs['sick'] == sick][adata[adata.obs['sick'] == sick].obs['dataset'] == dataset]
+            n_ID[(sick, dataset)] = len(adata_dic[(sick, dataset)].obs['ID'].astype('category').cat.categories)
     
     fig,axs = plt.subplots(2, 1, figsize=(25,8), gridspec_kw={'wspace':0.3}, dpi=300, facecolor='white')
     mainplot = {}
     ax=axs[0]
-    mainplot[0] = sc.pl.dotplot(adata_dic[(datas, 'sick')], inters, groupby='cell_type', ax=ax, show=False, cmap='RdBu_r')
-    ax.set_title('sick child', fontsize=12, y=0.7, loc='right')
+    mainplot[0] = sc.pl.dotplot(adata_dic[(cond1, datas)], inters, groupby='cell_type', ax=ax, show=False, cmap='RdBu_r')
+    ax.set_title(cond1 + ' ' + datas, fontsize=12, y=0.7, loc='right')
 
     ax=axs[1]
-    mainplot[1] = sc.pl.dotplot(adata_dic[(datas, 'Healthy')], inters, groupby='cell_type', ax=ax, show=False, cmap='RdBu_r')
-    ax.set_title('healthy child', fontsize=12, y=0.7, loc='right')
+    mainplot[1] = sc.pl.dotplot(adata_dic[(cond2, datas)], inters, groupby='cell_type', ax=ax, show=False, cmap='RdBu_r')
+    ax.set_title(cond2 + ' ' + datas, fontsize=12, y=0.7, loc='right')
 
     for i in [0,1]: 
         for xlabel in mainplot[i]['mainplot_ax'].get_xticklabels():
@@ -496,3 +614,176 @@ def dotplot_log2_FC(adata, datas, top_genes, inters, genes_increase, genes_decre
     if save is not None:
         plt.savefig(save)
 
+def cul_plot_genes(genes, adata, cond1, cond2, datas, groupby, save=None):
+
+    from collections import defaultdict
+    
+    if 'doublets' in list(adata.obs[groupby].astype('category').cat.categories):
+        gbs = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    else:
+        gbs = list(adata.obs[groupby].astype('category').cat.categories)
+
+    n_gbs = len(gbs)
+    colors = sns.color_palette('hls', n_gbs)
+
+    adata_gb = {}
+    list_log2_fc = {}
+    log2_fc_all = {}
+    top_log2_fc = {}
+    n_ID = {}
+    adata_dic = {}
+    
+    for gb in gbs:
+        adata_gb[gb] = adata[adata.obs[groupby] == gb]
+        list_log2_fc[gb] = log2_FC_all(genes, adata_gb[gb], cond1, cond2, datas)[0]
+        
+        conditions = list(adata_gb[gb].obs['Condition'].astype('category').cat.categories)
+        datasets = list(adata_gb[gb].obs['dataset'].astype('category').cat.categories)
+        sicks = list(adata_gb[gb].obs['sick'].astype('category').cat.categories)
+
+        for condition in conditions:
+            adata_f = adata_gb[gb][adata_gb[gb].obs['Condition'] == condition]
+            for dataset in datasets:
+                adata_dic[(gb, condition, dataset)] = adata_f[adata_f.obs['dataset'] == dataset]
+                n_ID[(gb, condition, dataset)] = len(adata_dic[(gb, condition, dataset)].obs['ID'].astype('category').cat.categories)
+
+        for sick in sicks:
+            adata_f = adata_gb[gb][adata_gb[gb].obs['sick'] == sick]
+            for dataset in datasets:
+                adata_dic[(gb, sick, dataset)] = adata_f[adata_f.obs['dataset'] == dataset]
+                n_ID[(gb, sick, dataset)] = len(adata_dic[(gb, sick, dataset)].obs['ID'].astype('category').cat.categories)
+    
+    
+    for gene in genes:
+        fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=80, facecolor='white')
+        for gb, cl in zip(gbs, colors):
+            n = n_ID[(gb, cond1, datas)] * n_ID[(gb, cond2, datas)]
+            y = 1.0 - np.linspace(0, 1, n)
+            ax.plot(list_log2_fc[gb][gene], y, lw=3, zorder=6, color=cl, label=gb)
+            ax.legend(loc='upper right')
+            ax.axvline(0, lw=2, color='grey', ls='--')
+            ax.axvline(np.mean(list_log2_fc[gb][gene]), lw=2, color=cl)
+            ax.set_title(gene, fontsize=20)
+            ax.grid(True)
+            ax.set_xlim(-10, 15)
+            ax.set_ylim(-0.01, 1.01)
+            ax.set_ylabel('Fraction of comparison between\n'  + cond1 +' ' + 'and ' + cond2 + ' with log2FC > x', fontsize=15)
+            ax.set_xlabel('log2FC', fontsize=15) 
+
+            if save is not None:
+                plt.savefig(save + gene +'.png')
+
+
+def cul_plot_inters(interactions, adata, cond1, cond2, datas, groupby, save=None):
+
+    from collections import defaultdict
+    
+    if 'doublets' in list(adata.obs[groupby].astype('category').cat.categories):
+        gbs = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    else:
+        gbs = list(adata.obs[groupby].astype('category').cat.categories)
+
+    n_gbs = len(gbs)
+    colors = sns.color_palette('hls', n_gbs)
+    
+    adata_gb = {}
+    list_log2_fc = {}
+    n_ID = {}
+    adata_dic = {}
+    genes = np.unique(interactions)
+
+    for gb in gbs:
+        adata_gb[gb] = adata[adata.obs[groupby] == gb]
+        list_log2_fc[gb] = log2_FC_all(genes, adata_gb[gb], cond1, cond2, datas)[0]
+        
+        conditions = list(adata_gb[gb].obs['Condition'].astype('category').cat.categories)
+        datasets = list(adata_gb[gb].obs['dataset'].astype('category').cat.categories)
+        sicks = list(adata_gb[gb].obs['sick'].astype('category').cat.categories)
+
+        for condition in conditions:
+            adata_f = adata_gb[gb][adata_gb[gb].obs['Condition'] == condition]
+            for dataset in datasets:
+                adata_dic[(gb, condition, dataset)] = adata_f[adata_f.obs['dataset'] == dataset]
+                n_ID[(gb, condition, dataset)] = len(adata_dic[(gb, condition, dataset)].obs['ID'].astype('category').cat.categories)
+
+        for sick in sicks:
+            adata_f = adata_gb[gb][adata_gb[gb].obs['sick'] == sick]
+            for dataset in datasets:
+                adata_dic[(gb, sick, dataset)] = adata_f[adata_f.obs['dataset'] == dataset]
+                n_ID[(gb, sick, dataset)] = len(adata_dic[(gb, sick, dataset)].obs['ID'].astype('category').cat.categories)
+    
+    for inter in interactions:
+        fig, axs = plt.subplots(1, 2, figsize=(15, 5), dpi=80, facecolor='white', sharex=True, sharey=True)
+        for gb, cl in zip(gbs, colors):
+            n = n_ID[(gb, cond1, datas)] * n_ID[(gb, cond2, datas)]
+            y = 1.0 - np.linspace(0, 1, n)
+            
+            for i in [0, 1]:
+                axs[i].plot(list_log2_fc[gb][inter[i]], y, lw=3, zorder=6, label=gb, color=cl)
+                axs[i].axvline(np.mean(list_log2_fc[gb][inter[i]]), lw=2, color=cl, ls='--')
+                axs[i].set_title(inter[i], fontsize=20)
+                
+                axs[i].axvline(0, lw=2, color='grey') 
+                axs[i].grid(True)
+                axs[i].set_xlim(-10, 15)
+                axs[i].set_ylim(-0.01, 1.01)
+                axs[i].legend(loc='upper right')
+
+        fig.text(0.5, 0, 'log2FC', ha='center', fontsize=15)
+        fig.text(0, 0.5,'Fraction of comparison between\n'  + cond1 +' ' + 'and ' + cond2 + ' with log2FC > x', va='center', rotation='vertical', fontsize=15)
+
+        fig.tight_layout(rect=[0.04,0.04,1.02,1], pad=0, h_pad=0, w_pad=0)
+
+        if save is not None:
+            plt.savefig(save + inter[0] + '_&_' + inter[1] + '.png', bbox_inches='tight')
+
+def cul_plot_gene(genes, adata, cond1, cond2, datas, cell_type, save=None):
+
+    from collections import defaultdict
+    
+    if 'doublets' in list(adata.obs['cell_type'].astype('category').cat.categories):
+        gbs = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    else:
+        gbs = list(adata.obs['cell_type'].astype('category').cat.categories)
+    
+    adata_gb = {}
+    list_log2_fc = {}
+    n_ID = {}
+    adata_dic = {}
+    
+    for gb in gbs:
+        adata_gb[gb] = adata[adata.obs['cell_type'] == gb]
+        list_log2_fc[gb] = log2_FC_all(genes, adata_gb[gb], cond1, cond2, datas)[0]
+        
+        conditions = list(adata_gb[gb].obs['Condition'].astype('category').cat.categories)
+        datasets = list(adata_gb[gb].obs['dataset'].astype('category').cat.categories)
+        sicks = list(adata_gb[gb].obs['sick'].astype('category').cat.categories)
+
+        for condition in conditions:
+            adata_f = adata_gb[gb][adata_gb[gb].obs['Condition'] == condition]
+            for dataset in datasets:
+                adata_dic[(gb, condition, dataset)] = adata_f[adata_f.obs['dataset'] == dataset]
+                n_ID[(gb, condition, dataset)] = len(adata_dic[(gb, condition, dataset)].obs['ID'].astype('category').cat.categories)
+
+        for sick in sicks:
+            adata_f = adata_gb[gb][adata_gb[gb].obs['sick'] == sick]
+            for dataset in datasets:
+                adata_dic[(gb, sick, dataset)] = adata_f[adata_f.obs['dataset'] == dataset]
+                n_ID[(gb, sick, dataset)] = len(adata_dic[(gb, sick, dataset)].obs['ID'].astype('category').cat.categories)
+    
+    n = n_ID[(cell_type, cond1, datas)] * n_ID[(cell_type, cond2, datas)]
+    y = 1.0 - np.linspace(0, 1, n)
+    for gene in genes:
+        fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=80, facecolor='white')
+        ax.plot(list_log2_fc[cell_type][gene], y, lw=3, zorder=6)
+        ax.axvline(0, lw=2, color='grey')
+        ax.axvline(np.mean(list_log2_fc[cell_type][gene]), lw=2, color='gold', ls='--')
+        ax.set_title(gene + ' in ' + cell_type, fontsize=20)
+        ax.grid(True)
+        ax.set_xlim(-10, 15)
+        ax.set_ylim(-0.01, 1.01)
+        ax.set_ylabel('Fraction of comparison between\n'  + cond1 +' ' + 'and ' + cond2 + ' with log2FC > x', fontsize=15)
+
+        ax.set_xlabel('log2FC', fontsize=15)
+        if save is not None:
+            plt.savefig(save + gene +'.png')
