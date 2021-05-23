@@ -1,0 +1,47 @@
+from log2_FC_functions import log2_FC_all
+from collections import defaultdict
+adata_dic = {}
+log2_fc_all = {}
+top_genes = {}
+
+cts = list(adata.obs['cell_type'].astype('category').cat.categories)
+for ct in cts:
+    adata_dic[ct] = adata[adata.obs['cell_type'] == ct]
+    log2_fc_all[ct] = log2_FC_all(genes, adata_dic[ct], 'S_dengue', 'dengue', 'child')[1]
+    top_genes[ct] = list(log2_fc_all[ct][:20].index)
+
+
+from collections import defaultdict
+inters = defaultdict(list)
+new_inters = defaultdict(list)
+genes_incre = defaultdict(list)
+genes_increase = defaultdict(list)
+
+genes_decrease = defaultdict(list)
+inters_dic = {}
+
+cts = list(adata.obs['cell_type'].astype('category').cat.categories)
+for ct in cts:
+    file_columns = top_inters_all[ct].columns.tolist()[4:9]
+    inters_dic[ct] = defaultdict(list)
+    for _,row in top_inters_all[ct].iterrows():
+        for column in file_columns:
+            if row[column] > 2:
+                inters[ct].append([row['gene_name_a'], row['gene_name_b']])
+                genes_incre[ct].append([row['gene_name_b'], column.replace('log2_fc_gb_', '')])
+            elif row[column] < -2:
+                inters[ct].append([row['gene_name_a'], row['gene_name_b']])
+                genes_decrease[ct].append([row['gene_name_b'], column.replace('log2_fc_gb_', '')])
+    
+    for i in inters[ct]:
+        if i not in new_inters[ct]:
+            new_inters[ct].append(i)
+    for i in range(len(new_inters[ct])):
+        inters_dic[ct][str(i+1)] = new_inters[ct][i]
+        genes_incre[ct].append([new_inters[ct][i][0],ct])
+    
+    for i in genes_incre[ct]:
+        if i not in genes_increase[ct]:
+            genes_increase[ct].append(i)
+
+dotplot_log2_FC(adatag, 'S_dengue', 'dengue', 'child', top_genes, inters, genes_increase, genes_decrease)

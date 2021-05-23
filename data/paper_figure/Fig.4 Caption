@@ -1,0 +1,11 @@
+Fig.4 Cell cell communication analysis between different cell types in children.
+A) Analysis of interaction number between different cell types in healthy, dengue, and severe dengue children. Each square (eg. B cells vs B cells) has three parts, representing three conditions, ie. upper left: dengue, upper right: severe dengue, bottom: healthy. Color of each part means normalized number of interactions between cell types, which is calculated by (number of interaction - minimum number of interactions)/maximum number of interactions. The maximum interaction is 829 between plasmablasts and B cells at severe dengue, the minimum interaction is 149 between pDCs and pDCs at dengue.
+B) The illustration of calculating log2 fold change, here set the comparison between severe dengue and dengue as an example, the final result is obtained by averaging the log2 fold changes between every severe dengue patient and every dengue patient. 
+C)
+D)
+E)
+F)
+G)
+H)
+C) Two interactions between immune system and endothelial cells. one is CX3CR1 and CX3CL1, the other is CXCL10 and DPP4. The expression of genes in endothelial cells is analyzed by human lung dataset created by J. Travaglini (Nature 587, 619–625 (2020).).
+D) Two interactions within immune cells, ie. CCL2 and CCR2, IL2 and IL2RB, IL10 and its receptors IL10RA, IL10RB.

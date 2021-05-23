@@ -77,13 +77,18 @@ def log2_FC_all(genes, adata, cond1, cond2, datas, save=None):
     log2_fc_all = []
 
     log2_fc = log2_FC(adata, cond1, cond2, datas)
-
+    
     for gene in genes:
+        n_pos_fc = 0
         for key in log2_fc.keys():
             list_log2_fc[gene].append(log2_fc[key].loc[gene][0])
             list_log2_fc[gene].sort()
-        log2_fc_all.append(np.mean(list_log2_fc[gene]))
-    log2_fc_all = pd.DataFrame(log2_fc_all, columns=['fold_2_change'], index=pd.Index(genes)).sort_values('fold_2_change', ascending=False)
+            if log2_fc[key].loc[gene][0] > 0:
+                n_pos_fc += 1
+            comp_frac = n_pos_fc/len(log2_fc.keys())
+        log2_fc_all.append([np.mean(list_log2_fc[gene]), comp_frac])
+
+    log2_fc_all = pd.DataFrame(log2_fc_all, columns=['fold_2_change', 'comp_frac'], index=pd.Index(genes)).sort_values('fold_2_change', ascending=False)
     
     df_log2_fc = pd.DataFrame([])
     for gene in genes:
@@ -324,7 +329,7 @@ def cul_plot_log2_FC(genes, adata, cond1, cond2, datas, top_n, save=None):
     n = n_ID[(cond1, datas)] * n_ID[(cond2, datas)]
     y = 1.0 - np.linspace(0, 1, n)
     for gene in top_log2_fc:
-        fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=80, facecolor='white')
+        fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=300, facecolor='white')
         ax.plot(list_log2_fc[gene], y, lw=3, color='red', zorder=6)
         ax.axvline(0, lw=2, color='grey', ls='--')
         ax.axvline(np.mean(list_log2_fc[gene]), lw=2, color='gold')
@@ -390,7 +395,7 @@ def cul_plot_log2_FC_gb(genes, adata, cond1, cond2, datas, top_n, groupby, save=
     
     for gb in gbs:
         for gene in top_log2_fc[gb]:
-            fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=80, facecolor='white')
+            fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=300, facecolor='white')
             n = n_ID[(gb, cond1, datas)] * n_ID[(gb, cond2, datas)]
             y = 1.0 - np.linspace(0, 1, n)
             ax.plot(list_log2_fc[gb][gene], y, lw=3, zorder=6)
@@ -460,7 +465,7 @@ def cul_plot_log2_FC_gbs(genes, adata, cond1, cond2, datas, top_n, groupby, save
     
     for gb1 in gbs:
         for gene in top_log2_fc[gb1]:
-            fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=80, facecolor='white')
+            fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=300, facecolor='white')
             for gb2, cl in zip(gbs, colors):
                 n = n_ID[(gb2, cond1, datas)] * n_ID[(gb2, cond2, datas)]
                 y = 1.0 - np.linspace(0, 1, n)
@@ -531,7 +536,7 @@ def cul_plot_log2_FC_inters(interactions, genes, adata, cond1, cond2, datas, top
     
     for gb1 in gbs:
         for _,row in top_inters[gb1].iterrows():
-            fig, axs = plt.subplots(1, 2, figsize=(15, 5), dpi=80, facecolor='white', sharex=True, sharey=True)
+            fig, axs = plt.subplots(1, 2, figsize=(15, 5), dpi=300, facecolor='white', sharex=True, sharey=True)
             gene_a = row['gene_name_a']
             gene_b = row['gene_name_b']
 
@@ -655,20 +660,22 @@ def cul_plot_genes(genes, adata, cond1, cond2, datas, groupby, save=None):
     
     
     for gene in genes:
-        fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=80, facecolor='white')
+        fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=300)
         for gb, cl in zip(gbs, colors):
             n = n_ID[(gb, cond1, datas)] * n_ID[(gb, cond2, datas)]
             y = 1.0 - np.linspace(0, 1, n)
             ax.plot(list_log2_fc[gb][gene], y, lw=3, zorder=6, color=cl, label=gb)
-            ax.legend(loc='upper right')
+            ax.legend(loc='upper right', fontsize=15)
             ax.axvline(0, lw=2, color='grey', ls='--')
             ax.axvline(np.mean(list_log2_fc[gb][gene]), lw=2, color=cl)
-            ax.set_title(gene, fontsize=20)
+            ax.set_title(gene, fontsize=25)
             ax.grid(True)
             ax.set_xlim(-10, 15)
             ax.set_ylim(-0.01, 1.01)
+            ax.set_xticklabels([-10, -5, 0, 5, 10, 15], fontsize=15)
+            ax.set_yticklabels([0.0, 0.2, 0.4, 0.6, 0.8, 1.0], fontsize=15)
             ax.set_ylabel('Fraction of comparison between\n'  + cond1 +' ' + 'and ' + cond2 + ' with log2FC > x', fontsize=15)
-            ax.set_xlabel('log2FC', fontsize=15) 
+            ax.set_xlabel('log2FC', fontsize=25) 
 
             if save is not None:
                 plt.savefig(save + gene +'.png')
@@ -713,7 +720,7 @@ def cul_plot_inters(interactions, adata, cond1, cond2, datas, groupby, save=None
                 n_ID[(gb, sick, dataset)] = len(adata_dic[(gb, sick, dataset)].obs['ID'].astype('category').cat.categories)
     
     for inter in interactions:
-        fig, axs = plt.subplots(1, 2, figsize=(15, 5), dpi=80, facecolor='white', sharex=True, sharey=True)
+        fig, axs = plt.subplots(1, 2, figsize=(15, 5), dpi=300, facecolor='white', sharex=True, sharey=True)
         for gb, cl in zip(gbs, colors):
             n = n_ID[(gb, cond1, datas)] * n_ID[(gb, cond2, datas)]
             y = 1.0 - np.linspace(0, 1, n)
@@ -774,7 +781,7 @@ def cul_plot_gene(genes, adata, cond1, cond2, datas, cell_type, save=None):
     n = n_ID[(cell_type, cond1, datas)] * n_ID[(cell_type, cond2, datas)]
     y = 1.0 - np.linspace(0, 1, n)
     for gene in genes:
-        fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=80, facecolor='white')
+        fig, ax = plt.subplots(1, 1, figsize=(8, 5), dpi=300, facecolor='white')
         ax.plot(list_log2_fc[cell_type][gene], y, lw=3, zorder=6)
         ax.axvline(0, lw=2, color='grey')
         ax.axvline(np.mean(list_log2_fc[cell_type][gene]), lw=2, color='gold', ls='--')
@@ -787,3 +794,69 @@ def cul_plot_gene(genes, adata, cond1, cond2, datas, cell_type, save=None):
         ax.set_xlabel('log2FC', fontsize=15)
         if save is not None:
             plt.savefig(save + gene +'.png')
+
+def cul_plot_gene_cts(genes, adata, cond1, cond2, datas, cell_types, save=None):
+
+    from collections import defaultdict
+    
+    if 'doublets' in list(adata.obs['cell_type'].astype('category').cat.categories):
+        gbs = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    else:
+        gbs = list(adata.obs['cell_type'].astype('category').cat.categories)
+    
+    adata_gb = {}
+    list_log2_fc = {}
+    n_ID = {}
+    adata_dic = {}
+    
+    for gb in gbs:
+        adata_gb[gb] = adata[adata.obs['cell_type'] == gb]
+        list_log2_fc[gb] = log2_FC_all(genes, adata_gb[gb], cond1, cond2, datas)[0]
+        
+        conditions = list(adata_gb[gb].obs['Condition'].astype('category').cat.categories)
+        datasets = list(adata_gb[gb].obs['dataset'].astype('category').cat.categories)
+        sicks = list(adata_gb[gb].obs['sick'].astype('category').cat.categories)
+
+        for condition in conditions:
+            adata_f = adata_gb[gb][adata_gb[gb].obs['Condition'] == condition]
+            for dataset in datasets:
+                adata_dic[(gb, condition, dataset)] = adata_f[adata_f.obs['dataset'] == dataset]
+                n_ID[(gb, condition, dataset)] = len(adata_dic[(gb, condition, dataset)].obs['ID'].astype('category').cat.categories)
+
+        for sick in sicks:
+            adata_f = adata_gb[gb][adata_gb[gb].obs['sick'] == sick]
+            for dataset in datasets:
+                adata_dic[(gb, sick, dataset)] = adata_f[adata_f.obs['dataset'] == dataset]
+                n_ID[(gb, sick, dataset)] = len(adata_dic[(gb, sick, dataset)].obs['ID'].astype('category').cat.categories)
+    
+    colors = sns.color_palette('plasma', len(cell_types))
+    for gene in genes:
+        fig, ax = plt.subplots(1, 1, figsize=(3.6, 2.4), dpi=300)
+        for cell_type, cl in zip(cell_types, colors):
+            n = n_ID[(cell_type, cond1, datas)] * n_ID[(cell_type, cond2, datas)]
+            y = 1.0 - np.linspace(0, 1, n)
+            
+            if cell_type == 'B_cells':
+                ct = 'B cells'
+            elif cell_type == 'T_cells':
+                ct = 'T cells'
+            elif cell_type == 'NK_cells':
+                ct = 'NK cells'
+            else:
+                ct = cell_type
+                
+            ax.plot(list_log2_fc[cell_type][gene], y, lw=3, zorder=6, label=ct, color=cl)
+            ax.axvline(np.mean(list_log2_fc[cell_type][gene]), lw=2, color=cl, ls='--')
+        ax.legend(loc='upper right', fontsize=8)
+        ax.axvline(0, lw=2, color='grey')
+        ax.set_title(gene)
+        ax.grid(True)
+        ax.set_xlim(-10, 15)
+        ax.set_ylim(-0.01, 1.01)
+        ax.set_ylabel('Fraction of comparison between\n'  + cond1 +' ' + 'and ' + cond2 + ' with log2FC > x', fontsize=10)
+
+        ax.set_xlabel('log2FC', fontsize=10)
+        if save is not None:
+            plt.savefig(save + gene +'.png')
+            
+        
