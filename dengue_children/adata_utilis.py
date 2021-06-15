@@ -1,6 +1,30 @@
 import pandas as pd 
 import numpy as np 
 
+def split_adata(adata):
+
+    conditions = list(adata.obs['Condition'].astype('category').cat.categories)
+    datasets = list(adata.obs['dataset'].astype('category').cat.categories)
+    sicks = list(adata.obs['sick'].astype('category').cat.categories)
+
+    from collections import defaultdict
+    adata_dic = {}
+    n_ID = {}
+    l_ID = {}
+
+    for condition in conditions:
+        for dataset in datasets:
+            adata_dic[(condition, dataset)] = adata[adata.obs['Condition'] == condition][adata[adata.obs['Condition'] == condition].obs['dataset'] == dataset]
+            n_ID[(condition, dataset)] = len(adata_dic[(condition, dataset)].obs['ID'].astype('category').cat.categories)
+            l_ID[(condition, dataset)] = list(adata_dic[(condition, dataset)].obs['ID'].astype('category').cat.categories)
+            
+    for sick in sicks:
+        for dataset in datasets:
+            adata_dic[(sick, dataset)] = adata[adata.obs['sick'] == sick][adata[adata.obs['sick'] == sick].obs['dataset'] == dataset]
+            n_ID[(sick, dataset)] = len(adata_dic[(sick, dataset)].obs['ID'].astype('category').cat.categories)
+            l_ID[(sick, dataset)] = list(adata_dic[(sick, dataset)].obs['ID'].astype('category').cat.categories)
+    return adata_dic
+
 def split(adata, columns, axis='obs'):
     '''Split AnnData by metadata column
     

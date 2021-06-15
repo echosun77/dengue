@@ -1,0 +1,31 @@
+up
+['ICAM1', 'ITGAM'],
+['ICAM1', 'ITGAX'],
+['VSIR', 'TNF'],
+['TNFRSF1B', 'TNF'],
+#['ADORA2A', 'ENTPD1'],
+['IL6ST', 'EBI3'],
+['CTLA4', 'CD86'],
+
+down
+#['TNFSF10', 'RIPK1'],
+['TNFRSF10B', 'TNFSF10'],
+['FASLG', 'FAS'],
+['FASLG', 'TNFSF10'],
+#['TNFRSF10C', 'TNFSF10'],
+['KLRF1', 'CLEC2B'],
+#['DPP4', 'CXCL10'],
+#['DPP4', 'CCL3L1'],
+['FCER2', 'ITGAV'],
+#['ADRB2', 'VEGFB'],
+['LTBR', 'LTB']
+
+up & down
+['CD2', 'CD58'],
+['CCR2', 'CCL2'],
+['CXCR3', 'CXCL10'],
+['TNFRSF10A', 'TNFSF10'],
+['RIPK1', 'TNFSF10'],
+#['RETN', 'GPR25'],
+['DPP4', 'CXCL10'],
+#['ITGAM', 'FCER2']
