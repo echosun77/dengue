@@ -154,3 +154,118 @@ def mushrooms(genes):
     fig.tight_layout()
 
     return {'fig': fig, 'ax': ax}
+
+
+def s_mushrooms(genes):
+    '''
+    genes = [{'ITGAX': ['B_cells', 'NK_cells'],
+          'ITGB2': ['cDCs'],
+          'ICAM1': ['Plasmablasts']},
+         {'CCL4L2': ['Monocytes'], 'VSIR': ['pDCs']}]
+    '''
+    from matplotlib.patches import Wedge
+    import matplotlib.pyplot as plt
+    import matplotlib as mpl
+    import math
+    import numpy as np
+    import pandas as pd
+    import itertools
+
+    conditions = ['S_dengue', 'dengue']
+    cmap = plt.cm.get_cmap('viridis')
+    vmin, vmax = -1, 3
+    threshold = 0.1
+    frac = pd.read_csv('/home/yike/phd/dengue/data/excels/log2_fc/S_dengue_vs_dengue/20210625_figure_4_code/fra.tsv', index_col=['cell_type', 'condition', 'gene'], squeeze=True)
+    avg = pd.read_csv('/home/yike/phd/dengue/data/excels/log2_fc/S_dengue_vs_dengue/20210625_figure_4_code/exp.tsv', index_col=['cell_type', 'condition', 'gene'], squeeze=True)
+
+    yl = sum([len(list(itertools.chain.from_iterable(genesi.values()))) for genesi in genes])
+    fig = plt.figure(figsize=((1 + 0.8 * 2) * 0.6, (1 + yl)* 0.6), dpi=300)
+
+    grid = plt.GridSpec(yl , 2, wspace=0.1, hspace=0.1)
+
+    axs = []
+    for i in range(len(genes)):
+         axs.append(plt.subplot(grid[sum(len(list(itertools.chain.from_iterable(genesi.values()))) for genesi in genes[: i]): sum(len(list(itertools.chain.from_iterable(genesi.values()))) for genesi in genes[: i+1]), 0: 1]))
+    size_bar = plt.subplot(grid[0: 5, 1: 2])
+
+    datap = []
+    for genesi, ax in zip(genes, axs):
+        cts = list(genesi.values())
+        gs = list(genesi.keys())
+        yticklabels = []
+        for i, (csts, gene) in enumerate(zip(cts, gs)):
+            avgs = []
+            for cst in csts:
+                yticklabels.append(gene + ' in\n' + cst.replace('_', ' '))
+                for k, cond in enumerate(conditions):
+                    fr = frac.loc[(cst, cond, gene)]
+                    av = np.log10(avg.loc[(cst, cond, gene)] + 0.1)
+                    avgs.append(av)
+
+                    r = 0.5 * fr**0.3
+                    color = cmap((min(vmax, av) - vmin) / (vmax - vmin))
+                    theta0, theta1 = 180 * (k > 0), 180 + 180 * (k > 0)
+                    datap.append({
+                        'r': r,
+                        'facecolor': color,
+                        'center': (0, len(yticklabels)-1),
+                        'theta': (theta0, theta1),
+                        'ax': ax,
+                    })
+                if avgs[0] - avgs[1] > threshold:
+                    datap[-2]['edgecolor'] = 'red'
+                    datap[-1]['edgecolor'] = 'none'
+                elif avgs[0] - avgs[1] < -threshold:
+                    datap[-1]['edgecolor'] = 'red'
+                    datap[-2]['edgecolor'] = 'none'
+                else:
+                    datap[-1]['edgecolor'] = 'none'
+                    datap[-2]['edgecolor'] = 'none'   
+
+
+        ax.set_yticks(np.arange(len(list(itertools.chain.from_iterable(genesi.values())))))
+        ax.set_yticklabels(yticklabels)
+        ax.set_ylim(-0.6, len(list(itertools.chain.from_iterable(genesi.values()))) - 0.4)        
+        ax.set_xticks([])
+        ax.set_xlim(-0.6, 1 - 0.4)
+
+    for datum in datap:
+        ax = datum['ax']
+        r = datum['r']
+        color = datum['facecolor']
+        center = datum['center']
+        theta0, theta1 = datum['theta']
+        ec = datum['edgecolor']
+
+        h = Wedge(
+            center, r, theta0, theta1, facecolor=color, edgecolor=ec
+        )
+        ax.add_artist(h)
+        ax.set_aspect(1)
+
+    size_bar.set_ylim(-0.6, 5 - 0.4)        
+    c = [(0.5, i) for i in range(5)]
+    radius = [0.5 * fr**0.3 for fr in [0.05, 0.1, 0.2, 0.4, 0.8]]
+    for c, r in zip(c, radius):
+        e = Wedge(c, r, 0, 180, facecolor='gray',)
+        size_bar.add_artist(e)
+    size_bar.set_aspect(1)
+    size_bar.set_yticks([])
+    size_bar.set_yticks(range(5))
+    size_bar.set_yticklabels(['5', '10', '20', '40', '80'])
+    size_bar.yaxis.tick_right()
+    size_bar.yaxis.set_label_position('right')
+    size_bar.set_ylabel('Gene exp frac')
+    size_bar.set_xticks([])
+    size_bar.spines['bottom'].set_visible(False)
+    size_bar.spines['top'].set_visible(False)
+    size_bar.spines['right'].set_visible(False)
+    size_bar.spines['left'].set_visible(False)
+
+    norm = mpl.colors.Normalize(vmin=vmin, vmax=vmax) 
+    cmap = plt.cm.get_cmap('viridis')
+    position = fig.add_axes([0.7, 0.02*yl, 0.05, 2/yl])
+    cbar = plt.colorbar(plt.cm.ScalarMappable(norm=norm, cmap=cmap), cax=position, ax=axs[-1], label='Gene exp \n(log10[cpm+0.1])')
+
+    fig.tight_layout()
+    return {'fig': fig, 'ax': axs}

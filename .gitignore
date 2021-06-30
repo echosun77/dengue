@@ -8,3 +8,5 @@ Fabios
 data/excels
 data/old_code
 data/dataset_from_google
+*.pyc
+data/paper_figure

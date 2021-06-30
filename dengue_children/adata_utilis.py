@@ -71,7 +71,7 @@ def split(adata, columns, axis='obs'):
             asub = adata[idx]
         else:
             asub = adata[:, idx]
-    
+
         if not isinstance(columns, str) and (len(columns) > 1):
             key = key.split('@')
             for i, col in enumerate(columns):
@@ -80,7 +80,7 @@ def split(adata, columns, axis='obs'):
 
         d[key] = asub
     
-    return d    
+    return d
 
 def average(adata, columns, axis='obs', log=False):
     '''Average expression by metadata column
@@ -111,7 +111,7 @@ def average(adata, columns, axis='obs', log=False):
         if log:
             matrix = matrix.copy()
             matrix.data = np.log(matrix.data + 0.1) # loge
-        av_ex = np.asarray(adatai.X .mean(axis=iax))[0]
+        av_ex = np.asarray(adatai.X.mean(axis=iax))[0]
         # av_ex = np.asarray(adatai.X.sum(axis=iax) / (adatai.X > 0).sum(axis=iax))[0] # number of only expressed genes
         if log:
             av_ex = np.exp(av_ex)

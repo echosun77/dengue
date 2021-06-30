@@ -86,7 +86,7 @@ def log2_FC_all(genes, adata, cond1, cond2, datas, save=None):
             if log2_fc[key].loc[gene][0] > 0:
                 n_pos_fc += 1
             comp_frac = n_pos_fc/len(log2_fc.keys())
-        log2_fc_all.append([np.mean(list_log2_fc[gene]), comp_frac])
+        log2_fc_all.append([np.median(list_log2_fc[gene]), comp_frac]) #np.mean(list_log2_fc[gene])
 
     log2_fc_all = pd.DataFrame(log2_fc_all, columns=['fold_2_change', 'comp_frac'], index=pd.Index(genes)).sort_values('fold_2_change', ascending=False)
     
