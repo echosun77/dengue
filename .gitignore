@@ -10,3 +10,4 @@ data/old_code
 data/dataset_from_google
 *.pyc
 data/paper_figure
+data/interaction_source_file
