@@ -44,9 +44,14 @@ def get_sig_inters(gene_dic1, gene_dic2):
     inters.drop(idx, inplace=True)
     return inters
 
-def inter_number(inters_df, vmax, trend):
+def inter_number(adata, inters_df, vmax, trend):
     it_n = inters_df.groupby(['cta', 'ctb']).size().unstack(fill_value=0)
-    cell_types = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
+    
+    cell_types = adata.obs['cell_type_new'].unique().tolist()
+    cell_types.remove('doublets')
+    cell_types.remove('unknown')
+    
+    #cell_types = ['B_cells', 'Monocytes', 'NK_cells', 'Plasmablasts', 'T_cells', 'cDCs', 'pDCs']
     idx_ap = list(set(cell_types) - set(it_n.index.tolist()))
     col_ap = list(set(cell_types) - set(it_n.columns.tolist()))
     for idx in idx_ap:
@@ -109,7 +114,7 @@ def inter_number(inters_df, vmax, trend):
     #xlabels.reverse()
     ax.set_yticklabels(xlabels)
     ax.text(9.05, 3.8, 'Number of interactions', verticalalignment='center', rotation=90)
-    ax.set_title('\n %sregulated'%trend)
+    ax.set_title('%sregulated'%trend)
     return {'figure': fig, 'ax': ax}
 
 def inter_mix_number(inters_df, vmax):
@@ -160,7 +165,7 @@ def inter_mix_number(inters_df, vmax):
         if ct in ['B_cells', 'T_cells', 'NK_cells']:
             xlabels[i] = ct.replace('_', ' ')
     ax.text(9.05, 3.8, 'Number of interactions', verticalalignment='center', rotation=90)
-    ax.set_title('Mixregulated')
+    ax.set_title('%sregulated (Down vs Up)'%'Mix')
 
     ax.set_xticklabels(xlabels, c='r')
     ax.set_yticklabels(xlabels, c='b')
@@ -312,3 +317,107 @@ def get_mix_inters(fdn, genes, frac_n):
     inter_f = pd.DataFrame(mix, columns=['ga', 'gb', 'cta', 'ctb', 'ga_log2FC', 'ga_comfrac', 'ga_D_exp_frac', 'ga_SD_exp_frac', 'gb_log2FC', 'gb_comfrac', 'gb_D_exp_frac', 'gb_SD_exp_frac'])
     inter_f = inter_f[~inter_f.duplicated()]
     return inter_f
+
+def violin_old(gene, cell_type):
+    print('Filter data for S_dnegue and dengue')
+
+    adata_v = adata_children[adata_children.obs['Condition'].isin(['S_dengue', 'dengue'])]
+
+    if cell_type == 'cDCs':
+        adata_v = adata_v[~adata_v.obs['ID'].isin(['1_140_01', '5_193_01'])]
+
+    print('Filter data for %s '%cell_type)
+    adata_ct = adata_v[adata_v.obs['cell_type'] == cell_type]
+
+    SD_IDs = list(adata_ct[adata_ct.obs['Condition'] == 'S_dengue'].obs['ID'].astype('category').cat.categories)
+    D_IDs = list(adata_ct[adata_ct.obs['Condition'] == 'dengue'].obs['ID'].astype('category').cat.categories)
+
+    print('Pick up 50 cells from each patient by random')
+    df = pd.DataFrame([])
+    for ID in SD_IDs + D_IDs:
+        ID_info = adata_ct[adata_ct.obs['ID'] == ID][:, gene].X.toarray()[:, 0]
+        if len(ID_info) < 50:
+            df[ID] = np.random.choice(ID_info, size=50, replace=True)
+        else:
+            df[ID] = np.random.choice(ID_info, size=50, replace=False)
+   
+    print('Logarithm the picked data to log10')
+    df = np.log10(df + 0.1)
+    
+    df[''] = [-100] * 50
+    df = df[SD_IDs + [''] + D_IDs]
+    
+    fig, ax = plt.subplots(figsize=[1 + 0.3 * len(SD_IDs + [''] + D_IDs), 1], dpi=300)
+    violin = ax.violinplot(df, showextrema=False)
+
+    colors = sns.color_palette('pastel', len(SD_IDs + [''] + D_IDs))
+    for i, patch in enumerate(violin['bodies']):
+        patch.set_facecolor(colors[i])
+        patch.set_edgecolor('black')
+        patch.set_alpha(1)
+    ax.set_xticks([0.5 + len(SD_IDs)/2, len(SD_IDs) + 1.5 + len(D_IDs)/2])
+    ax.set_xticklabels(['Severe dengue', 'Dengue'])
+    ax.set_ylabel('Gene exp\n(log10[cpm+0.1])')
+    ax.set_ylim([-1.5, 4.5])
+    ax.set_title(gene + ' in ' + cell_type.replace('_', ' '))
+    fig.savefig('/home/yike/phd/dengue/data/paper_figure/figure_v7/genes/final/%s_in_%s.png'%(gene, cell_type), bbox_inches = 'tight')
+    return {'fig': fig, 'axs': ax}
+
+def violin(gene, cell_type, fdn=False):
+    from scipy.stats import gaussian_kde as gs_kde
+
+    adata_v = adata_children[adata_children.obs['Condition'].isin(['S_dengue', 'dengue'])]
+
+    if cell_type == 'cDCs':
+        adata_v = adata_v[~adata_v.obs['ID'].isin(['1_140_01', '5_193_01'])]
+
+    adata_ct = adata_v[adata_v.obs['cell_type'] == cell_type]
+
+    SD_IDs = list(adata_ct[adata_ct.obs['Condition'] == 'S_dengue'].obs['ID'].astype('category').cat.categories)
+    D_IDs = list(adata_ct[adata_ct.obs['Condition'] == 'dengue'].obs['ID'].astype('category').cat.categories)
+
+    df = {}
+    for ID in SD_IDs + D_IDs:
+        ID_info = adata_ct[adata_ct.obs['ID'] == ID][:, gene].X.toarray()[:, 0]
+        df[ID] = ID_info + 1
+
+    fig, ax = plt.subplots(figsize=(5, 1), dpi=300)
+
+    for i, (key, col) in enumerate(df.items()):
+        xmin = 0
+        xmax = 6
+        x = np.logspace(xmin, xmax, 1000)
+        x = np.log10(x)
+
+        num = np.log10(col)
+        if num.max() == num.min():
+            y = np.zeros(len(x))
+            y[0] = 1
+        else:
+            kde = gs_kde(num, bw_method=0.8)
+            y = kde(x)
+
+        if i in range(len(SD_IDs)):
+            ax.fill_betweenx(x, -y+5*i, y+5*i, facecolor='red', edgecolor='black', lw=0.4)
+        else:
+            ax.fill_betweenx(x, -y+5*i, y+5*i, facecolor='green', edgecolor='black', lw=0.4)
+
+    ave = []
+
+    for val in df.values():
+        ave = ave + val.tolist()
+
+    ax.axhline(np.log10(mean(ave)), color='gray', zorder=0.5, lw=0.5, ls='--')       
+    ax.set_yticks([0, 2, 4, 6])
+    ax.set_yticklabels(['0.1', '$10$', '$10^3$', '$10^5$'])
+    ax.set_ylim([-0.1, 6.5])
+
+    ax.set_xticks([2.5 * (len(SD_IDs) -1), 5 * len(SD_IDs) + 2.5 * (len(D_IDs) - 1)])
+    ax.set_xticklabels(['Severe dengue', 'Dengue'])
+    ax.set_ylabel('Gene exp\n[cpm+1]')
+
+    ax.set_title('%s in %s'%(gene, cell_type.replace('_', ' ')))
+    
+    if fdn == True:
+        fig.savefig(fdn + '%s_in_%s.png'%(gene, cell_type), bbox_inches = 'tight')
+    return {'fig': fig, 'axs': ax}

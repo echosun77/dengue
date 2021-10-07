@@ -174,14 +174,26 @@ def s_mushrooms(genes):
     conditions = ['S_dengue', 'dengue']
     cmap = plt.cm.get_cmap('viridis')
     vmin, vmax = -1, 3
-    threshold = 0.1
-    frac = pd.read_csv('/home/yike/phd/dengue/data/excels/log2_fc/S_dengue_vs_dengue/20210625_figure_4_code/fra.tsv', index_col=['cell_type', 'condition', 'gene'], squeeze=True)
-    avg = pd.read_csv('/home/yike/phd/dengue/data/excels/log2_fc/S_dengue_vs_dengue/20210625_figure_4_code/exp.tsv', index_col=['cell_type', 'condition', 'gene'], squeeze=True)
+    threshold = 0.05
+    frac_cst = pd.read_csv('/home/yike/phd/dengue/data/tables/cell_subtype/original/fra.tsv', 
+                      sep='\t', index_col=['cell_subtype_2', 'condition', 'gene'], squeeze=True)
+    avg_cst = pd.read_csv('/home/yike/phd/dengue/data/tables/cell_subtype/original/avg.tsv', sep='\t',
+                      index_col=['cell_subtype_2', 'condition', 'gene'], squeeze=True)
+    
+    frac_ct = pd.read_csv('/home/yike/phd/dengue/data/excels/log2_fc/S_dengue_vs_dengue/20210625_figure_4_code/fra.tsv', 
+                          index_col=['cell_type', 'condition', 'gene'], squeeze=True)
+    avg_ct = pd.read_csv('/home/yike/phd/dengue/data/excels/log2_fc/S_dengue_vs_dengue/20210625_figure_4_code/exp.tsv', 
+                         index_col=['cell_type', 'condition', 'gene'], squeeze=True)
 
     yl = sum([len(list(itertools.chain.from_iterable(genesi.values()))) for genesi in genes])
     fig = plt.figure(figsize=((1 + 0.8 * 2) * 0.6, (1 + yl)* 0.6), dpi=300)
 
     grid = plt.GridSpec(yl , 2, wspace=0.1, hspace=0.1)
+    
+    cell_types = ['B_cells', 'T_cells', 'NK_cells', 'cDCs', 'pDCs', 'Monocytes', 'Plasmablasts']
+    cell_subtypes = ['Naive_B_cells', 'NK', 'CD4_T_cells', 'NKT', 'Memory_B_cells', 'CD8_T_cells',
+                     'Macrophages', 'non_classical_monocytes', 'IgA', 'IgG1_proliferate', 'pDCs',
+                     'cDC_IFN', 'Classical_monocytes', 'IgG1_IgG2', 'cDC2', 'IgG1', 'IgM', 'cDC1']
 
     axs = []
     for i in range(len(genes)):
@@ -194,12 +206,16 @@ def s_mushrooms(genes):
         gs = list(genesi.keys())
         yticklabels = []
         for i, (csts, gene) in enumerate(zip(cts, gs)):
-            avgs = []
             for cst in csts:
+                avgs = []
                 yticklabels.append(gene + ' in\n' + cst.replace('_', ' '))
                 for k, cond in enumerate(conditions):
-                    fr = frac.loc[(cst, cond, gene)]
-                    av = np.log10(avg.loc[(cst, cond, gene)] + 0.1)
+                    if cst in cell_types:
+                        fr = frac_ct.loc[(cst, cond, gene)]
+                        av = np.log10(avg_ct.loc[(cst, cond, gene)] + 0.1)
+                    elif cst in cell_subtypes:
+                        fr = frac_cst.loc[(cst, cond, gene)]
+                        av = np.log10(avg_cst.loc[(cst, cond, gene)] + 0.1)
                     avgs.append(av)
 
                     r = 0.5 * fr**0.3
@@ -264,7 +280,7 @@ def s_mushrooms(genes):
 
     norm = mpl.colors.Normalize(vmin=vmin, vmax=vmax) 
     cmap = plt.cm.get_cmap('viridis')
-    position = fig.add_axes([0.7, 0.02*yl, 0.05, 2/yl])
+    position = fig.add_axes([0.7, 0.2, 0.05, 2/yl])
     cbar = plt.colorbar(plt.cm.ScalarMappable(norm=norm, cmap=cmap), cax=position, ax=axs[-1], label='Gene exp \n(log10[cpm+0.1])')
 
     fig.tight_layout()

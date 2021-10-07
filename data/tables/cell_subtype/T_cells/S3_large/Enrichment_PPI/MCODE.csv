@@ -1,0 +1,14 @@
+Cluster,Score,Type,Gene,Symbol,Network
+1,4.5,Clustered,3430,IFI35,MyList_SUB1
+1,4.5,Clustered,3434,IFIT1,MyList_SUB1
+1,4.5,Clustered,91543,RSAD2,MyList_SUB1
+1,4.5,Clustered,684,BST2,MyList_SUB1
+1,4.5,Clustered,4599,MX1,MyList_SUB1
+1,4.5,Seed,2537,IFI6,MyList_SUB1
+1,4.5,Clustered,3433,IFIT2,MyList_SUB1
+1,4.5,Clustered,3437,IFIT3,MyList_SUB1
+1,4.5,Clustered,4940,OAS3,MyList_SUB1
+1,4.5,Clustered,4938,OAS1,MyList_SUB1
+2,1.0,Seed,22914,KLRK1,MyList_SUB1
+2,1.0,Clustered,7305,TYROBP,MyList_SUB1
+2,1.0,Clustered,3822,KLRC2,MyList_SUB1

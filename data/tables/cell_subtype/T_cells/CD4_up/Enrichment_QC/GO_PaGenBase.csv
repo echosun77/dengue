@@ -1,0 +1,3 @@
+_MEMBER_MyList,_LogP_MyList,GO,_PATTERN_,_RANK_,GiniIndex,Category,CategoryID,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),EvidenceCutoff
+1,-3.3,PGB:00042,M1,1,0,PaGenBase,36,Tissue-specific: corpus callosum,,-3.3,7.4,5.3,28160,38,501,5,1,0.44,3836|22821|28996|51099|83475,KPNA1|RASA3|HIPK2|ABHD5|DOHH,-1.4,0
+1,-2.2,PGB:00115,M1,1,0,PaGenBase,36,Cell-specific: CD33+ Myeloid,,-2.2,5.5,3.9,28160,41,501,4,0.8,0.4,1263|1958|2799|4170,PLK3|EGR1|GNS|MCL1,-0.69,0

@@ -1,0 +1,13 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-3.5,GO:0051607,defense response to virus,M1,1,0
+1,-2.4,GO:0030855,epithelial cell differentiation,M1,1,0
+1,-6,GO:0051100,negative regulation of binding,M1,1,0
+1,-2.6,GO:0071407,cellular response to organic cyclic compound,M1,1,0
+1,-5.7,GO:0043393,regulation of protein binding,M1,1,0
+1,-3.5,GO:0140546,defense response to symbiont,M1,1,0
+1,-2.3,R-HSA-1280215,Cytokine Signaling in Immune system,M1,1,0
+1,-3.1,GO:0009615,response to virus,M1,1,0
+1,-6.9,GO:0032091,negative regulation of protein binding,M1,1,0
+1,-3.9,R-HSA-913531,Interferon Signaling,M1,1,0
+1,-4.6,GO:0051098,regulation of binding,M1,1,0
+1,-5.3,R-HSA-909733,Interferon alpha/beta signaling,M1,1,0

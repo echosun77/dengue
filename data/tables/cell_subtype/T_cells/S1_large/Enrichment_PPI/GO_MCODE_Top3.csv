@@ -1,0 +1,5 @@
+Network,Annotation
+MyList,"R-HSA-194315|Signaling by Rho GTPases|-5.6;R-HSA-9716542|Signaling by Rho GTPases, Miro GTPases and RHOBTB3|-5.5;GO:0006897|endocytosis|-4.6"
+MyList_MCODE_ALL,R-HSA-1221632|Meiotic synapsis|-7.9;R-HSA-3214815|HDACs deacetylate histones|-7.6;R-HSA-9610379|HCMV Late Events|-7.2
+MyList_SUB1_MCODE_1,R-HSA-1221632|Meiotic synapsis|-8.7;R-HSA-3214815|HDACs deacetylate histones|-8.4;R-HSA-9610379|HCMV Late Events|-8.0
+MyList_SUB1_MCODE_2,R-HSA-8856828|Clathrin-mediated endocytosis|-6.9;R-HSA-199991|Membrane Trafficking|-4.9;GO:0006897|endocytosis|-4.9

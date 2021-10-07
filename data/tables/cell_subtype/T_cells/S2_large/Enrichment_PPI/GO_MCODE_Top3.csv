@@ -1,0 +1,4 @@
+Network,Annotation
+MyList,R-HSA-2559580|Oxidative Stress Induced Senescence|-5.1;R-HSA-8878171|Transcriptional regulation by RUNX1|-4.9;R-HSA-3214847|HATs acetylate histones|-4.8
+MyList_MCODE_ALL,R-HSA-2559580|Oxidative Stress Induced Senescence|-10.5;R-HSA-2559583|Cellular Senescence|-9.5;R-HSA-8878171|Transcriptional regulation by RUNX1|-9.1
+MyList_SUB1_MCODE_1,R-HSA-2559580|Oxidative Stress Induced Senescence|-10.5;R-HSA-2559583|Cellular Senescence|-9.5;R-HSA-8878171|Transcriptional regulation by RUNX1|-9.1

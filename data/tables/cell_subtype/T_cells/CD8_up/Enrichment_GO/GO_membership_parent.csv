@@ -1,0 +1,20 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-41.02856237129253,GO:0009987,cellular process,M1,1,GO:1903047 mitotic cell cycle process
+1,-28.291031731617792,GO:0050789,regulation of biological process,M1,1,GO:0010564 regulation of cell cycle process
+1,-24.874492806212594,GO:0008152,metabolic process,M1,1,GO:0006260 DNA replication
+1,-20.872917552492186,GO:0050896,response to stimulus,M1,1,GO:0006281 DNA repair
+1,-14.954545279209006,GO:0048519,negative regulation of biological process,M1,1,GO:0007093 mitotic cell cycle checkpoint signaling
+1,-12.86358388199856,GO:0048518,positive regulation of biological process,M1,1,GO:0090068 positive regulation of cell cycle process
+1,-12.102876434075608,GO:0051179,localization,M1,1,GO:0051310 metaphase plate congression
+1,-9.541118262242723,GO:0023052,signaling,M1,1,GO:0042770 signal transduction in response to DNA damage
+1,-7.313566410391144,GO:0032502,developmental process,M1,1,GO:0007568 aging
+1,-6.615097213992756,GO:0022414,reproductive process,M1,1,GO:0051321 meiotic cell cycle
+1,-4.920520589416088,GO:0002376,immune system process,M1,1,GO:0045653 negative regulation of megakaryocyte differentiation
+1,-4.4582687569551975,GO:0065007,biological regulation,M1,1,GO:0035561 regulation of chromatin binding
+1,-2.9743586868280474,GO:0051704,multi-organism process,M1,1,GO:0001556 oocyte maturation
+1,-2.8811031563340275,GO:0016032,viral process,M1,1,GO:0016032 viral process
+1,-2.8608336985148806,GO:0040007,growth,M1,1,GO:0001833 inner cell mass cell proliferation
+1,-2.235433930695567,GO:0048511,rhythmic process,M1,1,GO:0042752 regulation of circadian rhythm
+1,-2.123009882559809,GO:0032501,multicellular organismal process,M1,1,GO:0010611 regulation of cardiac muscle hypertrophy
+1,-2.037753745920422,GO:0098754,detoxification,M1,1,GO:0098869 cellular oxidant detoxification
+1,-2.0236895288915147,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0042832 defense response to protozoan

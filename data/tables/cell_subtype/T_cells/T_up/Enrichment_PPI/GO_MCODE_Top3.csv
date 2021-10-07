@@ -1,0 +1,15 @@
+Network,Annotation
+MyList,"R-HSA-1640170|Cell Cycle|-55.5;R-HSA-69278|Cell Cycle, Mitotic|-50.3;GO:1903047|mitotic cell cycle process|-40.8"
+MyList_MCODE_ALL,"R-HSA-1640170|Cell Cycle|-63.5;R-HSA-69278|Cell Cycle, Mitotic|-62.6;R-HSA-68886|M Phase|-38.7"
+MyList_SUB1_MCODE_1,"R-HSA-1640170|Cell Cycle|-17.8;R-HSA-69278|Cell Cycle, Mitotic|-14.2;GO:0006260|DNA replication|-13.0"
+MyList_SUB1_MCODE_2,R-HSA-2132295|MHC class II antigen presentation|-5.6;WP383|Striated muscle contraction pathway|-5.5;R-HSA-109582|Hemostasis|-5.2
+MyList_SUB1_MCODE_3,R-HSA-2500257|Resolution of Sister Chromatid Cohesion|-47.7;R-HSA-68877|Mitotic Prometaphase|-43.2;R-HSA-68882|Mitotic Anaphase|-41.9
+MyList_SUB1_MCODE_4,R-HSA-4839726|Chromatin organization|-20.0;R-HSA-3247509|Chromatin modifying enzymes|-20.0;GO:0006333|chromatin assembly or disassembly|-19.1
+MyList_SUB1_MCODE_5,R-HSA-6798695|Neutrophil degranulation|-11.6;GO:0016569|covalent chromatin modification|-6.6;R-HSA-68962|Activation of the pre-replicative complex|-6.0
+MyList_SUB1_MCODE_6,"R-HSA-69278|Cell Cycle, Mitotic|-6.2;R-HSA-453279|Mitotic G1 phase and G1/S transition|-5.8;R-HSA-1640170|Cell Cycle|-5.7"
+MyList_SUB1_MCODE_7,"R-HSA-2151201|Transcriptional activation of mitochondrial biogenesis|-5.5;R-HSA-69278|Cell Cycle, Mitotic|-5.1;WP4016|DNA IR-damage and cellular response via ATR|-5.0"
+MyList_SUB1_MCODE_8,CORUM:157|Condensin I complex|-8.9;CORUM:10|Condensin I complex|-8.9;CORUM:167|Condensin I complex|-8.9
+MyList_SUB1_MCODE_9,R-HSA-9609690|HCMV Early Events|-9.0;R-HSA-4570464|SUMOylation of RNA binding proteins|-8.7;R-HSA-9609646|HCMV Infection|-8.6
+MyList_SUB1_MCODE_10,GO:0046426|negative regulation of receptor signaling pathway via JAK-STAT|-6.8;GO:1904893|negative regulation of receptor signaling pathway via STAT|-6.6;GO:0046631|alpha-beta T cell activation|-6.5
+MyList_SUB1_MCODE_11,GO:0032940|secretion by cell|-4.1;GO:0051056|regulation of small GTPase mediated signal transduction|-4.0;R-HSA-5683057|MAPK family signaling cascades|-3.9
+MyList_SUB1_MCODE_12,R-HSA-8856828|Clathrin-mediated endocytosis|-6.9;R-HSA-199991|Membrane Trafficking|-4.9;GO:0006897|endocytosis|-4.9

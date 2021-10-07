@@ -1,0 +1,14 @@
+Network,Annotation
+MyList,"R-HSA-1640170|Cell Cycle|-62.0;R-HSA-69278|Cell Cycle, Mitotic|-55.6;GO:1903047|mitotic cell cycle process|-43.6"
+MyList_MCODE_ALL,"R-HSA-1640170|Cell Cycle|-69.8;R-HSA-69278|Cell Cycle, Mitotic|-67.2;R-HSA-69620|Cell Cycle Checkpoints|-51.2"
+MyList_SUB1_MCODE_1,"R-HSA-68886|M Phase|-50.6;R-HSA-195258|RHO GTPase Effectors|-49.9;R-HSA-69278|Cell Cycle, Mitotic|-48.3"
+MyList_SUB1_MCODE_2,R-HSA-176187|Activation of ATR in response to replication stress|-16.6;WP466|DNA replication|-13.4;R-HSA-69481|G2/M Checkpoints|-11.8
+MyList_SUB1_MCODE_3,GO:1903047|mitotic cell cycle process|-16.5;GO:0000280|nuclear division|-14.6;GO:0048285|organelle fission|-14.2
+MyList_SUB1_MCODE_4,R-HSA-8951664|Neddylation|-6.8;R-HSA-983168|Antigen processing: Ubiquitination & Proteasome degradation|-6.3;R-HSA-983169|Class I MHC mediated antigen processing & presentation|-6.0
+MyList_SUB1_MCODE_5,R-HSA-8856828|Clathrin-mediated endocytosis|-13.8;R-HSA-199991|Membrane Trafficking|-9.9;R-HSA-5653656|Vesicle-mediated transport|-9.7
+MyList_SUB1_MCODE_6,GO:0006654|phosphatidic acid biosynthetic process|-14.8;GO:0046473|phosphatidic acid metabolic process|-14.5;hsa00561|Glycerolipid metabolism |-13.5
+MyList_SUB1_MCODE_7,R-HSA-380287|Centrosome maturation|-10.2;R-HSA-380270|Recruitment of mitotic centrosome proteins and complexes|-10.2;R-HSA-380320|Recruitment of NuMA to mitotic centrosomes|-9.9
+MyList_SUB1_MCODE_11,R-HSA-9615933|Postmitotic nuclear pore complex (NPC) reformation|-9.1;R-HSA-168333|NEP/NS2 Interacts with the Cellular Export Machinery|-8.9;R-HSA-170822|Regulation of Glucokinase by Glucokinase Regulatory Protein|-8.9
+MyList_SUB1_MCODE_12,"WP2446|Retinoblastoma gene in cancer|-7.5;R-HSA-69278|Cell Cycle, Mitotic|-5.1;R-HSA-1640170|Cell Cycle|-4.8"
+MyList_SUB1_MCODE_13,R-HSA-1640170|Cell Cycle|-4.8
+MyList_SUB1_MCODE_14,R-HSA-6783310|Fanconi Anemia Pathway|-8.6;M1|PID FANCONI PATHWAY|-8.4;ko03460|Fanconi anemia pathway|-8.2

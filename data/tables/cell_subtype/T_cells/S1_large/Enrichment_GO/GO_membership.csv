@@ -1,0 +1,100 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-3.2,GO:0006517,protein deglycosylation,M1,1,0
+1,-2.1,R-HSA-8943724,Regulation of PTEN gene transcription,M1,1,0
+1,-2.3,R-HSA-171306,Packaging Of Telomere Ends,M1,1,0
+1,-2.2,R-HSA-157579,Telomere Maintenance,M1,1,0
+1,-2.8,GO:0035308,negative regulation of protein dephosphorylation,M1,1,0
+1,-3,GO:0071480,cellular response to gamma radiation,M1,1,0
+1,-3.4,GO:0035268,protein mannosylation,M1,1,0
+1,-2.4,GO:0045005,DNA-dependent DNA replication maintenance of fidelity,M1,1,0
+1,-2.5,GO:0060491,regulation of cell projection assembly,M1,1,0
+1,-2.1,R-HSA-9610379,HCMV Late Events,M1,1,0
+1,-2.5,R-HSA-3214815,HDACs deacetylate histones,M1,1,0
+1,-2.2,GO:0002931,response to ischemia,M1,1,0
+1,-2.8,hsa05034,Alcoholism,M1,1,0
+1,-2.1,R-HSA-73728,RNA Polymerase I Promoter Opening,M1,1,0
+1,-2.3,GO:0036503,ERAD pathway,M1,1,0
+1,-2.1,R-HSA-1500620,Meiosis,M1,1,0
+1,-2.7,ko05322,Systemic lupus erythematosus,M1,1,0
+1,-2.7,GO:0010770,positive regulation of cell morphogenesis involved in differentiation,M1,1,0
+1,-3.1,GO:1903827,regulation of cellular protein localization,M1,1,0
+1,-2.3,GO:0034204,lipid translocation,M1,1,0
+1,-2.4,GO:0010769,regulation of cell morphogenesis involved in differentiation,M1,1,0
+1,-2.9,R-HSA-9013026,RHOB GTPase cycle,M1,1,0
+1,-2,GO:0002460,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-3,R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",M1,1,0
+1,-2,R-HSA-373755,Semaphorin interactions,M1,1,0
+1,-2.1,R-HSA-73928,Depyrimidination,M1,1,0
+1,-2.1,GO:0031331,positive regulation of cellular catabolic process,M1,1,0
+1,-3.2,GO:0001562,response to protozoan,M1,1,0
+1,-2.6,R-HSA-6807070,PTEN Regulation,M1,1,0
+1,-2.2,GO:0097035,regulation of membrane lipid distribution,M1,1,0
+1,-2.3,GO:0042493,response to drug,M1,1,0
+1,-2.3,GO:0009100,glycoprotein metabolic process,M1,1,0
+1,-2.3,GO:0022604,regulation of cell morphogenesis,M1,1,0
+1,-2.1,GO:0051301,cell division,M1,1,0
+1,-2.5,GO:0006897,endocytosis,M1,1,0
+1,-2.4,GO:0015914,phospholipid transport,M1,1,0
+1,-2.1,M28,PID IL4 2PATHWAY,M1,1,0
+1,-2.2,R-HSA-9013409,RHOJ GTPase cycle,M1,1,0
+1,-2.8,R-HSA-9013106,RHOC GTPase cycle,M1,1,0
+1,-2,GO:0016445,somatic diversification of immunoglobulins,M1,1,0
+1,-2.8,GO:0097502,mannosylation,M1,1,0
+1,-2.5,GO:0035304,regulation of protein dephosphorylation,M1,1,0
+1,-2.3,GO:0008347,glial cell migration,M1,1,0
+1,-2,R-HSA-5334118,DNA methylation,M1,1,0
+1,-2.1,R-HSA-110328,Recognition and association of DNA glycosylase with site containing an affected pyrimidine,M1,1,0
+1,-2.2,GO:0016447,somatic recombination of immunoglobulin gene segments,M1,1,0
+1,-2.6,GO:0015748,organophosphate ester transport,M1,1,0
+1,-3.4,GO:0010498,proteasomal protein catabolic process,M1,1,0
+1,-2.5,R-HSA-201722,Formation of the beta-catenin:TCF transactivating complex,M1,1,0
+1,-2.1,GO:1903670,regulation of sprouting angiogenesis,M1,1,0
+1,-2.5,GO:0035305,negative regulation of dephosphorylation,M1,1,0
+1,-2.5,R-HSA-5689880,Ub-specific processing proteases,M1,1,0
+1,-3.1,R-HSA-194315,Signaling by Rho GTPases,M1,1,0
+1,-2.4,GO:0045332,phospholipid translocation,M1,1,0
+1,-2,GO:0006511,ubiquitin-dependent protein catabolic process,M1,1,0
+1,-2,GO:1903047,mitotic cell cycle process,M1,1,0
+1,-2.5,GO:0120032,regulation of plasma membrane bounded cell projection assembly,M1,1,0
+1,-2.3,R-HSA-5689603,UCH proteinases,M1,1,0
+1,-2.4,GO:0051603,proteolysis involved in cellular protein catabolic process,M1,1,0
+1,-2.7,R-HSA-5689901,Metalloprotease DUBs,M1,1,0
+1,-2.2,R-HSA-110331,Cleavage of the damaged purine,M1,1,0
+1,-2.2,GO:0044380,protein localization to cytoskeleton,M1,1,0
+1,-2.1,R-HSA-109582,Hemostasis,M1,1,0
+1,-3.7,GO:0006310,DNA recombination,M1,1,0
+1,-2.1,GO:0032868,response to insulin,M1,1,0
+1,-2.7,WP3915,Angiopoietin-like protein 8 regulatory pathway,M1,1,0
+1,-2.2,R-HSA-110330,Recognition and association of DNA glycosylase with site containing an affected purine,M1,1,0
+1,-2.1,R-HSA-110329,Cleavage of the damaged pyrimidine ,M1,1,0
+1,-3.8,R-HSA-5688426,Deubiquitination,M1,1,0
+1,-2.4,GO:0001738,morphogenesis of a polarized epithelium,M1,1,0
+1,-2,GO:0031346,positive regulation of cell projection organization,M1,1,0
+1,-2.2,R-HSA-73927,Depurination,M1,1,0
+1,-3.7,GO:0035269,protein O-linked mannosylation,M1,1,0
+1,-2.1,GO:0010942,positive regulation of cell death,M1,1,0
+1,-2,GO:0035690,cellular response to drug,M1,1,0
+1,-2,R-HSA-382551,Transport of small molecules,M1,1,0
+1,-2.7,hsa05322,Systemic lupus erythematosus ,M1,1,0
+1,-2.1,R-HSA-73929,"Base-Excision Repair, AP Site Formation",M1,1,0
+1,-3.7,R-HSA-2559580,Oxidative Stress Induced Senescence,M1,1,0
+1,-2.2,GO:0032609,interferon-gamma production,M1,1,0
+1,-2,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,M1,1,0
+1,-2.7,R-HSA-1221632,Meiotic synapsis,M1,1,0
+1,-2,WP3942,PPAR signaling pathway,M1,1,0
+1,-3.2,GO:0042832,defense response to protozoan,M1,1,0
+1,-3.1,GO:0000018,regulation of DNA recombination,M1,1,0
+1,-2.2,GO:0043161,proteasome-mediated ubiquitin-dependent protein catabolic process,M1,1,0
+1,-2.2,R-HSA-195721,Signaling by WNT,M1,1,0
+1,-2.2,GO:0032649,regulation of interferon-gamma production,M1,1,0
+1,-2.6,GO:0042088,T-helper 1 type immune response,M1,1,0
+1,-2.3,GO:0120034,positive regulation of plasma membrane bounded cell projection assembly,M1,1,0
+1,-3.2,R-HSA-9013406,RHOQ GTPase cycle,M1,1,0
+1,-2.2,GO:0010332,response to gamma radiation,M1,1,0
+1,-2.2,GO:0043666,regulation of phosphoprotein phosphatase activity,M1,1,0
+1,-2.1,GO:0002040,sprouting angiogenesis,M1,1,0
+1,-2.7,R-HSA-2559583,Cellular Senescence,M1,1,0
+1,-2.5,R-HSA-8980692,RHOA GTPase cycle,M1,1,0
+1,-2.9,ko05034,Alcoholism,M1,1,0
+1,-2.3,R-HSA-8878171,Transcriptional regulation by RUNX1,M1,1,0
+1,-2.4,R-HSA-9006931,Signaling by Nuclear Receptors,M1,1,0

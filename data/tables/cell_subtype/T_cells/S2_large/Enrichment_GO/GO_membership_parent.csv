@@ -1,0 +1,6 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-5.935715199800877,GO:0008152,metabolic process,M1,1,GO:0043413 macromolecule glycosylation
+1,-2.6762342449335574,GO:0051179,localization,M1,1,GO:0008643 carbohydrate transport
+1,-2.535649484531876,GO:0050789,regulation of biological process,M1,1,GO:1902003 regulation of amyloid-beta formation
+1,-2.5100892859791943,GO:0002376,immune system process,M1,1,GO:0002762 negative regulation of myeloid leukocyte differentiation
+1,-2.062739428099581,GO:0023052,signaling,M1,1,GO:0008277 regulation of G protein-coupled receptor signaling pathway

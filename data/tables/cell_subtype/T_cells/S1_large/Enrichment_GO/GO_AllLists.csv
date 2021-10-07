@@ -1,0 +1,100 @@
+Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),GeneList
+Reactome Gene Sets,6,R-HSA-5688426,Deubiquitination,,-3.8,4.6,5.1,28160,298,186,9,4.8,1.6,8329|8331|8335|8340|8975|9929|23252|83444|219333,H2AC13|H2AC14|H2AC4|H2BC13|USP13|JOSD1|OTUD3|INO80B|USP12,0,MyList
+GO Biological Processes,19,GO:0035269,protein O-linked mannosylation,19_GO:0008152 metabolic process,-3.7,27,8.6,28160,17,186,3,1.6,0.92,29954|79147|160418,POMT2|FKRP|TMTC3,0,MyList
+Reactome Gene Sets,6,R-HSA-2559580,Oxidative Stress Induced Senescence,,-3.7,7.3,5.7,28160,125,186,6,3.2,1.3,1870|1912|8331|8335|8340|8535,E2F2|PHC2|H2AC14|H2AC4|H2BC13|CBX4,0,MyList
+GO Biological Processes,19,GO:0006310,DNA recombination,19_GO:0008152 metabolic process,-3.7,4.5,5,28160,306,186,9,4.8,1.6,2021|3586|6929|7037|10189|51750|80311|83444|254394,ENDOG|IL10|TCF3|TFRC|ALYREF|RTEL1|KLHL15|INO80B|MCM9,0,MyList
+GO Biological Processes,19,GO:0035268,protein mannosylation,19_GO:0008152 metabolic process,-3.4,21,7.5,28160,22,186,3,1.6,0.92,29954|79147|160418,POMT2|FKRP|TMTC3,0,MyList
+GO Biological Processes,19,GO:0010498,proteasomal protein catabolic process,19_GO:0008152 metabolic process,-3.4,3.4,4.4,28160,490,186,11,5.9,1.7,267|1454|5310|7844|8975|10612|80311|84937|90850|91147|160418,AMFR|CSNK1E|PKD1|RNF103|USP13|TRIM3|KLHL15|ZNRF1|ZNF598|TMEM67|TMTC3,0,MyList
+GO Biological Processes,19,GO:0042832,defense response to protozoan,19_GO:0044419 biological process involved in interspecies interaction between organisms,-3.2,18,7,28160,25,186,3,1.6,0.92,602|3265|3586,BCL3|HRAS|IL10,0,MyList
+Reactome Gene Sets,6,R-HSA-9013406,RHOQ GTPase cycle,,-3.2,10,5.8,28160,59,186,4,2.2,1.1,7037|9322|23513|57584,TFRC|TRIP10|SCRIB|ARHGAP21,0,MyList
+GO Biological Processes,19,GO:0006517,protein deglycosylation,19_GO:0008152 metabolic process,-3.2,17,6.9,28160,26,186,3,1.6,0.92,267|4122|7844,AMFR|MAN2A2|RNF103,0,MyList
+GO Biological Processes,19,GO:0001562,response to protozoan,19_GO:0044419 biological process involved in interspecies interaction between organisms,-3.2,17,6.9,28160,26,186,3,1.6,0.92,602|3265|3586,BCL3|HRAS|IL10,0,MyList
+GO Biological Processes,19,GO:0000018,regulation of DNA recombination,19_GO:0050789 regulation of biological process,-3.1,7.1,5.1,28160,107,186,5,2.7,1.2,3586|7037|10189|51750|80311,IL10|TFRC|ALYREF|RTEL1|KLHL15,0,MyList
+GO Biological Processes,19,GO:1903827,regulation of cellular protein localization,19_GO:0051179 localization,-3.1,3.2,4.1,28160,527,186,11,5.9,1.7,636|1454|2817|3265|6720|7037|51277|57787|84687|89958|285966,BICD1|CSNK1E|GPC1|HRAS|SREBF1|TFRC|DNAJC27|MARK4|PPP1R9B|SAPCD2|TCAF2,0,MyList
+Reactome Gene Sets,6,R-HSA-194315,Signaling by Rho GTPases,,-3.1,2.8,3.9,28160,707,186,13,7,1.9,4688|7037|8331|8335|8340|9322|23365|23513|54443|54821|55852|57584|220134,NCF2|TFRC|H2AC14|H2AC4|H2BC13|TRIP10|ARHGEF12|SCRIB|ANLN|ERCC6L|TEX2|ARHGAP21|SKA1,0,MyList
+Reactome Gene Sets,6,R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",,-3,2.7,3.8,28160,723,186,13,7,1.9,4688|7037|8331|8335|8340|9322|23365|23513|54443|54821|55852|57584|220134,NCF2|TFRC|H2AC14|H2AC4|H2BC13|TRIP10|ARHGEF12|SCRIB|ANLN|ERCC6L|TEX2|ARHGAP21|SKA1,0,MyList
+GO Biological Processes,19,GO:0071480,cellular response to gamma radiation,19_GO:0050896 response to stimulus,-3,15,6.2,28160,31,186,3,1.6,0.92,1958|3265|51776,EGR1|HRAS|MAP3K20,0,MyList
+Reactome Gene Sets,6,R-HSA-9013026,RHOB GTPase cycle,,-2.9,8.7,5.2,28160,70,186,4,2.2,1.1,7037|23365|54443|57584,TFRC|ARHGEF12|ANLN|ARHGAP21,0,MyList
+KEGG Pathway,24,ko05034,Alcoholism,,-2.9,5,4.4,28160,180,186,6,3.2,1.3,3265|8329|8331|8335|8340|59345,HRAS|H2AC13|H2AC14|H2AC4|H2BC13|GNB4,0,MyList
+GO Biological Processes,19,GO:0035308,negative regulation of protein dephosphorylation,19_GO:0048519 negative regulation of biological process,-2.8,13,5.9,28160,34,186,3,1.6,0.92,4249|26051|84687,MGAT5|PPP1R16B|PPP1R9B,0,MyList
+Reactome Gene Sets,6,R-HSA-9013106,RHOC GTPase cycle,,-2.8,8.2,5,28160,74,186,4,2.2,1.1,7037|23365|54443|57584,TFRC|ARHGEF12|ANLN|ARHGAP21,0,MyList
+KEGG Pathway,24,hsa05034,Alcoholism,,-2.8,4.9,4.4,28160,185,186,6,3.2,1.3,3265|8329|8331|8335|8340|59345,HRAS|H2AC13|H2AC14|H2AC4|H2BC13|GNB4,0,MyList
+GO Biological Processes,19,GO:0097502,mannosylation,19_GO:0008152 metabolic process,-2.8,13,5.8,28160,35,186,3,1.6,0.92,29954|79147|160418,POMT2|FKRP|TMTC3,0,MyList
+Reactome Gene Sets,6,R-HSA-5689901,Metalloprotease DUBs,,-2.7,12,5.6,28160,37,186,3,1.6,0.92,8329|8331|8335,H2AC13|H2AC14|H2AC4,0,MyList
+WikiPathways,27,WP3915,Angiopoietin-like protein 8 regulatory pathway,,-2.7,5.7,4.4,28160,132,186,5,2.7,1.2,3265|4294|5286|6720|9322,HRAS|MAP3K10|PIK3C2A|SREBF1|TRIP10,0,MyList
+GO Biological Processes,19,GO:0010770,positive regulation of cell morphogenesis involved in differentiation,19_GO:0048518 positive regulation of biological process,-2.7,7.7,4.8,28160,79,186,4,2.2,1.1,6239|7804|11078|51265,RREB1|LRP8|TRIOBP|CDKL3,0,MyList
+Reactome Gene Sets,6,R-HSA-1221632,Meiotic synapsis,,-2.7,7.7,4.8,28160,79,186,4,2.2,1.1,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,0,MyList
+KEGG Pathway,24,hsa05322,Systemic lupus erythematosus ,,-2.7,5.7,4.4,28160,133,186,5,2.7,1.2,3586|8329|8331|8335|8340,IL10|H2AC13|H2AC14|H2AC4|H2BC13,0,MyList
+KEGG Pathway,24,ko05322,Systemic lupus erythematosus,,-2.7,5.7,4.4,28160,133,186,5,2.7,1.2,3586|8329|8331|8335|8340,IL10|H2AC13|H2AC14|H2AC4|H2BC13,0,MyList
+Reactome Gene Sets,6,R-HSA-2559583,Cellular Senescence,,-2.7,4.6,4.1,28160,197,186,6,3.2,1.3,1870|1912|8331|8335|8340|8535,E2F2|PHC2|H2AC14|H2AC4|H2BC13|CBX4,0,MyList
+Reactome Gene Sets,6,R-HSA-6807070,PTEN Regulation,,-2.6,5.4,4.3,28160,140,186,5,2.7,1.2,1912|1958|8535|8975|23252,PHC2|EGR1|CBX4|USP13|OTUD3,0,MyList
+GO Biological Processes,19,GO:0015748,organophosphate ester transport,19_GO:0051179 localization,-2.6,5.3,4.2,28160,142,186,5,2.7,1.2,3783|4363|5360|57198|84255,KCNN4|ABCC1|PLTP|ATP8B2|SLC37A3,0,MyList
+GO Biological Processes,19,GO:0042088,T-helper 1 type immune response,19_GO:0002376 immune system process,-2.6,11,5.2,28160,42,186,3,1.6,0.92,602|3265|64218,BCL3|HRAS|SEMA4A,0,MyList
+Reactome Gene Sets,6,R-HSA-8980692,RHOA GTPase cycle,,-2.5,5.1,4.1,28160,147,186,5,2.7,1.2,7037|23365|54443|55852|57584,TFRC|ARHGEF12|ANLN|TEX2|ARHGAP21,0,MyList
+GO Biological Processes,19,GO:0120032,regulation of plasma membrane bounded cell projection assembly,19_GO:0050789 regulation of biological process,-2.5,4.3,3.9,28160,213,186,6,3.2,1.3,3265|26051|54443|57787|80199|116840,HRAS|PPP1R16B|ANLN|MARK4|FUZ|CNTROB,0,MyList
+GO Biological Processes,19,GO:0035304,regulation of protein dephosphorylation,19_GO:0050789 regulation of biological process,-2.5,6.7,4.4,28160,90,186,4,2.2,1.1,3672|4249|26051|84687,ITGA1|MGAT5|PPP1R16B|PPP1R9B,0,MyList
+GO Biological Processes,19,GO:0060491,regulation of cell projection assembly,19_GO:0050789 regulation of biological process,-2.5,4.2,3.9,28160,215,186,6,3.2,1.3,3265|26051|54443|57787|80199|116840,HRAS|PPP1R16B|ANLN|MARK4|FUZ|CNTROB,0,MyList
+Reactome Gene Sets,6,R-HSA-201722,Formation of the beta-catenin:TCF transactivating complex,,-2.5,6.7,4.4,28160,91,186,4,2.2,1.1,7088|8331|8335|8340,TLE1|H2AC14|H2AC4|H2BC13,0,MyList
+GO Biological Processes,19,GO:0035305,negative regulation of dephosphorylation,19_GO:0048519 negative regulation of biological process,-2.5,10,5,28160,45,186,3,1.6,0.92,4249|26051|84687,MGAT5|PPP1R16B|PPP1R9B,0,MyList
+GO Biological Processes,19,GO:0006897,endocytosis,19_GO:0051179 localization,-2.5,2.6,3.4,28160,636,186,11,5.9,1.7,636|1454|3265|3500|3502|5286|7037|7804|9322|23513|55589,BICD1|CSNK1E|HRAS|IGHG1|IGHG3|PIK3C2A|TFRC|LRP8|TRIP10|SCRIB|BMP2K,0,MyList
+Reactome Gene Sets,6,R-HSA-5689880,Ub-specific processing proteases,,-2.5,4.1,3.8,28160,220,186,6,3.2,1.3,8329|8331|8335|8340|8975|219333,H2AC13|H2AC14|H2AC4|H2BC13|USP13|USP12,0,MyList
+Reactome Gene Sets,6,R-HSA-3214815,HDACs deacetylate histones,,-2.5,6.4,4.3,28160,94,186,4,2.2,1.1,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,0,MyList
+GO Biological Processes,19,GO:0045332,phospholipid translocation,19_GO:0051179 localization,-2.4,9.7,4.8,28160,47,186,3,1.6,0.92,3783|4363|57198,KCNN4|ABCC1|ATP8B2,0,MyList
+GO Biological Processes,19,GO:0001738,morphogenesis of a polarized epithelium,19_GO:0032502 developmental process,-2.4,6.3,4.2,28160,96,186,4,2.2,1.1,1951|23513|80199|89958,CELSR3|SCRIB|FUZ|SAPCD2,0,MyList
+GO Biological Processes,19,GO:0015914,phospholipid transport,19_GO:0051179 localization,-2.4,6.3,4.2,28160,96,186,4,2.2,1.1,3783|4363|5360|57198,KCNN4|ABCC1|PLTP|ATP8B2,0,MyList
+GO Biological Processes,19,GO:0010769,regulation of cell morphogenesis involved in differentiation,19_GO:0032502 developmental process,-2.4,6.3,4.2,28160,96,186,4,2.2,1.1,6239|7804|11078|51265,RREB1|LRP8|TRIOBP|CDKL3,0,MyList
+Reactome Gene Sets,6,R-HSA-9006931,Signaling by Nuclear Receptors,,-2.4,3.5,3.6,28160,299,186,7,3.8,1.4,3265|5360|6720|8331|8335|8340|59345,HRAS|PLTP|SREBF1|H2AC14|H2AC4|H2BC13|GNB4,0,MyList
+GO Biological Processes,19,GO:0045005,DNA-dependent DNA replication maintenance of fidelity,19_GO:0008152 metabolic process,-2.4,9.5,4.8,28160,48,186,3,1.6,0.92,10189|51750|254394,ALYREF|RTEL1|MCM9,0,MyList
+GO Biological Processes,19,GO:0051603,proteolysis involved in cellular protein catabolic process,19_GO:0008152 metabolic process,-2.4,2.4,3.2,28160,751,186,12,6.5,1.8,267|1454|5310|7844|8975|10612|80311|84937|90850|91147|160418|219333,AMFR|CSNK1E|PKD1|RNF103|USP13|TRIM3|KLHL15|ZNRF1|ZNF598|TMEM67|TMTC3|USP12,0,MyList
+GO Biological Processes,19,GO:0009100,glycoprotein metabolic process,19_GO:0008152 metabolic process,-2.3,3.1,3.4,28160,389,186,8,4.3,1.5,267|2817|4122|4249|7844|29954|79147|160418,AMFR|GPC1|MAN2A2|MGAT5|RNF103|POMT2|FKRP|TMTC3,0,MyList
+GO Biological Processes,19,GO:0022604,regulation of cell morphogenesis,19_GO:0032502 developmental process,-2.3,3.4,3.5,28160,309,186,7,3.8,1.4,6239|7804|11078|51265|64218|114804|161176,RREB1|LRP8|TRIOBP|CDKL3|SEMA4A|RNF157|SYNE3,0,MyList
+Reactome Gene Sets,6,R-HSA-5689603,UCH proteinases,,-2.3,5.9,4.1,28160,102,186,4,2.2,1.1,8329|8331|8335|83444,H2AC13|H2AC14|H2AC4|INO80B,0,MyList
+GO Biological Processes,19,GO:0034204,lipid translocation,19_GO:0051179 localization,-2.3,8.7,4.6,28160,52,186,3,1.6,0.92,3783|4363|57198,KCNN4|ABCC1|ATP8B2,0,MyList
+Reactome Gene Sets,6,R-HSA-171306,Packaging Of Telomere Ends,,-2.3,8.7,4.6,28160,52,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+GO Biological Processes,19,GO:0042493,response to drug,19_GO:0050896 response to stimulus,-2.3,3,3.3,28160,399,186,8,4.3,1.5,790|3586|4363|6720|7037|7804|11044|84687,CAD|IL10|ABCC1|SREBF1|TFRC|LRP8|TENT4A|PPP1R9B,0,MyList
+GO Biological Processes,19,GO:0008347,glial cell migration,19_GO:0040011 locomotion,-2.3,8.6,4.5,28160,53,186,3,1.6,0.92,1435|7804|23513,CSF1|LRP8|SCRIB,0,MyList
+GO Biological Processes,19,GO:0120034,positive regulation of plasma membrane bounded cell projection assembly,19_GO:0048518 positive regulation of biological process,-2.3,5.8,4,28160,105,186,4,2.2,1.1,3265|54443|57787|80199,HRAS|ANLN|MARK4|FUZ,0,MyList
+Reactome Gene Sets,6,R-HSA-8878171,Transcriptional regulation by RUNX1,,-2.3,3.8,3.5,28160,239,186,6,3.2,1.3,1912|6929|8331|8335|8340|8535,PHC2|TCF3|H2AC14|H2AC4|H2BC13|CBX4,0,MyList
+GO Biological Processes,19,GO:0036503,ERAD pathway,19_GO:0050896 response to stimulus,-2.3,5.7,3.9,28160,107,186,4,2.2,1.1,267|7844|8975|91147,AMFR|RNF103|USP13|TMEM67,0,MyList
+Reactome Gene Sets,6,R-HSA-9013409,RHOJ GTPase cycle,,-2.2,8.3,4.4,28160,55,186,3,1.6,0.92,7037|23513|57584,TFRC|SCRIB|ARHGAP21,0,MyList
+GO Biological Processes,19,GO:0043161,proteasome-mediated ubiquitin-dependent protein catabolic process,19_GO:0008152 metabolic process,-2.2,3,3.3,28160,409,186,8,4.3,1.5,267|1454|7844|10612|80311|84937|90850|91147,AMFR|CSNK1E|RNF103|TRIM3|KLHL15|ZNRF1|ZNF598|TMEM67,0,MyList
+Reactome Gene Sets,6,R-HSA-73927,Depurination,,-2.2,8.1,4.3,28160,56,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+Reactome Gene Sets,6,R-HSA-110331,Cleavage of the damaged purine,,-2.2,8.1,4.3,28160,56,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+Reactome Gene Sets,6,R-HSA-110330,Recognition and association of DNA glycosylase with site containing an affected purine,,-2.2,8.1,4.3,28160,56,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+GO Biological Processes,19,GO:0010332,response to gamma radiation,19_GO:0050896 response to stimulus,-2.2,8.1,4.3,28160,56,186,3,1.6,0.92,1958|3265|51776,EGR1|HRAS|MAP3K20,0,MyList
+GO Biological Processes,19,GO:0016447,somatic recombination of immunoglobulin gene segments,19_GO:0002376 immune system process,-2.2,8,4.3,28160,57,186,3,1.6,0.92,3586|6929|7037,IL10|TCF3|TFRC,0,MyList
+GO Biological Processes,19,GO:0032609,interferon-gamma production,19_GO:0032501 multicellular organismal process,-2.2,5.4,3.8,28160,112,186,4,2.2,1.1,602|3265|3586|23513,BCL3|HRAS|IL10|SCRIB,0,MyList
+GO Biological Processes,19,GO:0032649,regulation of interferon-gamma production,19_GO:0032501 multicellular organismal process,-2.2,5.4,3.8,28160,112,186,4,2.2,1.1,602|3265|3586|23513,BCL3|HRAS|IL10|SCRIB,0,MyList
+GO Biological Processes,19,GO:0044380,protein localization to cytoskeleton,19_GO:0051179 localization,-2.2,7.8,4.2,28160,58,186,3,1.6,0.92,636|57787|84687,BICD1|MARK4|PPP1R9B,0,MyList
+GO Biological Processes,19,GO:0043666,regulation of phosphoprotein phosphatase activity,19_GO:0050789 regulation of biological process,-2.2,7.8,4.2,28160,58,186,3,1.6,0.92,3672|4249|84687,ITGA1|MGAT5|PPP1R9B,0,MyList
+GO Biological Processes,19,GO:0002931,response to ischemia,19_GO:0050896 response to stimulus,-2.2,7.8,4.2,28160,58,186,3,1.6,0.92,1435|1958|24145,CSF1|EGR1|PANX1,0,MyList
+GO Biological Processes,19,GO:0097035,regulation of membrane lipid distribution,19_GO:0065007 biological regulation,-2.2,7.8,4.2,28160,58,186,3,1.6,0.92,3783|4363|57198,KCNN4|ABCC1|ATP8B2,0,MyList
+Reactome Gene Sets,6,R-HSA-195721,Signaling by WNT,,-2.2,3.2,3.3,28160,332,186,7,3.8,1.4,1454|7088|8331|8335|8340|23513|59345,CSNK1E|TLE1|H2AC14|H2AC4|H2BC13|SCRIB|GNB4,0,MyList
+Reactome Gene Sets,6,R-HSA-157579,Telomere Maintenance,,-2.2,5.4,3.8,28160,113,186,4,2.2,1.1,8331|8335|8340|51750,H2AC14|H2AC4|H2BC13|RTEL1,0,MyList
+Reactome Gene Sets,6,R-HSA-9610379,HCMV Late Events,,-2.1,5.2,3.7,28160,116,186,4,2.2,1.1,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,0,MyList
+Reactome Gene Sets,6,R-HSA-110329,Cleavage of the damaged pyrimidine ,,-2.1,7.4,4.1,28160,61,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+Reactome Gene Sets,6,R-HSA-8943724,Regulation of PTEN gene transcription,,-2.1,7.4,4.1,28160,61,186,3,1.6,0.92,1912|1958|8535,PHC2|EGR1|CBX4,0,MyList
+Reactome Gene Sets,6,R-HSA-73928,Depyrimidination,,-2.1,7.4,4.1,28160,61,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+Reactome Gene Sets,6,R-HSA-110328,Recognition and association of DNA glycosylase with site containing an affected pyrimidine,,-2.1,7.4,4.1,28160,61,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+GO Biological Processes,19,GO:0031331,positive regulation of cellular catabolic process,19_GO:0048518 positive regulation of biological process,-2.1,2.8,3.1,28160,428,186,8,4.3,1.5,1454|2021|5286|8975|11044|79443|160418|201292,CSNK1E|ENDOG|PIK3C2A|USP13|TENT4A|FYCO1|TMTC3|TRIM65,0,MyList
+GO Biological Processes,19,GO:0051301,cell division,19_GO:0009987 cellular process,-2.1,2.5,3,28160,613,186,10,5.4,1.7,3832|11078|54443|54821|57787|64151|89958|116840|127829|220134,KIF11|TRIOBP|ANLN|ERCC6L|MARK4|NCAPG|SAPCD2|CNTROB|ARL8A|SKA1,0,MyList
+Reactome Gene Sets,6,R-HSA-1500620,Meiosis,,-2.1,5.1,3.7,28160,118,186,4,2.2,1.1,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,0,MyList
+GO Biological Processes,19,GO:0010942,positive regulation of cell death,19_GO:0048518 positive regulation of biological process,-2.1,2.4,3,28160,618,186,10,5.4,1.7,1958|2021|3586|3672|4294|10999|23513|51776|57787|84883,EGR1|ENDOG|IL10|ITGA1|MAP3K10|SLC27A4|SCRIB|MAP3K20|MARK4|AIFM2,0,MyList
+GO Biological Processes,19,GO:0002040,sprouting angiogenesis,19_GO:0032502 developmental process,-2.1,4,3.4,28160,188,186,5,2.7,1.2,1870|3586|5286|26051|84830,E2F2|IL10|PIK3C2A|PPP1R16B|ADTRP,0,MyList
+GO Biological Processes,19,GO:1903670,regulation of sprouting angiogenesis,19_GO:0032502 developmental process,-2.1,7.2,4,28160,63,186,3,1.6,0.92,1870|3586|26051,E2F2|IL10|PPP1R16B,0,MyList
+Reactome Gene Sets,6,R-HSA-73929,"Base-Excision Repair, AP Site Formation",,-2.1,7.2,4,28160,63,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+Reactome Gene Sets,6,R-HSA-73728,RNA Polymerase I Promoter Opening,,-2.1,7.2,4,28160,63,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+Reactome Gene Sets,6,R-HSA-109582,Hemostasis,,-2.1,2.4,3,28160,621,186,10,5.4,1.7,2153|2817|3265|3672|3832|5026|7804|7975|22927|59345,F5|GPC1|HRAS|ITGA1|KIF11|P2RX5|LRP8|MAFK|HABP4|GNB4,0,MyList
+GO Biological Processes,19,GO:0032868,response to insulin,19_GO:0050896 response to stimulus,-2.1,3.4,3.2,28160,266,186,6,3.2,1.3,790|1958|3586|5286|6720|10999,CAD|EGR1|IL10|PIK3C2A|SREBF1|SLC27A4,0,MyList
+Canonical Pathways,11,M28,PID IL4 2PATHWAY,,-2.1,7.1,4,28160,64,186,3,1.6,0.92,3500|3502|3586,IGHG1|IGHG3|IL10,0,MyList
+GO Biological Processes,19,GO:1903047,mitotic cell cycle process,19_GO:0009987 cellular process,-2,2.3,2.9,28160,726,186,11,5.9,1.7,3306|3832|5310|11044|51750|51776|54443|64151|84687|89958|116840,HSPA2|KIF11|PKD1|TENT4A|RTEL1|MAP3K20|ANLN|NCAPG|PPP1R9B|SAPCD2|CNTROB,0,MyList
+Reactome Gene Sets,6,R-HSA-5334118,DNA methylation,,-2,7,3.9,28160,65,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+Reactome Gene Sets,6,R-HSA-373755,Semaphorin interactions,,-2,7,3.9,28160,65,186,3,1.6,0.92,3672|23365|64218,ITGA1|ARHGEF12|SEMA4A,0,MyList
+GO Biological Processes,19,GO:0031346,positive regulation of cell projection organization,19_GO:0048518 positive regulation of biological process,-2,3,3.1,28160,353,186,7,3.8,1.4,3265|6239|7804|51265|54443|57787|80199,HRAS|RREB1|LRP8|CDKL3|ANLN|MARK4|FUZ,0,MyList
+Reactome Gene Sets,6,R-HSA-382551,Transport of small molecules,,-2,2.3,2.9,28160,729,186,11,5.9,1.7,4363|5360|7037|9187|10999|23457|28231|57198|59345|206358|606495,ABCC1|PLTP|TFRC|SLC24A1|SLC27A4|ABCB9|SLCO4A1|ATP8B2|GNB4|SLC36A1|CYB5RL,0,MyList
+GO Biological Processes,19,GO:0002460,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,19_GO:0002376 immune system process,-2,3,3.1,28160,357,186,7,3.8,1.4,602|3265|3500|3502|3586|7037|64218,BCL3|HRAS|IGHG1|IGHG3|IL10|TFRC|SEMA4A,0,MyList
+GO Biological Processes,19,GO:0016445,somatic diversification of immunoglobulins,19_GO:0002376 immune system process,-2,6.8,3.9,28160,67,186,3,1.6,0.92,3586|6929|7037,IL10|TCF3|TFRC,0,MyList
+GO Biological Processes,19,GO:0035690,cellular response to drug,19_GO:0050896 response to stimulus,-2,6.8,3.9,28160,67,186,3,1.6,0.92,790|7037|84687,CAD|TFRC|PPP1R9B,0,MyList
+WikiPathways,27,WP3942,PPAR signaling pathway,,-2,6.8,3.9,28160,67,186,3,1.6,0.92,5360|10999|23305,PLTP|SLC27A4|ACSL6,0,MyList
+Reactome Gene Sets,6,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,,-2,6.8,3.9,28160,67,186,3,1.6,0.92,8331|8335|8340,H2AC14|H2AC4|H2BC13,0,MyList
+GO Biological Processes,19,GO:0006511,ubiquitin-dependent protein catabolic process,19_GO:0008152 metabolic process,-2,2.4,2.9,28160,636,186,10,5.4,1.7,267|1454|7844|8975|10612|80311|84937|90850|91147|219333,AMFR|CSNK1E|RNF103|USP13|TRIM3|KLHL15|ZNRF1|ZNF598|TMEM67|USP12,0,MyList

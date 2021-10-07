@@ -1,0 +1,2 @@
+Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),GeneList
+Reactome Gene Sets,6,R-HSA-73894,DNA Repair,,-2.3,8.4,4.5,28160,335,30,3,10,5.5,2176|2178|7516,FANCC|FANCE|XRCC2,0,MyList

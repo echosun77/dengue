@@ -1,0 +1,14 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-3.744491987084949,GO:0008152,metabolic process,M1,1,GO:0035269 protein O-linked mannosylation
+1,-3.232160254758452,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0042832 defense response to protozoan
+1,-3.133803988464728,GO:0050789,regulation of biological process,M1,1,GO:0000018 regulation of DNA recombination
+1,-3.0942699841318833,GO:0051179,localization,M1,1,GO:1903827 regulation of cellular protein localization
+1,-2.9537964189909536,GO:0050896,response to stimulus,M1,1,GO:0071480 cellular response to gamma radiation
+1,-2.8358446799046204,GO:0048519,negative regulation of biological process,M1,1,GO:0035308 negative regulation of protein dephosphorylation
+1,-2.7253294454230788,GO:0048518,positive regulation of biological process,M1,1,GO:0010770 positive regulation of cell morphogenesis involved in differentiation
+1,-2.5696923444007354,GO:0002376,immune system process,M1,1,GO:0042088 T-helper 1 type immune response
+1,-2.4183956313543655,GO:0032502,developmental process,M1,1,GO:0001738 morphogenesis of a polarized epithelium
+1,-2.2829635353587188,GO:0040011,locomotion,M1,1,GO:0008347 glial cell migration
+1,-2.1819457576318806,GO:0032501,multicellular organismal process,M1,1,GO:0032609 interferon-gamma production
+1,-2.173762089527428,GO:0065007,biological regulation,M1,1,GO:0097035 regulation of membrane lipid distribution
+1,-2.1057884604763393,GO:0009987,cellular process,M1,1,GO:0051301 cell division

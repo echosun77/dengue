@@ -1,0 +1,12 @@
+Network,Annotation
+MyList,R-HSA-909733|Interferon alpha/beta signaling|-35.0;GO:0009615|response to virus|-33.2;R-HSA-913531|Interferon Signaling|-32.3
+MyList_MCODE_ALL,R-HSA-909733|Interferon alpha/beta signaling|-46.6;R-HSA-913531|Interferon Signaling|-40.7;R-HSA-1280215|Cytokine Signaling in Immune system|-34.5
+MyList_SUB1_MCODE_1,R-HSA-909733|Interferon alpha/beta signaling|-64.4;R-HSA-913531|Interferon Signaling|-52.2;R-HSA-1280215|Cytokine Signaling in Immune system|-38.5
+MyList_SUB1_MCODE_2,R-HSA-380972|Energy dependent regulation of mTOR by LKB1-AMPK|-8.4;R-HSA-165159|MTOR signalling|-7.7;R-HSA-159236|Transport of Mature mRNA derived from an Intron-Containing Transcript|-6.7
+MyList_SUB1_MCODE_3,R-HSA-2467813|Separation of Sister Chromatids|-12.7;R-HSA-141444|Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal|-12.2;R-HSA-141424|Amplification of signal from the kinetochores|-12.2
+MyList_SUB1_MCODE_4,R-HSA-983168|Antigen processing: Ubiquitination & Proteasome degradation|-17.7;R-HSA-983169|Class I MHC mediated antigen processing & presentation|-16.9;R-HSA-1280218|Adaptive Immune System|-14.1
+MyList_SUB1_MCODE_5,"CORUM:320|55S ribosome, mitochondrial|-15.5;R-HSA-5419276|Mitochondrial translation termination|-15.1;R-HSA-5389840|Mitochondrial translation elongation|-15.1"
+MyList_SUB1_MCODE_6,"R-HSA-6799198|Complex I biogenesis|-13.5;R-HSA-611105|Respiratory electron transport|-12.2;R-HSA-163200|Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.|-11.8"
+MyList_SUB1_MCODE_8,WP619|Type II interferon signaling (IFNG)|-8.7;R-HSA-1169408|ISG15 antiviral mechanism|-7.8;R-HSA-1169410|Antiviral mechanism by IFN-stimulated genes|-7.7
+MyList_SUB1_MCODE_10,WP3929|Chemokine signaling pathway|-6.7;hsa04062|Chemokine signaling pathway |-6.6;ko04062|Chemokine signaling pathway|-6.6
+MyList_SUB1_MCODE_13,R-HSA-199991|Membrane Trafficking|-4.9;R-HSA-5653656|Vesicle-mediated transport|-4.9

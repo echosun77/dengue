@@ -1,0 +1,13 @@
+Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),GeneList
+GO Biological Processes,19,GO:0032091,negative regulation of protein binding,19_GO:0065007 biological regulation,-6.9,85,18,28160,95,14,4,29,12,857|1601|3433|3434,CAV1|DAB2|IFIT2|IFIT1,-2.6,MyList
+GO Biological Processes,19,GO:0051100,negative regulation of binding,19_GO:0065007 biological regulation,-6,49,14,28160,163,14,4,29,12,857|1601|3433|3434,CAV1|DAB2|IFIT2|IFIT1,-1.9,MyList
+GO Biological Processes,19,GO:0043393,regulation of protein binding,19_GO:0065007 biological regulation,-5.7,41,13,28160,197,14,4,29,12,857|1601|3433|3434,CAV1|DAB2|IFIT2|IFIT1,-1.8,MyList
+Reactome Gene Sets,6,R-HSA-909733,Interferon alpha/beta signaling,,-5.3,86,16,28160,70,14,3,21,11,3433|3434|3437,IFIT2|IFIT1|IFIT3,-1.5,MyList
+GO Biological Processes,19,GO:0051098,regulation of binding,19_GO:0065007 biological regulation,-4.6,22,9,28160,364,14,4,29,12,857|1601|3433|3434,CAV1|DAB2|IFIT2|IFIT1,-0.94,MyList
+Reactome Gene Sets,6,R-HSA-913531,Interferon Signaling,,-3.9,30,9.3,28160,199,14,3,21,11,3433|3434|3437,IFIT2|IFIT1|IFIT3,-0.34,MyList
+GO Biological Processes,19,GO:0051607,defense response to virus,19_GO:0044419 biological process involved in interspecies interaction between organisms,-3.5,23,7.9,28160,267,14,3,21,11,3433|3434|3437,IFIT2|IFIT1|IFIT3,-0.089,MyList
+GO Biological Processes,19,GO:0140546,defense response to symbiont,19_GO:0044419 biological process involved in interspecies interaction between organisms,-3.5,23,7.9,28160,267,14,3,21,11,3433|3434|3437,IFIT2|IFIT1|IFIT3,-0.089,MyList
+GO Biological Processes,19,GO:0009615,response to virus,19_GO:0044419 biological process involved in interspecies interaction between organisms,-3.1,16,6.6,28160,369,14,3,21,11,3433|3434|3437,IFIT2|IFIT1|IFIT3,0,MyList
+GO Biological Processes,19,GO:0071407,cellular response to organic cyclic compound,19_GO:0050896 response to stimulus,-2.6,10,5.1,28160,585,14,3,21,11,857|1601|3434,CAV1|DAB2|IFIT1,0,MyList
+GO Biological Processes,19,GO:0030855,epithelial cell differentiation,19_GO:0032502 developmental process,-2.4,9.4,4.8,28160,643,14,3,21,11,857|1601|7379,CAV1|DAB2|UPK2,0,MyList
+Reactome Gene Sets,6,R-HSA-1280215,Cytokine Signaling in Immune system,,-2.3,8.4,4.5,28160,715,14,3,21,11,3433|3434|3437,IFIT2|IFIT1|IFIT3,0,MyList

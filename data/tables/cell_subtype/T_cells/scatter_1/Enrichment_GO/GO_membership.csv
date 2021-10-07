@@ -1,0 +1,129 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-3.6,GO:0006310,DNA recombination,M1,1,0
+1,-2.6,hsa04914,Progesterone-mediated oocyte maturation,M1,1,0
+1,-2.2,R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,M1,1,0
+1,-3.3,R-HSA-5693567,HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA),M1,1,0
+1,-2.6,GO:0032642,regulation of chemokine production,M1,1,0
+1,-3.3,GO:0006282,regulation of DNA repair,M1,1,0
+1,-2.6,R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,M1,1,0
+1,-2.1,hsa05418,Fluid shear stress and atherosclerosis,M1,1,0
+1,-2.5,GO:0043583,ear development,M1,1,0
+1,-2.6,R-HSA-68877,Mitotic Prometaphase,M1,1,0
+1,-2.1,R-HSA-212165,Epigenetic regulation of gene expression,M1,1,0
+1,-2.4,R-HSA-2559582,Senescence-Associated Secretory Phenotype (SASP),M1,1,0
+1,-3.5,GO:0010569,regulation of double-strand break repair via homologous recombination,M1,1,0
+1,-2.3,GO:0071824,protein-DNA complex subunit organization,M1,1,0
+1,-2.1,GO:0044839,cell cycle G2/M phase transition,M1,1,0
+1,-2.5,GO:0006958,"complement activation, classical pathway",M1,1,0
+1,-2.9,R-HSA-606279,Deposition of new CENPA-containing nucleosomes at the centromere,M1,1,0
+1,-3.1,R-HSA-5334118,DNA methylation,M1,1,0
+1,-2.3,GO:0051282,regulation of sequestering of calcium ion,M1,1,0
+1,-2.4,GO:0000209,protein polyubiquitination,M1,1,0
+1,-2.4,R-HSA-382551,Transport of small molecules,M1,1,0
+1,-2.2,GO:0099024,plasma membrane invagination,M1,1,0
+1,-2.4,R-HSA-157579,Telomere Maintenance,M1,1,0
+1,-2.3,GO:0006302,double-strand break repair,M1,1,0
+1,-2.1,R-HSA-453279,Mitotic G1 phase and G1/S transition,M1,1,0
+1,-2.2,GO:0006260,DNA replication,M1,1,0
+1,-3.6,R-HSA-2262752,Cellular responses to stress,M1,1,0
+1,-2.6,R-HSA-5693607,Processing of DNA double-strand break ends,M1,1,0
+1,-2.6,hsa01522,Endocrine resistance,M1,1,0
+1,-2.1,GO:0010324,membrane invagination,M1,1,0
+1,-2.9,R-HSA-5693532,DNA Double-Strand Break Repair,M1,1,0
+1,-2.4,GO:0008037,cell recognition,M1,1,0
+1,-2.9,GO:0071407,cellular response to organic cyclic compound,M1,1,0
+1,-2.1,GO:0098662,inorganic cation transmembrane transport,M1,1,0
+1,-3.3,GO:0006323,DNA packaging,M1,1,0
+1,-2.9,R-HSA-774815,Nucleosome assembly,M1,1,0
+1,-3.2,GO:0000724,double-strand break repair via homologous recombination,M1,1,0
+1,-2.7,GO:0001819,positive regulation of cytokine production,M1,1,0
+1,-2.9,R-HSA-983231,Factors involved in megakaryocyte development and platelet production,M1,1,0
+1,-3.6,GO:0045910,negative regulation of DNA recombination,M1,1,0
+1,-3.3,GO:0006334,nucleosome assembly,M1,1,0
+1,-2.2,ko05166,HTLV-I infection,M1,1,0
+1,-3.6,GO:0000018,regulation of DNA recombination,M1,1,0
+1,-2.2,GO:0006816,calcium ion transport,M1,1,0
+1,-4.6,R-HSA-69278,"Cell Cycle, Mitotic",M1,1,0
+1,-3.5,GO:0046649,lymphocyte activation,M1,1,0
+1,-3.2,GO:0000725,recombinational repair,M1,1,0
+1,-2.1,GO:0097553,calcium ion transmembrane import into cytosol,M1,1,0
+1,-3,GO:0042490,mechanoreceptor differentiation,M1,1,0
+1,-2.7,R-HSA-912446,Meiotic recombination,M1,1,0
+1,-2.5,GO:0030593,neutrophil chemotaxis,M1,1,0
+1,-2.5,GO:0006910,"phagocytosis, recognition",M1,1,0
+1,-3.6,GO:0071103,DNA conformation change,M1,1,0
+1,-2.1,R-HSA-109582,Hemostasis,M1,1,0
+1,-2.1,ko05418,Fluid shear stress and atherosclerosis,M1,1,0
+1,-2.6,GO:0032602,chemokine production,M1,1,0
+1,-3.4,R-HSA-2559580,Oxidative Stress Induced Senescence,M1,1,0
+1,-2.8,GO:0031497,chromatin assembly,M1,1,0
+1,-3.5,GO:0051301,cell division,M1,1,0
+1,-2.6,ko04914,Progesterone-mediated oocyte maturation,M1,1,0
+1,-2.1,hsa04371,Apelin signaling pathway,M1,1,0
+1,-4.7,R-HSA-2559583,Cellular Senescence,M1,1,0
+1,-2.6,ko01522,Endocrine resistance,M1,1,0
+1,-2.3,GO:1990266,neutrophil migration,M1,1,0
+1,-2.2,hsa05166,HTLV-I infection,M1,1,0
+1,-2.3,GO:0071621,granulocyte chemotaxis,M1,1,0
+1,-2.9,R-HSA-68886,M Phase,M1,1,0
+1,-3.1,GO:0060113,inner ear receptor cell differentiation,M1,1,0
+1,-2.6,GO:0080135,regulation of cellular response to stress,M1,1,0
+1,-7.2,R-HSA-1640170,Cell Cycle,M1,1,0
+1,-2.4,GO:0042471,ear morphogenesis,M1,1,0
+1,-2.8,R-HSA-1221632,Meiotic synapsis,M1,1,0
+1,-2.4,GO:0032609,interferon-gamma production,M1,1,0
+1,-2.2,GO:0000086,G2/M transition of mitotic cell cycle,M1,1,0
+1,-2.5,GO:0002460,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-2.6,R-HSA-4420097,VEGFA-VEGFR2 Pathway,M1,1,0
+1,-2.5,GO:0019724,B cell mediated immunity,M1,1,0
+1,-2.7,GO:2000779,regulation of double-strand break repair,M1,1,0
+1,-2.6,GO:0006333,chromatin assembly or disassembly,M1,1,0
+1,-2.2,GO:0050853,B cell receptor signaling pathway,M1,1,0
+1,-2.1,GO:0007281,germ cell development,M1,1,0
+1,-2.9,GO:0034728,nucleosome organization,M1,1,0
+1,-2.6,R-HSA-195258,RHO GTPase Effectors,M1,1,0
+1,-2.8,GO:0060401,cytosolic calcium ion transport,M1,1,0
+1,-3.6,GO:0060119,inner ear receptor cell development,M1,1,0
+1,-2,R-HSA-5688426,Deubiquitination,M1,1,0
+1,-2.9,M40,PID E2F PATHWAY,M1,1,0
+1,-3.6,ko05169,Epstein-Barr virus infection,M1,1,0
+1,-3.2,R-HSA-8878171,Transcriptional regulation by RUNX1,M1,1,0
+1,-2.1,GO:0048729,tissue morphogenesis,M1,1,0
+1,-2.5,GO:2001020,regulation of response to DNA damage stimulus,M1,1,0
+1,-3.5,R-HSA-1500620,Meiosis,M1,1,0
+1,-3.5,R-HSA-8953897,Cellular responses to stimuli,M1,1,0
+1,-2.5,GO:0006820,anion transport,M1,1,0
+1,-2.7,GO:0048839,inner ear development,M1,1,0
+1,-2.3,GO:0006911,"phagocytosis, engulfment",M1,1,0
+1,-2.2,R-HSA-69306,DNA Replication,M1,1,0
+1,-3.1,R-HSA-1474165,Reproduction,M1,1,0
+1,-3.7,hsa05169,Epstein-Barr virus infection,M1,1,0
+1,-2.5,R-HSA-194138,Signaling by VEGF,M1,1,0
+1,-2.6,GO:0050864,regulation of B cell activation,M1,1,0
+1,-3.3,GO:0051052,regulation of DNA metabolic process,M1,1,0
+1,-3.2,R-HSA-5693538,Homology Directed Repair,M1,1,0
+1,-2,hsa04550,Signaling pathways regulating pluripotency of stem cells,M1,1,0
+1,-2.8,R-HSA-2559586,DNA Damage/Telomere Stress Induced Senescence,M1,1,0
+1,-2,GO:0006897,endocytosis,M1,1,0
+1,-2.6,GO:0042113,B cell activation,M1,1,0
+1,-3,GO:0050871,positive regulation of B cell activation,M1,1,0
+1,-4.4,M11,PID PRL SIGNALING EVENTS PATHWAY,M1,1,0
+1,-2,GO:0071417,cellular response to organonitrogen compound,M1,1,0
+1,-3.4,GO:0002455,humoral immune response mediated by circulating immunoglobulin,M1,1,0
+1,-2.5,GO:0007059,chromosome segregation,M1,1,0
+1,-2.7,GO:0006909,phagocytosis,M1,1,0
+1,-2.6,ko05203,Viral carcinogenesis,M1,1,0
+1,-3.7,R-HSA-69620,Cell Cycle Checkpoints,M1,1,0
+1,-2.4,GO:0032649,regulation of interferon-gamma production,M1,1,0
+1,-2.3,GO:0051053,negative regulation of DNA metabolic process,M1,1,0
+1,-2.2,GO:0006956,complement activation,M1,1,0
+1,-2.6,GO:0001738,morphogenesis of a polarized epithelium,M1,1,0
+1,-2.1,GO:0097530,granulocyte migration,M1,1,0
+1,-2.5,hsa05203,Viral carcinogenesis,M1,1,0
+1,-4.3,R-HSA-73886,Chromosome Maintenance,M1,1,0
+1,-2.7,GO:0070588,calcium ion transmembrane transport,M1,1,0
+1,-2,GO:0045859,regulation of protein kinase activity,M1,1,0
+1,-2.3,GO:0051208,sequestering of calcium ion,M1,1,0
+1,-3,GO:1903047,mitotic cell cycle process,M1,1,0
+1,-2.5,GO:0065004,protein-DNA complex assembly,M1,1,0
+1,-2.6,GO:0016064,immunoglobulin mediated immune response,M1,1,0

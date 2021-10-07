@@ -1,0 +1,4 @@
+Cluster,Score,Type,Gene,Symbol,Network
+1,1.0,Clustered,3434,IFIT1,MyList_SUB1
+1,1.0,Seed,3433,IFIT2,MyList_SUB1
+1,1.0,Clustered,3437,IFIT3,MyList_SUB1

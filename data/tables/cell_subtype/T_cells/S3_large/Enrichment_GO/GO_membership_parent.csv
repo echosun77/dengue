@@ -1,0 +1,16 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-15.406556178133876,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0140546 defense response to symbiont
+1,-9.678177262220384,GO:0002376,immune system process,M1,1,GO:0002366 leukocyte activation involved in immune response
+1,-9.619207113446603,GO:0050896,response to stimulus,M1,1,GO:0002831 regulation of response to biotic stimulus
+1,-8.700168529609073,GO:0016032,viral process,M1,1,GO:0045071 negative regulation of viral genome replication
+1,-6.624576352841846,GO:0048518,positive regulation of biological process,M1,1,GO:0001819 positive regulation of cytokine production
+1,-6.18538334391342,GO:0050789,regulation of biological process,M1,1,GO:0050865 regulation of cell activation
+1,-5.432591343013309,GO:0022610,biological adhesion,M1,1,GO:0007159 leukocyte cell-cell adhesion
+1,-5.272522858919214,GO:0009987,cellular process,M1,1,GO:0070661 leukocyte proliferation
+1,-4.407558415572999,GO:0032501,multicellular organismal process,M1,1,GO:0001817 regulation of cytokine production
+1,-4.236501018076846,GO:0048519,negative regulation of biological process,M1,1,GO:0002832 negative regulation of response to biotic stimulus
+1,-3.74111532735103,GO:0023052,signaling,M1,1,GO:0019221 cytokine-mediated signaling pathway
+1,-3.546479270814698,GO:0051704,multi-organism process,M1,1,GO:1902579 multi-organism localization
+1,-3.4813528472467348,GO:0051179,localization,M1,1,GO:0050764 regulation of phagocytosis
+1,-2.5918742696766066,GO:0008152,metabolic process,M1,1,GO:0018212 peptidyl-tyrosine modification
+1,-2.56787976553101,GO:0065007,biological regulation,M1,1,GO:0007599 hemostasis

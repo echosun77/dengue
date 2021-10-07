@@ -9,6 +9,13 @@ A nonparametric label randomization test was utilized to check the significance 
 ## Folder structure
 
 - `dengue_children`: this folder contains the code used for the analysis
+  - `pilots`: old scripts for data analysis
+  - `20210625 The whole process of figure 4.ipynb`: main jupyter notebook for the figure
+  - `dengue_plots_functions.py`: some functions used for data visualization, e.g., dotplot,violinplot, barplot
+  - `log2_FC_functions.py`: functions for differential expression
+  - `make_figure_functions.py`: some functions used for plotting
+  - `my_mushroom.py`: functions for the cute mushroom dot plot
+  - `adata_utilis.py`: functions for split adata and generate log2FC between SD vs D
 
 - `data`: this folder contains some Excel/TSV files after analyzing the data and associated figures
   - `paper_figure`: this folder contains the cell-cell communication panels for the dengue children paper

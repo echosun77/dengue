@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph label="MyList" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cy="http://www.cytoscape.org" xmlns="http://www.cs.rpi.edu/XGMML" >
+  <att name="documentVersion" value="1.1"/>
+  <att name="networkMetadata">
+    <rdf:RDF>
+      <rdf:Description rdf:about="http://www.cytoscape.org/">
+        <dc:type>Protein-Protein Interaction</dc:type>
+        <dc:description>N/A</dc:description>
+        <dc:identifier>N/A</dc:identifier>
+        <dc:date>2021-08-17 20:54:33</dc:date>
+        <dc:title>Cytoscape Network</dc:title>
+        <dc:source>http://www.cytoscape.org/</dc:source>
+        <dc:format>Cytoscape-XGMML</dc:format>
+      </rdf:Description>
+    </rdf:RDF>
+  </att>
+  <att type="string" name="backgroundColor" value="#ffffff"/>
+  <att type="real" name="GRAPH_VIEW_ZOOM" value="1.0"/>
+  <att type="real" name="GRAPH_VIEW_CENTER_X" value="300.0"/>
+  <att type="real" name="GRAPH_VIEW_CENTER_Y" value="300.0"/>
+  <node label="FANCC" id="1">
+    <att type="string" name="canonicalName" value="FANCC"/>
+    <att type="string" name="Gene" value="2176"/>
+    <att type="string" name="Symbol" value="FANCC"/>
+    <att type="integer" name="DEGREE" value="1"/>
+    <graphics type="CIRCLE" x="196.34797809743162" y="243.57111229582813"/>
+  </node>
+  <node label="FANCE" id="2">
+    <att type="string" name="canonicalName" value="FANCE"/>
+    <att type="string" name="Gene" value="2178"/>
+    <att type="string" name="Symbol" value="FANCE"/>
+    <att type="integer" name="DEGREE" value="1"/>
+    <graphics type="CIRCLE" x="413.2807341211724" y="226.8383344727759"/>
+  </node>
+  <node label="SNAI1" id="3">
+    <att type="string" name="canonicalName" value="SNAI1"/>
+    <att type="string" name="Gene" value="6615"/>
+    <att type="string" name="Symbol" value="SNAI1"/>
+    <att type="integer" name="DEGREE" value="1"/>
+    <graphics type="CIRCLE" x="434.15633977311023" y="433.3683778419433"/>
+  </node>
+  <node label="CBX2" id="4">
+    <att type="string" name="canonicalName" value="CBX2"/>
+    <att type="string" name="Gene" value="84733"/>
+    <att type="string" name="Symbol" value="CBX2"/>
+    <att type="integer" name="DEGREE" value="1"/>
+    <graphics type="CIRCLE" x="155.85303694648755" y="230.1252834813466"/>
+  </node>
+  <edge label="2176 (pp) 2178" source="1" target="2">
+    <att type="string" name="canonicalName" value="2176 (pp) 2178"/>
+    <att type="string" name="interaction" value="pp"/>
+    <att type="int" name="SCORE" value="999"/>
+    <att type="string" name="support" value="{&quot;StringDB&quot;: &quot;physical&quot;, &quot;StringEvidence&quot;: &quot;experiments:0.993,textmining:0.944,database:0.896&quot;, &quot;OmniPath&quot;: &quot;omnipath,pathwayextra&quot;, &quot;OmniPath_Reference&quot;: &quot;BioGRID;HPRD;IntAct;Lit-BM-17;MPPI;Wang&quot;, &quot;BioGrid&quot;: &quot;physical&quot;, &quot;BioGrid_PubMed&quot;: &quot;27986371,26277624,24469828,24451376,23303816,18550849,16513431,16127171,15262960,14625294,12649160,12239156,12093742,11157805&quot;, &quot;BioGrid_Type&quot;: &quot;Two-hybrid,Co-localization,Reconstituted Complex,Affinity Capture-Western&quot;, &quot;String_Score_Physical&quot;: 999, &quot;String_Score_Combined&quot;: 999}"/>
+  </edge>
+  <edge label="6615 (pp) 84733" source="3" target="4">
+    <att type="string" name="canonicalName" value="6615 (pp) 84733"/>
+    <att type="string" name="interaction" value="pp"/>
+    <att type="int" name="SCORE" value="900"/>
+    <att type="string" name="support" value="{&quot;StringDB&quot;: &quot;physical&quot;, &quot;StringEvidence&quot;: &quot;database:0.896,textmining:0.019&quot;, &quot;String_Score_Physical&quot;: 900, &quot;String_Score_Combined&quot;: 901}"/>
+  </edge>
+</graph>

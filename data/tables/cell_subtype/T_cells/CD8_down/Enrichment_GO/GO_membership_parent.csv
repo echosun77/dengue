@@ -1,0 +1,17 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-18.710643765815455,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0009615 response to virus
+1,-17.008122716167726,GO:0050896,response to stimulus,M1,1,GO:0002831 regulation of response to biotic stimulus
+1,-12.03686459147927,GO:0002376,immune system process,M1,1,GO:0002250 adaptive immune response
+1,-10.225017533231389,GO:0016032,viral process,M1,1,GO:0048525 negative regulation of viral process
+1,-9.078192047937735,GO:0048518,positive regulation of biological process,M1,1,GO:0002833 positive regulation of response to biotic stimulus
+1,-7.602666494214731,GO:0050789,regulation of biological process,M1,1,GO:0031341 regulation of cell killing
+1,-6.401152834589532,GO:0048519,negative regulation of biological process,M1,1,GO:0002832 negative regulation of response to biotic stimulus
+1,-6.203571480130292,GO:0032501,multicellular organismal process,M1,1,GO:0001817 regulation of cytokine production
+1,-5.8384455039051435,GO:0009987,cellular process,M1,1,GO:0001906 cell killing
+1,-5.650821273442727,GO:0008152,metabolic process,M1,1,GO:0006914 autophagy
+1,-5.229048526711677,GO:0040011,locomotion,M1,1,GO:2000501 regulation of natural killer cell chemotaxis
+1,-5.019223547833918,GO:0023052,signaling,M1,1,GO:0007249 I-kappaB kinase/NF-kappaB signaling
+1,-3.541071890769887,GO:0022610,biological adhesion,M1,1,GO:1903037 regulation of leukocyte cell-cell adhesion
+1,-2.5484646064529595,GO:0051179,localization,M1,1,GO:0008333 endosome to lysosome transport
+1,-2.2633154462666556,GO:0051704,multi-organism process,M1,1,GO:0044766 multi-organism transport
+1,-2.0903951605430224,GO:0065007,biological regulation,M1,1,GO:0051345 positive regulation of hydrolase activity

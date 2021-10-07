@@ -1,0 +1,63 @@
+Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),GeneList
+GO Biological Processes,19,GO:0043413,macromolecule glycosylation,19_GO:0008152 metabolic process,-5.9,7.4,7.5,28160,228,167,10,6,1.8,20|2529|2651|23333|79796|84899|91869|135152|200424|282679,ABCA2|FUT7|GCNT2|DPY19L1|ALG9|TMTC4|RFT1|B3GAT2|TET3|AQP11,-1.9,MyList
+GO Biological Processes,19,GO:0006486,protein glycosylation,19_GO:0008152 metabolic process,-5.9,7.4,7.5,28160,228,167,10,6,1.8,20|2529|2651|23333|79796|84899|91869|135152|200424|282679,ABCA2|FUT7|GCNT2|DPY19L1|ALG9|TMTC4|RFT1|B3GAT2|TET3|AQP11,-1.9,MyList
+GO Biological Processes,19,GO:0070085,glycosylation,19_GO:0008152 metabolic process,-5.7,7,7.2,28160,242,167,10,6,1.8,20|2529|2651|23333|79796|84899|91869|135152|200424|282679,ABCA2|FUT7|GCNT2|DPY19L1|ALG9|TMTC4|RFT1|B3GAT2|TET3|AQP11,-1.8,MyList
+GO Biological Processes,19,GO:0009101,glycoprotein biosynthetic process,19_GO:0008152 metabolic process,-4.7,5.3,5.9,28160,319,167,10,6,1.8,20|2529|2651|23333|79796|84899|91869|135152|200424|282679,ABCA2|FUT7|GCNT2|DPY19L1|ALG9|TMTC4|RFT1|B3GAT2|TET3|AQP11,-0.89,MyList
+Reactome Gene Sets,6,R-HSA-8878171,Transcriptional regulation by RUNX1,,-4,5.6,5.6,28160,239,167,8,4.8,1.7,3017|4602|8350|8352|8784|10398|57332|84733,H2BC5|MYB|H3C1|H3C3|TNFRSF18|MYL9|CBX8|CBX2,-0.36,MyList
+GO Biological Processes,19,GO:0009100,glycoprotein metabolic process,19_GO:0008152 metabolic process,-3.9,4.3,5.1,28160,389,167,10,6,1.8,20|2529|2651|23333|79796|84899|91869|135152|200424|282679,ABCA2|FUT7|GCNT2|DPY19L1|ALG9|TMTC4|RFT1|B3GAT2|TET3|AQP11,-0.35,MyList
+Reactome Gene Sets,6,R-HSA-2559580,Oxidative Stress Induced Senescence,,-3,6.7,5,28160,125,167,5,3,1.3,3017|8350|8352|57332|84733,H2BC5|H3C1|H3C3|CBX8|CBX2,0,MyList
+GO Biological Processes,19,GO:0097502,mannosylation,19_GO:0008152 metabolic process,-2.9,14,6.2,28160,35,167,3,1.8,1,23333|79796|84899,DPY19L1|ALG9|TMTC4,0,MyList
+Reactome Gene Sets,6,R-HSA-3214858,RMTs methylate histone arginines,,-2.9,8.5,5.2,28160,79,167,4,2.4,1.2,8332|8350|8352|55352,H2AC16|H3C1|H3C3|COPRS,0,MyList
+Reactome Gene Sets,6,R-HSA-3247509,Chromatin modifying enzymes,,-2.9,4.3,4.2,28160,274,167,7,4.2,1.6,3017|6314|8332|8350|8352|55352|84787,H2BC5|ATXN7|H2AC16|H3C1|H3C3|COPRS|KMT5C,0,MyList
+Reactome Gene Sets,6,R-HSA-4839726,Chromatin organization,,-2.9,4.3,4.2,28160,274,167,7,4.2,1.6,3017|6314|8332|8350|8352|55352|84787,H2BC5|ATXN7|H2AC16|H3C1|H3C3|COPRS|KMT5C,0,MyList
+Reactome Gene Sets,6,R-HSA-3214847,HATs acetylate histones,,-2.8,5.9,4.6,28160,142,167,5,3,1.3,3017|6314|8332|8350|8352,H2BC5|ATXN7|H2AC16|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:0016571,histone methylation,19_GO:0008152 metabolic process,-2.8,5.9,4.6,28160,142,167,5,3,1.3,4602|29104|55352|84787|200424,MYB|N6AMT1|COPRS|KMT5C|TET3,0,MyList
+Reactome Gene Sets,6,R-HSA-212165,Epigenetic regulation of gene expression,,-2.7,5.7,4.4,28160,149,167,5,3,1.3,2966|3017|8350|8352|200424,GTF2H2|H2BC5|H3C1|H3C3|TET3,0,MyList
+Reactome Gene Sets,6,R-HSA-9616222,Transcriptional regulation of granulopoiesis,,-2.7,7.5,4.8,28160,90,167,4,2.4,1.2,3017|4602|8350|8352,H2BC5|MYB|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:0008643,carbohydrate transport,19_GO:0051179 localization,-2.7,5.6,4.4,28160,151,167,5,3,1.3,6253|10559|91869|252983|282679,RTN2|SLC35A1|RFT1|STXBP4|AQP11,0,MyList
+Reactome Gene Sets,6,R-HSA-73772,RNA Polymerase I Promoter Escape,,-2.7,7.4,4.7,28160,91,167,4,2.4,1.2,2966|3017|8350|8352,GTF2H2|H2BC5|H3C1|H3C3,0,MyList
+Reactome Gene Sets,6,R-HSA-3214815,HDACs deacetylate histones,,-2.6,7.2,4.6,28160,94,167,4,2.4,1.2,3017|8332|8350|8352,H2BC5|H2AC16|H3C1|H3C3,0,MyList
+Reactome Gene Sets,6,R-HSA-5625740,RHO GTPases activate PKNs,,-2.6,7.1,4.6,28160,95,167,4,2.4,1.2,3017|8350|8352|10398,H2BC5|H3C1|H3C3|MYL9,0,MyList
+Reactome Gene Sets,6,R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,,-2.6,7,4.5,28160,97,167,4,2.4,1.2,3017|8350|8352|10398,H2BC5|H3C1|H3C3|MYL9,0,MyList
+GO Biological Processes,19,GO:1902003,regulation of amyloid-beta formation,19_GO:0050789 regulation of biological process,-2.5,11,5.1,28160,48,167,3,1.8,1,20|1191|6253,ABCA2|CLU|RTN2,0,MyList
+GO Biological Processes,19,GO:0002762,negative regulation of myeloid leukocyte differentiation,19_GO:0002376 immune system process,-2.5,10,5,28160,49,167,3,1.8,1,634|8111|9290,CEACAM1|GPR68|GPR55,0,MyList
+GO Biological Processes,19,GO:1902106,negative regulation of leukocyte differentiation,19_GO:0002376 immune system process,-2.5,6.6,4.4,28160,102,167,4,2.4,1.2,634|2302|8111|9290,CEACAM1|FOXJ1|GPR68|GPR55,0,MyList
+WikiPathways,27,WP4536,Genes related to primary cilium development (based on CRISPR),,-2.5,6.5,4.4,28160,103,167,4,2.4,1.2,25776|79363|79659|137392,CBY1|CPLANE2|DYNC2H1|CIBAR1,0,MyList
+GO Biological Processes,19,GO:1903707,negative regulation of hemopoiesis,19_GO:0002376 immune system process,-2.4,6.4,4.3,28160,106,167,4,2.4,1.2,634|2302|8111|9290,CEACAM1|FOXJ1|GPR68|GPR55,0,MyList
+Reactome Gene Sets,6,R-HSA-427413,NoRC negatively regulates rRNA expression,,-2.4,6.3,4.2,28160,107,167,4,2.4,1.2,2966|3017|8350|8352,GTF2H2|H2BC5|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:1901137,carbohydrate derivative biosynthetic process,19_GO:0008152 metabolic process,-2.4,2.7,3.4,28160,618,167,10,6,1.8,20|2529|2651|23333|79796|84899|91869|135152|200424|282679,ABCA2|FUT7|GCNT2|DPY19L1|ALG9|TMTC4|RFT1|B3GAT2|TET3|AQP11,0,MyList
+Reactome Gene Sets,6,R-HSA-73854,RNA Polymerase I Promoter Clearance,,-2.4,6.1,4.2,28160,110,167,4,2.4,1.2,2966|3017|8350|8352,GTF2H2|H2BC5|H3C1|H3C3,0,MyList
+Reactome Gene Sets,6,R-HSA-5250941,Negative epigenetic regulation of rRNA expression,,-2.4,6.1,4.2,28160,110,167,4,2.4,1.2,2966|3017|8350|8352,GTF2H2|H2BC5|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:1902991,regulation of amyloid precursor protein catabolic process,19_GO:0050789 regulation of biological process,-2.4,9.2,4.7,28160,55,167,3,1.8,1,20|1191|6253,ABCA2|CLU|RTN2,0,MyList
+Reactome Gene Sets,6,R-HSA-73864,RNA Polymerase I Transcription,,-2.3,6,4.1,28160,112,167,4,2.4,1.2,2966|3017|8350|8352,GTF2H2|H2BC5|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:0006479,protein methylation,19_GO:0008152 metabolic process,-2.3,4.6,3.8,28160,182,167,5,3,1.3,4602|29104|55352|84787|200424,MYB|N6AMT1|COPRS|KMT5C|TET3,0,MyList
+GO Biological Processes,19,GO:0008213,protein alkylation,19_GO:0008152 metabolic process,-2.3,4.6,3.8,28160,182,167,5,3,1.3,4602|29104|55352|84787|200424,MYB|N6AMT1|COPRS|KMT5C|TET3,0,MyList
+GO Biological Processes,19,GO:0034205,amyloid-beta formation,19_GO:0008152 metabolic process,-2.3,8.9,4.6,28160,57,167,3,1.8,1,20|1191|6253,ABCA2|CLU|RTN2,0,MyList
+Reactome Gene Sets,6,R-HSA-9610379,HCMV Late Events,,-2.3,5.8,4,28160,116,167,4,2.4,1.2,3017|8332|8350|8352,H2BC5|H2AC16|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:0034968,histone lysine methylation,19_GO:0008152 metabolic process,-2.3,5.8,4,28160,116,167,4,2.4,1.2,4602|29104|84787|200424,MYB|N6AMT1|KMT5C|TET3,0,MyList
+Reactome Gene Sets,6,R-HSA-73728,RNA Polymerase I Promoter Opening,,-2.2,8,4.3,28160,63,167,3,1.8,1,3017|8350|8352,H2BC5|H3C1|H3C3,0,MyList
+Reactome Gene Sets,6,R-HSA-2559583,Cellular Senescence,,-2.2,4.3,3.6,28160,197,167,5,3,1.3,3017|8350|8352|57332|84733,H2BC5|H3C1|H3C3|CBX8|CBX2,0,MyList
+Reactome Gene Sets,6,R-HSA-5334118,DNA methylation,,-2.2,7.8,4.2,28160,65,167,3,1.8,1,3017|8350|8352,H2BC5|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:0016570,histone modification,19_GO:0008152 metabolic process,-2.2,2.9,3.2,28160,467,167,8,4.8,1.7,4602|6314|25862|29104|55352|57332|84787|200424,MYB|ATXN7|USP49|N6AMT1|COPRS|CBX8|KMT5C|TET3,0,MyList
+GO Biological Processes,19,GO:0015850,organic hydroxy compound transport,19_GO:0051179 localization,-2.2,3.6,3.4,28160,283,167,6,3.6,1.4,20|634|1191|4602|114876|282679,ABCA2|CEACAM1|CLU|MYB|OSBPL1A|AQP11,0,MyList
+GO Biological Processes,19,GO:0050435,amyloid-beta metabolic process,19_GO:0008152 metabolic process,-2.1,7.6,4.1,28160,67,167,3,1.8,1,20|1191|6253,ABCA2|CLU|RTN2,0,MyList
+Reactome Gene Sets,6,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,,-2.1,7.6,4.1,28160,67,167,3,1.8,1,3017|8350|8352,H2BC5|H3C1|H3C3,0,MyList
+Reactome Gene Sets,6,R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,,-2.1,5.2,3.7,28160,130,167,4,2.4,1.2,3017|4602|8350|8352,H2BC5|MYB|H3C1|H3C3,0,MyList
+Reactome Gene Sets,6,R-HSA-427359,SIRT1 negatively regulates rRNA expression,,-2.1,7.4,4.1,28160,68,167,3,1.8,1,3017|8350|8352,H2BC5|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:0042987,amyloid precursor protein catabolic process,19_GO:0008152 metabolic process,-2.1,7.4,4.1,28160,68,167,3,1.8,1,20|1191|6253,ABCA2|CLU|RTN2,0,MyList
+GO Biological Processes,19,GO:0018022,peptidyl-lysine methylation,19_GO:0008152 metabolic process,-2.1,5.1,3.7,28160,132,167,4,2.4,1.2,4602|29104|84787|200424,MYB|N6AMT1|KMT5C|TET3,0,MyList
+GO Biological Processes,19,GO:0016569,covalent chromatin modification,19_GO:0008152 metabolic process,-2.1,2.8,3.1,28160,481,167,8,4.8,1.7,4602|6314|25862|29104|55352|57332|84787|200424,MYB|ATXN7|USP49|N6AMT1|COPRS|CBX8|KMT5C|TET3,0,MyList
+KEGG Pathway,24,ko05322,Systemic lupus erythematosus,,-2.1,5.1,3.6,28160,133,167,4,2.4,1.2,3017|8332|8350|8352,H2BC5|H2AC16|H3C1|H3C3,0,MyList
+KEGG Pathway,24,hsa05322,Systemic lupus erythematosus,,-2.1,5.1,3.6,28160,133,167,4,2.4,1.2,3017|8332|8350|8352,H2BC5|H2AC16|H3C1|H3C3,0,MyList
+WikiPathways,27,WP2369,Histone modifications,,-2.1,7.2,4,28160,70,167,3,1.8,1,8350|8352|84787,H3C1|H3C3|KMT5C,0,MyList
+Reactome Gene Sets,6,R-HSA-9609690,HCMV Early Events,,-2.1,5,3.6,28160,135,167,4,2.4,1.2,3017|8332|8350|8352,H2BC5|H2AC16|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:0008277,regulation of G protein-coupled receptor signaling pathway,19_GO:0023052 signaling,-2.1,5,3.6,28160,135,167,4,2.4,1.2,157|2966|9455|115727,GRK3|GTF2H2|HOMER2|RASGRP4,0,MyList
+Reactome Gene Sets,6,R-HSA-3214841,PKMTs methylate histone lysines,,-2.1,7.1,4,28160,71,167,3,1.8,1,8350|8352|84787,H3C1|H3C3|KMT5C,0,MyList
+WikiPathways,27,WP3584,MECP2 and associated Rett syndrome,,-2,7,4,28160,72,167,3,1.8,1,9315|54715|200424,NREP|RBFOX1|TET3,0,MyList
+GO Biological Processes,19,GO:0072330,monocarboxylic acid biosynthetic process,19_GO:0008152 metabolic process,-2,3.9,3.3,28160,214,167,5,3,1.3,634|3995|23600|54995|114876,CEACAM1|FADS3|AMACR|OXSM|OSBPL1A,0,MyList
+Reactome Gene Sets,6,R-HSA-212300,PRC2 methylates histones and DNA,,-2,6.9,3.9,28160,73,167,3,1.8,1,3017|8350|8352,H2BC5|H3C1|H3C3,0,MyList
+Reactome Gene Sets,6,R-HSA-9710421,Defective pyroptosis,,-2,6.9,3.9,28160,73,167,3,1.8,1,3017|8350|8352,H2BC5|H3C1|H3C3,0,MyList
+Reactome Gene Sets,6,R-HSA-2299718,Condensation of Prophase Chromosomes,,-2,6.8,3.9,28160,74,167,3,1.8,1,3017|8350|8352,H2BC5|H3C1|H3C3,0,MyList
+GO Biological Processes,19,GO:0009166,nucleotide catabolic process,19_GO:0008152 metabolic process,-2,6.8,3.9,28160,74,167,3,1.8,1,23098|79661|200035,SARM1|NEIL1|NUDT17,0,MyList
+GO Biological Processes,19,GO:0042886,amide transport,19_GO:0051179 localization,-2,3.3,3.2,28160,304,167,6,3.6,1.4,20|8111|9429|84976|252983|282679,ABCA2|GPR68|ABCG2|DISP1|STXBP4|AQP11,0,MyList
+GO Biological Processes,19,GO:0006869,lipid transport,19_GO:0051179 localization,-2,3,3.1,28160,398,167,7,4.2,1.6,20|634|1191|4602|9399|91869|114876,ABCA2|CEACAM1|CLU|MYB|STOML1|RFT1|OSBPL1A,0,MyList

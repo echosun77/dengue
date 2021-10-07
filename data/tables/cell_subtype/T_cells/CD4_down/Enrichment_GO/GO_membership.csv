@@ -1,0 +1,437 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-5.5,GO:0032728,positive regulation of interferon-beta production,M1,1,0
+1,-2.4,GO:0006885,regulation of pH,M1,1,0
+1,-2.2,R-HSA-163200,"Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.",M1,1,0
+1,-3.2,hsa04623,Cytosolic DNA-sensing pathway ,M1,1,0
+1,-8.2,GO:0060338,regulation of type I interferon-mediated signaling pathway,M1,1,0
+1,-3.2,GO:2000404,regulation of T cell migration,M1,1,0
+1,-3.7,R-HSA-5676594,TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway,M1,1,0
+1,-2.2,hsa04664,Fc epsilon RI signaling pathway ,M1,1,0
+1,-4,GO:0001906,cell killing,M1,1,0
+1,-8.4,GO:0002833,positive regulation of response to biotic stimulus,M1,1,0
+1,-4.8,GO:0052372,modulation by symbiont of entry into host,M1,1,0
+1,-17,GO:0002831,regulation of response to biotic stimulus,M1,1,0
+1,-4.8,GO:0060761,negative regulation of response to cytokine stimulus,M1,1,0
+1,-2.4,GO:0002478,antigen processing and presentation of exogenous peptide antigen,M1,1,0
+1,-3.3,GO:1900246,positive regulation of RIG-I signaling pathway,M1,1,0
+1,-2.5,GO:0032609,interferon-gamma production,M1,1,0
+1,-2,GO:0022900,electron transport chain,M1,1,0
+1,-4.7,GO:0002440,production of molecular mediator of immune response,M1,1,0
+1,-20,GO:0045071,negative regulation of viral genome replication,M1,1,0
+1,-2.6,R-HSA-168928,DDX58/IFIH1-mediated induction of interferon-alpha/beta,M1,1,0
+1,-4.6,WP4877,Host-pathogen interaction of human coronaviruses - MAPK signaling,M1,1,0
+1,-2.7,GO:0035751,regulation of lysosomal lumen pH,M1,1,0
+1,-2.2,GO:0039702,viral budding via host ESCRT complex,M1,1,0
+1,-4.6,GO:0039528,cytoplasmic pattern recognition receptor signaling pathway in response to virus,M1,1,0
+1,-2.5,R-HSA-5419276,Mitochondrial translation termination,M1,1,0
+1,-3.4,GO:1903557,positive regulation of tumor necrosis factor superfamily cytokine production,M1,1,0
+1,-3.4,GO:0060760,positive regulation of response to cytokine stimulus,M1,1,0
+1,-6.9,GO:0034341,response to interferon-gamma,M1,1,0
+1,-4.7,GO:0044766,multi-organism transport,M1,1,0
+1,-8.4,R-HSA-877300,Interferon gamma signaling,M1,1,0
+1,-2.8,GO:0051453,regulation of intracellular pH,M1,1,0
+1,-6.4,ko05162,Measles,M1,1,0
+1,-2.4,WP22,IL-9 signaling pathway,M1,1,0
+1,-2.3,R-HSA-141444,Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal,M1,1,0
+1,-4.7,GO:0002705,positive regulation of leukocyte mediated immunity,M1,1,0
+1,-3.1,GO:0045324,late endosome to vacuole transport,M1,1,0
+1,-6,hsa05160,Hepatitis C,M1,1,0
+1,-3,ko03420,Nucleotide excision repair,M1,1,0
+1,-2.1,GO:0035710,"CD4-positive, alpha-beta T cell activation",M1,1,0
+1,-5.4,GO:0032648,regulation of interferon-beta production,M1,1,0
+1,-4.6,GO:0002275,myeloid cell activation involved in immune response,M1,1,0
+1,-3.6,GO:0006968,cellular defense response,M1,1,0
+1,-2.4,GO:0071605,monocyte chemotactic protein-1 production,M1,1,0
+1,-2.6,GO:0030641,regulation of cellular pH,M1,1,0
+1,-3.2,GO:0002706,regulation of lymphocyte mediated immunity,M1,1,0
+1,-2.1,GO:0042116,macrophage activation,M1,1,0
+1,-2.8,GO:0032509,endosome transport via multivesicular body sorting pathway,M1,1,0
+1,-2.1,R-HSA-8939902,Regulation of RUNX2 expression and activity,M1,1,0
+1,-3.1,GO:1901623,regulation of lymphocyte chemotaxis,M1,1,0
+1,-3.5,GO:0043123,positive regulation of I-kappaB kinase/NF-kappaB signaling,M1,1,0
+1,-2.8,GO:0036257,multivesicular body organization,M1,1,0
+1,-2.1,WP4963,p53 transcriptional gene network,M1,1,0
+1,-2.9,GO:1903555,regulation of tumor necrosis factor superfamily cytokine production,M1,1,0
+1,-2.5,GO:0032649,regulation of interferon-gamma production,M1,1,0
+1,-2,GO:0016241,regulation of macroautophagy,M1,1,0
+1,-2.8,GO:0036258,multivesicular body assembly,M1,1,0
+1,-2.3,WP405,Eukaryotic transcription initiation,M1,1,0
+1,-5.6,hsa04650,Natural killer cell mediated cytotoxicity ,M1,1,0
+1,-5.5,GO:0002699,positive regulation of immune effector process,M1,1,0
+1,-2.8,R-HSA-5668541,TNFR2 non-canonical NF-kB pathway,M1,1,0
+1,-7.4,GO:0002764,immune response-regulating signaling pathway,M1,1,0
+1,-2.5,R-HSA-5368286,Mitochondrial translation initiation,M1,1,0
+1,-3.1,WP4753,Nucleotide excision repair,M1,1,0
+1,-8.5,GO:0035458,cellular response to interferon-beta,M1,1,0
+1,-3.7,GO:0002221,pattern recognition receptor signaling pathway,M1,1,0
+1,-25,GO:0051607,defense response to virus,M1,1,0
+1,-2.4,GO:0072676,lymphocyte migration,M1,1,0
+1,-2,GO:0062207,regulation of pattern recognition receptor signaling pathway,M1,1,0
+1,-3.7,R-HSA-5656169,Termination of translesion DNA synthesis,M1,1,0
+1,-3.5,GO:0007249,I-kappaB kinase/NF-kappaB signaling,M1,1,0
+1,-2.9,GO:0071706,tumor necrosis factor superfamily cytokine production,M1,1,0
+1,-2.6,hsa04210,Apoptosis ,M1,1,0
+1,-2.9,GO:0002718,regulation of cytokine production involved in immune response,M1,1,0
+1,-2.2,WP437,EGF/EGFR signaling pathway,M1,1,0
+1,-2.4,GO:0030101,natural killer cell activation,M1,1,0
+1,-2.2,GO:0006997,nucleus organization,M1,1,0
+1,-2.3,GO:0007034,vacuolar transport,M1,1,0
+1,-2.7,ko04612,Antigen processing and presentation,M1,1,0
+1,-5,GO:0060700,regulation of ribonuclease activity,M1,1,0
+1,-2.8,GO:0061919,process utilizing autophagic mechanism,M1,1,0
+1,-2.7,GO:0071639,positive regulation of monocyte chemotactic protein-1 production,M1,1,0
+1,-5.1,GO:0002449,lymphocyte mediated immunity,M1,1,0
+1,-5,GO:0044409,entry into host,M1,1,0
+1,-2.7,hsa04612,Antigen processing and presentation ,M1,1,0
+1,-2.2,CORUM:178,"Respiratory chain complex I (holoenzyme), mitochondrial",M1,1,0
+1,-2.6,GO:0032651,regulation of interleukin-1 beta production,M1,1,0
+1,-3,GO:0140289,protein mono-ADP-ribosylation,M1,1,0
+1,-3.2,GO:0007042,lysosomal lumen acidification,M1,1,0
+1,-2.3,GO:0046641,positive regulation of alpha-beta T cell proliferation,M1,1,0
+1,-2.9,R-HSA-9694516,SARS-CoV-2 Infection,M1,1,0
+1,-3.2,GO:0035457,cellular response to interferon-alpha,M1,1,0
+1,-2,GO:0032682,negative regulation of chemokine production,M1,1,0
+1,-4.9,GO:0098586,cellular response to virus,M1,1,0
+1,-2.6,WP4324,Mitochondrial complex I assembly model OXPHOS system,M1,1,0
+1,-2.3,GO:0071677,positive regulation of mononuclear cell migration,M1,1,0
+1,-7.6,GO:0070106,interleukin-27-mediated signaling pathway,M1,1,0
+1,-2.3,R-HSA-9707587,Regulation of HMOX1 expression and activity,M1,1,0
+1,-4.3,R-HSA-68882,Mitotic Anaphase,M1,1,0
+1,-2.3,R-HSA-165159,MTOR signalling,M1,1,0
+1,-2.2,GO:0046686,response to cadmium ion,M1,1,0
+1,-2.6,GO:0061952,midbody abscission,M1,1,0
+1,-16,GO:0035456,response to interferon-beta,M1,1,0
+1,-2.2,ko04622,RIG-I-like receptor signaling pathway,M1,1,0
+1,-3.4,GO:0046597,negative regulation of viral entry into host cell,M1,1,0
+1,-2.3,GO:0032091,negative regulation of protein binding,M1,1,0
+1,-3.5,GO:0032760,positive regulation of tumor necrosis factor production,M1,1,0
+1,-2.9,GO:0002377,immunoglobulin production,M1,1,0
+1,-2.5,R-HSA-5357801,Programmed Cell Death,M1,1,0
+1,-3.5,GO:0043122,regulation of I-kappaB kinase/NF-kappaB signaling,M1,1,0
+1,-6.4,GO:0001819,positive regulation of cytokine production,M1,1,0
+1,-3.3,WP2113,Type III interferon signaling,M1,1,0
+1,-2.4,M161,PID IFNG PATHWAY,M1,1,0
+1,-2.7,CORUM:320,"55S ribosome, mitochondrial",M1,1,0
+1,-3,GO:0007005,mitochondrion organization,M1,1,0
+1,-2.4,GO:0006413,translational initiation,M1,1,0
+1,-2.2,R-HSA-162909,Host Interactions of HIV factors,M1,1,0
+1,-5.7,GO:0002253,activation of immune response,M1,1,0
+1,-2.1,GO:0140448,signaling receptor ligand precursor processing,M1,1,0
+1,-2.2,GO:1902410,mitotic cytokinetic process,M1,1,0
+1,-2.8,GO:0006914,autophagy,M1,1,0
+1,-8.6,WP4880,Host-pathogen interaction of human coronaviruses - interferon induction,M1,1,0
+1,-2.4,R-HSA-9687136,Aberrant regulation of mitotic exit in cancer due to RB1 defects,M1,1,0
+1,-4.3,R-HSA-162906,HIV Infection,M1,1,0
+1,-2.9,GO:0002715,regulation of natural killer cell mediated immunity,M1,1,0
+1,-3.2,R-HSA-68877,Mitotic Prometaphase,M1,1,0
+1,-2,GO:1990928,response to amino acid starvation,M1,1,0
+1,-2.5,GO:0008285,negative regulation of cell population proliferation,M1,1,0
+1,-2.5,WP4558,Overview of interferons-mediated signaling pathway,M1,1,0
+1,-2.7,R-HSA-917729,Endosomal Sorting Complex Required For Transport (ESCRT),M1,1,0
+1,-7.1,hsa05164,Influenza A,M1,1,0
+1,-2,R-HSA-176409,APC/C:Cdc20 mediated degradation of mitotic proteins,M1,1,0
+1,-2.8,GO:0090151,establishment of protein localization to mitochondrial membrane,M1,1,0
+1,-3.3,GO:0032069,regulation of nuclease activity,M1,1,0
+1,-9.2,GO:0031347,regulation of defense response,M1,1,0
+1,-3.1,GO:0051204,protein insertion into mitochondrial membrane,M1,1,0
+1,-3.4,M19336,ST TYPE I INTERFERON PATHWAY,M1,1,0
+1,-2.7,GO:2000402,negative regulation of lymphocyte migration,M1,1,0
+1,-2.1,GO:0030004,cellular monovalent inorganic cation homeostasis,M1,1,0
+1,-25,GO:0140546,defense response to symbiont,M1,1,0
+1,-2.1,GO:0006401,RNA catabolic process,M1,1,0
+1,-3.2,GO:0000209,protein polyubiquitination,M1,1,0
+1,-2,R-HSA-6807070,PTEN Regulation,M1,1,0
+1,-2.9,ko04142,Lysosome,M1,1,0
+1,-2.9,GO:0002367,cytokine production involved in immune response,M1,1,0
+1,-3.6,GO:0046794,transport of virus,M1,1,0
+1,-2.1,GO:0034198,cellular response to amino acid starvation,M1,1,0
+1,-4.7,GO:1902579,multi-organism localization,M1,1,0
+1,-3,GO:1901224,positive regulation of NIK/NF-kappaB signaling,M1,1,0
+1,-3.8,GO:0044403,biological process involved in symbiotic interaction,M1,1,0
+1,-3,R-HSA-162587,HIV Life Cycle,M1,1,0
+1,-4,M272,PID CD8 TCR DOWNSTREAM PATHWAY,M1,1,0
+1,-2.2,GO:0042267,natural killer cell mediated cytotoxicity,M1,1,0
+1,-3.2,R-HSA-1834949,Cytosolic sensors of pathogen-associated DNA ,M1,1,0
+1,-2.4,M28,PID IL4 2PATHWAY,M1,1,0
+1,-4.3,R-HSA-2555396,Mitotic Metaphase and Anaphase,M1,1,0
+1,-3.8,GO:0044088,regulation of vacuole organization,M1,1,0
+1,-5.7,GO:0051701,biological process involved in interaction with host,M1,1,0
+1,-3.4,WP4217,Ebola virus pathway in host,M1,1,0
+1,-2.8,GO:0090305,nucleic acid phosphodiester bond hydrolysis,M1,1,0
+1,-2.4,GO:0002483,antigen processing and presentation of endogenous peptide antigen,M1,1,0
+1,-2.1,M164,PID ERBB1 DOWNSTREAM PATHWAY,M1,1,0
+1,-3.4,GO:0051205,protein insertion into membrane,M1,1,0
+1,-2.9,GO:0052548,regulation of endopeptidase activity,M1,1,0
+1,-16,GO:1903900,regulation of viral life cycle,M1,1,0
+1,-8.9,WP4868,Type I interferon induction and signaling during SARS-CoV-2 infection,M1,1,0
+1,-3.6,GO:0007040,lysosome organization,M1,1,0
+1,-15,GO:0019058,viral life cycle,M1,1,0
+1,-4.5,GO:0032102,negative regulation of response to external stimulus,M1,1,0
+1,-5.1,GO:0031341,regulation of cell killing,M1,1,0
+1,-2.8,WP4912,SARS coronavirus and innate immunity,M1,1,0
+1,-3.1,GO:0042269,regulation of natural killer cell mediated cytotoxicity,M1,1,0
+1,-5.8,GO:0001959,regulation of cytokine-mediated signaling pathway,M1,1,0
+1,-5.3,CORUM:60,Interferon-stimulated gene factor 3 transcription complex ISGF3,M1,1,0
+1,-2.9,CORUM:315,"28S ribosomal subunit, mitochondrial",M1,1,0
+1,-3.2,R-HSA-69618,Mitotic Spindle Checkpoint,M1,1,0
+1,-2.9,GO:0002474,antigen processing and presentation of peptide antigen via MHC class I,M1,1,0
+1,-5.3,GO:0032481,positive regulation of type I interferon production,M1,1,0
+1,-4,GO:0032020,ISG15-protein conjugation,M1,1,0
+1,-27,R-HSA-913531,Interferon Signaling,M1,1,0
+1,-2.4,M54,PID IL12 2PATHWAY,M1,1,0
+1,-2.5,GO:0019068,virion assembly,M1,1,0
+1,-2.4,M46,PID ATR PATHWAY,M1,1,0
+1,-2,GO:0016226,iron-sulfur cluster assembly,M1,1,0
+1,-2.6,GO:0019885,antigen processing and presentation of endogenous peptide antigen via MHC class I,M1,1,0
+1,-29,GO:0009615,response to virus,M1,1,0
+1,-2.1,R-HSA-174178,APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1,M1,1,0
+1,-2,R-HSA-162599,Late Phase of HIV Life Cycle,M1,1,0
+1,-2.1,GO:0002228,natural killer cell mediated immunity,M1,1,0
+1,-3,hsa03420,Nucleotide excision repair ,M1,1,0
+1,-2.2,GO:0032612,interleukin-1 production,M1,1,0
+1,-6.7,WP5039,SARS-CoV-2 innate immunity evasion and cell-specific immune response,M1,1,0
+1,-2.4,GO:0071985,multivesicular body sorting pathway,M1,1,0
+1,-2.8,GO:0002274,myeloid leukocyte activation,M1,1,0
+1,-2,GO:0008637,apoptotic mitochondrial changes,M1,1,0
+1,-2.4,GO:0039535,regulation of RIG-I signaling pathway,M1,1,0
+1,-14,GO:0071357,cellular response to type I interferon,M1,1,0
+1,-2.1,GO:0006281,DNA repair,M1,1,0
+1,-5.6,ko04650,Natural killer cell mediated cytotoxicity,M1,1,0
+1,-2.3,R-HSA-141430,Inactivation of APC/C via direct inhibition of the APC/C complex,M1,1,0
+1,-7.5,R-HSA-1169408,ISG15 antiviral mechanism,M1,1,0
+1,-3,R-HSA-69239,Synthesis of DNA,M1,1,0
+1,-13,GO:0060337,type I interferon signaling pathway,M1,1,0
+1,-7.1,GO:0032103,positive regulation of response to external stimulus,M1,1,0
+1,-4.2,GO:0019724,B cell mediated immunity,M1,1,0
+1,-2.1,WP2203,Thymic stromal lymphopoietin (TSLP) signaling pathway,M1,1,0
+1,-4.3,CORUM:3036,"Ubiquitin E3 ligase (SKP1A, SKP2, CUL1, CKS1B, RBX1)",M1,1,0
+1,-9.1,GO:0050777,negative regulation of immune response,M1,1,0
+1,-2.5,WP1471,Target of rapamycin (TOR) signaling,M1,1,0
+1,-4,GO:0002768,immune response-regulating cell surface receptor signaling pathway,M1,1,0
+1,-3,GO:0060333,interferon-gamma-mediated signaling pathway,M1,1,0
+1,-3,GO:0032680,regulation of tumor necrosis factor production,M1,1,0
+1,-6.2,GO:0002443,leukocyte mediated immunity,M1,1,0
+1,-5.2,GO:0046718,viral entry into host cell,M1,1,0
+1,-2.3,GO:0097190,apoptotic signaling pathway,M1,1,0
+1,-2.1,GO:0002686,negative regulation of leukocyte migration,M1,1,0
+1,-11,GO:0002832,negative regulation of response to biotic stimulus,M1,1,0
+1,-2.1,GO:0039531,regulation of viral-induced cytoplasmic pattern recognition receptor signaling pathway,M1,1,0
+1,-3.6,GO:0080171,lytic vacuole organization,M1,1,0
+1,-2.2,WP4906,3q29 copy number variation syndrome,M1,1,0
+1,-16,GO:0034340,response to type I interferon,M1,1,0
+1,-2,GO:0031163,metallo-sulfur cluster assembly,M1,1,0
+1,-19,GO:0048525,negative regulation of viral process,M1,1,0
+1,-4.1,GO:0031349,positive regulation of defense response,M1,1,0
+1,-3.1,WP2374,Oncostatin M signaling pathway,M1,1,0
+1,-4.4,GO:0001912,positive regulation of leukocyte mediated cytotoxicity,M1,1,0
+1,-8,GO:0002250,adaptive immune response,M1,1,0
+1,-2.5,WP5033,Genes associated with the development of rheumatoid arthritis,M1,1,0
+1,-14,GO:0045088,regulation of innate immune response,M1,1,0
+1,-3.9,GO:0002703,regulation of leukocyte mediated immunity,M1,1,0
+1,-5.7,GO:0031348,negative regulation of defense response,M1,1,0
+1,-2.1,ko05010,Alzheimer's disease,M1,1,0
+1,-2.5,WP254,Apoptosis,M1,1,0
+1,-2.8,GO:0001961,positive regulation of cytokine-mediated signaling pathway,M1,1,0
+1,-3.2,GO:0071675,regulation of mononuclear cell migration,M1,1,0
+1,-9,GO:0050778,positive regulation of immune response,M1,1,0
+1,-2.4,R-HSA-69052,Switching of origins to a post-replicative state,M1,1,0
+1,-3.4,GO:0002429,immune response-activating cell surface receptor signaling pathway,M1,1,0
+1,-3.4,GO:0019882,antigen processing and presentation,M1,1,0
+1,-18,GO:0050792,regulation of viral process,M1,1,0
+1,-2.3,GO:0002688,regulation of leukocyte chemotaxis,M1,1,0
+1,-2.2,hsa04060,Cytokine-cytokine receptor interaction ,M1,1,0
+1,-3.2,GO:0002726,positive regulation of T cell cytokine production,M1,1,0
+1,-2.5,GO:1901222,regulation of NIK/NF-kappaB signaling,M1,1,0
+1,-7.4,ko05164,Influenza A,M1,1,0
+1,-2,R-HSA-176814,Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins,M1,1,0
+1,-3.3,R-HSA-110313,Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template,M1,1,0
+1,-2.3,GO:0030522,intracellular receptor signaling pathway,M1,1,0
+1,-4.3,GO:0016064,immunoglobulin mediated immune response,M1,1,0
+1,-2.4,WP3865,Novel intracellular components of RIG-I-like receptor (RLR) pathway,M1,1,0
+1,-3.4,R-HSA-69242,S Phase,M1,1,0
+1,-9.2,GO:0019221,cytokine-mediated signaling pathway,M1,1,0
+1,-2.1,hsa05010,Alzheimer's disease ,M1,1,0
+1,-4.9,ko05160,Hepatitis C,M1,1,0
+1,-2.3,GO:0033108,mitochondrial respiratory chain complex assembly,M1,1,0
+1,-2.6,GO:0002183,cytoplasmic translational initiation,M1,1,0
+1,-3,GO:0051310,metaphase plate congression,M1,1,0
+1,-13,GO:0045824,negative regulation of innate immune response,M1,1,0
+1,-2,hsa04064,NF-kappa B signaling pathway,M1,1,0
+1,-2.1,R-HSA-174184,Cdc20:Phospho-APC/C mediated degradation of Cyclin A,M1,1,0
+1,-4,GO:1905671,regulation of lysosome organization,M1,1,0
+1,-7,GO:0002697,regulation of immune effector process,M1,1,0
+1,-12,GO:0035455,response to interferon-alpha,M1,1,0
+1,-5.4,GO:0009617,response to bacterium,M1,1,0
+1,-2.7,GO:1902902,negative regulation of autophagosome assembly,M1,1,0
+1,-3.3,GO:0002753,cytoplasmic pattern recognition receptor signaling pathway,M1,1,0
+1,-2.2,WP4357,NRF2-ARE regulation,M1,1,0
+1,-3.7,WP4946,"DNA repair pathways, full network",M1,1,0
+1,-2.9,GO:0001909,leukocyte mediated cytotoxicity,M1,1,0
+1,-5.6,GO:0001817,regulation of cytokine production,M1,1,0
+1,-2.4,GO:0042110,T cell activation,M1,1,0
+1,-3.5,GO:0007033,vacuole organization,M1,1,0
+1,-5.6,R-HSA-1640170,Cell Cycle,M1,1,0
+1,-3.7,GO:0002702,positive regulation of production of molecular mediator of immune response,M1,1,0
+1,-3.8,GO:0046719,regulation by virus of viral protein levels in host cell,M1,1,0
+1,-4.1,GO:0002263,cell activation involved in immune response,M1,1,0
+1,-4.1,GO:0002366,leukocyte activation involved in immune response,M1,1,0
+1,-2.1,GO:0019884,antigen processing and presentation of exogenous antigen,M1,1,0
+1,-3.8,hsa04621,NOD-like receptor signaling pathway ,M1,1,0
+1,-2.4,R-HSA-9612973,Autophagy,M1,1,0
+1,-17,R-HSA-1280215,Cytokine Signaling in Immune system,M1,1,0
+1,-8.7,GO:0002252,immune effector process,M1,1,0
+1,-4.9,hsa05169,Epstein-Barr virus infection,M1,1,0
+1,-2,hsa05203,Viral carcinogenesis,M1,1,0
+1,-2.6,R-HSA-5218859,Regulated Necrosis,M1,1,0
+1,-3.7,R-HSA-6798695,Neutrophil degranulation,M1,1,0
+1,-2.6,GO:0051303,establishment of chromosome localization,M1,1,0
+1,-3.9,WP4705,Pathways of nucleic acid metabolism and innate immune sensing,M1,1,0
+1,-5.7,GO:0045089,positive regulation of innate immune response,M1,1,0
+1,-3.9,GO:0002700,regulation of production of molecular mediator of immune response,M1,1,0
+1,-2.6,R-HSA-936440,Negative regulators of DDX58/IFIH1 signaling,M1,1,0
+1,-2.7,R-HSA-3134975,Regulation of innate immune responses to cytosolic DNA,M1,1,0
+1,-4,GO:0140374,antiviral innate immune response,M1,1,0
+1,-2.2,GO:0034142,toll-like receptor 4 signaling pathway,M1,1,0
+1,-2.6,GO:0016242,negative regulation of macroautophagy,M1,1,0
+1,-7.8,hsa05168,Herpes simplex infection,M1,1,0
+1,-2,R-HSA-912694,Regulation of IFNA signaling,M1,1,0
+1,-2,R-HSA-179409,APC-Cdc20 mediated degradation of Nek2A,M1,1,0
+1,-2.1,R-HSA-983170,"Antigen Presentation: Folding, assembly and peptide loading of class I MHC",M1,1,0
+1,-5.1,GO:0046649,lymphocyte activation,M1,1,0
+1,-2.2,hsa04622,RIG-I-like receptor signaling pathway ,M1,1,0
+1,-3,GO:0032640,tumor necrosis factor production,M1,1,0
+1,-2.5,GO:0050000,chromosome localization,M1,1,0
+1,-2.9,GO:0032607,interferon-alpha production,M1,1,0
+1,-2.8,GO:0051604,protein maturation,M1,1,0
+1,-4.9,GO:0002281,macrophage activation involved in immune response,M1,1,0
+1,-2.1,WP4861,Endoplasmic reticulum stress response in coronavirus infection,M1,1,0
+1,-2.2,R-HSA-983168,Antigen processing: Ubiquitination & Proteasome degradation,M1,1,0
+1,-2.6,hsa04932,Non-alcoholic fatty liver disease (NAFLD),M1,1,0
+1,-2.3,GO:0019080,viral gene expression,M1,1,0
+1,-6.2,GO:0032606,type I interferon production,M1,1,0
+1,-2.1,GO:0007035,vacuolar acidification,M1,1,0
+1,-6.2,GO:0032479,regulation of type I interferon production,M1,1,0
+1,-3.2,ko04623,Cytosolic DNA-sensing pathway,M1,1,0
+1,-2.6,GO:0002698,negative regulation of immune effector process,M1,1,0
+1,-3.6,CORUM:3015,"p27-cyclinE-Cdk2 - Ubiquitin E3 ligase (SKP1A, SKP2, CUL1, CKS1B, RBX1) complex",M1,1,0
+1,-2.1,R-HSA-166208,mTORC1-mediated signalling,M1,1,0
+1,-2.7,R-HSA-1834941,STING mediated induction of host immune responses,M1,1,0
+1,-7.8,ko05168,Herpes simplex infection,M1,1,0
+1,-2,GO:0019883,antigen processing and presentation of endogenous antigen,M1,1,0
+1,-2.5,GO:0002369,T cell cytokine production,M1,1,0
+1,-2.2,GO:0071676,negative regulation of mononuclear cell migration,M1,1,0
+1,-2.8,R-HSA-69306,DNA Replication,M1,1,0
+1,-5,GO:0052126,movement in host environment,M1,1,0
+1,-3.4,GO:0002757,immune response-activating signal transduction,M1,1,0
+1,-5,GO:0031343,positive regulation of cell killing,M1,1,0
+1,-2.1,WP4566,Translation inhibitors in chronically activated PDGFRA cells,M1,1,0
+1,-2.8,R-HSA-2467813,Separation of Sister Chromatids,M1,1,0
+1,-2.9,WP3972,PDGFR-beta pathway,M1,1,0
+1,-2.4,GO:0140131,positive regulation of lymphocyte chemotaxis,M1,1,0
+1,-2.3,WP49,IL-2 signaling pathway,M1,1,0
+1,-2.3,R-HSA-5696400,Dual Incision in GG-NER,M1,1,0
+1,-2.7,GO:0097428,protein maturation by iron-sulfur cluster transfer,M1,1,0
+1,-3.1,GO:0071346,cellular response to interferon-gamma,M1,1,0
+1,-2.8,GO:0032732,positive regulation of interleukin-1 production,M1,1,0
+1,-31,R-HSA-909733,Interferon alpha/beta signaling,M1,1,0
+1,-3.5,GO:0050865,regulation of cell activation,M1,1,0
+1,-2.6,GO:0032611,interleukin-1 beta production,M1,1,0
+1,-2.2,ko04664,Fc epsilon RI signaling pathway,M1,1,0
+1,-3.4,GO:0002460,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-2.5,R-HSA-5389840,Mitochondrial translation elongation,M1,1,0
+1,-3.1,M139,PID MYC PATHWAY,M1,1,0
+1,-2.5,GO:0002724,regulation of T cell cytokine production,M1,1,0
+1,-4.6,WP4341,"Non-genomic actions of 1,25 dihydroxyvitamin D3",M1,1,0
+1,-2.9,GO:0032729,positive regulation of interferon-gamma production,M1,1,0
+1,-9.4,WP619,Type II interferon signaling (IFNG),M1,1,0
+1,-2.1,GO:0050851,antigen receptor-mediated signaling pathway,M1,1,0
+1,-4,GO:0039529,RIG-I signaling pathway,M1,1,0
+1,-2,GO:0002824,positive regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-5.2,GO:0046596,regulation of viral entry into host cell,M1,1,0
+1,-7.6,GO:0060339,negative regulation of type I interferon-mediated signaling pathway,M1,1,0
+1,-2.6,ko04210,Apoptosis,M1,1,0
+1,-2.7,GO:0010819,regulation of T cell chemotaxis,M1,1,0
+1,-12,GO:0019079,viral genome replication,M1,1,0
+1,-6.8,R-HSA-8983711,OAS antiviral response,M1,1,0
+1,-16,GO:0045069,regulation of viral genome replication,M1,1,0
+1,-2.1,R-HSA-5693532,DNA Double-Strand Break Repair,M1,1,0
+1,-16,GO:0016032,viral process,M1,1,0
+1,-3.4,R-HSA-6799198,Complex I biogenesis,M1,1,0
+1,-6.3,hsa05162,Measles,M1,1,0
+1,-3,ko04932,Non-alcoholic fatty liver disease (NAFLD),M1,1,0
+1,-3.8,GO:0032511,late endosome to vacuole transport via multivesicular body sorting pathway,M1,1,0
+1,-3.3,CORUM:1186,ESCRT-III complex,M1,1,0
+1,-2.3,R-HSA-5368287,Mitochondrial translation,M1,1,0
+1,-3.7,R-HSA-9678108,SARS-CoV-1 Infection,M1,1,0
+1,-2.1,hsa04723,Retrograde endocannabinoid signaling,M1,1,0
+1,-3,GO:0046755,viral budding,M1,1,0
+1,-2.1,M183,PID IL6 7 PATHWAY,M1,1,0
+1,-3.2,R-HSA-73894,DNA Repair,M1,1,0
+1,-2.6,GO:2000116,regulation of cysteine-type endopeptidase activity,M1,1,0
+1,-6.4,R-HSA-198933,Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell,M1,1,0
+1,-2.3,GO:0070936,protein K48-linked ubiquitination,M1,1,0
+1,-2.2,hsa04140,Regulation of autophagy ,M1,1,0
+1,-2.4,GO:0048002,antigen processing and presentation of peptide antigen,M1,1,0
+1,-2.1,R-HSA-179419,APC:Cdc20 mediated degradation of cell cycle proteins prior to satisfation of the cell cycle checkpoint,M1,1,0
+1,-2.9,R-HSA-380972,Energy dependent regulation of mTOR by LKB1-AMPK,M1,1,0
+1,-2.1,R-HSA-611105,Respiratory electron transport,M1,1,0
+1,-4.3,GO:1903901,negative regulation of viral life cycle,M1,1,0
+1,-5.9,R-HSA-69278,"Cell Cycle, Mitotic",M1,1,0
+1,-3.1,GO:0002720,positive regulation of cytokine production involved in immune response,M1,1,0
+1,-2,GO:0045954,positive regulation of natural killer cell mediated cytotoxicity,M1,1,0
+1,-2.3,R-HSA-141405,Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components,M1,1,0
+1,-2.8,R-HSA-69620,Cell Cycle Checkpoints,M1,1,0
+1,-2.5,GO:0002685,regulation of leukocyte migration,M1,1,0
+1,-2.7,R-HSA-1632852,Macroautophagy,M1,1,0
+1,-2.3,ko04064,NF-kappa B signaling pathway,M1,1,0
+1,-5,R-HSA-68886,M Phase,M1,1,0
+1,-2.1,WP205,IL-7 signaling pathway,M1,1,0
+1,-4.2,GO:0001910,regulation of leukocyte mediated cytotoxicity,M1,1,0
+1,-8.8,GO:0002683,negative regulation of immune system process,M1,1,0
+1,-3.7,GO:0043903,regulation of biological process involved in symbiotic interaction,M1,1,0
+1,-2.4,R-HSA-174143,APC/C-mediated degradation of cell cycle proteins,M1,1,0
+1,-2.2,GO:0002381,immunoglobulin production involved in immunoglobulin-mediated immune response,M1,1,0
+1,-4.1,GO:2000401,regulation of lymphocyte migration,M1,1,0
+1,-3,GO:0050688,regulation of defense response to virus,M1,1,0
+1,-2.2,ko04060,Cytokine-cytokine receptor interaction,M1,1,0
+1,-2.7,GO:0007080,mitotic metaphase plate congression,M1,1,0
+1,-2.3,GO:0072678,T cell migration,M1,1,0
+1,-2.2,GO:0032652,regulation of interleukin-1 production,M1,1,0
+1,-3.9,GO:0002708,positive regulation of lymphocyte mediated immunity,M1,1,0
+1,-2.4,R-HSA-453276,Regulation of mitotic cell cycle,M1,1,0
+1,-2.8,GO:0051301,cell division,M1,1,0
+1,-2.2,GO:0032727,positive regulation of interferon-alpha production,M1,1,0
+1,-2.5,GO:0006959,humoral immune response,M1,1,0
+1,-3.5,GO:0042742,defense response to bacterium,M1,1,0
+1,-3.2,GO:0075733,intracellular transport of virus,M1,1,0
+1,-2.3,R-HSA-141424,Amplification of signal from the kinetochores,M1,1,0
+1,-3.1,GO:0062208,positive regulation of pattern recognition receptor signaling pathway,M1,1,0
+1,-3.6,WP4655,Cytosolic DNA-sensing pathway,M1,1,0
+1,-2.4,GO:0071637,regulation of monocyte chemotactic protein-1 production,M1,1,0
+1,-5.1,GO:0001960,negative regulation of cytokine-mediated signaling pathway,M1,1,0
+1,-2,GO:0043281,regulation of cysteine-type endopeptidase activity involved in apoptotic process,M1,1,0
+1,-3.8,ko04621,NOD-like receptor signaling pathway,M1,1,0
+1,-4.6,GO:0039530,MDA-5 signaling pathway,M1,1,0
+1,-5.4,GO:0032608,interferon-beta production,M1,1,0
+1,-3.2,R-HSA-1236977,Endosomal/Vacuolar pathway,M1,1,0
+1,-2.7,GO:0010820,positive regulation of T cell chemotaxis,M1,1,0
+1,-11,R-HSA-1169410,Antiviral mechanism by IFN-stimulated genes,M1,1,0
+1,-2.9,GO:0046631,alpha-beta T cell activation,M1,1,0
+1,-6.2,GO:0060759,regulation of response to cytokine stimulus,M1,1,0
+1,-2.9,R-HSA-5620971,Pyroptosis,M1,1,0
+1,-2.1,GO:0030162,regulation of proteolysis,M1,1,0
+1,-5.2,R-HSA-1280218,Adaptive Immune System,M1,1,0
+1,-3,GO:0052547,regulation of peptidase activity,M1,1,0
+1,-3.8,R-HSA-73893,DNA Damage Bypass,M1,1,0
+1,-3,GO:0010506,regulation of autophagy,M1,1,0
+1,-3.2,R-HSA-983169,Class I MHC mediated antigen processing & presentation,M1,1,0
+1,-3.2,GO:0032731,positive regulation of interleukin-1 beta production,M1,1,0
+1,-2.9,GO:0032647,regulation of interferon-alpha production,M1,1,0
+1,-2.8,WP4396,Nonalcoholic fatty liver disease,M1,1,0
+1,-2.9,hsa04142,Lysosome ,M1,1,0
+1,-2.9,GO:0051249,regulation of lymphocyte activation,M1,1,0
+1,-3.5,GO:0090501,RNA phosphodiester bond hydrolysis,M1,1,0
+1,-12,WP4197,Immune response to tuberculosis,M1,1,0
+1,-3.6,GO:0016093,polyprenol metabolic process,M1,1,0
+1,-2.4,R-HSA-9679506,SARS-CoV Infections,M1,1,0
+1,-2.8,GO:0002694,regulation of leukocyte activation,M1,1,0

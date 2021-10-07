@@ -1,0 +1,5 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-6.926121404214985,GO:0065007,biological regulation,M1,1,GO:0032091 negative regulation of protein binding
+1,-3.5467482657754763,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0051607 defense response to virus
+1,-2.5627631013316527,GO:0050896,response to stimulus,M1,1,GO:0071407 cellular response to organic cyclic compound
+1,-2.4468143921147543,GO:0032502,developmental process,M1,1,GO:0030855 epithelial cell differentiation

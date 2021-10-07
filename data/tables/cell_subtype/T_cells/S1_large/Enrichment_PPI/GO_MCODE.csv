@@ -1,0 +1,379 @@
+Name,Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value)
+MyList,Reactome Gene Sets,6,R-HSA-194315,Signaling by Rho GTPases,,-5.6,4.9,6.5,28160,707,105,13,12,3.2,4688|7037|8331|8335|8340|9322|23365|23513|54443|54821|55852|57584|220134,NCF2|TFRC|H2AC14|H2AC4|H2BC13|TRIP10|ARHGEF12|SCRIB|ANLN|ERCC6L|TEX2|ARHGAP21|SKA1,-3.3
+MyList,Reactome Gene Sets,6,R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",,-5.5,4.8,6.4,28160,723,105,13,12,3.2,4688|7037|8331|8335|8340|9322|23365|23513|54443|54821|55852|57584|220134,NCF2|TFRC|H2AC14|H2AC4|H2BC13|TRIP10|ARHGEF12|SCRIB|ANLN|ERCC6L|TEX2|ARHGAP21|SKA1,-3.2
+MyList,GO Biological Processes,19,GO:0006897,endocytosis,19_GO:0051179 localization,-4.6,4.6,5.7,28160,636,105,11,10,3,636|1454|3265|3500|3502|5286|7037|7804|9322|23513|55589,BICD1|CSNK1E|HRAS|IGHG1|IGHG3|PIK3C2A|TFRC|LRP8|TRIP10|SCRIB|BMP2K,-2.4
+MyList,KEGG Pathway,24,ko05034,Alcoholism,,-4.2,8.9,6.5,28160,180,105,6,5.7,2.3,3265|8329|8331|8335|8340|59345,HRAS|H2AC13|H2AC14|H2AC4|H2BC13|GNB4,-2.1
+MyList,KEGG Pathway,24,hsa05034,Alcoholism,,-4.2,8.7,6.4,28160,185,105,6,5.7,2.3,3265|8329|8331|8335|8340|59345,HRAS|H2AC13|H2AC14|H2AC4|H2BC13|GNB4,-2
+MyList,Reactome Gene Sets,6,R-HSA-9013406,RHOQ GTPase cycle,,-4.1,18,8.1,28160,59,105,4,3.8,1.9,7037|9322|23513|57584,TFRC|TRIP10|SCRIB|ARHGAP21,-2
+MyList,Reactome Gene Sets,6,R-HSA-2559580,Oxidative Stress Induced Senescence,,-4,11,6.7,28160,125,105,5,4.8,2.1,1912|8331|8335|8340|8535,PHC2|H2AC14|H2AC4|H2BC13|CBX4,-1.8
+MyList,GO Biological Processes,19,GO:0042832,defense response to protozoan,19_GO:0044419 biological process involved in interspecies interaction between organisms,-4,32,9.5,28160,25,105,3,2.9,1.6,602|3265|3586,BCL3|HRAS|IL10,-1.8
+MyList,GO Biological Processes,19,GO:0001562,response to protozoan,19_GO:0044419 biological process involved in interspecies interaction between organisms,-3.9,31,9.3,28160,26,105,3,2.9,1.6,602|3265|3586,BCL3|HRAS|IL10,-1.8
+MyList,GO Biological Processes,19,GO:0042493,response to drug,19_GO:0050896 response to stimulus,-3.9,5.4,5.4,28160,399,105,8,7.6,2.6,790|3586|4363|6720|7037|7804|11044|84687,CAD|IL10|ABCC1|SREBF1|TFRC|LRP8|TENT4A|PPP1R9B,-1.8
+MyList,Reactome Gene Sets,6,R-HSA-9013026,RHOB GTPase cycle,,-3.9,15,7.3,28160,70,105,4,3.8,1.9,7037|23365|54443|57584,TFRC|ARHGEF12|ANLN|ARHGAP21,-1.7
+MyList,WikiPathways,27,WP3915,Angiopoietin-like protein 8 regulatory pathway,,-3.9,10,6.5,28160,132,105,5,4.8,2.1,3265|4294|5286|6720|9322,HRAS|MAP3K10|PIK3C2A|SREBF1|TRIP10,-1.7
+MyList,KEGG Pathway,24,hsa05322,Systemic lupus erythematosus ,,-3.8,10,6.4,28160,133,105,5,4.8,2.1,3586|8329|8331|8335|8340,IL10|H2AC13|H2AC14|H2AC4|H2BC13,-1.7
+MyList,KEGG Pathway,24,ko05322,Systemic lupus erythematosus,,-3.8,10,6.4,28160,133,105,5,4.8,2.1,3586|8329|8331|8335|8340,IL10|H2AC13|H2AC14|H2AC4|H2BC13,-1.7
+MyList,GO Biological Processes,19,GO:0120032,regulation of plasma membrane bounded cell projection assembly,19_GO:0050789 regulation of biological process,-3.8,7.6,5.9,28160,213,105,6,5.7,2.3,3265|26051|54443|57787|80199|116840,HRAS|PPP1R16B|ANLN|MARK4|FUZ|CNTROB,-1.7
+MyList,GO Biological Processes,19,GO:0006310,DNA recombination,19_GO:0008152 metabolic process,-3.8,6.1,5.5,28160,306,105,7,6.7,2.4,2021|3586|6929|7037|10189|51750|83444,ENDOG|IL10|TCF3|TFRC|ALYREF|RTEL1|INO80B,-1.7
+MyList,GO Biological Processes,19,GO:0060491,regulation of cell projection assembly,19_GO:0050789 regulation of biological process,-3.8,7.5,5.8,28160,215,105,6,5.7,2.3,3265|26051|54443|57787|80199|116840,HRAS|PPP1R16B|ANLN|MARK4|FUZ|CNTROB,-1.7
+MyList,Reactome Gene Sets,6,R-HSA-9013106,RHOC GTPase cycle,,-3.8,14,7.1,28160,74,105,4,3.8,1.9,7037|23365|54443|57584,TFRC|ARHGEF12|ANLN|ARHGAP21,-1.7
+MyList,Reactome Gene Sets,6,R-HSA-1221632,Meiotic synapsis,,-3.7,14,6.8,28160,79,105,4,3.8,1.9,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-1.6
+MyList,Reactome Gene Sets,6,R-HSA-8980692,RHOA GTPase cycle,,-3.6,9.1,6,28160,147,105,5,4.8,2.1,7037|23365|54443|55852|57584,TFRC|ARHGEF12|ANLN|TEX2|ARHGAP21,-1.6
+MyList,Reactome Gene Sets,6,R-HSA-195721,Signaling by WNT,,-3.6,5.7,5.2,28160,332,105,7,6.7,2.4,1454|7088|8331|8335|8340|23513|59345,CSNK1E|TLE1|H2AC14|H2AC4|H2BC13|SCRIB|GNB4,-1.5
+MyList,Reactome Gene Sets,6,R-HSA-8878171,Transcriptional regulation by RUNX1,,-3.6,6.7,5.4,28160,239,105,6,5.7,2.3,1912|6929|8331|8335|8340|8535,PHC2|TCF3|H2AC14|H2AC4|H2BC13|CBX4,-1.5
+MyList,Reactome Gene Sets,6,R-HSA-9012999,RHO GTPase cycle,,-3.5,4.8,4.9,28160,449,105,8,7.6,2.6,4688|7037|9322|23365|23513|54443|55852|57584,NCF2|TFRC|TRIP10|ARHGEF12|SCRIB|ANLN|TEX2|ARHGAP21,-1.5
+MyList,Reactome Gene Sets,6,R-HSA-5689901,Metalloprotease DUBs,,-3.4,22,7.7,28160,37,105,3,2.9,1.6,8329|8331|8335,H2AC13|H2AC14|H2AC4,-1.4
+MyList,GO Biological Processes,19,GO:0001819,positive regulation of cytokine production,19_GO:0048518 positive regulation of biological process,-3.4,4.6,4.8,28160,467,105,8,7.6,2.6,602|1958|3265|3586|10622|23513|24145|55703,BCL3|EGR1|HRAS|IL10|POLR3G|SCRIB|PANX1|POLR3B,-1.4
+MyList,Reactome Gene Sets,6,R-HSA-201722,Formation of the beta-catenin:TCF transactivating complex,,-3.4,12,6.3,28160,91,105,4,3.8,1.9,7088|8331|8335|8340,TLE1|H2AC14|H2AC4|H2BC13,-1.4
+MyList,Reactome Gene Sets,6,R-HSA-3214815,HDACs deacetylate histones,,-3.4,11,6.2,28160,94,105,4,3.8,1.9,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-1.3
+MyList,GO Biological Processes,19,GO:0032868,response to insulin,19_GO:0050896 response to stimulus,-3.3,6,5.1,28160,266,105,6,5.7,2.3,790|1958|3586|5286|6720|10999,CAD|EGR1|IL10|PIK3C2A|SREBF1|SLC27A4,-1.2
+MyList,GO Biological Processes,19,GO:0010498,proteasomal protein catabolic process,19_GO:0008152 metabolic process,-3.3,4.4,4.6,28160,490,105,8,7.6,2.6,267|1454|7844|8975|84937|90850|91147|160418,AMFR|CSNK1E|RNF103|USP13|ZNRF1|ZNF598|TMEM67|TMTC3,-1.2
+MyList,Reactome Gene Sets,6,R-HSA-5689603,UCH proteinases,,-3.2,11,5.9,28160,102,105,4,3.8,1.9,8329|8331|8335|83444,H2AC13|H2AC14|H2AC4|INO80B,-1.2
+MyList,GO Biological Processes,19,GO:1901652,response to peptide,19_GO:0050896 response to stimulus,-3.2,4.2,4.5,28160,508,105,8,7.6,2.6,790|1958|3586|4363|5286|6720|10999|84687,CAD|EGR1|IL10|ABCC1|PIK3C2A|SREBF1|SLC27A4|PPP1R9B,-1.1
+MyList,GO Biological Processes,19,GO:0120034,positive regulation of plasma membrane bounded cell projection assembly,19_GO:0048518 positive regulation of biological process,-3.2,10,5.8,28160,105,105,4,3.8,1.9,3265|54443|57787|80199,HRAS|ANLN|MARK4|FUZ,-1.1
+MyList,GO Biological Processes,19,GO:0000018,regulation of DNA recombination,19_GO:0050789 regulation of biological process,-3.2,10,5.7,28160,107,105,4,3.8,1.9,3586|7037|10189|51750,IL10|TFRC|ALYREF|RTEL1,-1.1
+MyList,GO Biological Processes,19,GO:0036503,ERAD pathway,19_GO:0050896 response to stimulus,-3.2,10,5.7,28160,107,105,4,3.8,1.9,267|7844|8975|91147,AMFR|RNF103|USP13|TMEM67,-1.1
+MyList,GO Biological Processes,19,GO:1903827,regulation of cellular protein localization,19_GO:0051179 localization,-3.1,4.1,4.4,28160,527,105,8,7.6,2.6,636|1454|2817|3265|6720|7037|57787|84687,BICD1|CSNK1E|GPC1|HRAS|SREBF1|TFRC|MARK4|PPP1R9B,-1
+MyList,GO Biological Processes,19,GO:0032609,interferon-gamma production,19_GO:0032501 multicellular organismal process,-3.1,9.6,5.6,28160,112,105,4,3.8,1.9,602|3265|3586|23513,BCL3|HRAS|IL10|SCRIB,-1
+MyList,GO Biological Processes,19,GO:0032649,regulation of interferon-gamma production,19_GO:0032501 multicellular organismal process,-3.1,9.6,5.6,28160,112,105,4,3.8,1.9,602|3265|3586|23513,BCL3|HRAS|IL10|SCRIB,-1
+MyList,Reactome Gene Sets,6,R-HSA-157579,Telomere Maintenance,,-3.1,9.5,5.5,28160,113,105,4,3.8,1.9,8331|8335|8340|51750,H2AC14|H2AC4|H2BC13|RTEL1,-1
+MyList,Reactome Gene Sets,6,R-HSA-2559583,Cellular Senescence,,-3.1,6.8,5,28160,197,105,5,4.8,2.1,1912|8331|8335|8340|8535,PHC2|H2AC14|H2AC4|H2BC13|CBX4,-1
+MyList,Reactome Gene Sets,6,R-HSA-5688426,Deubiquitination,,-3,5.4,4.7,28160,298,105,6,5.7,2.3,8329|8331|8335|8340|8975|83444,H2AC13|H2AC14|H2AC4|H2BC13|USP13|INO80B,-1
+MyList,Reactome Gene Sets,6,R-HSA-9006931,Signaling by Nuclear Receptors,,-3,5.4,4.7,28160,299,105,6,5.7,2.3,3265|6720|8331|8335|8340|59345,HRAS|SREBF1|H2AC14|H2AC4|H2BC13|GNB4,-1
+MyList,Reactome Gene Sets,6,R-HSA-9610379,HCMV Late Events,,-3,9.2,5.4,28160,116,105,4,3.8,1.9,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-0.99
+MyList,Reactome Gene Sets,6,R-HSA-171306,Packaging Of Telomere Ends,,-3,15,6.4,28160,52,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.98
+MyList,Reactome Gene Sets,6,R-HSA-68886,M Phase,,-3,4.5,4.4,28160,418,105,7,6.7,2.4,1454|8331|8335|8340|54821|64151|220134,CSNK1E|H2AC14|H2AC4|H2BC13|ERCC6L|NCAPG|SKA1,-0.98
+MyList,Reactome Gene Sets,6,R-HSA-1500620,Meiosis,,-3,9.1,5.4,28160,118,105,4,3.8,1.9,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-0.97
+MyList,GO Biological Processes,19,GO:0008347,glial cell migration,19_GO:0040011 locomotion,-3,15,6.3,28160,53,105,3,2.9,1.6,1435|7804|23513,CSF1|LRP8|SCRIB,-0.97
+MyList,GO Biological Processes,19,GO:0016064,immunoglobulin mediated immune response,19_GO:0002376 immune system process,-3,6.5,4.8,28160,207,105,5,4.8,2.1,602|3500|3502|3586|7037,BCL3|IGHG1|IGHG3|IL10|TFRC,-0.94
+MyList,Reactome Gene Sets,6,R-HSA-1640170,Cell Cycle,,-2.9,3.5,4.1,28160,692,105,9,8.6,2.7,1454|3306|8331|8335|8340|51750|54821|64151|220134,CSNK1E|HSPA2|H2AC14|H2AC4|H2BC13|RTEL1|ERCC6L|NCAPG|SKA1,-0.93
+MyList,Reactome Gene Sets,6,R-HSA-9013409,RHOJ GTPase cycle,,-2.9,15,6.2,28160,55,105,3,2.9,1.6,7037|23513|57584,TFRC|SCRIB|ARHGAP21,-0.93
+MyList,GO Biological Processes,19,GO:0019724,B cell mediated immunity,19_GO:0002376 immune system process,-2.9,6.4,4.8,28160,210,105,5,4.8,2.1,602|3500|3502|3586|7037,BCL3|IGHG1|IGHG3|IL10|TFRC,-0.92
+MyList,Reactome Gene Sets,6,R-HSA-110330,Recognition and association of DNA glycosylase with site containing an affected purine,,-2.9,14,6.1,28160,56,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.91
+MyList,Reactome Gene Sets,6,R-HSA-73927,Depurination,,-2.9,14,6.1,28160,56,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.91
+MyList,Reactome Gene Sets,6,R-HSA-110331,Cleavage of the damaged purine,,-2.9,14,6.1,28160,56,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.91
+MyList,GO Biological Processes,19,GO:0120031,plasma membrane bounded cell projection assembly,19_GO:0009987 cellular process,-2.9,3.8,4.1,28160,564,105,8,7.6,2.6,3265|26051|54443|57787|80199|84687|91147|116840,HRAS|PPP1R16B|ANLN|MARK4|FUZ|PPP1R9B|TMEM67|CNTROB,-0.9
+MyList,GO Biological Processes,19,GO:0016447,somatic recombination of immunoglobulin gene segments,19_GO:0002376 immune system process,-2.9,14,6.1,28160,57,105,3,2.9,1.6,3586|6929|7037,IL10|TCF3|TFRC,-0.9
+MyList,GO Biological Processes,19,GO:0002931,response to ischemia,19_GO:0050896 response to stimulus,-2.9,14,6,28160,58,105,3,2.9,1.6,1435|1958|24145,CSF1|EGR1|PANX1,-0.88
+MyList,GO Biological Processes,19,GO:0044380,protein localization to cytoskeleton,19_GO:0051179 localization,-2.9,14,6,28160,58,105,3,2.9,1.6,636|57787|84687,BICD1|MARK4|PPP1R9B,-0.88
+MyList,GO Biological Processes,19,GO:0000280,nuclear division,19_GO:0009987 cellular process,-2.9,4.2,4.2,28160,443,105,7,6.7,2.4,3306|3832|11044|54443|55810|64151|84687,HSPA2|KIF11|TENT4A|ANLN|FOXJ2|NCAPG|PPP1R9B,-0.87
+MyList,Reactome Gene Sets,6,R-HSA-5689880,Ub-specific processing proteases,,-2.8,6.1,4.6,28160,220,105,5,4.8,2.1,8329|8331|8335|8340|8975,H2AC13|H2AC14|H2AC4|H2BC13|USP13,-0.85
+MyList,Reactome Gene Sets,6,R-HSA-195258,RHO GTPase Effectors,,-2.8,4.9,4.4,28160,327,105,6,5.7,2.3,4688|8331|8335|8340|54821|220134,NCF2|H2AC14|H2AC4|H2BC13|ERCC6L|SKA1,-0.85
+MyList,Reactome Gene Sets,6,R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,,-2.8,8.3,5.1,28160,130,105,4,3.8,1.9,6929|8331|8335|8340,TCF3|H2AC14|H2AC4|H2BC13,-0.85
+MyList,GO Biological Processes,19,GO:0030031,cell projection assembly,19_GO:0009987 cellular process,-2.8,3.7,4,28160,578,105,8,7.6,2.6,3265|26051|54443|57787|80199|84687|91147|116840,HRAS|PPP1R16B|ANLN|MARK4|FUZ|PPP1R9B|TMEM67|CNTROB,-0.85
+MyList,GO Biological Processes,19,GO:0007098,centrosome cycle,19_GO:0009987 cellular process,-2.8,8.2,5,28160,131,105,4,3.8,1.9,3832|57787|91147|116840,KIF11|MARK4|TMEM67|CNTROB,-0.85
+MyList,Reactome Gene Sets,6,R-HSA-8939211,ESR-mediated signaling,,-2.8,6,4.6,28160,223,105,5,4.8,2.1,3265|8331|8335|8340|59345,HRAS|H2AC14|H2AC4|H2BC13|GNB4,-0.84
+MyList,Reactome Gene Sets,6,R-HSA-110329,Cleavage of the damaged pyrimidine ,,-2.8,13,5.8,28160,61,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.84
+MyList,Reactome Gene Sets,6,R-HSA-110328,Recognition and association of DNA glycosylase with site containing an affected pyrimidine,,-2.8,13,5.8,28160,61,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.84
+MyList,Reactome Gene Sets,6,R-HSA-8943724,Regulation of PTEN gene transcription,,-2.8,13,5.8,28160,61,105,3,2.9,1.6,1912|1958|8535,PHC2|EGR1|CBX4,-0.84
+MyList,Reactome Gene Sets,6,R-HSA-73928,Depyrimidination,,-2.8,13,5.8,28160,61,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.84
+MyList,GO Biological Processes,19,GO:0042113,B cell activation,19_GO:0002376 immune system process,-2.8,4.8,4.3,28160,334,105,6,5.7,2.3,602|3500|3502|3586|6929|7037,BCL3|IGHG1|IGHG3|IL10|TCF3|TFRC,-0.82
+MyList,Reactome Gene Sets,6,R-HSA-9609690,HCMV Early Events,,-2.8,7.9,4.9,28160,135,105,4,3.8,1.9,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-0.81
+MyList,Reactome Gene Sets,6,R-HSA-73728,RNA Polymerase I Promoter Opening,,-2.8,13,5.7,28160,63,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.8
+MyList,Reactome Gene Sets,6,R-HSA-73929,"Base-Excision Repair, AP Site Formation",,-2.8,13,5.7,28160,63,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.8
+MyList,GO Biological Processes,19,GO:0007568,aging,19_GO:0032502 developmental process,-2.8,4.7,4.2,28160,339,105,6,5.7,2.3,267|2021|3265|3586|6720|84687,AMFR|ENDOG|HRAS|IL10|SREBF1|PPP1R9B,-0.8
+MyList,GO Biological Processes,19,GO:0090090,negative regulation of canonical Wnt signaling pathway,19_GO:0048519 negative regulation of biological process,-2.8,7.8,4.9,28160,137,105,4,3.8,1.9,267|1958|7088|80199,AMFR|EGR1|TLE1|FUZ,-0.79
+MyList,Canonical Pathways,11,M28,PID IL4 2PATHWAY,,-2.7,13,5.7,28160,64,105,3,2.9,1.6,3500|3502|3586,IGHG1|IGHG3|IL10,-0.79
+MyList,Reactome Gene Sets,6,R-HSA-201681,TCF dependent signaling in response to WNT,,-2.7,5.8,4.5,28160,233,105,5,4.8,2.1,1454|7088|8331|8335|8340,CSNK1E|TLE1|H2AC14|H2AC4|H2BC13,-0.78
+MyList,Reactome Gene Sets,6,R-HSA-5334118,DNA methylation,,-2.7,12,5.6,28160,65,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.77
+MyList,Reactome Gene Sets,6,R-HSA-6807070,PTEN Regulation,,-2.7,7.7,4.8,28160,140,105,4,3.8,1.9,1912|1958|8535|8975,PHC2|EGR1|CBX4|USP13,-0.77
+MyList,Reactome Gene Sets,6,R-HSA-73886,Chromosome Maintenance,,-2.7,7.6,4.8,28160,141,105,4,3.8,1.9,8331|8335|8340|51750,H2AC14|H2AC4|H2BC13|RTEL1,-0.76
+MyList,Reactome Gene Sets,6,R-HSA-3214847,HATs acetylate histones,,-2.7,7.6,4.8,28160,142,105,4,3.8,1.9,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-0.75
+MyList,Reactome Gene Sets,6,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,,-2.7,12,5.5,28160,67,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.75
+MyList,GO Biological Processes,19,GO:0016445,somatic diversification of immunoglobulins,19_GO:0002376 immune system process,-2.7,12,5.5,28160,67,105,3,2.9,1.6,3586|6929|7037,IL10|TCF3|TFRC,-0.75
+MyList,GO Biological Processes,19,GO:0035690,cellular response to drug,19_GO:0050896 response to stimulus,-2.7,12,5.5,28160,67,105,3,2.9,1.6,790|7037|84687,CAD|TFRC|PPP1R9B,-0.75
+MyList,Reactome Gene Sets,6,R-HSA-1474165,Reproduction,,-2.7,7.5,4.8,28160,143,105,4,3.8,1.9,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-0.74
+MyList,GO Biological Processes,19,GO:0031023,microtubule organizing center organization,19_GO:0009987 cellular process,-2.7,7.4,4.7,28160,144,105,4,3.8,1.9,3832|57787|91147|116840,KIF11|MARK4|TMEM67|CNTROB,-0.74
+MyList,GO Biological Processes,19,GO:0051301,cell division,19_GO:0009987 cellular process,-2.7,3.5,3.8,28160,613,105,8,7.6,2.6,3832|11078|54443|54821|57787|64151|116840|220134,KIF11|TRIOBP|ANLN|ERCC6L|MARK4|NCAPG|CNTROB|SKA1,-0.74
+MyList,Reactome Gene Sets,6,R-HSA-2262752,Cellular responses to stress,,-2.7,3.2,3.7,28160,757,105,9,8.6,2.7,1912|3306|4363|4688|7975|8331|8335|8340|8535,PHC2|HSPA2|ABCC1|NCF2|MAFK|H2AC14|H2AC4|H2BC13|CBX4,-0.74
+MyList,Reactome Gene Sets,6,R-HSA-9670095,Inhibition of DNA recombination at telomere,,-2.7,12,5.5,28160,68,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.74
+MyList,GO Biological Processes,19,GO:0002562,somatic diversification of immune receptors via germline recombination within a single locus,19_GO:0002376 immune system process,-2.7,12,5.5,28160,68,105,3,2.9,1.6,3586|6929|7037,IL10|TCF3|TFRC,-0.74
+MyList,Reactome Gene Sets,6,R-HSA-427359,SIRT1 negatively regulates rRNA expression,,-2.7,12,5.5,28160,68,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.74
+MyList,WikiPathways,27,WP2032,Thyroid stimulating hormone (TSH) signaling pathway,,-2.7,12,5.5,28160,68,105,3,2.9,1.6,1958|3265|23513,EGR1|HRAS|SCRIB,-0.74
+MyList,GO Biological Processes,19,GO:0016444,somatic cell DNA recombination,19_GO:0008152 metabolic process,-2.7,12,5.5,28160,68,105,3,2.9,1.6,3586|6929|7037,IL10|TCF3|TFRC,-0.74
+MyList,GO Biological Processes,19,GO:0010942,positive regulation of cell death,19_GO:0048518 positive regulation of biological process,-2.7,3.5,3.8,28160,618,105,8,7.6,2.6,1958|2021|3586|4294|10999|23513|57787|84883,EGR1|ENDOG|IL10|MAP3K10|SLC27A4|SCRIB|MARK4|AIFM2,-0.72
+MyList,GO Biological Processes,19,GO:0002460,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,19_GO:0002376 immune system process,-2.7,4.5,4.1,28160,357,105,6,5.7,2.3,602|3265|3500|3502|3586|7037,BCL3|HRAS|IGHG1|IGHG3|IL10|TFRC,-0.72
+MyList,Reactome Gene Sets,6,R-HSA-109582,Hemostasis,,-2.6,3.5,3.8,28160,621,105,8,7.6,2.6,2153|2817|3265|3832|7804|7975|22927|59345,F5|GPC1|HRAS|KIF11|LRP8|MAFK|HABP4|GNB4,-0.71
+MyList,Canonical Pathways,11,M167,PID AP1 PATHWAY,,-2.6,11,5.4,28160,70,105,3,2.9,1.6,1958|3586|7205,EGR1|IL10|TRIP6,-0.71
+MyList,GO Biological Processes,19,GO:0070997,neuron death,19_GO:0009987 cellular process,-2.6,4.5,4,28160,361,105,6,5.7,2.3,1435|1958|2021|3265|3586|4671,CSF1|EGR1|ENDOG|HRAS|IL10|NAIP,-0.7
+MyList,Reactome Gene Sets,6,R-HSA-8953897,Cellular responses to stimuli,,-2.6,3.1,3.7,28160,771,105,9,8.6,2.7,1912|3306|4363|4688|7975|8331|8335|8340|8535,PHC2|HSPA2|ABCC1|NCF2|MAFK|H2AC14|H2AC4|H2BC13|CBX4,-0.7
+MyList,GO Biological Processes,19,GO:0060828,regulation of canonical Wnt signaling pathway,19_GO:0023052 signaling,-2.6,5.4,4.2,28160,250,105,5,4.8,2.1,267|1454|1958|7088|80199,AMFR|CSNK1E|EGR1|TLE1|FUZ,-0.69
+MyList,GO Biological Processes,19,GO:0048285,organelle fission,19_GO:0009987 cellular process,-2.6,3.8,3.9,28160,492,105,7,6.7,2.4,3306|3832|11044|54443|55810|64151|84687,HSPA2|KIF11|TENT4A|ANLN|FOXJ2|NCAPG|PPP1R9B,-0.69
+MyList,GO Biological Processes,19,GO:0032729,positive regulation of interferon-gamma production,19_GO:0048518 positive regulation of biological process,-2.6,11,5.3,28160,72,105,3,2.9,1.6,602|3265|23513,BCL3|HRAS|SCRIB,-0.69
+MyList,GO Biological Processes,19,GO:0050871,positive regulation of B cell activation,19_GO:0002376 immune system process,-2.6,7.1,4.6,28160,152,105,4,3.8,1.9,3500|3502|3586|7037,IGHG1|IGHG3|IL10|TFRC,-0.68
+MyList,Reactome Gene Sets,6,R-HSA-212300,PRC2 methylates histones and DNA,,-2.6,11,5.2,28160,73,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.67
+MyList,Reactome Gene Sets,6,R-HSA-9710421,Defective pyroptosis,,-2.6,11,5.2,28160,73,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.67
+MyList,WikiPathways,27,WP1982,Sterol regulatory element-binding proteins (SREBP) signaling,,-2.6,11,5.2,28160,73,105,3,2.9,1.6,267|6720|25956,AMFR|SREBF1|SEC31B,-0.67
+MyList,Reactome Gene Sets,6,R-HSA-2299718,Condensation of Prophase Chromosomes,,-2.6,11,5.2,28160,74,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.66
+MyList,Reactome Gene Sets,6,R-HSA-774815,Nucleosome assembly,,-2.6,11,5.2,28160,74,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.66
+MyList,Reactome Gene Sets,6,R-HSA-606279,Deposition of new CENPA-containing nucleosomes at the centromere,,-2.6,11,5.2,28160,74,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.66
+MyList,GO Biological Processes,19,GO:0034976,response to endoplasmic reticulum stress,19_GO:0050896 response to stimulus,-2.6,5.2,4.2,28160,256,105,5,4.8,2.1,267|7844|8975|91147|160418,AMFR|RNF103|USP13|TMEM67|TMTC3,-0.65
+MyList,GO Biological Processes,19,GO:0045859,regulation of protein kinase activity,19_GO:0050789 regulation of biological process,-2.5,3.3,3.7,28160,645,105,8,7.6,2.6,1435|1849|1958|3265|4294|4298|7804|205428,CSF1|DUSP7|EGR1|HRAS|MAP3K10|MLLT1|LRP8|DIPK2A,-0.63
+MyList,Reactome Gene Sets,6,R-HSA-427389,ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression,,-2.5,11,5.1,28160,76,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.63
+MyList,Reactome Gene Sets,6,R-HSA-9013148,CDC42 GTPase cycle,,-2.5,6.7,4.4,28160,159,105,4,3.8,1.9,7037|23365|23513|57584,TFRC|ARHGEF12|SCRIB|ARHGAP21,-0.62
+MyList,Reactome Gene Sets,6,R-HSA-9609646,HCMV Infection,,-2.5,6.7,4.4,28160,160,105,4,3.8,1.9,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-0.61
+MyList,WikiPathways,27,WP481,Insulin signaling,,-2.5,6.7,4.4,28160,161,105,4,3.8,1.9,1958|3265|4294|5286,EGR1|HRAS|MAP3K10|PIK3C2A,-0.6
+MyList,GO Biological Processes,19,GO:0002200,somatic diversification of immune receptors,19_GO:0002376 immune system process,-2.5,10,5,28160,79,105,3,2.9,1.6,3586|6929|7037,IL10|TCF3|TFRC,-0.6
+MyList,Canonical Pathways,11,M66,PID MYC ACTIV PATHWAY,,-2.5,10,5,28160,79,105,3,2.9,1.6,790|6875|7037,CAD|TAF4B|TFRC,-0.6
+MyList,Reactome Gene Sets,6,R-HSA-3214858,RMTs methylate histone arginines,,-2.5,10,5,28160,79,105,3,2.9,1.6,8329|8331|8335,H2AC13|H2AC14|H2AC4,-0.6
+MyList,Reactome Gene Sets,6,R-HSA-2559586,DNA Damage/Telomere Stress Induced Senescence,,-2.5,10,5,28160,80,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.58
+MyList,GO Biological Processes,19,GO:0080135,regulation of cellular response to stress,19_GO:0050896 response to stimulus,-2.5,3.2,3.6,28160,663,105,8,7.6,2.6,267|2021|3265|3586|4294|8975|51750|84883,AMFR|ENDOG|HRAS|IL10|MAP3K10|USP13|RTEL1|AIFM2,-0.58
+MyList,GO Biological Processes,19,GO:0008543,fibroblast growth factor receptor signaling pathway,19_GO:0023052 signaling,-2.5,9.9,4.9,28160,81,105,3,2.9,1.6,2817|79801|80199,GPC1|SHCBP1|FUZ,-0.57
+MyList,GO Biological Processes,19,GO:1902017,regulation of cilium assembly,19_GO:0050789 regulation of biological process,-2.4,9.8,4.9,28160,82,105,3,2.9,1.6,57787|80199|116840,MARK4|FUZ|CNTROB,-0.56
+MyList,GO Biological Processes,19,GO:0002312,B cell activation involved in immune response,19_GO:0002376 immune system process,-2.4,9.8,4.9,28160,82,105,3,2.9,1.6,602|3586|7037,BCL3|IL10|TFRC,-0.56
+MyList,Reactome Gene Sets,6,R-HSA-4839726,Chromatin organization,,-2.4,4.9,4,28160,274,105,5,4.8,2.1,8329|8331|8335|8340|79723,H2AC13|H2AC14|H2AC4|H2BC13|SUV39H2,-0.55
+MyList,Reactome Gene Sets,6,R-HSA-3247509,Chromatin modifying enzymes,,-2.4,4.9,4,28160,274,105,5,4.8,2.1,8329|8331|8335|8340|79723,H2AC13|H2AC14|H2AC4|H2BC13|SUV39H2,-0.55
+MyList,GO Biological Processes,19,GO:1903829,positive regulation of cellular protein localization,19_GO:0048518 positive regulation of biological process,-2.4,4.9,3.9,28160,276,105,5,4.8,2.1,636|3265|7037|57787|84687,BICD1|HRAS|TFRC|MARK4|PPP1R9B,-0.54
+MyList,Reactome Gene Sets,6,R-HSA-6802957,Oncogenic MAPK signaling,,-2.4,9.6,4.8,28160,84,105,3,2.9,1.6,1849|3265|11044,DUSP7|HRAS|TENT4A,-0.53
+MyList,GO Biological Processes,19,GO:0045860,positive regulation of protein kinase activity,19_GO:0048518 positive regulation of biological process,-2.4,4,3.7,28160,399,105,6,5.7,2.3,1435|1958|3265|4294|7804|205428,CSF1|EGR1|HRAS|MAP3K10|LRP8|DIPK2A,-0.53
+MyList,GO Biological Processes,19,GO:0030178,negative regulation of Wnt signaling pathway,19_GO:0048519 negative regulation of biological process,-2.4,6.3,4.2,28160,171,105,4,3.8,1.9,267|1958|7088|80199,AMFR|EGR1|TLE1|FUZ,-0.53
+MyList,GO Biological Processes,19,GO:0030433,ubiquitin-dependent ERAD pathway,19_GO:0050896 response to stimulus,-2.4,9.5,4.8,28160,85,105,3,2.9,1.6,267|7844|91147,AMFR|RNF103|TMEM67,-0.52
+MyList,Reactome Gene Sets,6,R-HSA-912446,Meiotic recombination,,-2.4,9.4,4.7,28160,86,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.51
+MyList,WikiPathways,27,WP4022,Pyrimidine metabolism,,-2.4,9.4,4.7,28160,86,105,3,2.9,1.6,790|10622|55703,CAD|POLR3G|POLR3B,-0.51
+MyList,GO Biological Processes,19,GO:0150104,transport across blood-brain barrier,19_GO:0051179 localization,-2.4,9.2,4.7,28160,87,105,3,2.9,1.6,4363|7037|10999,ABCC1|TFRC|SLC27A4,-0.5
+MyList,GO Biological Processes,19,GO:0071363,cellular response to growth factor stimulus,19_GO:0050896 response to stimulus,-2.4,3.1,3.4,28160,689,105,8,7.6,2.6,790|1958|2817|3586|7804|79801|80199|84687,CAD|EGR1|GPC1|IL10|LRP8|SHCBP1|FUZ|PPP1R9B,-0.5
+MyList,GO Biological Processes,19,GO:0043161,proteasome-mediated ubiquitin-dependent protein catabolic process,19_GO:0008152 metabolic process,-2.4,3.9,3.7,28160,409,105,6,5.7,2.3,267|1454|7844|84937|90850|91147,AMFR|CSNK1E|RNF103|ZNRF1|ZNF598|TMEM67,-0.49
+MyList,GO Biological Processes,19,GO:0010232,vascular transport,19_GO:0051179 localization,-2.4,9.1,4.7,28160,88,105,3,2.9,1.6,4363|7037|10999,ABCC1|TFRC|SLC27A4,-0.49
+MyList,Reactome Gene Sets,6,R-HSA-9013404,RAC2 GTPase cycle,,-2.4,9.1,4.7,28160,88,105,3,2.9,1.6,4688|7037|57584,NCF2|TFRC|ARHGAP21,-0.49
+MyList,GO Biological Processes,19,GO:1900407,regulation of cellular response to oxidative stress,19_GO:0050896 response to stimulus,-2.3,9,4.6,28160,89,105,3,2.9,1.6,2021|3586|84883,ENDOG|IL10|AIFM2,-0.48
+MyList,Reactome Gene Sets,6,R-HSA-9616222,Transcriptional regulation of granulopoiesis,,-2.3,8.9,4.6,28160,90,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.47
+MyList,GO Biological Processes,19,GO:0043434,response to peptide hormone,19_GO:0050896 response to stimulus,-2.3,3.9,3.6,28160,416,105,6,5.7,2.3,790|1958|3586|5286|6720|10999,CAD|EGR1|IL10|PIK3C2A|SREBF1|SLC27A4,-0.46
+MyList,GO Biological Processes,19,GO:0140014,mitotic nuclear division,19_GO:0009987 cellular process,-2.3,4.6,3.8,28160,291,105,5,4.8,2.1,3832|11044|54443|64151|84687,KIF11|TENT4A|ANLN|NCAPG|PPP1R9B,-0.46
+MyList,GO Biological Processes,19,GO:0043068,positive regulation of programmed cell death,19_GO:0048518 positive regulation of biological process,-2.3,3.4,3.5,28160,555,105,7,6.7,2.4,2021|3586|4294|10999|23513|57787|84883,ENDOG|IL10|MAP3K10|SLC27A4|SCRIB|MARK4|AIFM2,-0.46
+MyList,Reactome Gene Sets,6,R-HSA-5250924,B-WICH complex positively regulates rRNA expression,,-2.3,8.8,4.6,28160,91,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.46
+MyList,Reactome Gene Sets,6,R-HSA-73772,RNA Polymerase I Promoter Escape,,-2.3,8.8,4.6,28160,91,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.46
+MyList,Reactome Gene Sets,6,R-HSA-73884,Base Excision Repair,,-2.3,8.7,4.6,28160,92,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.45
+MyList,Reactome Gene Sets,6,R-HSA-69278,"Cell Cycle, Mitotic",,-2.3,3.3,3.4,28160,561,105,7,6.7,2.4,1454|8331|8335|8340|54821|64151|220134,CSNK1E|H2AC14|H2AC4|H2BC13|ERCC6L|NCAPG|SKA1,-0.44
+MyList,WikiPathways,27,WP1772,Apoptosis modulation and signaling,,-2.3,8.7,4.5,28160,93,105,3,2.9,1.6,2021|4671|84883,ENDOG|NAIP|AIFM2,-0.44
+MyList,Reactome Gene Sets,6,R-HSA-1912408,Pre-NOTCH Transcription and Translation,,-2.3,8.7,4.5,28160,93,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.44
+MyList,Reactome Gene Sets,6,R-HSA-9013423,RAC3 GTPase cycle,,-2.3,8.6,4.5,28160,94,105,3,2.9,1.6,4688|7037|57584,NCF2|TFRC|ARHGAP21,-0.43
+MyList,KEGG Pathway,24,hsa05169,Epstein-Barr virus infection,,-2.3,4.5,3.7,28160,299,105,5,4.8,2.1,3306|3586|10622|11044|55703,HSPA2|IL10|POLR3G|TENT4A|POLR3B,-0.43
+MyList,GO Biological Processes,19,GO:0060070,canonical Wnt signaling pathway,19_GO:0023052 signaling,-2.3,4.5,3.7,28160,300,105,5,4.8,2.1,267|1454|1958|7088|80199,AMFR|CSNK1E|EGR1|TLE1|FUZ,-0.42
+MyList,GO Biological Processes,19,GO:0031331,positive regulation of cellular catabolic process,19_GO:0048518 positive regulation of biological process,-2.3,3.8,3.5,28160,428,105,6,5.7,2.3,1454|2021|5286|8975|11044|160418,CSNK1E|ENDOG|PIK3C2A|USP13|TENT4A|TMTC3,-0.42
+MyList,GO Biological Processes,19,GO:0032606,type I interferon production,19_GO:0032501 multicellular organismal process,-2.3,8.5,4.5,28160,95,105,3,2.9,1.6,3586|10622|55703,IL10|POLR3G|POLR3B,-0.42
+MyList,GO Biological Processes,19,GO:0032479,regulation of type I interferon production,19_GO:0032501 multicellular organismal process,-2.3,8.5,4.5,28160,95,105,3,2.9,1.6,3586|10622|55703,IL10|POLR3G|POLR3B,-0.42
+MyList,Reactome Gene Sets,6,R-HSA-5625740,RHO GTPases activate PKNs,,-2.3,8.5,4.5,28160,95,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.42
+MyList,GO Biological Processes,19,GO:0070848,response to growth factor,19_GO:0050896 response to stimulus,-2.3,3,3.3,28160,720,105,8,7.6,2.6,790|1958|2817|3586|7804|79801|80199|84687,CAD|EGR1|GPC1|IL10|LRP8|SHCBP1|FUZ|PPP1R9B,-0.41
+MyList,GO Biological Processes,19,GO:0001738,morphogenesis of a polarized epithelium,19_GO:0032502 developmental process,-2.3,8.4,4.4,28160,96,105,3,2.9,1.6,1951|23513|80199,CELSR3|SCRIB|FUZ,-0.41
+MyList,GO Biological Processes,19,GO:0008380,RNA splicing,19_GO:0008152 metabolic process,-2.2,3.7,3.5,28160,433,105,6,5.7,2.3,6606|6936|10189|22927|84687|125950,SMN1|GCFC2|ALYREF|HABP4|PPP1R9B|RAVER1,-0.4
+MyList,Reactome Gene Sets,6,R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,,-2.2,8.3,4.4,28160,97,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.4
+MyList,GO Biological Processes,19,GO:1903047,mitotic cell cycle process,19_GO:0009987 cellular process,-2.2,3,3.3,28160,726,105,8,7.6,2.6,3306|3832|11044|51750|54443|64151|84687|116840,HSPA2|KIF11|TENT4A|RTEL1|ANLN|NCAPG|PPP1R9B|CNTROB,-0.4
+MyList,GO Biological Processes,19,GO:0050778,positive regulation of immune response,19_GO:0002376 immune system process,-2.2,3.3,3.4,28160,576,105,7,6.7,2.4,3265|3500|3502|3586|7037|10622|55703,HRAS|IGHG1|IGHG3|IL10|TFRC|POLR3G|POLR3B,-0.4
+MyList,Reactome Gene Sets,6,R-HSA-5620912,Anchoring of the basal body to the plasma membrane,,-2.2,8.2,4.4,28160,98,105,3,2.9,1.6,1454|57787|91147,CSNK1E|MARK4|TMEM67,-0.39
+MyList,WikiPathways,27,WP3932,Focal adhesion: PI3K-Akt-mTOR-signaling pathway,,-2.2,4.3,3.6,28160,309,105,5,4.8,2.1,1435|3265|5286|6720|59345,CSF1|HRAS|PIK3C2A|SREBF1|GNB4,-0.38
+MyList,GO Biological Processes,19,GO:1902882,regulation of response to oxidative stress,19_GO:0050896 response to stimulus,-2.2,8.1,4.3,28160,99,105,3,2.9,1.6,2021|3586|84883,ENDOG|IL10|AIFM2,-0.38
+MyList,GO Biological Processes,19,GO:0001934,positive regulation of protein phosphorylation,19_GO:0048518 positive regulation of biological process,-2.2,2.9,3.2,28160,732,105,8,7.6,2.6,1435|1958|3265|3306|4294|7037|7804|205428,CSF1|EGR1|HRAS|HSPA2|MAP3K10|TFRC|LRP8|DIPK2A,-0.38
+MyList,GO Biological Processes,19,GO:0051090,regulation of DNA-binding transcription factor activity,19_GO:0050789 regulation of biological process,-2.2,3.7,3.4,28160,440,105,6,5.7,2.3,602|3586|4294|6929|7037|7804,BCL3|IL10|MAP3K10|TCF3|TFRC|LRP8,-0.38
+MyList,GO Biological Processes,19,GO:0016055,Wnt signaling pathway,19_GO:0023052 signaling,-2.2,3.6,3.4,28160,442,105,6,5.7,2.3,267|1454|1951|1958|7088|80199,AMFR|CSNK1E|CELSR3|EGR1|TLE1|FUZ,-0.37
+MyList,GO Biological Processes,19,GO:0198738,cell-cell signaling by wnt,19_GO:0023052 signaling,-2.2,3.6,3.4,28160,444,105,6,5.7,2.3,267|1454|1951|1958|7088|80199,AMFR|CSNK1E|CELSR3|EGR1|TLE1|FUZ,-0.37
+MyList,GO Biological Processes,19,GO:0050864,regulation of B cell activation,19_GO:0002376 immune system process,-2.2,5.4,3.8,28160,198,105,4,3.8,1.9,3500|3502|3586|7037,IGHG1|IGHG3|IL10|TFRC,-0.36
+MyList,Reactome Gene Sets,6,R-HSA-9645723,Diseases of programmed cell death,,-2.2,7.8,4.2,28160,103,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.34
+MyList,KEGG Pathway,24,ko05169,Epstein-Barr virus infection,,-2.2,5.3,3.8,28160,201,105,4,3.8,1.9,3306|3586|10622|55703,HSPA2|IL10|POLR3G|POLR3B,-0.34
+MyList,GO Biological Processes,19,GO:1901214,regulation of neuron death,19_GO:0050789 regulation of biological process,-2.2,4.2,3.5,28160,319,105,5,4.8,2.1,1435|1958|3265|3586|4671,CSF1|EGR1|HRAS|IL10|NAIP,-0.34
+MyList,GO Biological Processes,19,GO:0071103,DNA conformation change,19_GO:0009987 cellular process,-2.2,4.2,3.5,28160,319,105,5,4.8,2.1,8340|11044|51750|54821|64151,H2BC13|TENT4A|RTEL1|ERCC6L|NCAPG,-0.34
+MyList,KEGG Pathway,24,ko00240,Pyrimidine metabolism,,-2.2,7.7,4.2,28160,104,105,3,2.9,1.6,790|10622|55703,CAD|POLR3G|POLR3B,-0.34
+MyList,KEGG Pathway,24,hsa00240,Pyrimidine metabolism ,,-2.2,7.7,4.2,28160,104,105,3,2.9,1.6,790|10622|55703,CAD|POLR3G|POLR3B,-0.34
+MyList,GO Biological Processes,19,GO:0051603,proteolysis involved in cellular protein catabolic process,19_GO:0008152 metabolic process,-2.1,2.9,3.2,28160,751,105,8,7.6,2.6,267|1454|7844|8975|84937|90850|91147|160418,AMFR|CSNK1E|RNF103|USP13|ZNRF1|ZNF598|TMEM67|TMTC3,-0.33
+MyList,KEGG Pathway,24,hsa05202,Transcriptional misregulation in cancer,,-2.1,5.3,3.7,28160,204,105,4,3.8,1.9,4298|6929|11044|55589,MLLT1|TCF3|TENT4A|BMP2K,-0.33
+MyList,Reactome Gene Sets,6,R-HSA-68877,Mitotic Prometaphase,,-2.1,5.3,3.7,28160,204,105,4,3.8,1.9,1454|54821|64151|220134,CSNK1E|ERCC6L|NCAPG|SKA1,-0.33
+MyList,Reactome Gene Sets,6,R-HSA-5578749,Transcriptional regulation by small RNAs,,-2.1,7.6,4.2,28160,106,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.32
+MyList,Reactome Gene Sets,6,R-HSA-5250913,Positive epigenetic regulation of rRNA expression,,-2.1,7.6,4.2,28160,106,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.32
+MyList,Reactome Gene Sets,6,R-HSA-427413,NoRC negatively regulates rRNA expression,,-2.1,7.5,4.1,28160,107,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.31
+MyList,GO Biological Processes,19,GO:0030111,regulation of Wnt signaling pathway,19_GO:0023052 signaling,-2.1,4.1,3.5,28160,326,105,5,4.8,2.1,267|1454|1958|7088|80199,AMFR|CSNK1E|EGR1|TLE1|FUZ,-0.31
+MyList,WikiPathways,27,WP3594,Circadian rhythm genes,,-2.1,5.2,3.7,28160,207,105,4,3.8,1.9,1454|1958|6720|79723,CSNK1E|EGR1|SREBF1|SUV39H2,-0.31
+MyList,GO Biological Processes,19,GO:1901215,negative regulation of neuron death,19_GO:0048519 negative regulation of biological process,-2.1,5.2,3.7,28160,208,105,4,3.8,1.9,1435|3265|3586|4671,CSF1|HRAS|IL10|NAIP,-0.31
+MyList,GO Biological Processes,19,GO:0043549,regulation of kinase activity,19_GO:0050789 regulation of biological process,-2.1,2.8,3.1,28160,764,105,8,7.6,2.6,1435|1849|1958|3265|4294|4298|7804|205428,CSF1|DUSP7|EGR1|HRAS|MAP3K10|MLLT1|LRP8|DIPK2A,-0.3
+MyList,Reactome Gene Sets,6,R-HSA-1912422,Pre-NOTCH Expression and Processing,,-2.1,7.4,4.1,28160,109,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.3
+MyList,Reactome Gene Sets,6,R-HSA-5250941,Negative epigenetic regulation of rRNA expression,,-2.1,7.3,4.1,28160,110,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.29
+MyList,Reactome Gene Sets,6,R-HSA-73854,RNA Polymerase I Promoter Clearance,,-2.1,7.3,4.1,28160,110,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.29
+MyList,GO Biological Processes,19,GO:0007623,circadian rhythm,19_GO:0048511 rhythmic process,-2.1,5.1,3.6,28160,212,105,4,3.8,1.9,1454|1958|6720|79723,CSNK1E|EGR1|SREBF1|SUV39H2,-0.28
+MyList,GO Biological Processes,19,GO:0046649,lymphocyte activation,19_GO:0002376 immune system process,-2.1,2.8,3.1,28160,771,105,8,7.6,2.6,602|1958|3500|3502|3586|6929|7037|23513,BCL3|EGR1|IGHG1|IGHG3|IL10|TCF3|TFRC|SCRIB,-0.28
+MyList,Reactome Gene Sets,6,R-HSA-977225,Amyloid fiber formation,,-2.1,7.2,4,28160,111,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.28
+MyList,Reactome Gene Sets,6,R-HSA-73894,DNA Repair,,-2.1,4,3.4,28160,335,105,5,4.8,2.1,8331|8335|8340|51750|83444,H2AC14|H2AC4|H2BC13|RTEL1|INO80B,-0.28
+MyList,GO Biological Processes,19,GO:0044344,cellular response to fibroblast growth factor stimulus,19_GO:0050896 response to stimulus,-2.1,7.2,4,28160,112,105,3,2.9,1.6,2817|79801|80199,GPC1|SHCBP1|FUZ,-0.28
+MyList,Reactome Gene Sets,6,R-HSA-2559582,Senescence-Associated Secretory Phenotype (SASP),,-2.1,7.2,4,28160,112,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.28
+MyList,Reactome Gene Sets,6,R-HSA-73864,RNA Polymerase I Transcription,,-2.1,7.2,4,28160,112,105,3,2.9,1.6,8331|8335|8340,H2AC14|H2AC4|H2BC13,-0.28
+MyList,GO Biological Processes,19,GO:0048259,regulation of receptor-mediated endocytosis,19_GO:0051179 localization,-2,7.1,4,28160,114,105,3,2.9,1.6,636|23513|55589,BICD1|SCRIB|BMP2K,-0.26
+MyList,GO Biological Processes,19,GO:1901800,positive regulation of proteasomal protein catabolic process,19_GO:0048518 positive regulation of biological process,-2,7.1,4,28160,114,105,3,2.9,1.6,1454|8975|160418,CSNK1E|USP13|TMTC3,-0.26
+MyList,Reactome Gene Sets,6,R-HSA-187037,Signaling by NTRK1 (TRKA),,-2,7,3.9,28160,115,105,3,2.9,1.6,1849|1958|3265,DUSP7|EGR1|HRAS,-0.25
+MyList,GO Biological Processes,19,GO:0033674,positive regulation of kinase activity,19_GO:0048518 positive regulation of biological process,-2,3.4,3.2,28160,480,105,6,5.7,2.3,1435|1958|3265|4294|7804|205428,CSF1|EGR1|HRAS|MAP3K10|LRP8|DIPK2A,-0.25
+MyList,GO Biological Processes,19,GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,19_GO:0023052 signaling,-2,3,3.1,28160,629,105,7,6.7,2.4,1435|2817|5286|6720|10999|79801|80199,CSF1|GPC1|PIK3C2A|SREBF1|SLC27A4|SHCBP1|FUZ,-0.25
+MyList,Reactome Gene Sets,6,R-HSA-199991,Membrane Trafficking,,-2,3,3.1,28160,634,105,7,6.7,2.4,636|2153|3832|5286|7037|9322|51542,BICD1|F5|KIF11|PIK3C2A|TFRC|TRIP10|VPS54,-0.23
+MyList,GO Biological Processes,19,GO:0006511,ubiquitin-dependent protein catabolic process,19_GO:0008152 metabolic process,-2,3,3,28160,636,105,7,6.7,2.4,267|1454|7844|8975|84937|90850|91147,AMFR|CSNK1E|RNF103|USP13|ZNRF1|ZNF598|TMEM67,-0.22
+MyList,GO Biological Processes,19,GO:0008286,insulin receptor signaling pathway,19_GO:0023052 signaling,-2,6.8,3.9,28160,118,105,3,2.9,1.6,5286|6720|10999,PIK3C2A|SREBF1|SLC27A4,-0.22
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-1221632,Meiotic synapsis,,-7.9,1.4e+02,24,28160,79,10,4,40,15,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-4.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-3214815,HDACs deacetylate histones,,-7.6,1.2e+02,22,28160,94,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9610379,HCMV Late Events,,-7.2,97,20,28160,116,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-1500620,Meiosis,,-7.2,95,19,28160,118,10,4,40,15,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-4.1
+MyList_MCODE_ALL,KEGG Pathway,24,hsa05322,Systemic lupus erythematosus ,,-7,85,18,28160,133,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.9
+MyList_MCODE_ALL,KEGG Pathway,24,ko05322,Systemic lupus erythematosus,,-7,85,18,28160,133,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9609690,HCMV Early Events,,-7,83,18,28160,135,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-3214847,HATs acetylate histones,,-6.9,79,18,28160,142,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-1474165,Reproduction,,-6.9,79,18,28160,143,10,4,40,15,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-3.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9609646,HCMV Infection,,-6.7,70,17,28160,160,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.7
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5689901,Metalloprotease DUBs,,-6.6,2.3e+02,26,28160,37,10,3,30,14,8329|8331|8335,H2AC13|H2AC14|H2AC4,-3.7
+MyList_MCODE_ALL,KEGG Pathway,24,ko05034,Alcoholism,,-6.5,63,16,28160,180,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.7
+MyList_MCODE_ALL,KEGG Pathway,24,hsa05034,Alcoholism,,-6.4,61,15,28160,185,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.7
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-171306,Packaging Of Telomere Ends,,-6.2,1.6e+02,22,28160,52,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.5
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5689880,Ub-specific processing proteases,,-6.1,51,14,28160,220,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.5
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73927,Depurination,,-6.1,1.5e+02,21,28160,56,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-110331,Cleavage of the damaged purine,,-6.1,1.5e+02,21,28160,56,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-110330,Recognition and association of DNA glycosylase with site containing an affected purine,,-6.1,1.5e+02,21,28160,56,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-110329,Cleavage of the damaged pyrimidine ,,-5.9,1.4e+02,20,28160,61,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73928,Depyrimidination,,-5.9,1.4e+02,20,28160,61,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-110328,Recognition and association of DNA glycosylase with site containing an affected pyrimidine,,-5.9,1.4e+02,20,28160,61,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73728,RNA Polymerase I Promoter Opening,,-5.9,1.3e+02,20,28160,63,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73929,"Base-Excision Repair, AP Site Formation",,-5.9,1.3e+02,20,28160,63,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5334118,DNA methylation,,-5.9,1.3e+02,20,28160,65,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,,-5.8,1.3e+02,19,28160,67,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-427359,SIRT1 negatively regulates rRNA expression,,-5.8,1.2e+02,19,28160,68,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9670095,Inhibition of DNA recombination at telomere,,-5.8,1.2e+02,19,28160,68,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-3247509,Chromatin modifying enzymes,,-5.8,41,13,28160,274,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-4839726,Chromatin organization,,-5.8,41,13,28160,274,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-212300,PRC2 methylates histones and DNA,,-5.7,1.2e+02,18,28160,73,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9710421,Defective pyroptosis,,-5.7,1.2e+02,18,28160,73,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-774815,Nucleosome assembly,,-5.7,1.1e+02,18,28160,74,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-2299718,Condensation of Prophase Chromosomes,,-5.7,1.1e+02,18,28160,74,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-606279,Deposition of new CENPA-containing nucleosomes at the centromere,,-5.7,1.1e+02,18,28160,74,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-194315,Signaling by Rho GTPases,,-5.7,20,9.6,28160,707,10,5,50,16,7037|8331|8335|8340|9322,TFRC|H2AC14|H2AC4|H2BC13|TRIP10,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-427389,ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression,,-5.7,1.1e+02,18,28160,76,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5688426,Deubiquitination,,-5.6,38,12,28160,298,10,4,40,15,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",,-5.6,19,9.5,28160,723,10,5,50,16,7037|8331|8335|8340|9322,TFRC|H2AC14|H2AC4|H2BC13|TRIP10,-3.2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-3214858,RMTs methylate histone arginines,,-5.6,1.1e+02,18,28160,79,10,3,30,14,8329|8331|8335,H2AC13|H2AC14|H2AC4,-3.2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-2559586,DNA Damage/Telomere Stress Induced Senescence,,-5.6,1.1e+02,18,28160,80,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-912446,Meiotic recombination,,-5.5,98,17,28160,86,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9616222,Transcriptional regulation of granulopoiesis,,-5.4,94,17,28160,90,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5250924,B-WICH complex positively regulates rRNA expression,,-5.4,93,17,28160,91,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-201722,Formation of the beta-catenin:TCF transactivating complex,,-5.4,93,17,28160,91,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73772,RNA Polymerase I Promoter Escape,,-5.4,93,17,28160,91,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73884,Base Excision Repair,,-5.4,92,16,28160,92,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-1912408,Pre-NOTCH Transcription and Translation,,-5.4,91,16,28160,93,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5625740,RHO GTPases activate PKNs,,-5.4,89,16,28160,95,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,,-5.3,87,16,28160,97,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5689603,UCH proteinases,,-5.3,83,16,28160,102,10,3,30,14,8329|8331|8335,H2AC13|H2AC14|H2AC4,-3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9645723,Diseases of programmed cell death,,-5.3,82,16,28160,103,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5250913,Positive epigenetic regulation of rRNA expression,,-5.2,80,15,28160,106,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5578749,Transcriptional regulation by small RNAs,,-5.2,80,15,28160,106,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-427413,NoRC negatively regulates rRNA expression,,-5.2,79,15,28160,107,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-1912422,Pre-NOTCH Expression and Processing,,-5.2,78,15,28160,109,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73854,RNA Polymerase I Promoter Clearance,,-5.2,77,15,28160,110,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5250941,Negative epigenetic regulation of rRNA expression,,-5.2,77,15,28160,110,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-977225,Amyloid fiber formation,,-5.2,76,15,28160,111,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-2559582,Senescence-Associated Secretory Phenotype (SASP),,-5.1,75,15,28160,112,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73864,RNA Polymerase I Transcription,,-5.1,75,15,28160,112,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-157579,Telomere Maintenance,,-5.1,75,15,28160,113,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5617472,Activation of anterior HOX genes in hindbrain development during early embryogenesis,,-5,70,14,28160,121,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.8
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5619507,Activation of HOX genes during differentiation,,-5,70,14,28160,121,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.8
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-2559580,Oxidative Stress Induced Senescence,,-5,68,14,28160,125,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.8
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,,-4.9,65,14,28160,130,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.7
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-211000,Gene Silencing by RNA,,-4.9,61,13,28160,138,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.7
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73886,Chromosome Maintenance,,-4.8,60,13,28160,141,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.6
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-68875,Mitotic Prophase,,-4.8,59,13,28160,142,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.6
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-8856828,Clathrin-mediated endocytosis,,-4.8,58,13,28160,146,10,3,30,14,5286|7037|9322,PIK3C2A|TFRC|TRIP10,-2.6
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-212165,Epigenetic regulation of gene expression,,-4.8,57,13,28160,149,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.6
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9018519,Estrogen-dependent gene expression,,-4.8,56,13,28160,150,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.6
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-2559583,Cellular Senescence,,-4.4,43,11,28160,197,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-8939211,ESR-mediated signaling,,-4.2,38,10,28160,223,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-201681,TCF dependent signaling in response to WNT,,-4.2,36,10,28160,233,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-157118,Signaling by NOTCH,,-4.2,36,10,28160,236,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-1640170,Cell Cycle,,-4.2,16,7.7,28160,692,10,4,40,15,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-8878171,Transcriptional regulation by RUNX1,,-4.2,35,10,28160,239,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-2262752,Cellular responses to stress,,-4,15,7.3,28160,757,10,4,40,15,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-1.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-8953897,Cellular responses to stimuli,,-4,15,7.2,28160,771,10,4,40,15,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-1.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-9006931,Signaling by Nuclear Receptors,,-3.9,28,8.9,28160,299,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1.8
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-195258,RHO GTPase Effectors,,-3.8,26,8.5,28160,327,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1.7
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-195721,Signaling by WNT,,-3.7,25,8.4,28160,332,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1.6
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-73894,DNA Repair,,-3.7,25,8.4,28160,335,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1.6
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-68886,M Phase,,-3.4,20,7.5,28160,418,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1.4
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-69278,"Cell Cycle, Mitotic",,-3.1,15,6.3,28160,561,10,3,30,14,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-199991,Membrane Trafficking,,-2.9,13,5.9,28160,634,10,3,30,14,5286|7037|9322,PIK3C2A|TFRC|TRIP10,-0.91
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0006897,endocytosis,19_GO:0051179 localization,-2.9,13,5.9,28160,636,10,3,30,14,5286|7037|9322,PIK3C2A|TFRC|TRIP10,-0.91
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-5653656,Vesicle-mediated transport,,-2.8,13,5.7,28160,673,10,3,30,14,5286|7037|9322,PIK3C2A|TFRC|TRIP10,-0.85
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-1221632,Meiotic synapsis,,-8.7,2e+02,28,28160,79,7,4,57,19,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-4.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-3214815,HDACs deacetylate histones,,-8.4,1.7e+02,26,28160,94,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9610379,HCMV Late Events,,-8,1.4e+02,23,28160,116,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-1500620,Meiosis,,-8,1.4e+02,23,28160,118,7,4,57,19,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-4.3
+MyList_SUB1_MCODE_1,KEGG Pathway,24,hsa05322,Systemic lupus erythematosus ,,-7.8,1.2e+02,22,28160,133,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.3
+MyList_SUB1_MCODE_1,KEGG Pathway,24,ko05322,Systemic lupus erythematosus,,-7.8,1.2e+02,22,28160,133,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9609690,HCMV Early Events,,-7.8,1.2e+02,22,28160,135,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-3214847,HATs acetylate histones,,-7.7,1.1e+02,21,28160,142,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-1474165,Reproduction,,-7.7,1.1e+02,21,28160,143,7,4,57,19,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-4.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9609646,HCMV Infection,,-7.5,1e+02,20,28160,160,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.2
+MyList_SUB1_MCODE_1,KEGG Pathway,24,ko05034,Alcoholism,,-7.3,89,19,28160,180,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.1
+MyList_SUB1_MCODE_1,KEGG Pathway,24,hsa05034,Alcoholism,,-7.2,87,19,28160,185,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-4.1
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5689901,Metalloprotease DUBs,,-7.1,3.3e+02,31,28160,37,7,3,43,19,8329|8331|8335,H2AC13|H2AC14|H2AC4,-4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5689880,Ub-specific processing proteases,,-6.9,73,17,28160,220,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.9
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-171306,Packaging Of Telomere Ends,,-6.7,2.3e+02,26,28160,52,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-110330,Recognition and association of DNA glycosylase with site containing an affected purine,,-6.6,2.2e+02,25,28160,56,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73927,Depurination,,-6.6,2.2e+02,25,28160,56,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-110331,Cleavage of the damaged purine,,-6.6,2.2e+02,25,28160,56,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-4839726,Chromatin organization,,-6.5,59,15,28160,274,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-3247509,Chromatin modifying enzymes,,-6.5,59,15,28160,274,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-110329,Cleavage of the damaged pyrimidine ,,-6.5,2e+02,24,28160,61,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-110328,Recognition and association of DNA glycosylase with site containing an affected pyrimidine,,-6.5,2e+02,24,28160,61,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73928,Depyrimidination,,-6.5,2e+02,24,28160,61,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73728,RNA Polymerase I Promoter Opening,,-6.4,1.9e+02,24,28160,63,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73929,"Base-Excision Repair, AP Site Formation",,-6.4,1.9e+02,24,28160,63,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5334118,DNA methylation,,-6.4,1.9e+02,24,28160,65,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.6
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5688426,Deubiquitination,,-6.4,54,15,28160,298,7,4,57,19,8329|8331|8335|8340,H2AC13|H2AC14|H2AC4|H2BC13,-3.6
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,,-6.3,1.8e+02,23,28160,67,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.6
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-427359,SIRT1 negatively regulates rRNA expression,,-6.3,1.8e+02,23,28160,68,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.6
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9670095,Inhibition of DNA recombination at telomere,,-6.3,1.8e+02,23,28160,68,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.6
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-212300,PRC2 methylates histones and DNA,,-6.2,1.7e+02,22,28160,73,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9710421,Defective pyroptosis,,-6.2,1.7e+02,22,28160,73,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-2299718,Condensation of Prophase Chromosomes,,-6.2,1.6e+02,22,28160,74,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-774815,Nucleosome assembly,,-6.2,1.6e+02,22,28160,74,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-606279,Deposition of new CENPA-containing nucleosomes at the centromere,,-6.2,1.6e+02,22,28160,74,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-427389,ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression,,-6.2,1.6e+02,22,28160,76,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-3214858,RMTs methylate histone arginines,,-6.1,1.5e+02,21,28160,79,7,3,43,19,8329|8331|8335,H2AC13|H2AC14|H2AC4,-3.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-2559586,DNA Damage/Telomere Stress Induced Senescence,,-6.1,1.5e+02,21,28160,80,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-912446,Meiotic recombination,,-6,1.4e+02,20,28160,86,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9616222,Transcriptional regulation of granulopoiesis,,-6,1.3e+02,20,28160,90,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5250924,B-WICH complex positively regulates rRNA expression,,-5.9,1.3e+02,20,28160,91,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-201722,Formation of the beta-catenin:TCF transactivating complex,,-5.9,1.3e+02,20,28160,91,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73772,RNA Polymerase I Promoter Escape,,-5.9,1.3e+02,20,28160,91,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73884,Base Excision Repair,,-5.9,1.3e+02,20,28160,92,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-1912408,Pre-NOTCH Transcription and Translation,,-5.9,1.3e+02,20,28160,93,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5625740,RHO GTPases activate PKNs,,-5.9,1.3e+02,19,28160,95,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,,-5.9,1.2e+02,19,28160,97,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.4
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5689603,UCH proteinases,,-5.8,1.2e+02,19,28160,102,7,3,43,19,8329|8331|8335,H2AC13|H2AC14|H2AC4,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9645723,Diseases of programmed cell death,,-5.8,1.2e+02,19,28160,103,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5578749,Transcriptional regulation by small RNAs,,-5.7,1.1e+02,18,28160,106,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5250913,Positive epigenetic regulation of rRNA expression,,-5.7,1.1e+02,18,28160,106,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-427413,NoRC negatively regulates rRNA expression,,-5.7,1.1e+02,18,28160,107,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-1912422,Pre-NOTCH Expression and Processing,,-5.7,1.1e+02,18,28160,109,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5250941,Negative epigenetic regulation of rRNA expression,,-5.7,1.1e+02,18,28160,110,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73854,RNA Polymerase I Promoter Clearance,,-5.7,1.1e+02,18,28160,110,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-977225,Amyloid fiber formation,,-5.7,1.1e+02,18,28160,111,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-2559582,Senescence-Associated Secretory Phenotype (SASP),,-5.7,1.1e+02,18,28160,112,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73864,RNA Polymerase I Transcription,,-5.7,1.1e+02,18,28160,112,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-157579,Telomere Maintenance,,-5.7,1.1e+02,18,28160,113,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5617472,Activation of anterior HOX genes in hindbrain development during early embryogenesis,,-5.6,1e+02,17,28160,121,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.2
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-5619507,Activation of HOX genes during differentiation,,-5.6,1e+02,17,28160,121,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.2
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-2559580,Oxidative Stress Induced Senescence,,-5.5,97,17,28160,125,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.2
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,,-5.5,93,17,28160,130,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-211000,Gene Silencing by RNA,,-5.4,87,16,28160,138,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73886,Chromosome Maintenance,,-5.4,86,16,28160,141,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-68875,Mitotic Prophase,,-5.4,85,16,28160,142,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3.1
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-212165,Epigenetic regulation of gene expression,,-5.3,81,15,28160,149,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9018519,Estrogen-dependent gene expression,,-5.3,80,15,28160,150,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-3
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-2559583,Cellular Senescence,,-4.9,61,13,28160,197,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-1640170,Cell Cycle,,-4.9,23,9.3,28160,692,7,4,57,19,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-2.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-8939211,ESR-mediated signaling,,-4.8,54,13,28160,223,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.6
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-2262752,Cellular responses to stress,,-4.8,21,8.9,28160,757,7,4,57,19,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-2.6
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-8953897,Cellular responses to stimuli,,-4.7,21,8.8,28160,771,7,4,57,19,3306|8331|8335|8340,HSPA2|H2AC14|H2AC4|H2BC13,-2.6
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-201681,TCF dependent signaling in response to WNT,,-4.7,52,12,28160,233,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-157118,Signaling by NOTCH,,-4.7,51,12,28160,236,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-8878171,Transcriptional regulation by RUNX1,,-4.7,50,12,28160,239,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9006931,Signaling by Nuclear Receptors,,-4.4,40,11,28160,299,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.2
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-195258,RHO GTPase Effectors,,-4.3,37,10,28160,327,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.1
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-195721,Signaling by WNT,,-4.3,36,10,28160,332,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.1
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-73894,DNA Repair,,-4.2,36,10,28160,335,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-2.1
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-68886,M Phase,,-4,29,9.1,28160,418,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1.8
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-69278,"Cell Cycle, Mitotic",,-3.6,22,7.7,28160,561,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-194315,Signaling by Rho GTPases,,-3.3,17,6.8,28160,707,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1.2
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",,-3.3,17,6.7,28160,723,7,3,43,19,8331|8335|8340,H2AC14|H2AC4|H2BC13,-1.2
+MyList_SUB1_MCODE_2,Reactome Gene Sets,6,R-HSA-8856828,Clathrin-mediated endocytosis,,-6.9,1.9e+02,24,28160,146,3,3,1e+02,27,5286|7037|9322,PIK3C2A|TFRC|TRIP10,-3.9
+MyList_SUB1_MCODE_2,Reactome Gene Sets,6,R-HSA-199991,Membrane Trafficking,,-4.9,44,11,28160,634,3,3,1e+02,27,5286|7037|9322,PIK3C2A|TFRC|TRIP10,-2.7
+MyList_SUB1_MCODE_2,GO Biological Processes,19,GO:0006897,endocytosis,19_GO:0051179 localization,-4.9,44,11,28160,636,3,3,1e+02,27,5286|7037|9322,PIK3C2A|TFRC|TRIP10,-2.7
+MyList_SUB1_MCODE_2,Reactome Gene Sets,6,R-HSA-5653656,Vesicle-mediated transport,,-4.9,42,11,28160,673,3,3,1e+02,27,5286|7037|9322,PIK3C2A|TFRC|TRIP10,-2.7

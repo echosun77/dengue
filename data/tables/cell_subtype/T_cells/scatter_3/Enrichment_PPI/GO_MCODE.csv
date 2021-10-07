@@ -1,0 +1,19 @@
+Name,Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value)
+MyList,Reactome Gene Sets,6,R-HSA-909733,Interferon alpha/beta signaling,,-7.8,4e+02,35,28160,70,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-3.9
+MyList,Reactome Gene Sets,6,R-HSA-913531,Interferon Signaling,,-6.5,1.4e+02,21,28160,199,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.9
+MyList,GO Biological Processes,19,GO:0140546,defense response to symbiont,19_GO:0044419 biological process involved in interspecies interaction between organisms,-6.1,1.1e+02,18,28160,267,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.8
+MyList,GO Biological Processes,19,GO:0051607,defense response to virus,19_GO:0044419 biological process involved in interspecies interaction between organisms,-6.1,1.1e+02,18,28160,267,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.8
+MyList,GO Biological Processes,19,GO:0009615,response to virus,19_GO:0044419 biological process involved in interspecies interaction between organisms,-5.7,76,15,28160,369,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.5
+MyList,Reactome Gene Sets,6,R-HSA-1280215,Cytokine Signaling in Immune system,,-4.8,39,11,28160,715,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-1.7
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-909733,Interferon alpha/beta signaling,,-7.8,4e+02,35,28160,70,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-3.9
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-913531,Interferon Signaling,,-6.5,1.4e+02,21,28160,199,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.9
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0140546,defense response to symbiont,19_GO:0044419 biological process involved in interspecies interaction between organisms,-6.1,1.1e+02,18,28160,267,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.8
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0051607,defense response to virus,19_GO:0044419 biological process involved in interspecies interaction between organisms,-6.1,1.1e+02,18,28160,267,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.8
+MyList_MCODE_ALL,GO Biological Processes,19,GO:0009615,response to virus,19_GO:0044419 biological process involved in interspecies interaction between organisms,-5.7,76,15,28160,369,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.5
+MyList_MCODE_ALL,Reactome Gene Sets,6,R-HSA-1280215,Cytokine Signaling in Immune system,,-4.8,39,11,28160,715,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-1.7
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-909733,Interferon alpha/beta signaling,,-7.8,4e+02,35,28160,70,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-3.9
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-913531,Interferon Signaling,,-6.5,1.4e+02,21,28160,199,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.9
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0140546,defense response to symbiont,19_GO:0044419 biological process involved in interspecies interaction between organisms,-6.1,1.1e+02,18,28160,267,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.8
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0051607,defense response to virus,19_GO:0044419 biological process involved in interspecies interaction between organisms,-6.1,1.1e+02,18,28160,267,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.8
+MyList_SUB1_MCODE_1,GO Biological Processes,19,GO:0009615,response to virus,19_GO:0044419 biological process involved in interspecies interaction between organisms,-5.7,76,15,28160,369,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-2.5
+MyList_SUB1_MCODE_1,Reactome Gene Sets,6,R-HSA-1280215,Cytokine Signaling in Immune system,,-4.8,39,11,28160,715,3,3,1e+02,27,3433|3434|3437,IFIT2|IFIT1|IFIT3,-1.7

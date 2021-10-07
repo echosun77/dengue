@@ -1,0 +1,10 @@
+Network,Annotation
+MyList,GO:0016569|covalent chromatin modification|-14.9;GO:0016570|histone modification|-13.7;GO:0051169|nuclear transport|-11.8
+MyList_MCODE_ALL,R-HSA-4839726|Chromatin organization|-12.3;R-HSA-3247509|Chromatin modifying enzymes|-12.3;R-HSA-8878171|Transcriptional regulation by RUNX1|-11.9
+MyList_SUB1_MCODE_1,R-HSA-72163|mRNA Splicing - Major Pathway|-11.0;R-HSA-72172|mRNA Splicing|-10.8;CORUM:1257|ALL-1 supercomplex|-10.1
+MyList_SUB1_MCODE_2,R-HSA-2500257|Resolution of Sister Chromatid Cohesion|-5.5;R-HSA-2467813|Separation of Sister Chromatids|-4.8;R-HSA-68877|Mitotic Prometaphase|-4.7
+MyList_SUB1_MCODE_3,ko03013|RNA transport|-8.9;hsa03013|RNA transport|-8.8;WP3888|VEGFA-VEGFR2 signaling pathway|-8.0
+MyList_SUB1_MCODE_4,M40|PID E2F PATHWAY|-7.0;GO:0018205|peptidyl-lysine modification|-5.6;M261|PID P53 REGULATION PATHWAY|-5.2
+MyList_SUB1_MCODE_5,R-HSA-983168|Antigen processing: Ubiquitination & Proteasome degradation|-23.6;R-HSA-983169|Class I MHC mediated antigen processing & presentation|-22.6;R-HSA-1280218|Adaptive Immune System|-18.8
+MyList_SUB1_MCODE_6,GO:0050863|regulation of T cell activation|-4.8;GO:1903037|regulation of leukocyte cell-cell adhesion|-4.8;GO:0007159|leukocyte cell-cell adhesion|-4.7
+MyList_SUB1_MCODE_8,R-HSA-8943724|Regulation of PTEN gene transcription|-8.0;M101|PID HDAC CLASSI PATHWAY|-7.9;R-HSA-6807070|PTEN Regulation|-6.9

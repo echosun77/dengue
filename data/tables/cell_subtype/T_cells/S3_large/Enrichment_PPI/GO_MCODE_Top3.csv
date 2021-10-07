@@ -1,0 +1,5 @@
+Network,Annotation
+MyList,R-HSA-909733|Interferon alpha/beta signaling|-18.2;R-HSA-913531|Interferon Signaling|-17.2;GO:0051607|defense response to virus|-15.3
+MyList_MCODE_ALL,R-HSA-909733|Interferon alpha/beta signaling|-23.9;R-HSA-913531|Interferon Signaling|-19.2;GO:0140546|defense response to symbiont|-15.4
+MyList_SUB1_MCODE_1,R-HSA-909733|Interferon alpha/beta signaling|-26.3;R-HSA-913531|Interferon Signaling|-21.6;GO:0051607|defense response to virus|-17.3
+MyList_SUB1_MCODE_2,R-HSA-2424491|DAP12 signaling|-9.0;R-HSA-2172127|DAP12 interactions|-8.4;GO:0001912|positive regulation of leukocyte mediated cytotoxicity|-8.1

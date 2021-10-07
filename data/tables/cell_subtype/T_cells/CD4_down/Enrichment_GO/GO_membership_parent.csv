@@ -1,0 +1,17 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-28.6348594225944,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0009615 response to virus
+1,-19.514492034234927,GO:0016032,viral process,M1,1,GO:0045071 negative regulation of viral genome replication
+1,-16.58678438846096,GO:0050896,response to stimulus,M1,1,GO:0002831 regulation of response to biotic stimulus
+1,-11.478855017784975,GO:0048519,negative regulation of biological process,M1,1,GO:0002832 negative regulation of response to biotic stimulus
+1,-9.238645996799919,GO:0023052,signaling,M1,1,GO:0019221 cytokine-mediated signaling pathway
+1,-9.077719232009766,GO:0002376,immune system process,M1,1,GO:0050777 negative regulation of immune response
+1,-8.443070882579171,GO:0048518,positive regulation of biological process,M1,1,GO:0002833 positive regulation of response to biotic stimulus
+1,-6.240134584913926,GO:0032501,multicellular organismal process,M1,1,GO:0032606 type I interferon production
+1,-5.067295835289786,GO:0050789,regulation of biological process,M1,1,GO:0031341 regulation of cell killing
+1,-4.675429208381024,GO:0051704,multi-organism process,M1,1,GO:0044766 multi-organism transport
+1,-4.14863694628637,GO:0040011,locomotion,M1,1,GO:2000401 regulation of lymphocyte migration
+1,-4.045126205807774,GO:0008152,metabolic process,M1,1,GO:0032020 ISG15-protein conjugation
+1,-3.9822547689457863,GO:0009987,cellular process,M1,1,GO:0001906 cell killing
+1,-3.806959906790477,GO:0051179,localization,M1,1,GO:0032511 late endosome to vacuole transport via multivesicular body sorting pathway
+1,-3.155857445197303,GO:0065007,biological regulation,M1,1,GO:0007042 lysosomal lumen acidification
+1,-2.303515463040577,GO:0022610,biological adhesion,M1,1,GO:0046641 positive regulation of alpha-beta T cell proliferation

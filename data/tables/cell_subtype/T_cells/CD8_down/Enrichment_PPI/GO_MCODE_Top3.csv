@@ -1,0 +1,13 @@
+Network,Annotation
+MyList,GO:0009615|response to virus|-21.3;GO:0002831|regulation of response to biotic stimulus|-20.8;GO:0051607|defense response to virus|-20.2
+MyList_MCODE_ALL,R-HSA-909733|Interferon alpha/beta signaling|-24.6;R-HSA-913531|Interferon Signaling|-22.3;R-HSA-1280215|Cytokine Signaling in Immune system|-21.0
+MyList_SUB1_MCODE_1,R-HSA-909733|Interferon alpha/beta signaling|-39.8;R-HSA-913531|Interferon Signaling|-32.5;GO:0051607|defense response to virus|-24.4
+MyList_SUB1_MCODE_2,R-HSA-983168|Antigen processing: Ubiquitination & Proteasome degradation|-16.7;R-HSA-983169|Class I MHC mediated antigen processing & presentation|-15.9;R-HSA-1280218|Adaptive Immune System|-13.1
+MyList_SUB1_MCODE_3,R-HSA-8873719|RAB geranylgeranylation|-10.9;GO:0032482|Rab protein signal transduction|-10.3;R-HSA-418594|G alpha (i) signalling events|-7.4
+MyList_SUB1_MCODE_4,hsa04650|Natural killer cell mediated cytotoxicity |-17.7;ko04650|Natural killer cell mediated cytotoxicity|-17.7;R-HSA-2424491|DAP12 signaling|-16.1
+MyList_SUB1_MCODE_5,R-HSA-9033241|Peroxisomal protein import|-10.6;hsa04146|Peroxisome |-10.2;ko04146|Peroxisome|-10.2
+MyList_SUB1_MCODE_6,CORUM:5450|Mediator complex|-12.2;CORUM:230|Mediator complex|-11.9;R-HSA-381340|Transcriptional regulation of white adipocyte differentiation|-10.1
+MyList_SUB1_MCODE_8,R-HSA-8951664|Neddylation|-6.2
+MyList_SUB1_MCODE_9,R-HSA-6798695|Neutrophil degranulation|-5.3
+MyList_SUB1_MCODE_10,GO:0050730|regulation of peptidyl-tyrosine phosphorylation|-6.1;GO:0018108|peptidyl-tyrosine phosphorylation|-5.6;GO:0018212|peptidyl-tyrosine modification|-5.6
+MyList_SUB1_MCODE_11,WP405|Eukaryotic transcription initiation|-8.5;hsa03022|Basal transcription factors |-8.4;ko03022|Basal transcription factors|-8.4

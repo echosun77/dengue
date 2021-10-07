@@ -1,0 +1,63 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-2.4,R-HSA-5250941,Negative epigenetic regulation of rRNA expression,M1,1,0
+1,-2.3,GO:0034968,histone lysine methylation,M1,1,0
+1,-2.7,R-HSA-212165,Epigenetic regulation of gene expression,M1,1,0
+1,-2.5,GO:1902003,regulation of amyloid-beta formation,M1,1,0
+1,-2.5,GO:0002762,negative regulation of myeloid leukocyte differentiation,M1,1,0
+1,-2.1,GO:0018022,peptidyl-lysine methylation,M1,1,0
+1,-2.6,R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,M1,1,0
+1,-2.1,GO:0042987,amyloid precursor protein catabolic process,M1,1,0
+1,-2,WP3584,MECP2 and associated Rett syndrome,M1,1,0
+1,-2,R-HSA-212300,PRC2 methylates histones and DNA,M1,1,0
+1,-2.1,GO:0016569,covalent chromatin modification,M1,1,0
+1,-2.7,GO:0008643,carbohydrate transport,M1,1,0
+1,-2,R-HSA-2299718,Condensation of Prophase Chromosomes,M1,1,0
+1,-2.4,GO:1901137,carbohydrate derivative biosynthetic process,M1,1,0
+1,-2.7,R-HSA-73772,RNA Polymerase I Promoter Escape,M1,1,0
+1,-2.1,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,M1,1,0
+1,-2.2,R-HSA-5334118,DNA methylation,M1,1,0
+1,-2.5,WP4536,Genes related to primary cilium development (based on CRISPR),M1,1,0
+1,-2.1,R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,M1,1,0
+1,-2,GO:0042886,amide transport,M1,1,0
+1,-2,GO:0009166,nucleotide catabolic process,M1,1,0
+1,-2.1,R-HSA-9609690,HCMV Early Events,M1,1,0
+1,-2.1,R-HSA-3214841,PKMTs methylate histone lysines,M1,1,0
+1,-2.7,R-HSA-9616222,Transcriptional regulation of granulopoiesis,M1,1,0
+1,-2.3,GO:0008213,protein alkylation,M1,1,0
+1,-2.3,R-HSA-73864,RNA Polymerase I Transcription,M1,1,0
+1,-2.8,GO:0016571,histone methylation,M1,1,0
+1,-2.1,GO:0008277,regulation of G protein-coupled receptor signaling pathway,M1,1,0
+1,-2.6,R-HSA-5625740,RHO GTPases activate PKNs,M1,1,0
+1,-2.4,R-HSA-427413,NoRC negatively regulates rRNA expression,M1,1,0
+1,-5.9,GO:0006486,protein glycosylation,M1,1,0
+1,-2.5,GO:1902106,negative regulation of leukocyte differentiation,M1,1,0
+1,-2.2,GO:0015850,organic hydroxy compound transport,M1,1,0
+1,-2.4,R-HSA-73854,RNA Polymerase I Promoter Clearance,M1,1,0
+1,-2.1,WP2369,Histone modifications,M1,1,0
+1,-2.2,R-HSA-2559583,Cellular Senescence,M1,1,0
+1,-2.2,GO:0016570,histone modification,M1,1,0
+1,-2,R-HSA-9710421,Defective pyroptosis,M1,1,0
+1,-2.1,GO:0050435,amyloid-beta metabolic process,M1,1,0
+1,-2.2,R-HSA-73728,RNA Polymerase I Promoter Opening,M1,1,0
+1,-2.8,R-HSA-3214847,HATs acetylate histones,M1,1,0
+1,-2.4,GO:1902991,regulation of amyloid precursor protein catabolic process,M1,1,0
+1,-2.6,R-HSA-3214815,HDACs deacetylate histones,M1,1,0
+1,-2.3,GO:0006479,protein methylation,M1,1,0
+1,-2.9,GO:0097502,mannosylation,M1,1,0
+1,-2.1,hsa05322,Systemic lupus erythematosus,M1,1,0
+1,-2,GO:0006869,lipid transport,M1,1,0
+1,-2.9,R-HSA-3247509,Chromatin modifying enzymes,M1,1,0
+1,-4,R-HSA-8878171,Transcriptional regulation by RUNX1,M1,1,0
+1,-5.7,GO:0070085,glycosylation,M1,1,0
+1,-3.9,GO:0009100,glycoprotein metabolic process,M1,1,0
+1,-2.9,R-HSA-3214858,RMTs methylate histone arginines,M1,1,0
+1,-2.9,R-HSA-4839726,Chromatin organization,M1,1,0
+1,-2.3,R-HSA-9610379,HCMV Late Events,M1,1,0
+1,-2.1,R-HSA-427359,SIRT1 negatively regulates rRNA expression,M1,1,0
+1,-2,GO:0072330,monocarboxylic acid biosynthetic process,M1,1,0
+1,-2.3,GO:0034205,amyloid-beta formation,M1,1,0
+1,-2.4,GO:1903707,negative regulation of hemopoiesis,M1,1,0
+1,-4.7,GO:0009101,glycoprotein biosynthetic process,M1,1,0
+1,-5.9,GO:0043413,macromolecule glycosylation,M1,1,0
+1,-3,R-HSA-2559580,Oxidative Stress Induced Senescence,M1,1,0
+1,-2.1,ko05322,Systemic lupus erythematosus,M1,1,0

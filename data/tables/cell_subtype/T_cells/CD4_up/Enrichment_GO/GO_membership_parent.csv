@@ -1,0 +1,21 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-12.978563268826177,GO:0008152,metabolic process,M1,1,GO:0016569 covalent chromatin modification
+1,-12.00664840856663,GO:0002376,immune system process,M1,1,GO:0046649 lymphocyte activation
+1,-10.414088683183621,GO:0051179,localization,M1,1,GO:0051169 nuclear transport
+1,-8.663000239317984,GO:0009987,cellular process,M1,1,GO:0061919 process utilizing autophagic mechanism
+1,-7.620011986025251,GO:0048518,positive regulation of biological process,M1,1,GO:0009896 positive regulation of catabolic process
+1,-7.138980478153778,GO:0050789,regulation of biological process,M1,1,GO:0035303 regulation of dephosphorylation
+1,-7.13532712764643,GO:0022610,biological adhesion,M1,1,"GO:0043371 negative regulation of CD4-positive, alpha-beta T cell differentiation"
+1,-6.6022525036619175,GO:0048519,negative regulation of biological process,M1,1,GO:0051129 negative regulation of cellular component organization
+1,-6.257348014505824,GO:0023052,signaling,M1,1,GO:0017015 regulation of transforming growth factor beta receptor signaling pathway
+1,-6.142166095957687,GO:0050896,response to stimulus,M1,1,GO:1903844 regulation of cellular response to transforming growth factor beta stimulus
+1,-5.643280217191476,GO:0065007,biological regulation,M1,1,GO:0048872 homeostasis of number of cells
+1,-4.367708205584661,GO:0032502,developmental process,M1,1,GO:0001655 urogenital system development
+1,-4.154474205922669,GO:0040011,locomotion,M1,1,GO:0030335 positive regulation of cell migration
+1,-3.7152955666860468,GO:0016032,viral process,M1,1,GO:0016032 viral process
+1,-3.4433776673224368,GO:0048511,rhythmic process,M1,1,GO:0048511 rhythmic process
+1,-3.2372321485276534,GO:0032501,multicellular organismal process,M1,1,GO:0001817 regulation of cytokine production
+1,-2.66893410070985,GO:0040007,growth,M1,1,GO:0048589 developmental growth
+1,-2.4364436265501412,GO:0022414,reproductive process,M1,1,GO:0001892 embryonic placenta development
+1,-2.115746516604017,GO:0043473,pigmentation,M1,1,GO:0048066 developmental pigmentation
+1,-2.0566880053740073,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0045089 positive regulation of innate immune response

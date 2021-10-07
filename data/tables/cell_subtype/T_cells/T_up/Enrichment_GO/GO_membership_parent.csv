@@ -1,0 +1,21 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-38.17026713377369,GO:0009987,cellular process,M1,1,GO:1903047 mitotic cell cycle process
+1,-22.270250514850435,GO:0008152,metabolic process,M1,1,GO:0016569 covalent chromatin modification
+1,-17.014580350995065,GO:0050789,regulation of biological process,M1,1,GO:0033044 regulation of chromosome organization
+1,-14.267107795811594,GO:0051179,localization,M1,1,GO:0006606 protein import into nucleus
+1,-13.93973708182522,GO:0048519,negative regulation of biological process,M1,1,GO:0097549 chromatin organization involved in negative regulation of transcription
+1,-12.649209302562515,GO:0050896,response to stimulus,M1,1,GO:0006281 DNA repair
+1,-12.628740931690853,GO:0022414,reproductive process,M1,1,GO:0051321 meiotic cell cycle
+1,-12.037274204871649,GO:0002376,immune system process,M1,1,GO:0046649 lymphocyte activation
+1,-10.46714475737406,GO:0048518,positive regulation of biological process,M1,1,GO:1903829 positive regulation of cellular protein localization
+1,-7.968214220986963,GO:0065007,biological regulation,M1,1,GO:0051098 regulation of binding
+1,-6.6221551345073495,GO:0022610,biological adhesion,M1,1,GO:1903038 negative regulation of leukocyte cell-cell adhesion
+1,-6.268658251725253,GO:0048511,rhythmic process,M1,1,GO:0048511 rhythmic process
+1,-5.722108781580668,GO:0016032,viral process,M1,1,GO:0016032 viral process
+1,-5.329947670256839,GO:0023052,signaling,M1,1,GO:0097193 intrinsic apoptotic signaling pathway
+1,-5.115473612553234,GO:0032501,multicellular organismal process,M1,1,GO:0001817 regulation of cytokine production
+1,-4.604226959749055,GO:0032502,developmental process,M1,1,GO:0007569 cell aging
+1,-4.179300656920704,GO:0040007,growth,M1,1,GO:0048589 developmental growth
+1,-4.1678759326681245,GO:0040011,locomotion,M1,1,GO:0030335 positive regulation of cell migration
+1,-4.164236160714711,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0042832 defense response to protozoan
+1,-3.840337077460212,GO:0051704,multi-organism process,M1,1,GO:0007143 female meiotic nuclear division

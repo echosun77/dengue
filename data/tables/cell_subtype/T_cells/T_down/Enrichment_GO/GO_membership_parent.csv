@@ -1,0 +1,17 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-26.984172060567634,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0009615 response to virus
+1,-18.16135209437276,GO:0016032,viral process,M1,1,GO:0045071 negative regulation of viral genome replication
+1,-14.252892861335114,GO:0050896,response to stimulus,M1,1,GO:0002831 regulation of response to biotic stimulus
+1,-10.976007657536483,GO:0002376,immune system process,M1,1,GO:0002250 adaptive immune response
+1,-8.515567827562858,GO:0048519,negative regulation of biological process,M1,1,GO:0002832 negative regulation of response to biotic stimulus
+1,-6.8938399988318615,GO:0048518,positive regulation of biological process,M1,1,GO:0002833 positive regulation of response to biotic stimulus
+1,-5.875699579533246,GO:0023052,signaling,M1,1,GO:0019221 cytokine-mediated signaling pathway
+1,-5.4395911214921755,GO:0032501,multicellular organismal process,M1,1,GO:0032648 regulation of interferon-beta production
+1,-4.7110506473113745,GO:0051704,multi-organism process,M1,1,GO:1902579 multi-organism localization
+1,-4.309792627543117,GO:0050789,regulation of biological process,M1,1,GO:0031341 regulation of cell killing
+1,-4.06716537651906,GO:0008152,metabolic process,M1,1,GO:0032020 ISG15-protein conjugation
+1,-3.300927027308392,GO:0040011,locomotion,M1,1,GO:2000401 regulation of lymphocyte migration
+1,-2.8588667665917824,GO:0009987,cellular process,M1,1,GO:0001906 cell killing
+1,-2.7672811600080793,GO:0065007,biological regulation,M1,1,GO:0051346 negative regulation of hydrolase activity
+1,-2.3241730102245803,GO:0022610,biological adhesion,M1,1,GO:0046641 positive regulation of alpha-beta T cell proliferation
+1,-2.0053693583584606,GO:0032502,developmental process,M1,1,GO:0014009 glial cell proliferation

@@ -1,0 +1,379 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-3.8,GO:0010506,regulation of autophagy,M1,1,0
+1,-5,GO:0007249,I-kappaB kinase/NF-kappaB signaling,M1,1,0
+1,-2.9,GO:0036037,"CD8-positive, alpha-beta T cell activation",M1,1,0
+1,-9.4,GO:0002252,immune effector process,M1,1,0
+1,-2.3,GO:0002689,negative regulation of leukocyte chemotaxis,M1,1,0
+1,-3.5,GO:0039528,cytoplasmic pattern recognition receptor signaling pathway in response to virus,M1,1,0
+1,-2.8,GO:0071706,tumor necrosis factor superfamily cytokine production,M1,1,0
+1,-4,GO:0002366,leukocyte activation involved in immune response,M1,1,0
+1,-2.9,GO:0034123,positive regulation of toll-like receptor signaling pathway,M1,1,0
+1,-6.2,R-HSA-2424491,DAP12 signaling,M1,1,0
+1,-3.4,GO:0032760,positive regulation of tumor necrosis factor production,M1,1,0
+1,-3.3,GO:0062207,regulation of pattern recognition receptor signaling pathway,M1,1,0
+1,-2.3,GO:0035020,regulation of Rac protein signal transduction,M1,1,0
+1,-2.2,R-HSA-168138,Toll Like Receptor 9 (TLR9) Cascade,M1,1,0
+1,-2.5,GO:1990858,cellular response to lectin,M1,1,0
+1,-7.4,GO:0045824,negative regulation of innate immune response,M1,1,0
+1,-8,GO:0032103,positive regulation of response to external stimulus,M1,1,0
+1,-3.1,hsa04621,NOD-like receptor signaling pathway ,M1,1,0
+1,-3.1,GO:0030595,leukocyte chemotaxis,M1,1,0
+1,-6.9,GO:0031343,positive regulation of cell killing,M1,1,0
+1,-3.2,hsa05332,Graft-versus-host disease ,M1,1,0
+1,-4.6,GO:0030101,natural killer cell activation,M1,1,0
+1,-2.2,GO:0036230,granulocyte activation,M1,1,0
+1,-3.7,ko04622,RIG-I-like receptor signaling pathway,M1,1,0
+1,-2.3,GO:0046651,lymphocyte proliferation,M1,1,0
+1,-2.2,GO:0016236,macroautophagy,M1,1,0
+1,-4.2,ko04612,Antigen processing and presentation,M1,1,0
+1,-2.3,GO:0097530,granulocyte migration,M1,1,0
+1,-3.5,GO:0034121,regulation of toll-like receptor signaling pathway,M1,1,0
+1,-19,GO:0009615,response to virus,M1,1,0
+1,-5.8,GO:0001906,cell killing,M1,1,0
+1,-2.6,GO:0032633,interleukin-4 production,M1,1,0
+1,-7.6,GO:0045069,regulation of viral genome replication,M1,1,0
+1,-2.5,hsa05160,Hepatitis C,M1,1,0
+1,-2.2,GO:0072677,eosinophil migration,M1,1,0
+1,-5.9,GO:0035455,response to interferon-alpha,M1,1,0
+1,-10,GO:0048525,negative regulation of viral process,M1,1,0
+1,-2.7,CORUM:230,Mediator complex,M1,1,0
+1,-2.7,GO:0002444,myeloid leukocyte mediated immunity,M1,1,0
+1,-5.6,WP5039,SARS-CoV-2 innate immunity evasion and cell-specific immune response,M1,1,0
+1,-2.5,GO:0008333,endosome to lysosome transport,M1,1,0
+1,-2.6,GO:0002696,positive regulation of leukocyte activation,M1,1,0
+1,-3.9,GO:0043068,positive regulation of programmed cell death,M1,1,0
+1,-8.2,GO:1903900,regulation of viral life cycle,M1,1,0
+1,-5.5,GO:0046631,alpha-beta T cell activation,M1,1,0
+1,-5.9,GO:0016032,viral process,M1,1,0
+1,-2.2,GO:0032944,regulation of mononuclear cell proliferation,M1,1,0
+1,-2,GO:0042157,lipoprotein metabolic process,M1,1,0
+1,-4.2,hsa04612,Antigen processing and presentation ,M1,1,0
+1,-2.3,R-HSA-975155,MyD88 dependent cascade initiated on endosome,M1,1,0
+1,-2.8,R-HSA-166166,MyD88-independent TLR4 cascade ,M1,1,0
+1,-2,R-HSA-933542,TRAF6 mediated NF-kB activation,M1,1,0
+1,-3.6,GO:0002702,positive regulation of production of molecular mediator of immune response,M1,1,0
+1,-2.9,GO:0002685,regulation of leukocyte migration,M1,1,0
+1,-2.5,GO:0002821,positive regulation of adaptive immune response,M1,1,0
+1,-3.7,WP4868,Type I interferon induction and signaling during SARS-CoV-2 infection,M1,1,0
+1,-2.3,GO:0046579,positive regulation of Ras protein signal transduction,M1,1,0
+1,-3.5,GO:0007159,leukocyte cell-cell adhesion,M1,1,0
+1,-7,GO:0046649,lymphocyte activation,M1,1,0
+1,-2.2,GO:2000404,regulation of T cell migration,M1,1,0
+1,-2.2,GO:0050852,T cell receptor signaling pathway,M1,1,0
+1,-6.8,GO:0060338,regulation of type I interferon-mediated signaling pathway,M1,1,0
+1,-3.9,GO:0043122,regulation of I-kappaB kinase/NF-kappaB signaling,M1,1,0
+1,-3.7,hsa04622,RIG-I-like receptor signaling pathway ,M1,1,0
+1,-2.3,GO:0046641,positive regulation of alpha-beta T cell proliferation,M1,1,0
+1,-18,GO:0140546,defense response to symbiont,M1,1,0
+1,-2.1,GO:0050687,negative regulation of defense response to virus,M1,1,0
+1,-2.6,ko04668,TNF signaling pathway,M1,1,0
+1,-2.9,GO:0032607,interferon-alpha production,M1,1,0
+1,-6.2,GO:0001817,regulation of cytokine production,M1,1,0
+1,-2,GO:0043299,leukocyte degranulation,M1,1,0
+1,-3.1,GO:0034341,response to interferon-gamma,M1,1,0
+1,-3.2,ko05332,Graft-versus-host disease,M1,1,0
+1,-5.3,GO:0060759,regulation of response to cytokine stimulus,M1,1,0
+1,-10,GO:0002697,regulation of immune effector process,M1,1,0
+1,-18,GO:0051607,defense response to virus,M1,1,0
+1,-2.3,GO:0050870,positive regulation of T cell activation,M1,1,0
+1,-3.3,GO:0071359,cellular response to dsRNA,M1,1,0
+1,-3.1,GO:0003094,glomerular filtration,M1,1,0
+1,-3.4,GO:0060267,positive regulation of respiratory burst,M1,1,0
+1,-2,GO:1905037,autophagosome organization,M1,1,0
+1,-3.6,R-HSA-1169408,ISG15 antiviral mechanism,M1,1,0
+1,-3.4,GO:2000553,positive regulation of T-helper 2 cell cytokine production,M1,1,0
+1,-2.1,GO:0031294,lymphocyte costimulation,M1,1,0
+1,-7.4,GO:0002706,regulation of lymphocyte mediated immunity,M1,1,0
+1,-2.8,GO:1903555,regulation of tumor necrosis factor superfamily cytokine production,M1,1,0
+1,-2.8,GO:0051092,positive regulation of NF-kappaB transcription factor activity,M1,1,0
+1,-7.1,GO:0002708,positive regulation of lymphocyte mediated immunity,M1,1,0
+1,-3.3,GO:1903557,positive regulation of tumor necrosis factor superfamily cytokine production,M1,1,0
+1,-2.4,GO:0045730,respiratory burst,M1,1,0
+1,-2.2,hsa05169,Epstein-Barr virus infection,M1,1,0
+1,-2.4,WP2447,Amyotrophic lateral sclerosis (ALS),M1,1,0
+1,-4,GO:0035022,positive regulation of Rac protein signal transduction,M1,1,0
+1,-2.9,R-HSA-168164,Toll Like Receptor 3 (TLR3) Cascade,M1,1,0
+1,-2.9,GO:0050868,negative regulation of T cell activation,M1,1,0
+1,-8.8,GO:0001910,regulation of leukocyte mediated cytotoxicity,M1,1,0
+1,-3,GO:0022407,regulation of cell-cell adhesion,M1,1,0
+1,-2,R-HSA-166016,Toll Like Receptor 4 (TLR4) Cascade,M1,1,0
+1,-2.4,GO:2001185,"regulation of CD8-positive, alpha-beta T cell activation",M1,1,0
+1,-2.2,GO:0071621,granulocyte chemotaxis,M1,1,0
+1,-8.9,GO:0002764,immune response-regulating signaling pathway,M1,1,0
+1,-2.4,GO:0043549,regulation of kinase activity,M1,1,0
+1,-5.4,GO:0002429,immune response-activating cell surface receptor signaling pathway,M1,1,0
+1,-4,ko05168,Herpes simplex infection,M1,1,0
+1,-3,GO:0072676,lymphocyte migration,M1,1,0
+1,-3.6,WP4880,Host-pathogen interaction of human coronaviruses - interferon induction,M1,1,0
+1,-2.1,GO:0001911,negative regulation of leukocyte mediated cytotoxicity,M1,1,0
+1,-2.1,GO:0032729,positive regulation of interferon-gamma production,M1,1,0
+1,-2.5,GO:0042092,type 2 immune response,M1,1,0
+1,-2,ko04620,Toll-like receptor signaling pathway,M1,1,0
+1,-2.5,GO:0046640,regulation of alpha-beta T cell proliferation,M1,1,0
+1,-4.6,GO:0039530,MDA-5 signaling pathway,M1,1,0
+1,-2,ko00240,Pyrimidine metabolism,M1,1,0
+1,-2.4,hsa04668,TNF signaling pathway,M1,1,0
+1,-3.6,GO:0032606,type I interferon production,M1,1,0
+1,-2.3,GO:0046629,gamma-delta T cell activation,M1,1,0
+1,-2.2,GO:0051091,positive regulation of DNA-binding transcription factor activity,M1,1,0
+1,-2.1,GO:1903131,mononuclear cell differentiation,M1,1,0
+1,-2.6,ko05162,Measles,M1,1,0
+1,-4.1,GO:0002753,cytoplasmic pattern recognition receptor signaling pathway,M1,1,0
+1,-2.2,GO:0045576,mast cell activation,M1,1,0
+1,-17,GO:0002831,regulation of response to biotic stimulus,M1,1,0
+1,-3.5,GO:0050900,leukocyte migration,M1,1,0
+1,-8.1,GO:0002715,regulation of natural killer cell mediated immunity,M1,1,0
+1,-5.7,WP4197,Immune response to tuberculosis,M1,1,0
+1,-2.3,GO:0002888,positive regulation of myeloid leukocyte mediated immunity,M1,1,0
+1,-7.4,GO:0002228,natural killer cell mediated immunity,M1,1,0
+1,-2.4,WP1449,Regulation of toll-like receptor signaling pathway,M1,1,0
+1,-3.5,GO:0002224,toll-like receptor signaling pathway,M1,1,0
+1,-3.8,GO:0071674,mononuclear cell migration,M1,1,0
+1,-5.8,GO:0051249,regulation of lymphocyte activation,M1,1,0
+1,-3.3,GO:0032727,positive regulation of interferon-alpha production,M1,1,0
+1,-7.6,GO:0031341,regulation of cell killing,M1,1,0
+1,-3.2,GO:2000401,regulation of lymphocyte migration,M1,1,0
+1,-2,GO:0030593,neutrophil chemotaxis,M1,1,0
+1,-2.7,WP4217,Ebola virus pathway in host,M1,1,0
+1,-2.3,GO:0044403,biological process involved in symbiotic interaction,M1,1,0
+1,-3.1,GO:1901623,regulation of lymphocyte chemotaxis,M1,1,0
+1,-4,GO:0002704,negative regulation of leukocyte mediated immunity,M1,1,0
+1,-6.4,GO:0042110,T cell activation,M1,1,0
+1,-3.1,GO:0002726,positive regulation of T cell cytokine production,M1,1,0
+1,-2.5,GO:0019885,antigen processing and presentation of endogenous peptide antigen via MHC class I,M1,1,0
+1,-2.2,GO:0002220,innate immune response activating cell surface receptor signaling pathway,M1,1,0
+1,-7.3,GO:0042269,regulation of natural killer cell mediated cytotoxicity,M1,1,0
+1,-3.6,GO:0035743,"CD4-positive, alpha-beta T cell cytokine production",M1,1,0
+1,-4.2,GO:2000551,regulation of T-helper 2 cell cytokine production,M1,1,0
+1,-3.3,GO:0042742,defense response to bacterium,M1,1,0
+1,-5.5,GO:0019058,viral life cycle,M1,1,0
+1,-3.8,GO:0032102,negative regulation of response to external stimulus,M1,1,0
+1,-3.3,GO:0001960,negative regulation of cytokine-mediated signaling pathway,M1,1,0
+1,-2.3,GO:0046597,negative regulation of viral entry into host cell,M1,1,0
+1,-4.2,GO:0001959,regulation of cytokine-mediated signaling pathway,M1,1,0
+1,-2.2,GO:0032816,positive regulation of natural killer cell activation,M1,1,0
+1,-2.4,GO:0046633,alpha-beta T cell proliferation,M1,1,0
+1,-4.9,GO:0002768,immune response-regulating cell surface receptor signaling pathway,M1,1,0
+1,-2.5,GO:1903038,negative regulation of leukocyte cell-cell adhesion,M1,1,0
+1,-3.2,GO:0002700,regulation of production of molecular mediator of immune response,M1,1,0
+1,-8.4,GO:0031349,positive regulation of defense response,M1,1,0
+1,-3.1,ko04621,NOD-like receptor signaling pathway,M1,1,0
+1,-3.7,GO:0002460,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-3.8,GO:0071675,regulation of mononuclear cell migration,M1,1,0
+1,-3.6,GO:0019221,cytokine-mediated signaling pathway,M1,1,0
+1,-3.6,GO:0032479,regulation of type I interferon production,M1,1,0
+1,-2.6,GO:0019882,antigen processing and presentation,M1,1,0
+1,-4,hsa05168,Herpes simplex infection,M1,1,0
+1,-3,GO:0097205,renal filtration,M1,1,0
+1,-2,WP75,Toll-like receptor signaling pathway,M1,1,0
+1,-8.8,hsa04650,Natural killer cell mediated cytotoxicity ,M1,1,0
+1,-9.7,GO:0045071,negative regulation of viral genome replication,M1,1,0
+1,-3.1,GO:1903901,negative regulation of viral life cycle,M1,1,0
+1,-2.1,GO:0051345,positive regulation of hydrolase activity,M1,1,0
+1,-4,M54,PID IL12 2PATHWAY,M1,1,0
+1,-3.1,hsa04623,Cytosolic DNA-sensing pathway ,M1,1,0
+1,-4.3,WP4655,Cytosolic DNA-sensing pathway,M1,1,0
+1,-5.2,GO:2000501,regulation of natural killer cell chemotaxis,M1,1,0
+1,-2.2,R-HSA-168181,Toll Like Receptor 7/8 (TLR7/8) Cascade,M1,1,0
+1,-5.4,GO:0002456,T cell mediated immunity,M1,1,0
+1,-2.6,GO:0032673,regulation of interleukin-4 production,M1,1,0
+1,-2.3,GO:0006353,"DNA-templated transcription, termination",M1,1,0
+1,-2,GO:1903039,positive regulation of leukocyte cell-cell adhesion,M1,1,0
+1,-2.5,GO:2000403,positive regulation of lymphocyte migration,M1,1,0
+1,-2.7,GO:0045859,regulation of protein kinase activity,M1,1,0
+1,-4.9,GO:0046634,regulation of alpha-beta T cell activation,M1,1,0
+1,-2.6,GO:0043331,response to dsRNA,M1,1,0
+1,-4,GO:0051250,negative regulation of lymphocyte activation,M1,1,0
+1,-2.4,GO:1901657,glycosyl compound metabolic process,M1,1,0
+1,-7.7,GO:0071357,cellular response to type I interferon,M1,1,0
+1,-5.3,GO:0032608,interferon-beta production,M1,1,0
+1,-7.4,GO:0001909,leukocyte mediated cytotoxicity,M1,1,0
+1,-2.5,GO:0002440,production of molecular mediator of immune response,M1,1,0
+1,-4.6,GO:0050688,regulation of defense response to virus,M1,1,0
+1,-7.2,GO:0001819,positive regulation of cytokine production,M1,1,0
+1,-2,hsa00240,Pyrimidine metabolism ,M1,1,0
+1,-5.4,GO:0002757,immune response-activating signal transduction,M1,1,0
+1,-5.1,GO:0002367,cytokine production involved in immune response,M1,1,0
+1,-3.9,GO:0002709,regulation of T cell mediated immunity,M1,1,0
+1,-2.1,GO:0042098,T cell proliferation,M1,1,0
+1,-2.4,GO:0070663,regulation of leukocyte proliferation,M1,1,0
+1,-5.3,GO:0032648,regulation of interferon-beta production,M1,1,0
+1,-2.3,GO:2000516,"positive regulation of CD4-positive, alpha-beta T cell activation",M1,1,0
+1,-2.9,GO:0032680,regulation of tumor necrosis factor production,M1,1,0
+1,-2.2,GO:0050670,regulation of lymphocyte proliferation,M1,1,0
+1,-5.9,GO:0009617,response to bacterium,M1,1,0
+1,-3.9,R-HSA-6798695,Neutrophil degranulation,M1,1,0
+1,-2,hsa04620,Toll-like receptor signaling pathway ,M1,1,0
+1,-2.7,R-HSA-918233,TRAF3-dependent IRF activation pathway,M1,1,0
+1,-3.4,hsa05164,Influenza A,M1,1,0
+1,-3.5,GO:1903037,regulation of leukocyte cell-cell adhesion,M1,1,0
+1,-3.7,GO:0035456,response to interferon-beta,M1,1,0
+1,-3.4,GO:0002369,T cell cytokine production,M1,1,0
+1,-2.3,R-HSA-9033241,Peroxisomal protein import,M1,1,0
+1,-2.6,GO:0002824,positive regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-2.5,GO:0002521,leukocyte differentiation,M1,1,0
+1,-2.4,GO:0042119,neutrophil activation,M1,1,0
+1,-5.9,GO:0050865,regulation of cell activation,M1,1,0
+1,-8.9,GO:0002443,leukocyte mediated immunity,M1,1,0
+1,-4.4,GO:0006968,cellular defense response,M1,1,0
+1,-2.1,GO:0031331,positive regulation of cellular catabolic process,M1,1,0
+1,-3.1,GO:0035457,cellular response to interferon-alpha,M1,1,0
+1,-8.1,GO:0002699,positive regulation of immune effector process,M1,1,0
+1,-2,GO:0032753,positive regulation of interleukin-4 production,M1,1,0
+1,-4.9,GO:0031348,negative regulation of defense response,M1,1,0
+1,-9.8,GO:0002683,negative regulation of immune system process,M1,1,0
+1,-2.2,GO:0031295,T cell costimulation,M1,1,0
+1,-4.6,GO:0001913,T cell mediated cytotoxicity,M1,1,0
+1,-3.4,R-HSA-8983711,OAS antiviral response,M1,1,0
+1,-4,GO:0140374,antiviral innate immune response,M1,1,0
+1,-2.7,GO:0002828,regulation of type 2 immune response,M1,1,0
+1,-2.5,ko04210,Apoptosis,M1,1,0
+1,-2.3,GO:1902579,multi-organism localization,M1,1,0
+1,-3,GO:0006497,protein lipidation,M1,1,0
+1,-2.3,GO:0032943,mononuclear cell proliferation,M1,1,0
+1,-7.6,R-HSA-1280218,Adaptive Immune System,M1,1,0
+1,-2.2,GO:0002758,innate immune response-activating signal transduction,M1,1,0
+1,-15,R-HSA-909733,Interferon alpha/beta signaling,M1,1,0
+1,-2.8,GO:0052372,modulation by symbiont of entry into host,M1,1,0
+1,-7.8,GO:0002705,positive regulation of leukocyte mediated immunity,M1,1,0
+1,-3.6,GO:0010942,positive regulation of cell death,M1,1,0
+1,-2.2,GO:0032755,positive regulation of interleukin-6 production,M1,1,0
+1,-4.2,GO:0035745,T-helper 2 cell cytokine production,M1,1,0
+1,-3.4,GO:0032482,Rab protein signal transduction,M1,1,0
+1,-4.7,GO:0002720,positive regulation of cytokine production involved in immune response,M1,1,0
+1,-2.4,GO:0010759,positive regulation of macrophage chemotaxis,M1,1,0
+1,-2.8,R-HSA-937061,TRIF(TICAM1)-mediated TLR4 signaling ,M1,1,0
+1,-2.5,GO:0002886,regulation of myeloid leukocyte mediated immunity,M1,1,0
+1,-6.6,GO:0002449,lymphocyte mediated immunity,M1,1,0
+1,-2.9,GO:0002275,myeloid cell activation involved in immune response,M1,1,0
+1,-3.1,GO:0060761,negative regulation of response to cytokine stimulus,M1,1,0
+1,-2.3,R-HSA-9614085,FOXO-mediated transcription,M1,1,0
+1,-4.6,GO:0002695,negative regulation of leukocyte activation,M1,1,0
+1,-2.5,GO:0046632,alpha-beta T cell differentiation,M1,1,0
+1,-15,GO:0045088,regulation of innate immune response,M1,1,0
+1,-2.1,GO:0060326,cell chemotaxis,M1,1,0
+1,-2.2,GO:0030522,intracellular receptor signaling pathway,M1,1,0
+1,-9.6,GO:0034340,response to type I interferon,M1,1,0
+1,-2.9,CORUM:5450,Mediator complex,M1,1,0
+1,-4.1,R-HSA-168928,DDX58/IFIH1-mediated induction of interferon-alpha/beta,M1,1,0
+1,-8.8,GO:0050777,negative regulation of immune response,M1,1,0
+1,-2.6,GO:0044804,autophagy of nucleus,M1,1,0
+1,-2.4,GO:0070661,leukocyte proliferation,M1,1,0
+1,-2.8,GO:0042158,lipoprotein biosynthetic process,M1,1,0
+1,-2.4,GO:0032613,interleukin-10 production,M1,1,0
+1,-2.8,WP4341,"Non-genomic actions of 1,25 dihydroxyvitamin D3",M1,1,0
+1,-2.2,GO:0046636,negative regulation of alpha-beta T cell activation,M1,1,0
+1,-9,GO:0045089,positive regulation of innate immune response,M1,1,0
+1,-3.6,GO:0002218,activation of innate immune response,M1,1,0
+1,-9.2,GO:0050792,regulation of viral process,M1,1,0
+1,-2.1,GO:0034142,toll-like receptor 4 signaling pathway,M1,1,0
+1,-3.4,WP4877,Host-pathogen interaction of human coronaviruses - MAPK signaling,M1,1,0
+1,-2.5,hsa04210,Apoptosis ,M1,1,0
+1,-2.3,GO:0044766,multi-organism transport,M1,1,0
+1,-7.4,GO:0001912,positive regulation of leukocyte mediated cytotoxicity,M1,1,0
+1,-2.8,GO:0043330,response to exogenous dsRNA,M1,1,0
+1,-3.2,CORUM:867,TRAP-SMCC mediator complex,M1,1,0
+1,-2.2,GO:0007265,Ras protein signal transduction,M1,1,0
+1,-3.1,GO:0032609,interferon-gamma production,M1,1,0
+1,-2.5,GO:0050867,positive regulation of cell activation,M1,1,0
+1,-2.5,GO:0002223,stimulatory C-type lectin receptor signaling pathway,M1,1,0
+1,-2.6,WP4705,Pathways of nucleic acid metabolism and innate immune sensing,M1,1,0
+1,-2,GO:0051701,biological process involved in interaction with host,M1,1,0
+1,-3.3,GO:0001914,regulation of T cell mediated cytotoxicity,M1,1,0
+1,-6.4,WP5092,Interactions of natural killer cells in pancreatic cancer,M1,1,0
+1,-2.7,WP5038,Mitochondrial immune response to SARS-CoV-2,M1,1,0
+1,-5.2,GO:0032481,positive regulation of type I interferon production,M1,1,0
+1,-2.6,GO:0002822,regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-5.5,GO:0002694,regulation of leukocyte activation,M1,1,0
+1,-3.9,GO:0002263,cell activation involved in immune response,M1,1,0
+1,-2,R-HSA-983170,"Antigen Presentation: Folding, assembly and peptide loading of class I MHC",M1,1,0
+1,-2.7,GO:0002292,T cell differentiation involved in immune response,M1,1,0
+1,-3.1,GO:0032649,regulation of interferon-gamma production,M1,1,0
+1,-6.5,GO:0032728,positive regulation of interferon-beta production,M1,1,0
+1,-2.4,GO:0140131,positive regulation of lymphocyte chemotaxis,M1,1,0
+1,-3.1,ko04623,Cytosolic DNA-sensing pathway,M1,1,0
+1,-9.2,GO:0002703,regulation of leukocyte mediated immunity,M1,1,0
+1,-6.5,GO:0042267,natural killer cell mediated cytotoxicity,M1,1,0
+1,-2.7,hsa05162,Measles,M1,1,0
+1,-2.2,GO:2000514,"regulation of CD4-positive, alpha-beta T cell activation",M1,1,0
+1,-5,WP3865,Novel intracellular components of RIG-I-like receptor (RLR) pathway,M1,1,0
+1,-2.9,GO:0032647,regulation of interferon-alpha production,M1,1,0
+1,-2.2,R-HSA-5633008,TP53 Regulates Transcription of Cell Death Genes,M1,1,0
+1,-2.3,WP3937,Microglia pathogen phagocytosis pathway,M1,1,0
+1,-6.8,GO:0060337,type I interferon signaling pathway,M1,1,0
+1,-2.1,GO:0022408,negative regulation of cell-cell adhesion,M1,1,0
+1,-2.5,GO:0050672,negative regulation of lymphocyte proliferation,M1,1,0
+1,-2.5,GO:1990840,response to lectin,M1,1,0
+1,-2.9,R-HSA-933543,NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10,M1,1,0
+1,-7.4,GO:0002717,positive regulation of natural killer cell mediated immunity,M1,1,0
+1,-3.6,ko05164,Influenza A,M1,1,0
+1,-2.5,R-HSA-936440,Negative regulators of DDX58/IFIH1 signaling,M1,1,0
+1,-5.6,GO:0002221,pattern recognition receptor signaling pathway,M1,1,0
+1,-13,R-HSA-913531,Interferon Signaling,M1,1,0
+1,-15,R-HSA-198933,Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell,M1,1,0
+1,-12,GO:0002250,adaptive immune response,M1,1,0
+1,-2.7,GO:0002707,negative regulation of lymphocyte mediated immunity,M1,1,0
+1,-6.1,GO:0060339,negative regulation of type I interferon-mediated signaling pathway,M1,1,0
+1,-2.7,GO:0002274,myeloid leukocyte activation,M1,1,0
+1,-4.5,R-HSA-877300,Interferon gamma signaling,M1,1,0
+1,-6.7,GO:0045954,positive regulation of natural killer cell mediated cytotoxicity,M1,1,0
+1,-2.4,WP619,Type II interferon signaling (IFNG),M1,1,0
+1,-2.5,GO:0002711,positive regulation of T cell mediated immunity,M1,1,0
+1,-6.1,GO:0002253,activation of immune response,M1,1,0
+1,-9.1,GO:0002833,positive regulation of response to biotic stimulus,M1,1,0
+1,-2.1,GO:0043903,regulation of biological process involved in symbiotic interaction,M1,1,0
+1,-5,R-HSA-1169410,Antiviral mechanism by IFN-stimulated genes,M1,1,0
+1,-2.1,GO:0000045,autophagosome assembly,M1,1,0
+1,-3.7,GO:0043065,positive regulation of apoptotic process,M1,1,0
+1,-2.3,GO:0032733,positive regulation of interleukin-10 production,M1,1,0
+1,-4.9,R-HSA-2172127,DAP12 interactions,M1,1,0
+1,-5.7,GO:0061919,process utilizing autophagic mechanism,M1,1,0
+1,-5.1,GO:0002718,regulation of cytokine production involved in immune response,M1,1,0
+1,-2.3,R-HSA-8873719,RAB geranylgeranylation,M1,1,0
+1,-2,GO:0050851,antigen receptor-mediated signaling pathway,M1,1,0
+1,-9.8,GO:0050778,positive regulation of immune response,M1,1,0
+1,-4.6,GO:0032814,regulation of natural killer cell activation,M1,1,0
+1,-2.7,GO:0051251,positive regulation of lymphocyte activation,M1,1,0
+1,-3,GO:0062208,positive regulation of pattern recognition receptor signaling pathway,M1,1,0
+1,-3.2,GO:0030217,T cell differentiation,M1,1,0
+1,-2.6,GO:0002830,positive regulation of type 2 immune response,M1,1,0
+1,-8.9,R-HSA-1280215,Cytokine Signaling in Immune system,M1,1,0
+1,-3.3,GO:0060760,positive regulation of response to cytokine stimulus,M1,1,0
+1,-2.4,GO:0032653,regulation of interleukin-10 production,M1,1,0
+1,-5.3,GO:0043123,positive regulation of I-kappaB kinase/NF-kappaB signaling,M1,1,0
+1,-6.4,GO:0002832,negative regulation of response to biotic stimulus,M1,1,0
+1,-4,GO:0002819,regulation of adaptive immune response,M1,1,0
+1,-2.5,GO:0032945,negative regulation of mononuclear cell proliferation,M1,1,0
+1,-3.4,GO:0002724,regulation of T cell cytokine production,M1,1,0
+1,-2.1,GO:0002686,negative regulation of leukocyte migration,M1,1,0
+1,-2.9,GO:0002474,antigen processing and presentation of peptide antigen via MHC class I,M1,1,0
+1,-2.4,GO:0002483,antigen processing and presentation of endogenous peptide antigen,M1,1,0
+1,-2.8,GO:0007033,vacuole organization,M1,1,0
+1,-3.1,GO:0046596,regulation of viral entry into host cell,M1,1,0
+1,-2.5,GO:0045953,negative regulation of natural killer cell mediated cytotoxicity,M1,1,0
+1,-13,GO:0031347,regulation of defense response,M1,1,0
+1,-2.4,GO:0002716,negative regulation of natural killer cell mediated immunity,M1,1,0
+1,-2.3,GO:0070664,negative regulation of leukocyte proliferation,M1,1,0
+1,-3.9,GO:0002698,negative regulation of immune effector process,M1,1,0
+1,-2.1,ko05160,Hepatitis C,M1,1,0
+1,-2.2,GO:0046635,positive regulation of alpha-beta T cell activation,M1,1,0
+1,-2.5,GO:0090713,immunological memory process,M1,1,0
+1,-3.9,GO:0098586,cellular response to virus,M1,1,0
+1,-5.2,GO:0050863,regulation of T cell activation,M1,1,0
+1,-8.8,ko04650,Natural killer cell mediated cytotoxicity,M1,1,0
+1,-5.5,GO:0019079,viral genome replication,M1,1,0
+1,-4.1,GO:0050866,negative regulation of cell activation,M1,1,0
+1,-2.7,GO:0035710,"CD4-positive, alpha-beta T cell activation",M1,1,0
+1,-2.1,GO:0051057,positive regulation of small GTPase mediated signal transduction,M1,1,0
+1,-2.4,GO:0002820,negative regulation of adaptive immune response,M1,1,0
+1,-2.4,GO:0007005,mitochondrion organization,M1,1,0
+1,-5.7,GO:0006914,autophagy,M1,1,0
+1,-2.9,GO:0002688,regulation of leukocyte chemotaxis,M1,1,0
+1,-2.6,R-HSA-2730905,Role of LAT2/NTAL/LAB on calcium mobilization,M1,1,0
+1,-3.6,GO:0071360,cellular response to exogenous dsRNA,M1,1,0
+1,-2.4,GO:0009116,nucleoside metabolic process,M1,1,0
+1,-4.3,GO:2000503,positive regulation of natural killer cell chemotaxis,M1,1,0
+1,-2.5,GO:0060263,regulation of respiratory burst,M1,1,0
+1,-2.9,GO:0032640,tumor necrosis factor production,M1,1,0
+1,-4.8,GO:0035747,natural killer cell chemotaxis,M1,1,0
+1,-4.2,GO:0010508,positive regulation of autophagy,M1,1,0
