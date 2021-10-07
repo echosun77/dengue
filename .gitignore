@@ -1,3 +1,4 @@
+
 *.h5ad
 *.loom
 *.tsv
@@ -12,4 +13,4 @@ data/dataset_from_google
 data/paper_figure
 data/interaction_source_file
 data/20k_dat_cytof.csv
-/home/yike/phd/dengue/dengue_children/pilots/.ipynb_checkpoints/*.ipynb
+dengue_children/pilots/.ipynb_checkpoints
