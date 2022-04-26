@@ -20,7 +20,7 @@ import itertools
 from numpy import *    
 
 def get_inters_fra_pair(data_ct, cts, fra_pair_cut_off, fra_exp_cut_off):    
-    fn_int = '/home/yike/phd/dengue/data/interaction_source_file/omnipath_filtered_intercellular_inters.tsv'
+    fn_int = '/home/yike/phd/dengue/data/interaction_source_file/inters_YK_20220324.tsv'
     interactions = pd.read_csv(fn_int, sep='\t')[['genesymbol_intercell_source', 'genesymbol_intercell_target']]
     res = []
     for _, row in interactions.iterrows():
@@ -72,7 +72,7 @@ def get_inters_fra_pair(data_ct, cts, fra_pair_cut_off, fra_exp_cut_off):
     return res
 
 def get_inters_med_pair(data_ct, cts, med_pair_cut_off, fra_exp_cut_off):    
-    fn_int = '/home/yike/phd/dengue/data/interaction_source_file/omnipath_filtered_intercellular_inters.tsv'
+    fn_int = '/home/yike/phd/dengue/data/interaction_source_file/inters_YK_20220324.tsv'
     interactions = pd.read_csv(fn_int, sep='\t')[['genesymbol_intercell_source', 'genesymbol_intercell_target']]
     res = []
     for _, row in interactions.iterrows():
@@ -88,7 +88,7 @@ def get_inters_med_pair(data_ct, cts, med_pair_cut_off, fra_exp_cut_off):
             for ct in cts:
                 ct_med = {gene: data_ct.loc[ct, gene]['med_pair'] for gene in [ga, gb]}
                 ct_fra_pair = {gene: data_ct.loc[ct, gene]['fra_pair'] for gene in [ga, gb]}
-                ct_neg_fra_pair = {gene: data_ct.loc[cst, gene]['neg_fra_pair'] for gene in [ga, gb]}
+                ct_neg_fra_pair = {gene: data_ct.loc[ct, gene]['neg_fra_pair'] for gene in [ga, gb]}
                 ct_fra = {(gene, cd): data_ct.loc[ct, gene][cd+'_fra'] for gene in [ga, gb] for cd in ['S', 'NS']}
                 
                 #####################

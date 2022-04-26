@@ -13,4 +13,9 @@ data/dataset_from_google
 data/paper_figure
 data/interaction_source_file
 data/20k_dat_cytof.csv
+<<<<<<< HEAD
 dengue_children/pilots/.ipynb_checkpoints
+=======
+dengue_children/pilots/.ipynb_checkpoints
+dengue_children/Zhiyuan_code
+>>>>>>> a27b633 (code for manuscript)

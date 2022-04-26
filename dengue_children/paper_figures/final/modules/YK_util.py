@@ -11,7 +11,7 @@ import logging
 from copy import copy
 import glob
 import os
-import anndataks
+# import anndataks
 
 def getdata(path):
     """Load data from file path
@@ -218,13 +218,13 @@ def load_cst_palette():
                  'megakaryocytes': (0.5803921568627451, 0.5803921568627451, 0.5803921568627451)}
     return cst_colors
 
-def KS(adata):
-    adata_1 = adata[adata.obs.loc[:,'DENV_reads'] == 0,]
-    adata_2 = adata[adata.obs.loc[:,'DENV_reads'] != 0,]
-    results = anndataks.compare(adata_1, adata_2, log1p=2)
-    results_sort = results.sort_values(by = 'statistic', ascending=False)
-#     results_sort_2 = results_sort[(results_sort.pvalue < 0.05)]
-    return(results_sort)
+# def KS(adata):
+#     adata_1 = adata[adata.obs.loc[:,'DENV_reads'] == 0,]
+#     adata_2 = adata[adata.obs.loc[:,'DENV_reads'] != 0,]
+#     results = anndataks.compare(adata_1, adata_2, log1p=2)
+#     results_sort = results.sort_values(by = 'statistic', ascending=False)
+# #     results_sort_2 = results_sort[(results_sort.pvalue < 0.05)]
+#     return(results_sort)
 
 def virus_nor(adata):
     adata.obs['virus'] = 'no'
