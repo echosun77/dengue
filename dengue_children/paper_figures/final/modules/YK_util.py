@@ -106,7 +106,7 @@ def remove2genes(adata):
     temp = adata[:, gene].copy()
     return temp
 
-def reorg_celltype(adata):
+def reorg_celltype1(adata):
     adata.obs.cell_type_new.cat.add_categories(['T cells', 'NK cells', 'B cells'], inplace = True)
     adata.obs.loc[((adata.obs.cell_subtype_new == 'CD4+ T cells') |
                             (adata.obs.cell_subtype_new == 'CD8+ effector T cells') |
@@ -164,14 +164,53 @@ def reorg_celltype(adata):
     
     adata.obs.cell_subtype_new.cat.reorder_categories(group_order_secondary, inplace = True)
 
+def reorg_data(adata): 
+    
+    group_order_primary = ['B cells', 'Plasmablasts', 'T cells', 'NK cells', 
+                           'Monocytes', 'conventional DCs', 'plasmacytoid DCs', 
+                           'megakaryocytes']
+    adata.obs['cell_type_new'].cat.reorder_categories(group_order_primary, inplace=True)
+    
+    group_order_secondary = [
+        'classical monocytes',
+        'non-classical monocytes',
+        'intermediate monocytes',
+
+        'cytotoxic NK cells',
+        'signaling NK cells',
+
+        'non-proliferating plasmablasts',
+        'proliferating plasmablasts',
+
+        'naive B cells',
+        'memory B cells',
+        'activated B cells',
+
+        'CD4+ naive T cells',
+        'CD4+ memory T cells',
+        'CD8+ naive T cells',
+        'CD8+ effector memory T cells',
+        'CD8+ exhausted T cells',
+        'Tregs',
+        'MAIT',
+
+        'cDC1',
+        'cDC2',
+        'pDCs',
+
+        'megakaryocytes',
+    ]
+
+    adata.obs['cell_subtype_new'].cat.reorder_categories(group_order_secondary, inplace=True)
+
 def cluster (adata):
     sc.pp.highly_variable_genes(adata, flavor='cell_ranger', n_top_genes=2000)
     sc.pp.pca(adata, n_comps=40, use_highly_variable=True, svd_solver='arpack')
     sc.pp.neighbors(adata, n_pcs = 15)
     sc.tl.umap(adata)
-    sc.tl.leiden(adata, resolution=1, key_added = 'leiden_r1')
+    # sc.tl.leiden(adata, resolution=1, key_added = 'leiden_r1')
     sc.tl.leiden(adata, resolution=0.5, key_added = 'leiden_r0.5')
-    sc.tl.rank_genes_groups(adata, groupby='leiden_r1', key_added='rank_genes_r1')
+    # sc.tl.rank_genes_groups(adata, groupby='leiden_r1', key_added='rank_genes_r1')
     sc.tl.rank_genes_groups(adata, groupby='leiden_r0.5', key_added='rank_genes_r0.5')
 #     sc.tl.louvain(adata, resolution=0.2, key_added = 'louvain_r0.2')
 #     sc.tl.louvain(adata, resolution=0.3, key_added = 'louvain_r0.3')
@@ -203,19 +242,32 @@ def load_cst_palette():
     cst_colors = {'memory B cells': (1.0, 0.0, 0.0),
                  'naive B cells': (0.7372549019607844, 0.5607843137254902, 0.5607843137254902),
                  'activated B cells': (0.5019607843137255, 0.0, 0.0),
+                  
                  'proliferating plasmablasts': (1.0, 0.8941176470588236, 0.7686274509803922),
                  'non-proliferating plasmablasts': (1.0, 0.5490196078431373, 0.0),
-                 'CD4+ T cells': (0.6901960784313725, 0.7686274509803922, 0.8705882352941177),
-                 'CD8+ effector T cells': (0.2549019607843137, 0.4117647058823529, 0.8823529411764706),
-                 'CD8+ naive/memory T cells': (0.0, 0.0, 0.5019607843137255),
+                  
+                 'CD4+ naive T cells': (0.6901960784313725, 0.7686274509803922, 0.8705882352941177),
+                 'CD4+ memory T cells': (0.4392156862745098, 0.5019607843137255, 0.5647058823529412), # slategrey
+                 'CD8+ naive T cells': (0.0, 0.0, 0.5019607843137255),
+                 'CD8+ effector memory T cells': (0.2549019607843137, 0.4117647058823529, 0.8823529411764706),
+                 'CD8+ exhausted T cells': (0.0, 0.7490196078431373, 1.0),# indigo
+                 'Tregs': (0.0, 1.0, 1.0),#cyan
+                 'MAIT': (0.37254901960784315, 0.6196078431372549, 0.6274509803921569),#cadetblue
+                  
                  'signaling NK cells': (0.5019607843137255, 0.0, 0.5019607843137255),
                  'cytotoxic NK cells': (0.8666666666666667, 0.6274509803921569, 0.8666666666666667),
+                 'proliferating NK cells': (1.0, 0.0, 1.0),
+
                  'classical monocytes': (0.5607843137254902, 0.7372549019607844, 0.5607843137254902),
                  'non-classical monocytes': (0.5647058823529412, 0.9333333333333333, 0.5647058823529412),
                  'intermediate monocytes': (0.0, 0.5019607843137255, 0.0),
-                 'conventional DCs': (0.984313725490196, 0.6862745098039216, 0.8941176470588236),
-                 'plasmacytoid DCs': (0.792156862745098, 0.5686274509803921, 0.3803921568627451),
+                  
+                 'cDC1': (1.0, 0.7529411764705882, 0.796078431372549),
+                 'cDC2': (1.0, 0.0784313725490196, 0.5764705882352941),
+                 'pDCs': (0.792156862745098, 0.5686274509803921, 0.3803921568627451),
+
                  'megakaryocytes': (0.5803921568627451, 0.5803921568627451, 0.5803921568627451)}
+    
     return cst_colors
 
 # def KS(adata):
