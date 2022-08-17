@@ -9,6 +9,7 @@ import seaborn as sns
 import anndataks
 
 def pair_comparison(adata, ct_obs, cd_SD, cd_D, cell_types, gene_cut_off, log1p=False):
+    import random
     ress = pd.DataFrame([])
     log2FC = pd.DataFrame([])
     
