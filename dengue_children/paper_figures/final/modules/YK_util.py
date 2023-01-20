@@ -179,12 +179,12 @@ def reorg_data(adata):
         'cytotoxic NK cells',
         'signaling NK cells',
 
-        'non-proliferating plasmablasts',
-        'proliferating plasmablasts',
-
         'naive B cells',
         'memory B cells',
         'activated B cells',
+        
+        'non-proliferating plasmablasts',
+        'proliferating plasmablasts',
 
         'CD4+ naive T cells',
         'CD4+ memory T cells',

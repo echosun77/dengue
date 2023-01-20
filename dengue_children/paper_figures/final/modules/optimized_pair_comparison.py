@@ -6,14 +6,14 @@ import scanpy as sc
 
 import matplotlib.pyplot as plt
 import seaborn as sns
+import anndataks
 
-def pair_comparison(adata, ct_obs, cell_types, gene_cut_off, log1p=False):
-    import random
+def pair_comparison(adata, ct_obs, cd_SD, cd_D, cell_types, gene_cut_off, log1p=False):
     ress = pd.DataFrame([])
     log2FC = pd.DataFrame([])
     
     for cell_type in cell_types:
-        adata_ct = adata[adata.obs[ct_obs] == cell_type]
+        adata_ct = adata[adata.obs[ct_obs].isin(cell_type)]
         
         ####### filter out genes expressed less than gene_cut_off in all patients
         IDs = list(adata_ct.obs['ID'].unique())
@@ -37,8 +37,8 @@ def pair_comparison(adata, ct_obs, cell_types, gene_cut_off, log1p=False):
         ####### 
         adata_ct = adata_ct[adata_ct.obs['ID'].isin(IDs)]
         
-        adata_S_ct = adata_ct[adata_ct.obs['Condition'] == 'S_dengue']
-        adata_NS_ct = adata_ct[adata_ct.obs['Condition'] == 'dengue']
+        adata_S_ct = adata_ct[adata_ct.obs['Condition'].isin(cd_SD)]
+        adata_NS_ct = adata_ct[adata_ct.obs['Condition'].isin(cd_D)]
         
         IDs_S = list(adata_S_ct.obs['ID'].unique())
         IDs_NS = list(adata_NS_ct.obs['ID'].unique())
@@ -71,42 +71,46 @@ def pair_comparison(adata, ct_obs, cell_types, gene_cut_off, log1p=False):
         pos_fra_pair = [len(log2_fc[:, i][log2_fc[:, i] > 0])/log2_fc.shape[0] for i in range(log2_fc.shape[1])]
         neg_fra_pair = [len(log2_fc[:, i][log2_fc[:, i] < 0])/log2_fc.shape[0] for i in range(log2_fc.shape[1])]
 
+        index_name = ''.join(str(item) + '_' for item in cell_type)
         res = pd.DataFrame([], index=adata_ct.var_names)
         res['med_pair'] = med_pair
         res['fra_pair'] = pos_fra_pair
         res['neg_fra_pair'] = neg_fra_pair
-        res['cell_subtype'] = cell_type
+        res['cell_subtype'] = index_name
         ress = pd.concat([ress, res], join='outer')
         ress['gene'] = ress.index.tolist()
 
-        FCs = pd.DataFrame(log2_fc, columns = adata_ct.var_names, index=[cell_type] * log2_fc.shape[0])
+        FCs = pd.DataFrame(log2_fc, columns = adata_ct.var_names, index=[index_name] * log2_fc.shape[0])
         log2FC = pd.concat([log2FC, FCs], join='outer')
         
     return {'pair_res': ress, 'log_FCs': log2FC}
 
 
-def fra_avg(adata, cell_types, log1p=False):    
+def fra_avg(adata, ct_obs, cell_types, cds, log1p=False):    
 
     fra = pd.DataFrame([])
     avg = pd.DataFrame([])
 
-    if 'S_dengue' in adata.obs['Condition'].unique():
-        cds = ['dengue', 'S_dengue', 'Healthy', 'DWS']
-    elif 'Severe' in adata.obs['Condition'].unique():
-        cds = ['Moderate', 'Severe']
+    # cds = {'SD': ['S_dengue'], 'N': ['dengue', 'DWS']}
 
-    if 'donor' in adata.obs.columns:
-        p_ID = 'donor'
-    elif 'ID' in adata.obs.columns:
-        p_ID = 'ID'
+    # if 'S_dengue' in adata.obs['Condition'].unique():
+    #     cds = ['dengue', 'S_dengue', 'Healthy', 'DWS']
+    # elif 'Severe' in adata.obs['Condition'].unique():
+    #     cds = ['Moderate', 'Severe']
 
-    adata_cd = {cd: (adata[adata.obs['Condition'] == cd]) for cd in cds}
+    # if 'donor' in adata.obs.columns:
+    #     p_ID = 'donor'
+    # elif 'ID' in adata.obs.columns:
+    #     p_ID = 'ID'
+
+    # for cell_type in cell_types:
+    #     ct_obs = 'cell_subtype_new'
+    #     if cell_type in adata.obs['cell_type_new'].unique():
+    #         ct_obs = 'cell_type_new'
+
+    adata_cd = {cd: (adata[adata.obs['Condition'].isin(cd_ls)]) for cd, cd_ls in cds.items()}
 
     for cell_type in cell_types:
-        ct_obs = 'cell_subtype_new'
-        if cell_type in adata.obs['cell_type_new'].unique():
-            ct_obs = 'cell_type_new'
-        
         for cd in cds:
             if cell_type not in adata_cd[cd].obs[ct_obs].unique():
                 continue
@@ -127,7 +131,7 @@ def fra_avg(adata, cell_types, log1p=False):
                 avg_ct = np.exp2(avg_ct) -1
             elif log1p not in (True, 2):
                 avg_ct = np.exp2(np.log2(log1p) * avg_ct) - 1
-   
+
             avg_ct = pd.DataFrame(avg_ct, columns=['avg'], index=adata_ct.var_names)
             avg_ct[ct_obs] = cell_type
             avg_ct['condition'] = cd
@@ -147,14 +151,9 @@ def combination(pair, fra, avg):
         ct = 'cell_subtype_new'
     fra = fra.set_index([ct, 'gene', 'condition'])
     avg = avg.set_index([ct, 'gene', 'condition'])
-    
-    if 'dengue' in fra.reset_index()['condition'].unique():
-        NS, S = 'dengue', 'S_dengue'
-    elif 'Moderate' in fra.reset_index()['condition'].unique():
-        NS, S = 'Moderate', 'Severe'
         
-    NS_idx = [(i[0], i[1], NS) for i in pair.index]
-    S_idx = [(i[0], i[1], S) for i in pair.index]
+    NS_idx = [(i[0], i[1], 'N') for i in pair.index]
+    S_idx = [(i[0], i[1], 'SD') for i in pair.index]
     
     pair['S_fra'] = (fra.loc[S_idx])['fra'].tolist()
     pair['NS_fra'] = (fra.loc[NS_idx])['fra'].tolist()
@@ -163,6 +162,26 @@ def combination(pair, fra, avg):
     pair['NS_avg'] = (avg.loc[NS_idx])['avg'].tolist()
     
     return pair
+
+def ks(adata, cell_types, ct_obs, cd_SD, cd_D, log1p=2):
+
+    results = {}
+    for cell_type in cell_types:
+        adata_ct = adata[adata.obs[ct_obs] == cell_type]
+        if cell_type == 'cDCs':
+            adata_ct = adata_ct[~adata_ct.obs['ID'].isin(['1_140_01', '5_193_01'])]
+
+        adata_SD = adata_ct[adata_ct.obs['Condition'].isin(cd_SD)]
+        adata_D = adata_ct[adata_ct.obs['Condition'].isin(cd_D)]
+        results[cell_type] = anndataks.compare(adata_D, adata_SD, log1p=log1p)
+
+    res = pd.DataFrame([])
+    for cell_type in cell_types:
+        results[cell_type]['cell_type'] = [cell_type] * results[cell_type].shape[0]
+        res = pd.concat([res, results[cell_type]] )
+    res.index.name = 'gene'
+    
+    return res
 
 def random_pair_comparison(adata, cell_types, gene_cut_off, cell_cut_off, compare_number, log1p=False):    
     import random
