@@ -9,7 +9,6 @@ import seaborn as sns
 import anndataks
 
 def pair_comparison(adata, ct_obs, cd_SD, cd_D, cell_types, gene_cut_off, log1p=False):
-    import random
     ress = pd.DataFrame([])
     log2FC = pd.DataFrame([])
     
@@ -17,23 +16,20 @@ def pair_comparison(adata, ct_obs, cd_SD, cd_D, cell_types, gene_cut_off, log1p=
         adata_ct = adata[adata.obs[ct_obs].isin(cell_type)]
         
         ####### filter out genes expressed less than gene_cut_off in all patients
-        IDs = list(adata_ct.obs['ID'].unique())
-        fra = [np.asarray((adata_ct[adata_ct.obs['ID'] == ID].X > 0).mean(axis=0))[0] for ID in IDs]
-        fra=pd.DataFrame(fra, index=IDs, columns=adata_ct.var_names).T
-        gene_list = fra.index.tolist()
+        IDs_o = list(adata_ct.obs['ID'].unique())
+        fra = [np.asarray((adata_ct[adata_ct.obs['ID'] == ID].X > 0).mean(axis=0))[0] for ID in IDs_o]
         
-        if gene_cut_off is not False:
-            for idx, row in fra.iterrows():
-                if (row >= gene_cut_off).sum() == 0:
-                    gene_list.remove(idx)
-        
+        fra=pd.DataFrame(fra, index=IDs_o, columns=adata_ct.var_names).T
+        gene_list = fra.index[(fra.values > gene_cut_off).sum(axis=1) > 0]
         adata_ct = adata_ct[:, gene_list]
         
         ####### filter out patient with less than 5 cells for the cell type
-
-        for ID in IDs:
-            if adata_ct[adata_ct.obs['ID'] == ID].obs.shape[0] < [3, 5][ct_obs == 'cell_type_new']:
-                IDs.remove(ID)
+        IDs = []
+        for ID in IDs_o:
+            n = adata_ct[adata_ct.obs['ID'] == ID].obs.shape[0]
+            n_thresh = [3, 5][ct_obs == 'cell_type_new']
+            if n >= n_thresh:
+                IDs.append(ID)
                 
         ####### 
         adata_ct = adata_ct[adata_ct.obs['ID'].isin(IDs)]
