@@ -1,0 +1,14 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-11.492313343681086,GO:0009987,cellular process,M1,1,GO:0006335 DNA replication-dependent nucleosome assembly
+1,-7.904245901684731,GO:0050789,regulation of biological process,M1,1,GO:0010564 regulation of cell cycle process
+1,-6.111209907081885,GO:0008152,metabolic process,M1,1,GO:0006260 DNA replication
+1,-5.4142738461599045,GO:0048518,positive regulation of biological process,M1,1,GO:0010942 positive regulation of cell death
+1,-4.980332493247538,GO:0002376,immune system process,M1,1,GO:0045653 negative regulation of megakaryocyte differentiation
+1,-4.223022518162335,GO:0051179,localization,M1,1,GO:0044380 protein localization to cytoskeleton
+1,-4.2175104023018495,GO:0050896,response to stimulus,M1,1,GO:0071453 cellular response to oxygen levels
+1,-3.3582066795773136,GO:0048519,negative regulation of biological process,M1,1,GO:0010639 negative regulation of organelle organization
+1,-3.3233907561369476,GO:0065007,biological regulation,M1,1,GO:0097035 regulation of membrane lipid distribution
+1,-3.0436351984761725,GO:0032502,developmental process,M1,1,GO:0021782 glial cell development
+1,-3.006426998742809,GO:0023052,signaling,M1,1,GO:0038061 NIK/NF-kappaB signaling
+1,-2.236614719349318,GO:0022414,reproductive process,M1,1,GO:0051321 meiotic cell cycle
+1,-2.212526130774489,GO:0032501,multicellular organismal process,M1,1,GO:0003018 vascular process in circulatory system

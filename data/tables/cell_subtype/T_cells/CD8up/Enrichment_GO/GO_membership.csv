@@ -1,0 +1,505 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-2.3,GO:0010965,regulation of mitotic sister chromatid separation,M1,1,0
+1,-2.6,WP4240,Regulation of sister chromatid separation at the metaphase-anaphase transition,M1,1,0
+1,-2.4,GO:0000082,G1/S transition of mitotic cell cycle,M1,1,0
+1,-2.2,GO:0099111,microtubule-based transport,M1,1,0
+1,-2,GO:0007272,ensheathment of neurons,M1,1,0
+1,-3.1,GO:0015748,organophosphate ester transport,M1,1,0
+1,-2.6,GO:0043276,anoikis,M1,1,0
+1,-2.6,GO:0006654,phosphatidic acid biosynthetic process,M1,1,0
+1,-3.2,GO:0006541,glutamine metabolic process,M1,1,0
+1,-4.1,R-HSA-6804116,TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest,M1,1,0
+1,-2.5,GO:0044843,cell cycle G1/S phase transition,M1,1,0
+1,-2.5,GO:0006631,fatty acid metabolic process,M1,1,0
+1,-3.1,hsa05215,Prostate cancer ,M1,1,0
+1,-3.2,GO:0051656,establishment of organelle localization,M1,1,0
+1,-4.1,R-HSA-1538133,G0 and Early G1,M1,1,0
+1,-13,R-HSA-3214815,HDACs deacetylate histones,M1,1,0
+1,-2.8,GO:0034401,chromatin organization involved in regulation of transcription,M1,1,0
+1,-2.5,GO:0002931,response to ischemia,M1,1,0
+1,-9,R-HSA-73864,RNA Polymerase I Transcription,M1,1,0
+1,-2.5,WP2261,Glioblastoma signaling pathways,M1,1,0
+1,-2.8,R-HSA-2500257,Resolution of Sister Chromatid Cohesion,M1,1,0
+1,-2.6,R-HSA-5617833,Cilium Assembly,M1,1,0
+1,-3.5,GO:0008213,protein alkylation,M1,1,0
+1,-2,GO:0001573,ganglioside metabolic process,M1,1,0
+1,-2.3,hsa05219,Bladder cancer ,M1,1,0
+1,-2.8,GO:0046460,neutral lipid biosynthetic process,M1,1,0
+1,-6.8,GO:0048285,organelle fission,M1,1,0
+1,-2.3,GO:1902099,regulation of metaphase/anaphase transition of cell cycle,M1,1,0
+1,-16,R-HSA-3247509,Chromatin modifying enzymes,M1,1,0
+1,-8.1,R-HSA-9018519,Estrogen-dependent gene expression,M1,1,0
+1,-4.3,R-HSA-5693607,Processing of DNA double-strand break ends,M1,1,0
+1,-11,R-HSA-2299718,Condensation of Prophase Chromosomes,M1,1,0
+1,-2.1,GO:0016073,snRNA metabolic process,M1,1,0
+1,-3.1,GO:0032787,monocarboxylic acid metabolic process,M1,1,0
+1,-2.2,GO:0051220,cytoplasmic sequestering of protein,M1,1,0
+1,-4.2,ko04110,Cell cycle,M1,1,0
+1,-2.5,GO:0042770,signal transduction in response to DNA damage,M1,1,0
+1,-12,R-HSA-3214841,PKMTs methylate histone lysines,M1,1,0
+1,-2.5,GO:0070482,response to oxygen levels,M1,1,0
+1,-2.4,GO:0010232,vascular transport,M1,1,0
+1,-3.8,ko05166,HTLV-I infection,M1,1,0
+1,-2.7,GO:0051169,nuclear transport,M1,1,0
+1,-8.6,R-HSA-9006931,Signaling by Nuclear Receptors,M1,1,0
+1,-9.1,R-HSA-73854,RNA Polymerase I Promoter Clearance,M1,1,0
+1,-2,M288,PID HES HEY PATHWAY,M1,1,0
+1,-3.5,GO:0072698,protein localization to microtubule cytoskeleton,M1,1,0
+1,-3.3,GO:0060968,regulation of gene silencing,M1,1,0
+1,-3.3,WP4553,FBXL10 enhancement of MAP/ERK signaling in diffuse large B-cell lymphoma,M1,1,0
+1,-2.5,R-HSA-9659787,Aberrant regulation of mitotic G1/S transition in cancer due to RB1 defects,M1,1,0
+1,-3,GO:0090307,mitotic spindle assembly,M1,1,0
+1,-3.5,GO:0008608,attachment of spindle microtubules to kinetochore,M1,1,0
+1,-8.7,R-HSA-211000,Gene Silencing by RNA,M1,1,0
+1,-2.9,ko01212,Fatty acid metabolism,M1,1,0
+1,-2.2,WP2032,Thyroid stimulating hormone (TSH) signaling pathway,M1,1,0
+1,-3.9,WP45,G1 to S cell cycle control,M1,1,0
+1,-7.8,GO:0000226,microtubule cytoskeleton organization,M1,1,0
+1,-4.9,R-HSA-68877,Mitotic Prometaphase,M1,1,0
+1,-3.6,R-HSA-141444,Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal,M1,1,0
+1,-7.2,R-HSA-5250941,Negative epigenetic regulation of rRNA expression,M1,1,0
+1,-2.2,GO:0007093,mitotic cell cycle checkpoint signaling,M1,1,0
+1,-2,GO:0030261,chromosome condensation,M1,1,0
+1,-2.4,GO:1901214,regulation of neuron death,M1,1,0
+1,-9.4,R-HSA-5578749,Transcriptional regulation by small RNAs,M1,1,0
+1,-4.3,GO:1901987,regulation of cell cycle phase transition,M1,1,0
+1,-8.3,R-HSA-201722,Formation of the beta-catenin:TCF transactivating complex,M1,1,0
+1,-2.2,GO:0051304,chromosome separation,M1,1,0
+1,-2.5,R-HSA-9661069,"Defective binding of RB1 mutants to E2F1,(E2F2, E2F3)",M1,1,0
+1,-4.1,GO:0007099,centriole replication,M1,1,0
+1,-3.4,R-HSA-1247673,Erythrocytes take up oxygen and release carbon dioxide,M1,1,0
+1,-4.2,GO:0000819,sister chromatid segregation,M1,1,0
+1,-5.1,GO:0016570,histone modification,M1,1,0
+1,-2.5,GO:0006611,protein export from nucleus,M1,1,0
+1,-2.1,GO:0046394,carboxylic acid biosynthetic process,M1,1,0
+1,-3.1,ko05215,Prostate cancer,M1,1,0
+1,-4.5,R-HSA-5663220,RHO GTPases Activate Formins,M1,1,0
+1,-5.6,R-HSA-5689901,Metalloprotease DUBs,M1,1,0
+1,-2.8,WP3844,PI3K-AKT-mTOR signaling pathway and therapeutic opportunities,M1,1,0
+1,-5.3,R-HSA-110331,Cleavage of the damaged purine,M1,1,0
+1,-2.9,GO:1901607,alpha-amino acid biosynthetic process,M1,1,0
+1,-2.2,ko00514,Other types of O-glycan biosynthesis,M1,1,0
+1,-5,R-HSA-73928,Depyrimidination,M1,1,0
+1,-3.7,GO:0032259,methylation,M1,1,0
+1,-2.3,WP497,Urea cycle and metabolism of amino groups,M1,1,0
+1,-4.1,GO:0007100,mitotic centrosome separation,M1,1,0
+1,-4.3,GO:0044772,mitotic cell cycle phase transition,M1,1,0
+1,-8.1,R-HSA-977225,Amyloid fiber formation,M1,1,0
+1,-3.6,WP179,Cell cycle,M1,1,0
+1,-5.3,R-HSA-110330,Recognition and association of DNA glycosylase with site containing an affected purine,M1,1,0
+1,-3.2,GO:0033500,carbohydrate homeostasis,M1,1,0
+1,-5,R-HSA-110329,Cleavage of the damaged pyrimidine ,M1,1,0
+1,-2.6,GO:0072331,signal transduction by p53 class mediator,M1,1,0
+1,-2.1,GO:0002449,lymphocyte mediated immunity,M1,1,0
+1,-5.3,R-HSA-73927,Depurination,M1,1,0
+1,-3.7,GO:0010821,regulation of mitochondrion organization,M1,1,0
+1,-2.9,hsa04919,thyroid hormone signaling pathway,M1,1,0
+1,-8.9,R-HSA-8878171,Transcriptional regulation by RUNX1,M1,1,0
+1,-12,ko05034,Alcoholism,M1,1,0
+1,-4.4,GO:0000070,mitotic sister chromatid segregation,M1,1,0
+1,-4.9,R-HSA-73929,"Base-Excision Repair, AP Site Formation",M1,1,0
+1,-2.3,GO:0051983,regulation of chromosome segregation,M1,1,0
+1,-3,GO:0042987,amyloid precursor protein catabolic process,M1,1,0
+1,-11,R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,M1,1,0
+1,-2.3,GO:0034471,ncRNA 5'-end processing,M1,1,0
+1,-3.2,GO:0060271,cilium assembly,M1,1,0
+1,-14,R-HSA-3214858,RMTs methylate histone arginines,M1,1,0
+1,-3.9,GO:0120031,plasma membrane bounded cell projection assembly,M1,1,0
+1,-5.7,GO:1902850,microtubule cytoskeleton organization involved in mitosis,M1,1,0
+1,-4.2,GO:0071453,cellular response to oxygen levels,M1,1,0
+1,-2.6,GO:0071539,protein localization to centrosome,M1,1,0
+1,-6.1,R-HSA-5693538,Homology Directed Repair,M1,1,0
+1,-4.7,R-HSA-195721,Signaling by WNT,M1,1,0
+1,-4.2,GO:0009064,glutamine family amino acid metabolic process,M1,1,0
+1,-16,R-HSA-4839726,Chromatin organization,M1,1,0
+1,-3.3,M261,PID P53 REGULATION PATHWAY,M1,1,0
+1,-2.6,GO:0120034,positive regulation of plasma membrane bounded cell projection assembly,M1,1,0
+1,-2.1,GO:0042552,myelination,M1,1,0
+1,-3.1,GO:0016241,regulation of macroautophagy,M1,1,0
+1,-4.3,GO:0007346,regulation of mitotic cell cycle,M1,1,0
+1,-2,M136,PID FOXO PATHWAY,M1,1,0
+1,-2.5,GO:0097549,chromatin organization involved in negative regulation of transcription,M1,1,0
+1,-13,R-HSA-1912422,Pre-NOTCH Expression and Processing,M1,1,0
+1,-2.3,GO:1903706,regulation of hemopoiesis,M1,1,0
+1,-2.5,hsa05202,Transcriptional misregulation in cancer,M1,1,0
+1,-3.9,GO:0036294,cellular response to decreased oxygen levels,M1,1,0
+1,-3.6,hsa00564,Glycerophospholipid metabolism ,M1,1,0
+1,-4.7,GO:0006336,DNA replication-independent nucleosome assembly,M1,1,0
+1,-3.1,R-HSA-69618,Mitotic Spindle Checkpoint,M1,1,0
+1,-14,R-HSA-3214847,HATs acetylate histones,M1,1,0
+1,-2.1,GO:0000466,"maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",M1,1,0
+1,-2.1,ko05220,Chronic myeloid leukemia,M1,1,0
+1,-2.8,GO:0009792,embryo development ending in birth or egg hatching,M1,1,0
+1,-7.3,R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",M1,1,0
+1,-8,R-HSA-5625740,RHO GTPases activate PKNs,M1,1,0
+1,-5.6,R-HSA-171306,Packaging Of Telomere Ends,M1,1,0
+1,-3.1,R-HSA-157579,Telomere Maintenance,M1,1,0
+1,-3.9,GO:0006914,autophagy,M1,1,0
+1,-5,GO:0045653,negative regulation of megakaryocyte differentiation,M1,1,0
+1,-2.6,GO:0009896,positive regulation of catabolic process,M1,1,0
+1,-2.9,GO:0060491,regulation of cell projection assembly,M1,1,0
+1,-2.4,R-HSA-3108232,SUMO E3 ligases SUMOylate target proteins,M1,1,0
+1,-2.2,hsa00514,Other types of O-glycan biosynthesis,M1,1,0
+1,-8.2,GO:0006334,nucleosome assembly,M1,1,0
+1,-4.7,R-HSA-9670095,Inhibition of DNA recombination at telomere,M1,1,0
+1,-2.1,GO:0033045,regulation of sister chromatid segregation,M1,1,0
+1,-10,R-HSA-73728,RNA Polymerase I Promoter Opening,M1,1,0
+1,-2.2,WP3580,Methionine de novo and salvage pathway,M1,1,0
+1,-3,GO:0038061,NIK/NF-kappaB signaling,M1,1,0
+1,-3.4,GO:0043414,macromolecule methylation,M1,1,0
+1,-2.7,GO:0034204,lipid translocation,M1,1,0
+1,-2.3,WP138,Androgen receptor signaling pathway,M1,1,0
+1,-3,GO:0021782,glial cell development,M1,1,0
+1,-2.3,GO:0015669,gas transport,M1,1,0
+1,-11,R-HSA-2559580,Oxidative Stress Induced Senescence,M1,1,0
+1,-2,GO:0050714,positive regulation of protein secretion,M1,1,0
+1,-3.1,GO:0040029,"regulation of gene expression, epigenetic",M1,1,0
+1,-2.1,GO:0072530,purine-containing compound transmembrane transport,M1,1,0
+1,-2,WP2586,Aryl hydrocarbon receptor Netpath,M1,1,0
+1,-3.4,R-HSA-5693606,DNA Double Strand Break Response,M1,1,0
+1,-2.2,GO:0000966,RNA 5'-end processing,M1,1,0
+1,-2.8,GO:0007005,mitochondrion organization,M1,1,0
+1,-3.1,GO:0090068,positive regulation of cell cycle process,M1,1,0
+1,-2.1,hsa03320,PPAR signaling pathway ,M1,1,0
+1,-3.1,R-HSA-68689,CDC6 association with the ORC:origin complex,M1,1,0
+1,-2,GO:0016053,organic acid biosynthetic process,M1,1,0
+1,-2.3,GO:0045017,glycerolipid biosynthetic process,M1,1,0
+1,-2.2,GO:0042063,gliogenesis,M1,1,0
+1,-2.8,GO:0051298,centrosome duplication,M1,1,0
+1,-2.2,GO:0032984,protein-containing complex disassembly,M1,1,0
+1,-2,GO:0070085,glycosylation,M1,1,0
+1,-2.8,WP2361,Gastric cancer network 1,M1,1,0
+1,-4.3,GO:0016024,CDP-diacylglycerol biosynthetic process,M1,1,0
+1,-2.4,R-HSA-1483257,Phospholipid metabolism,M1,1,0
+1,-2.9,R-HSA-1237044,Erythrocytes take up carbon dioxide and release oxygen,M1,1,0
+1,-2,GO:0014075,response to amine,M1,1,0
+1,-2.8,GO:0009066,aspartate family amino acid metabolic process,M1,1,0
+1,-2.4,GO:0045814,"negative regulation of gene expression, epigenetic",M1,1,0
+1,-2.9,GO:1901224,positive regulation of NIK/NF-kappaB signaling,M1,1,0
+1,-7.6,R-HSA-5619507,Activation of HOX genes during differentiation,M1,1,0
+1,-2.5,GO:0006605,protein targeting,M1,1,0
+1,-2.4,GO:0036293,response to decreased oxygen levels,M1,1,0
+1,-3.1,GO:0006473,protein acetylation,M1,1,0
+1,-2.3,R-HSA-9614085,FOXO-mediated transcription,M1,1,0
+1,-2.2,GO:0090305,nucleic acid phosphodiester bond hydrolysis,M1,1,0
+1,-2.4,GO:0046473,phosphatidic acid metabolic process,M1,1,0
+1,-2.9,R-HSA-556833,Metabolism of lipids,M1,1,0
+1,-3,GO:0001889,liver development,M1,1,0
+1,-7.2,R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,M1,1,0
+1,-9.4,R-HSA-5250913,Positive epigenetic regulation of rRNA expression,M1,1,0
+1,-10,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,M1,1,0
+1,-2.3,GO:0000083,regulation of transcription involved in G1/S transition of mitotic cell cycle,M1,1,0
+1,-2.2,GO:0051321,meiotic cell cycle,M1,1,0
+1,-3.4,GO:0046602,regulation of mitotic centrosome separation,M1,1,0
+1,-9.9,GO:1903047,mitotic cell cycle process,M1,1,0
+1,-4.4,R-HSA-69473,G2/M DNA damage checkpoint,M1,1,0
+1,-3.4,GO:0045652,regulation of megakaryocyte differentiation,M1,1,0
+1,-2.1,GO:1902806,regulation of cell cycle G1/S phase transition,M1,1,0
+1,-4.2,GO:0044380,protein localization to cytoskeleton,M1,1,0
+1,-2.4,GO:0070507,regulation of microtubule cytoskeleton organization,M1,1,0
+1,-2.4,GO:0006399,tRNA metabolic process,M1,1,0
+1,-2.5,GO:0045786,negative regulation of cell cycle,M1,1,0
+1,-3.1,R-HSA-8963691,Phenylalanine and tyrosine metabolism,M1,1,0
+1,-3.7,R-HSA-5693571,Nonhomologous End-Joining (NHEJ),M1,1,0
+1,-5.9,R-HSA-1474165,Reproduction,M1,1,0
+1,-2.4,GO:0043549,regulation of kinase activity,M1,1,0
+1,-2.5,GO:0000725,recombinational repair,M1,1,0
+1,-3.2,GO:0010948,negative regulation of cell cycle process,M1,1,0
+1,-2.1,GO:0071459,"protein localization to chromosome, centromeric region",M1,1,0
+1,-2.8,WP2882,Nuclear receptors meta-pathway,M1,1,0
+1,-3,CORUM:3075,UTX-MLL2/3 complex,M1,1,0
+1,-3.1,R-HSA-5688426,Deubiquitination,M1,1,0
+1,-2.3,WP4286,Genotoxicity pathway,M1,1,0
+1,-6.9,GO:0031497,chromatin assembly,M1,1,0
+1,-2.6,GO:0051225,spindle assembly,M1,1,0
+1,-2.7,GO:0016236,macroautophagy,M1,1,0
+1,-3.8,GO:0045638,negative regulation of myeloid cell differentiation,M1,1,0
+1,-3.8,R-HSA-69481,G2/M Checkpoints,M1,1,0
+1,-2.2,GO:0106118,regulation of sterol biosynthetic process,M1,1,0
+1,-3.8,R-HSA-983231,Factors involved in megakaryocyte development and platelet production,M1,1,0
+1,-3.9,GO:0006520,cellular amino acid metabolic process,M1,1,0
+1,-3.1,GO:1902993,positive regulation of amyloid precursor protein catabolic process,M1,1,0
+1,-2.9,GO:0120032,regulation of plasma membrane bounded cell projection assembly,M1,1,0
+1,-2.8,R-HSA-6804758,Regulation of TP53 Activity through Acetylation,M1,1,0
+1,-2.4,M14,PID AURORA B PATHWAY,M1,1,0
+1,-2.2,R-HSA-69275,G2/M Transition,M1,1,0
+1,-2,GO:0007040,lysosome organization,M1,1,0
+1,-2.2,GO:0003018,vascular process in circulatory system,M1,1,0
+1,-2.2,GO:0018393,internal peptidyl-lysine acetylation,M1,1,0
+1,-2,GO:0006281,DNA repair,M1,1,0
+1,-3.2,GO:0070997,neuron death,M1,1,0
+1,-2.5,WP5061,Fatty acid transporters,M1,1,0
+1,-2.2,GO:0031344,regulation of cell projection organization,M1,1,0
+1,-7.4,R-HSA-427413,NoRC negatively regulates rRNA expression,M1,1,0
+1,-2.1,R-HSA-9024446,NR1H2 and NR1H3-mediated signaling,M1,1,0
+1,-6.6,WP4320,Effect of progerin on genes involved in Hutchinson-Gilford progeria syndrome,M1,1,0
+1,-2.9,ko00061,Fatty acid biosynthesis,M1,1,0
+1,-2,GO:0045839,negative regulation of mitotic nuclear division,M1,1,0
+1,-2.7,GO:0061647,histone H3-K9 modification,M1,1,0
+1,-2.5,ko00310,Lysine degradation,M1,1,0
+1,-5.5,GO:0007051,spindle organization,M1,1,0
+1,-2.3,GO:0015909,long-chain fatty acid transport,M1,1,0
+1,-2.1,GO:0090407,organophosphate biosynthetic process,M1,1,0
+1,-2.9,hsa00061,Fatty acid biosynthesis,M1,1,0
+1,-2.9,GO:1901096,regulation of autophagosome maturation,M1,1,0
+1,-3.7,R-HSA-4551638,SUMOylation of chromatin organization proteins,M1,1,0
+1,-2.3,WP5066,FOXA2 pathway,M1,1,0
+1,-2.6,R-HSA-1362300,Transcription of E2F targets under negative control by p107 (RBL1) and p130 (RBL2) in complex with HDAC1,M1,1,0
+1,-2.2,GO:0030099,myeloid cell differentiation,M1,1,0
+1,-2.4,R-HSA-176187,Activation of ATR in response to replication stress,M1,1,0
+1,-2.3,R-HSA-5689880,Ub-specific processing proteases,M1,1,0
+1,-5.5,GO:0000280,nuclear division,M1,1,0
+1,-2.4,GO:0006595,polyamine metabolic process,M1,1,0
+1,-3.6,ko00564,Glycerophospholipid metabolism,M1,1,0
+1,-3.7,GO:0034968,histone lysine methylation,M1,1,0
+1,-2.2,hsa02010,ABC transporters ,M1,1,0
+1,-3,GO:0034770,histone H4-K20 methylation,M1,1,0
+1,-3.4,GO:0008652,cellular amino acid biosynthetic process,M1,1,0
+1,-2.1,R-HSA-8856688,Golgi-to-ER retrograde transport,M1,1,0
+1,-7.7,GO:0006323,DNA packaging,M1,1,0
+1,-2.9,GO:0031331,positive regulation of cellular catabolic process,M1,1,0
+1,-4.3,ko05203,Viral carcinogenesis,M1,1,0
+1,-2.2,GO:0034284,response to monosaccharide,M1,1,0
+1,-2,R-HSA-6791312,TP53 Regulates Transcription of Cell Cycle Genes,M1,1,0
+1,-5.9,R-HSA-2559586,DNA Damage/Telomere Stress Induced Senescence,M1,1,0
+1,-2.1,R-HSA-8854518,AURKA Activation by TPX2,M1,1,0
+1,-3.4,R-HSA-1266695,Interleukin-7 signaling,M1,1,0
+1,-14,R-HSA-1640170,Cell Cycle,M1,1,0
+1,-2,GO:0045005,DNA-dependent DNA replication maintenance of fidelity,M1,1,0
+1,-2.9,GO:0010508,positive regulation of autophagy,M1,1,0
+1,-11,R-HSA-9610379,HCMV Late Events,M1,1,0
+1,-2.4,GO:1901222,regulation of NIK/NF-kappaB signaling,M1,1,0
+1,-2,GO:0008366,axon ensheathment,M1,1,0
+1,-2.1,GO:1905818,regulation of chromosome separation,M1,1,0
+1,-2.9,GO:1901137,carbohydrate derivative biosynthetic process,M1,1,0
+1,-3,GO:0002250,adaptive immune response,M1,1,0
+1,-6.9,R-HSA-1500620,Meiosis,M1,1,0
+1,-11,ko05322,Systemic lupus erythematosus,M1,1,0
+1,-5.4,GO:0032200,telomere organization,M1,1,0
+1,-3.9,GO:0045787,positive regulation of cell cycle,M1,1,0
+1,-2.1,GO:0014743,regulation of muscle hypertrophy,M1,1,0
+1,-4.7,WP2446,Retinoblastoma gene in cancer,M1,1,0
+1,-2.1,M129,PID PLK1 PATHWAY,M1,1,0
+1,-3.1,GO:0000910,cytokinesis,M1,1,0
+1,-2.9,GO:0051129,negative regulation of cellular component organization,M1,1,0
+1,-2.5,hsa00310,Lysine degradation ,M1,1,0
+1,-2.4,GO:0032506,cytokinetic process,M1,1,0
+1,-3.8,GO:0051310,metaphase plate congression,M1,1,0
+1,-2.8,WP1984,Integrated breast cancer pathway,M1,1,0
+1,-2.7,GO:0001701,in utero embryonic development,M1,1,0
+1,-2,WP4674,Head and neck squamous cell carcinoma,M1,1,0
+1,-2.2,GO:0019432,triglyceride biosynthetic process,M1,1,0
+1,-2.1,GO:0090382,phagosome maturation,M1,1,0
+1,-2.5,GO:0001678,cellular glucose homeostasis,M1,1,0
+1,-2.2,M121,PID MTOR 4PATHWAY,M1,1,0
+1,-2.2,WP357,Fatty acid biosynthesis,M1,1,0
+1,-6.3,R-HSA-73884,Base Excision Repair,M1,1,0
+1,-7.9,R-HSA-8939211,ESR-mediated signaling,M1,1,0
+1,-2.4,R-HSA-9013407,RHOH GTPase cycle,M1,1,0
+1,-2,hsa00240,Pyrimidine metabolism ,M1,1,0
+1,-4.2,hsa04110,Cell cycle ,M1,1,0
+1,-2.2,GO:0045724,positive regulation of cilium assembly,M1,1,0
+1,-9.7,GO:0051301,cell division,M1,1,0
+1,-2.4,GO:0051090,regulation of DNA-binding transcription factor activity,M1,1,0
+1,-2.6,GO:0006352,"DNA-templated transcription, initiation",M1,1,0
+1,-2.3,GO:0009746,response to hexose,M1,1,0
+1,-2.6,R-HSA-453274,Mitotic G2-G2/M phases,M1,1,0
+1,-3.6,R-HSA-141424,Amplification of signal from the kinetochores,M1,1,0
+1,-2.3,GO:0051168,nuclear export,M1,1,0
+1,-2.8,R-HSA-5653656,Vesicle-mediated transport,M1,1,0
+1,-3,GO:0043009,chordate embryonic development,M1,1,0
+1,-2,GO:0010823,negative regulation of mitochondrion organization,M1,1,0
+1,-3.8,GO:1901605,alpha-amino acid metabolic process,M1,1,0
+1,-4.2,GO:0034470,ncRNA processing,M1,1,0
+1,-2.1,R-HSA-6811434,COPI-dependent Golgi-to-ER retrograde traffic,M1,1,0
+1,-2.3,R-HSA-186712,Regulation of beta-cell development,M1,1,0
+1,-2.4,GO:0001934,positive regulation of protein phosphorylation,M1,1,0
+1,-2.4,R-HSA-382551,Transport of small molecules,M1,1,0
+1,-11,GO:0006335,DNA replication-dependent nucleosome assembly,M1,1,0
+1,-2.4,GO:0007091,metaphase/anaphase transition of mitotic cell cycle,M1,1,0
+1,-2.9,GO:0061008,hepaticobiliary system development,M1,1,0
+1,-5.4,GO:0010942,positive regulation of cell death,M1,1,0
+1,-3.1,GO:0045859,regulation of protein kinase activity,M1,1,0
+1,-5.5,GO:0018205,peptidyl-lysine modification,M1,1,0
+1,-2.7,R-HSA-5689603,UCH proteinases,M1,1,0
+1,-3.6,GO:0043068,positive regulation of programmed cell death,M1,1,0
+1,-2.1,GO:1904029,regulation of cyclin-dependent protein kinase activity,M1,1,0
+1,-2.1,GO:0006672,ceramide metabolic process,M1,1,0
+1,-2.4,GO:0044283,small molecule biosynthetic process,M1,1,0
+1,-2.3,GO:0044784,metaphase/anaphase transition of cell cycle,M1,1,0
+1,-2.1,ko03320,PPAR signaling pathway,M1,1,0
+1,-3.2,GO:0042593,glucose homeostasis,M1,1,0
+1,-6.8,R-HSA-68875,Mitotic Prophase,M1,1,0
+1,-4.1,hsa05203,Viral carcinogenesis,M1,1,0
+1,-2.5,GO:0051782,negative regulation of cell division,M1,1,0
+1,-5.5,R-HSA-201681,TCF dependent signaling in response to WNT,M1,1,0
+1,-9.7,R-HSA-9609690,HCMV Early Events,M1,1,0
+1,-3.2,GO:0051303,establishment of chromosome localization,M1,1,0
+1,-2.9,GO:0031346,positive regulation of cell projection organization,M1,1,0
+1,-2.3,GO:0021915,neural tube development,M1,1,0
+1,-3,GO:0032465,regulation of cytokinesis,M1,1,0
+1,-2,GO:0046605,regulation of centrosome cycle,M1,1,0
+1,-2.1,GO:0006475,internal protein amino acid acetylation,M1,1,0
+1,-7.6,R-HSA-9645723,Diseases of programmed cell death,M1,1,0
+1,-2.2,GO:0045540,regulation of cholesterol biosynthetic process,M1,1,0
+1,-2.4,GO:0030071,regulation of mitotic metaphase/anaphase transition,M1,1,0
+1,-2.9,R-HSA-2168880,Scavenging of heme from plasma,M1,1,0
+1,-3,R-HSA-9648025,EML4 and NUDC in mitotic spindle formation,M1,1,0
+1,-8.2,R-HSA-212165,Epigenetic regulation of gene expression,M1,1,0
+1,-2.5,GO:0044539,long-chain fatty acid import into cell,M1,1,0
+1,-4.1,GO:0046341,CDP-diacylglycerol metabolic process,M1,1,0
+1,-2.3,GO:0016573,histone acetylation,M1,1,0
+1,-4.7,GO:0034724,DNA replication-independent nucleosome organization,M1,1,0
+1,-2.2,ko02010,ABC transporters,M1,1,0
+1,-4.2,R-HSA-1221632,Meiotic synapsis,M1,1,0
+1,-2.2,GO:0051306,mitotic sister chromatid separation,M1,1,0
+1,-3.2,GO:0050000,chromosome localization,M1,1,0
+1,-2.3,R-HSA-1852241,Organelle biogenesis and maintenance,M1,1,0
+1,-3.8,R-HSA-73886,Chromosome Maintenance,M1,1,0
+1,-2.4,GO:0009749,response to glucose,M1,1,0
+1,-3.4,R-HSA-5693565,Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks,M1,1,0
+1,-2.9,hsa01212,Fatty acid metabolism,M1,1,0
+1,-3.5,GO:0043543,protein acylation,M1,1,0
+1,-2.3,R-HSA-2990846,SUMOylation,M1,1,0
+1,-6.7,GO:0034728,nucleosome organization,M1,1,0
+1,-2.6,GO:0000724,double-strand break repair via homologous recombination,M1,1,0
+1,-6.7,GO:0007052,mitotic spindle organization,M1,1,0
+1,-2.1,R-HSA-199991,Membrane Trafficking,M1,1,0
+1,-6.7,GO:0140014,mitotic nuclear division,M1,1,0
+1,-2.9,R-HSA-69205,G1/S-Specific Transcription,M1,1,0
+1,-11,R-HSA-195258,RHO GTPase Effectors,M1,1,0
+1,-4,R-HSA-5693567,HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA),M1,1,0
+1,-8,GO:0007059,chromosome segregation,M1,1,0
+1,-3,GO:0032886,regulation of microtubule-based process,M1,1,0
+1,-11,hsa05322,Systemic lupus erythematosus ,M1,1,0
+1,-3.1,GO:0043966,histone H3 acetylation,M1,1,0
+1,-7.2,R-HSA-2559582,Senescence-Associated Secretory Phenotype (SASP),M1,1,0
+1,-4.1,GO:0090502,"RNA phosphodiester bond hydrolysis, endonucleolytic",M1,1,0
+1,-5.1,GO:0071824,protein-DNA complex subunit organization,M1,1,0
+1,-3.4,GO:0010639,negative regulation of organelle organization,M1,1,0
+1,-4.4,GO:0016571,histone methylation,M1,1,0
+1,-2.5,GO:0030219,megakaryocyte differentiation,M1,1,0
+1,-4.9,GO:0016569,covalent chromatin modification,M1,1,0
+1,-2.1,GO:0007254,JNK cascade,M1,1,0
+1,-2.5,GO:0007018,microtubule-based movement,M1,1,0
+1,-2.9,GO:0045637,regulation of myeloid cell differentiation,M1,1,0
+1,-2.5,GO:0140354,lipid import into cell,M1,1,0
+1,-15,R-HSA-69278,"Cell Cycle, Mitotic",M1,1,0
+1,-5.8,GO:0034660,ncRNA metabolic process,M1,1,0
+1,-2.9,R-HSA-1480926,O2/CO2 exchange in erythrocytes,M1,1,0
+1,-2.1,hsa05220,Chronic myeloid leukemia ,M1,1,0
+1,-2.2,GO:0010611,regulation of cardiac muscle hypertrophy,M1,1,0
+1,-2.5,R-HSA-983189,Kinesins,M1,1,0
+1,-2,WP3594,Circadian rhythm genes,M1,1,0
+1,-10,R-HSA-3214842,HDMs demethylate histones,M1,1,0
+1,-5.2,R-HSA-5693532,DNA Double-Strand Break Repair,M1,1,0
+1,-2.2,GO:1901654,response to ketone,M1,1,0
+1,-2.3,GO:1902004,positive regulation of amyloid-beta formation,M1,1,0
+1,-12,hsa05034,Alcoholism,M1,1,0
+1,-2.3,ko05219,Bladder cancer,M1,1,0
+1,-2.2,GO:0006790,sulfur compound metabolic process,M1,1,0
+1,-2.1,GO:0032732,positive regulation of interleukin-1 production,M1,1,0
+1,-3.3,GO:0018022,peptidyl-lysine methylation,M1,1,0
+1,-10,R-HSA-427389,ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression,M1,1,0
+1,-7.9,GO:0010564,regulation of cell cycle process,M1,1,0
+1,-2.9,GO:0071456,cellular response to hypoxia,M1,1,0
+1,-4.2,R-HSA-453279,Mitotic G1 phase and G1/S transition,M1,1,0
+1,-4.4,M40,PID E2F PATHWAY,M1,1,0
+1,-2.1,GO:0000281,mitotic cytokinesis,M1,1,0
+1,-3.8,GO:0002460,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-5,GO:0098813,nuclear chromosome segregation,M1,1,0
+1,-5,R-HSA-110328,Recognition and association of DNA glycosylase with site containing an affected pyrimidine,M1,1,0
+1,-9.8,R-HSA-157118,Signaling by NOTCH,M1,1,0
+1,-10,R-HSA-5334118,DNA methylation,M1,1,0
+1,-2.6,GO:0043970,histone H3-K9 acetylation,M1,1,0
+1,-8,GO:0071103,DNA conformation change,M1,1,0
+1,-12,R-HSA-1912408,Pre-NOTCH Transcription and Translation,M1,1,0
+1,-3.8,hsa_M00089,Triacylglycerol biosynthesis,M1,1,0
+1,-4.9,R-HSA-8953897,Cellular responses to stimuli,M1,1,0
+1,-8.6,R-HSA-912446,Meiotic recombination,M1,1,0
+1,-9.3,R-HSA-5250924,B-WICH complex positively regulates rRNA expression,M1,1,0
+1,-2.9,GO:0043065,positive regulation of apoptotic process,M1,1,0
+1,-2.8,GO:0044782,cilium organization,M1,1,0
+1,-3.9,GO:0061919,process utilizing autophagic mechanism,M1,1,0
+1,-2,GO:0033674,positive regulation of kinase activity,M1,1,0
+1,-9.3,R-HSA-9616222,Transcriptional regulation of granulopoiesis,M1,1,0
+1,-2.7,R-HSA-69206,G1/S Transition,M1,1,0
+1,-3.3,GO:0097035,regulation of membrane lipid distribution,M1,1,0
+1,-2.2,GO:0014003,oligodendrocyte development,M1,1,0
+1,-2,GO:0080171,lytic vacuole organization,M1,1,0
+1,-3.9,GO:0098534,centriole assembly,M1,1,0
+1,-2,GO:0048732,gland development,M1,1,0
+1,-11,GO:0034723,DNA replication-dependent nucleosome organization,M1,1,0
+1,-3.4,GO:0051640,organelle localization,M1,1,0
+1,-4.4,GO:0031023,microtubule organizing center organization,M1,1,0
+1,-2.1,GO:0006612,protein targeting to membrane,M1,1,0
+1,-8.3,R-HSA-73772,RNA Polymerase I Promoter Escape,M1,1,0
+1,-2.6,GO:0000075,cell cycle checkpoint signaling,M1,1,0
+1,-2.9,ko05202,Transcriptional misregulation in cancer,M1,1,0
+1,-3.4,M66,PID MYC ACTIV PATHWAY,M1,1,0
+1,-4.1,R-HSA-73894,DNA Repair,M1,1,0
+1,-3.3,R-HSA-5685939,HDR through MMEJ (alt-NHEJ),M1,1,0
+1,-4.6,R-HSA-2262752,Cellular responses to stress,M1,1,0
+1,-2.8,GO:0008033,tRNA processing,M1,1,0
+1,-2.9,M3686,SA REG CASCADE OF CYCLIN EXPR,M1,1,0
+1,-2.3,WP3925,Amino acid metabolism,M1,1,0
+1,-3.5,GO:1902115,regulation of organelle assembly,M1,1,0
+1,-2.8,GO:0046463,acylglycerol biosynthetic process,M1,1,0
+1,-11,WP2369,Histone modifications,M1,1,0
+1,-2.4,GO:0150104,transport across blood-brain barrier,M1,1,0
+1,-2.4,WP2853,Endoderm differentiation,M1,1,0
+1,-3.8,GO:0010506,regulation of autophagy,M1,1,0
+1,-2.4,GO:0032731,positive regulation of interleukin-1 beta production,M1,1,0
+1,-2.9,WP4718,Cholesterol metabolism with Bloch and Kandutsch-Russell pathways,M1,1,0
+1,-4.2,GO:1901990,regulation of mitotic cell cycle phase transition,M1,1,0
+1,-2.3,R-HSA-1483166,Synthesis of PA,M1,1,0
+1,-7.6,R-HSA-5617472,Activation of anterior HOX genes in hindbrain development during early embryogenesis,M1,1,0
+1,-7.1,R-HSA-194315,Signaling by Rho GTPases,M1,1,0
+1,-6.1,GO:0006260,DNA replication,M1,1,0
+1,-2.7,GO:0006913,nucleocytoplasmic transport,M1,1,0
+1,-2.2,WP3942,PPAR signaling pathway,M1,1,0
+1,-2.5,GO:0033044,regulation of chromosome organization,M1,1,0
+1,-3.7,GO:0030031,cell projection assembly,M1,1,0
+1,-3.5,GO:0006310,DNA recombination,M1,1,0
+1,-6.9,GO:0006333,chromatin assembly or disassembly,M1,1,0
+1,-2.3,GO:0046599,regulation of centriole replication,M1,1,0
+1,-2.8,GO:0090501,RNA phosphodiester bond hydrolysis,M1,1,0
+1,-2.4,WP4022,Pyrimidine metabolism,M1,1,0
+1,-2.1,ko04933,AGE-RAGE signaling pathway in diabetic complications,M1,1,0
+1,-9.9,R-HSA-427359,SIRT1 negatively regulates rRNA expression,M1,1,0
+1,-3.8,M00089,Triacylglycerol biosynthesis,M1,1,0
+1,-9.6,R-HSA-68886,M Phase,M1,1,0
+1,-4.4,GO:0044770,cell cycle phase transition,M1,1,0
+1,-3.8,hsa05166,HTLV-I infection,M1,1,0
+1,-2.3,GO:1901679,nucleotide transmembrane transport,M1,1,0
+1,-2,GO:0009101,glycoprotein biosynthetic process,M1,1,0
+1,-9.5,R-HSA-9710421,Defective pyroptosis,M1,1,0
+1,-2.8,GO:0045860,positive regulation of protein kinase activity,M1,1,0
+1,-2.2,R-HSA-1483206,Glycerophospholipid biosynthesis,M1,1,0
+1,-2.4,R-HSA-1362277,Transcription of E2F targets under negative control by DREAM complex,M1,1,0
+1,-2.5,GO:1905508,protein localization to microtubule organizing center,M1,1,0
+1,-2.6,GO:0000018,regulation of DNA recombination,M1,1,0
+1,-3.5,GO:0006479,protein methylation,M1,1,0
+1,-6.3,R-HSA-774815,Nucleosome assembly,M1,1,0
+1,-2.1,GO:0097352,autophagosome maturation,M1,1,0
+1,-6.3,R-HSA-606279,Deposition of new CENPA-containing nucleosomes at the centromere,M1,1,0
+1,-2,ko00240,Pyrimidine metabolism,M1,1,0
+1,-2.2,GO:0042982,amyloid precursor protein metabolic process,M1,1,0
+1,-2.7,GO:0006342,chromatin silencing,M1,1,0
+1,-11,R-HSA-212300,PRC2 methylates histones and DNA,M1,1,0
+1,-3.9,WP3651,Pathways affected in adenoid cystic carcinoma,M1,1,0
+1,-8.6,R-HSA-9609646,HCMV Infection,M1,1,0
+1,-6.7,R-HSA-69620,Cell Cycle Checkpoints,M1,1,0
+1,-2.9,GO:0031109,microtubule polymerization or depolymerization,M1,1,0
+1,-2.4,GO:0048284,organelle fusion,M1,1,0
+1,-4.8,GO:0007098,centrosome cycle,M1,1,0
+1,-2.7,GO:0015671,oxygen transport,M1,1,0
+1,-3.1,GO:0070542,response to fatty acid,M1,1,0
+1,-9.6,R-HSA-2559583,Cellular Senescence,M1,1,0
+1,-6.1,GO:0065004,protein-DNA complex assembly,M1,1,0
+1,-2.2,GO:0010638,positive regulation of organelle organization,M1,1,0
+1,-2.2,GO:0000079,regulation of cyclin-dependent protein serine/threonine kinase activity,M1,1,0
+1,-4.9,GO:0006261,DNA-dependent DNA replication,M1,1,0
+1,-2.7,GO:0008610,lipid biosynthetic process,M1,1,0
+1,-2.7,R-HSA-8956320,Nucleobase biosynthesis,M1,1,0
+1,-5.4,GO:0051299,centrosome separation,M1,1,0

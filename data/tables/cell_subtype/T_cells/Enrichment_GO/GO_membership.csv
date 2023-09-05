@@ -1,0 +1,738 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,GiniIndex
+1,-2.1,GO:0051043,regulation of membrane protein ectodomain proteolysis,M1,1,0
+1,-2.2,GO:0007398,ectoderm development,M1,1,0
+1,-2.1,WP2332,Interleukin-11 signaling pathway,M1,1,0
+1,-7.2,GO:0002292,T cell differentiation involved in immune response,M1,1,0
+1,-2,WP4925,Unfolded protein response,M1,1,0
+1,-3.6,GO:0070997,neuron death,M1,1,0
+1,-3.3,R-HSA-2644602,Signaling by NOTCH1 PEST Domain Mutants in Cancer,M1,1,0
+1,-2.7,WP2037,Prolactin signaling pathway,M1,1,0
+1,-2.8,R-HSA-9697154,Disorders of Nervous System Development,M1,1,0
+1,-3.5,GO:0070918,production of small RNA involved in gene silencing by RNA,M1,1,0
+1,-3,GO:0048545,response to steroid hormone,M1,1,0
+1,-2.6,GO:0031330,negative regulation of cellular catabolic process,M1,1,0
+1,-3.1,GO:1900182,positive regulation of protein localization to nucleus,M1,1,0
+1,-2.6,GO:0050864,regulation of B cell activation,M1,1,0
+1,-2.8,GO:0031669,cellular response to nutrient levels,M1,1,0
+1,-3.8,GO:0071501,cellular response to sterol depletion,M1,1,0
+1,-2.6,GO:0072331,signal transduction by p53 class mediator,M1,1,0
+1,-3.1,GO:0051345,positive regulation of hydrolase activity,M1,1,0
+1,-2.9,CORUM:2639,HES1 promoter-Notch enhancer complex,M1,1,0
+1,-2.6,GO:0006892,post-Golgi vesicle-mediated transport,M1,1,0
+1,-4.6,R-HSA-1059683,Interleukin-6 signaling,M1,1,0
+1,-2.7,GO:0019079,viral genome replication,M1,1,0
+1,-3,GO:0032388,positive regulation of intracellular transport,M1,1,0
+1,-2.2,GO:0002262,myeloid cell homeostasis,M1,1,0
+1,-3.3,GO:0043371,"negative regulation of CD4-positive, alpha-beta T cell differentiation",M1,1,0
+1,-2.5,GO:1903039,positive regulation of leukocyte cell-cell adhesion,M1,1,0
+1,-2.9,GO:0016574,histone ubiquitination,M1,1,0
+1,-2.5,GO:0043065,positive regulation of apoptotic process,M1,1,0
+1,-3.5,GO:0032386,regulation of intracellular transport,M1,1,0
+1,-2.9,R-HSA-140342,Apoptosis induced DNA fragmentation,M1,1,0
+1,-2.4,CORUM:7581,ESR1-TRAP/Mediator coactivator-complex,M1,1,0
+1,-2.2,GO:0018108,peptidyl-tyrosine phosphorylation,M1,1,0
+1,-3.6,ko00562,Inositol phosphate metabolism,M1,1,0
+1,-4.4,GO:0045862,positive regulation of proteolysis,M1,1,0
+1,-3.5,GO:2000319,regulation of T-helper 17 cell differentiation,M1,1,0
+1,-2.4,WP4533,Transcription co-factors SKI and SKIL protein partners,M1,1,0
+1,-3.4,GO:0006909,phagocytosis,M1,1,0
+1,-2.4,GO:0043087,regulation of GTPase activity,M1,1,0
+1,-2.4,M196,PID IL23 PATHWAY,M1,1,0
+1,-2.2,GO:1901699,cellular response to nitrogen compound,M1,1,0
+1,-5.4,GO:0010506,regulation of autophagy,M1,1,0
+1,-2.9,GO:0007595,lactation,M1,1,0
+1,-3,GO:0006310,DNA recombination,M1,1,0
+1,-7.2,GO:0002285,lymphocyte activation involved in immune response,M1,1,0
+1,-3.2,GO:0043632,modification-dependent macromolecule catabolic process,M1,1,0
+1,-2,GO:0045332,phospholipid translocation,M1,1,0
+1,-2.1,GO:0072001,renal system development,M1,1,0
+1,-5.4,GO:0046631,alpha-beta T cell activation,M1,1,0
+1,-5,GO:0051656,establishment of organelle localization,M1,1,0
+1,-2.7,GO:0018023,peptidyl-lysine trimethylation,M1,1,0
+1,-2.3,GO:0046503,glycerolipid catabolic process,M1,1,0
+1,-2.1,R-HSA-2559583,Cellular Senescence,M1,1,0
+1,-3.3,GO:0006476,protein deacetylation,M1,1,0
+1,-6.5,GO:0045622,regulation of T-helper cell differentiation,M1,1,0
+1,-4.3,WP395,IL-4 signaling pathway,M1,1,0
+1,-2.1,GO:1901216,positive regulation of neuron death,M1,1,0
+1,-2.7,GO:0044728,DNA methylation or demethylation,M1,1,0
+1,-2.7,GO:0010563,negative regulation of phosphorus metabolic process,M1,1,0
+1,-3.3,GO:1902105,regulation of leukocyte differentiation,M1,1,0
+1,-3.1,R-HSA-9006931,Signaling by Nuclear Receptors,M1,1,0
+1,-7,R-HSA-4839726,Chromatin organization,M1,1,0
+1,-3.2,R-HSA-381340,Transcriptional regulation of white adipocyte differentiation,M1,1,0
+1,-2.3,GO:0071417,cellular response to organonitrogen compound,M1,1,0
+1,-3.3,R-HSA-2644603,Signaling by NOTCH1 in Cancer,M1,1,0
+1,-2.4,R-HSA-1660514,Synthesis of PIPs at the Golgi membrane,M1,1,0
+1,-2.2,GO:0062012,regulation of small molecule metabolic process,M1,1,0
+1,-3.1,GO:0043393,regulation of protein binding,M1,1,0
+1,-2.1,GO:0034661,ncRNA catabolic process,M1,1,0
+1,-2.5,ko05143,African trypanosomiasis,M1,1,0
+1,-2.5,GO:1903533,regulation of protein targeting,M1,1,0
+1,-2.9,GO:0006304,DNA modification,M1,1,0
+1,-2.3,R-HSA-8986944,Transcriptional Regulation by MECP2,M1,1,0
+1,-3.1,WP61,Notch signaling pathway (Netpath),M1,1,0
+1,-3.1,hsa05169,Epstein-Barr virus infection,M1,1,0
+1,-2.9,M252,PID IL8 CXCR1 PATHWAY,M1,1,0
+1,-3.1,GO:2000316,regulation of T-helper 17 type immune response,M1,1,0
+1,-6.4,GO:0002694,regulation of leukocyte activation,M1,1,0
+1,-2.5,GO:0000819,sister chromatid segregation,M1,1,0
+1,-3.1,ko04120,Ubiquitin mediated proteolysis,M1,1,0
+1,-3.2,M161,PID IFNG PATHWAY,M1,1,0
+1,-2.9,WP3932,Focal adhesion: PI3K-Akt-mTOR-signaling pathway,M1,1,0
+1,-2.9,WP1403,AMP-activated protein kinase (AMPK) signaling,M1,1,0
+1,-2.6,R-HSA-8953897,Cellular responses to stimuli,M1,1,0
+1,-2.6,R-HSA-2559584,Formation of Senescence-Associated Heterochromatin Foci (SAHF),M1,1,0
+1,-3.2,R-HSA-2029482,Regulation of actin dynamics for phagocytic cup formation,M1,1,0
+1,-3.8,WP3651,Pathways affected in adenoid cystic carcinoma,M1,1,0
+1,-5,GO:0072539,T-helper 17 cell differentiation,M1,1,0
+1,-2.4,R-HSA-9664422,FCGR3A-mediated phagocytosis,M1,1,0
+1,-3.2,GO:0051568,histone H3-K4 methylation,M1,1,0
+1,-2.2,GO:0042088,T-helper 1 type immune response,M1,1,0
+1,-2.1,M60,PID NFAT TFPATHWAY,M1,1,0
+1,-3.8,GO:0031648,protein destabilization,M1,1,0
+1,-3.4,GO:0050871,positive regulation of B cell activation,M1,1,0
+1,-2.4,GO:0071496,cellular response to external stimulus,M1,1,0
+1,-2.2,GO:0071375,cellular response to peptide hormone stimulus,M1,1,0
+1,-3,GO:0030522,intracellular receptor signaling pathway,M1,1,0
+1,-2,ko05203,Viral carcinogenesis,M1,1,0
+1,-2.9,GO:0045589,regulation of regulatory T cell differentiation,M1,1,0
+1,-2.6,GO:0051236,establishment of RNA localization,M1,1,0
+1,-3,GO:0051983,regulation of chromosome segregation,M1,1,0
+1,-3.8,WP4018,Clear cell renal cell carcinoma pathways,M1,1,0
+1,-4,GO:1905477,positive regulation of protein localization to membrane,M1,1,0
+1,-2.5,GO:0006474,N-terminal protein amino acid acetylation,M1,1,0
+1,-4.3,R-HSA-556833,Metabolism of lipids,M1,1,0
+1,-2.4,GO:0098813,nuclear chromosome segregation,M1,1,0
+1,-2.8,R-HSA-8941856,RUNX3 regulates NOTCH signaling,M1,1,0
+1,-4.3,GO:0008654,phospholipid biosynthetic process,M1,1,0
+1,-3.1,GO:0032092,positive regulation of protein binding,M1,1,0
+1,-2.8,GO:0097435,supramolecular fiber organization,M1,1,0
+1,-4.6,GO:0046638,positive regulation of alpha-beta T cell differentiation,M1,1,0
+1,-3.9,M28,PID IL4 2PATHWAY,M1,1,0
+1,-2.4,GO:0035306,positive regulation of dephosphorylation,M1,1,0
+1,-3.2,GO:0033572,transferrin transport,M1,1,0
+1,-2.8,R-HSA-9675151,Disorders of Developmental Biology,M1,1,0
+1,-3.3,R-HSA-2894858,Signaling by NOTCH1 HD+PEST Domain Mutants in Cancer,M1,1,0
+1,-2.6,M151,PID AR TF PATHWAY,M1,1,0
+1,-2.2,ko04630,Jak-STAT signaling pathway,M1,1,0
+1,-2.5,M210,PID IL8 CXCR2 PATHWAY,M1,1,0
+1,-2.7,GO:0015931,nucleobase-containing compound transport,M1,1,0
+1,-2.3,GO:0043068,positive regulation of programmed cell death,M1,1,0
+1,-2.8,hsa04070,Phosphatidylinositol signaling system ,M1,1,0
+1,-2,GO:0001568,blood vessel development,M1,1,0
+1,-3.6,WP4341,"Non-genomic actions of 1,25 dihydroxyvitamin D3",M1,1,0
+1,-4.4,GO:0033044,regulation of chromosome organization,M1,1,0
+1,-4.4,GO:1903050,regulation of proteolysis involved in cellular protein catabolic process,M1,1,0
+1,-3.2,GO:0051668,localization within membrane,M1,1,0
+1,-3.8,GO:0007059,chromosome segregation,M1,1,0
+1,-2,GO:1903959,regulation of anion transmembrane transport,M1,1,0
+1,-2.8,GO:0007264,small GTPase mediated signal transduction,M1,1,0
+1,-2.6,M278,PID RAC1 PATHWAY,M1,1,0
+1,-2.1,GO:0002792,negative regulation of peptide secretion,M1,1,0
+1,-2.4,GO:0006401,RNA catabolic process,M1,1,0
+1,-2.1,GO:0018212,peptidyl-tyrosine modification,M1,1,0
+1,-2.1,GO:0060324,face development,M1,1,0
+1,-3.2,GO:0006406,mRNA export from nucleus,M1,1,0
+1,-2.9,GO:0010256,endomembrane system organization,M1,1,0
+1,-3,GO:0097066,response to thyroid hormone,M1,1,0
+1,-2.3,GO:0070507,regulation of microtubule cytoskeleton organization,M1,1,0
+1,-2.2,GO:0048729,tissue morphogenesis,M1,1,0
+1,-3,ko05164,Influenza A,M1,1,0
+1,-2.1,GO:0001501,skeletal system development,M1,1,0
+1,-2.2,GO:0010970,transport along microtubule,M1,1,0
+1,-3.3,GO:0018022,peptidyl-lysine methylation,M1,1,0
+1,-3.8,GO:0016311,dephosphorylation,M1,1,0
+1,-3.3,GO:1901214,regulation of neuron death,M1,1,0
+1,-5.5,GO:0048015,phosphatidylinositol-mediated signaling,M1,1,0
+1,-2.1,GO:2000142,"regulation of DNA-templated transcription, initiation",M1,1,0
+1,-10,GO:0046649,lymphocyte activation,M1,1,0
+1,-3.8,GO:0046635,positive regulation of alpha-beta T cell activation,M1,1,0
+1,-3.6,GO:0070201,regulation of establishment of protein localization,M1,1,0
+1,-2.1,GO:0006323,DNA packaging,M1,1,0
+1,-2.8,hsa05164,Influenza A,M1,1,0
+1,-2.5,GO:0090313,regulation of protein targeting to membrane,M1,1,0
+1,-2.5,M2,PID SMAD2 3NUCLEAR PATHWAY,M1,1,0
+1,-2,M219,PID HEDGEHOG GLI PATHWAY,M1,1,0
+1,-2.6,WP399,Wnt signaling pathway and pluripotency,M1,1,0
+1,-2.4,R-HSA-9664407,Parasite infection,M1,1,0
+1,-3.2,ko04659,Th17 cell differentiation,M1,1,0
+1,-5.7,GO:0042176,regulation of protein catabolic process,M1,1,0
+1,-2.3,GO:0009895,negative regulation of catabolic process,M1,1,0
+1,-4.2,R-HSA-5653656,Vesicle-mediated transport,M1,1,0
+1,-3.6,GO:0051099,positive regulation of binding,M1,1,0
+1,-2.3,GO:0071363,cellular response to growth factor stimulus,M1,1,0
+1,-5.7,GO:0046634,regulation of alpha-beta T cell activation,M1,1,0
+1,-4,R-HSA-201556,Signaling by ALK,M1,1,0
+1,-3.1,hsa04120,Ubiquitin mediated proteolysis ,M1,1,0
+1,-2.1,GO:0050708,regulation of protein secretion,M1,1,0
+1,-3.1,GO:0042594,response to starvation,M1,1,0
+1,-2.8,GO:0006959,humoral immune response,M1,1,0
+1,-6,GO:0002429,immune response-activating cell surface receptor signaling pathway,M1,1,0
+1,-2.7,GO:1901653,cellular response to peptide,M1,1,0
+1,-2.4,R-HSA-9664417,Leishmania phagocytosis,M1,1,0
+1,-5.1,GO:1901654,response to ketone,M1,1,0
+1,-2.1,GO:0050709,negative regulation of protein secretion,M1,1,0
+1,-3.1,ko04141,Protein processing in endoplasmic reticulum,M1,1,0
+1,-2.8,GO:0051129,negative regulation of cellular component organization,M1,1,0
+1,-6.4,GO:0043543,protein acylation,M1,1,0
+1,-4.9,GO:0045619,regulation of lymphocyte differentiation,M1,1,0
+1,-6.1,GO:0061919,process utilizing autophagic mechanism,M1,1,0
+1,-5.1,GO:0051640,organelle localization,M1,1,0
+1,-3.8,GO:0099024,plasma membrane invagination,M1,1,0
+1,-3.3,R-HSA-2644606,Constitutive Signaling by NOTCH1 PEST Domain Mutants,M1,1,0
+1,-3.5,R-HSA-1980143,Signaling by NOTCH1,M1,1,0
+1,-3.8,GO:2000638,regulation of SREBP signaling pathway,M1,1,0
+1,-3,GO:0035601,protein deacylation,M1,1,0
+1,-2.4,GO:0036344,platelet morphogenesis,M1,1,0
+1,-2.2,GO:0046636,negative regulation of alpha-beta T cell activation,M1,1,0
+1,-2.3,R-HSA-3700989,Transcriptional Regulation by TP53,M1,1,0
+1,-7,R-HSA-3247509,Chromatin modifying enzymes,M1,1,0
+1,-2.3,GO:0043555,regulation of translation in response to stress,M1,1,0
+1,-2.2,GO:0010677,negative regulation of cellular carbohydrate metabolic process,M1,1,0
+1,-2.6,GO:0050658,RNA transport,M1,1,0
+1,-2.8,GO:0090314,positive regulation of protein targeting to membrane,M1,1,0
+1,-2.3,WP5066,FOXA2 pathway,M1,1,0
+1,-2,GO:0046470,phosphatidylcholine metabolic process,M1,1,0
+1,-2.2,GO:0043434,response to peptide hormone,M1,1,0
+1,-3.4,GO:0035303,regulation of dephosphorylation,M1,1,0
+1,-2.8,GO:1905114,cell surface receptor signaling pathway involved in cell-cell signaling,M1,1,0
+1,-4,GO:0060968,regulation of gene silencing,M1,1,0
+1,-3.4,GO:0071426,ribonucleoprotein complex export from nucleus,M1,1,0
+1,-2.1,GO:0062197,cellular response to chemical stress,M1,1,0
+1,-2,WP4861,Endoplasmic reticulum stress response in coronavirus infection,M1,1,0
+1,-6.4,GO:0002460,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-2.1,WP706,Sudden infant death syndrome (SIDS) susceptibility pathways,M1,1,0
+1,-2.3,GO:0097305,response to alcohol,M1,1,0
+1,-2.4,GO:1901652,response to peptide,M1,1,0
+1,-4.4,GO:0016571,histone methylation,M1,1,0
+1,-2.7,GO:0097193,intrinsic apoptotic signaling pathway,M1,1,0
+1,-4.3,GO:1903362,regulation of cellular protein catabolic process,M1,1,0
+1,-4,GO:0017015,regulation of transforming growth factor beta receptor signaling pathway,M1,1,0
+1,-2.5,GO:0002440,production of molecular mediator of immune response,M1,1,0
+1,-2.4,GO:0045637,regulation of myeloid cell differentiation,M1,1,0
+1,-3.9,R-HSA-5633007,Regulation of TP53 Activity,M1,1,0
+1,-2.5,GO:0006403,RNA localization,M1,1,0
+1,-2.9,GO:0002455,humoral immune response mediated by circulating immunoglobulin,M1,1,0
+1,-2.4,GO:0061458,reproductive system development,M1,1,0
+1,-6.7,GO:0018105,peptidyl-serine phosphorylation,M1,1,0
+1,-2.9,WP3892,Development of pulmonary dendritic cells and macrophage subsets,M1,1,0
+1,-3.8,GO:2000058,regulation of ubiquitin-dependent protein catabolic process,M1,1,0
+1,-2.6,GO:2000515,"negative regulation of CD4-positive, alpha-beta T cell activation",M1,1,0
+1,-4,GO:0010171,body morphogenesis,M1,1,0
+1,-3.1,R-HSA-6783589,Interleukin-6 family signaling,M1,1,0
+1,-4,GO:0051168,nuclear export,M1,1,0
+1,-2.1,GO:0051647,nucleus localization,M1,1,0
+1,-2.6,GO:0060966,regulation of gene silencing by RNA,M1,1,0
+1,-3.6,GO:0045623,negative regulation of T-helper cell differentiation,M1,1,0
+1,-4.3,GO:0000226,microtubule cytoskeleton organization,M1,1,0
+1,-2.6,R-HSA-397795,G-protein beta:gamma signalling,M1,1,0
+1,-2.2,GO:1904591,positive regulation of protein import,M1,1,0
+1,-2.5,GO:0097067,cellular response to thyroid hormone stimulus,M1,1,0
+1,-4.3,GO:2000516,"positive regulation of CD4-positive, alpha-beta T cell activation",M1,1,0
+1,-2.7,WP5102,Familial partial lipodystrophy (FPLD),M1,1,0
+1,-2.1,ko04933,AGE-RAGE signaling pathway in diabetic complications,M1,1,0
+1,-2.1,GO:0045444,fat cell differentiation,M1,1,0
+1,-3.4,hsa05168,Herpes simplex infection,M1,1,0
+1,-2.5,WP4241,Type 2 papillary renal cell carcinoma,M1,1,0
+1,-3.1,hsa04659,Th17 cell differentiation,M1,1,0
+1,-2.5,GO:0001655,urogenital system development,M1,1,0
+1,-2.2,GO:0050868,negative regulation of T cell activation,M1,1,0
+1,-5.4,GO:0002253,activation of immune response,M1,1,0
+1,-3.4,R-HSA-1655829,Regulation of cholesterol biosynthesis by SREBP (SREBF),M1,1,0
+1,-2.2,GO:1903364,positive regulation of cellular protein catabolic process,M1,1,0
+1,-6.7,GO:0042093,T-helper cell differentiation,M1,1,0
+1,-4.7,R-HSA-9701898,STAT3 nuclear events downstream of ALK signaling,M1,1,0
+1,-2.1,hsa04152,AMPK signaling pathway,M1,1,0
+1,-4.7,M288,PID HES HEY PATHWAY,M1,1,0
+1,-2.1,GO:0000723,telomere maintenance,M1,1,0
+1,-6.2,GO:0018209,peptidyl-serine modification,M1,1,0
+1,-2.7,GO:0044770,cell cycle phase transition,M1,1,0
+1,-3.7,GO:0014065,phosphatidylinositol 3-kinase signaling,M1,1,0
+1,-2.3,ko04152,AMPK signaling pathway,M1,1,0
+1,-3.1,GO:0045785,positive regulation of cell adhesion,M1,1,0
+1,-5,GO:1903706,regulation of hemopoiesis,M1,1,0
+1,-2.5,GO:0001892,embryonic placenta development,M1,1,0
+1,-4.7,R-HSA-2122947,NOTCH1 Intracellular Domain Regulates Transcription,M1,1,0
+1,-4.9,R-HSA-1368082,RORA activates gene expression,M1,1,0
+1,-3.8,R-HSA-9614657,FOXO-mediated transcription of cell death genes,M1,1,0
+1,-3.5,GO:0080135,regulation of cellular response to stress,M1,1,0
+1,-3.2,R-HSA-9617629,Regulation of FOXO transcriptional activity by acetylation,M1,1,0
+1,-3.9,R-HSA-2990846,SUMOylation,M1,1,0
+1,-7.7,GO:0018205,peptidyl-lysine modification,M1,1,0
+1,-2,GO:1903798,regulation of production of miRNAs involved in gene silencing by miRNA,M1,1,0
+1,-7.6,GO:0002293,alpha-beta T cell differentiation involved in immune response,M1,1,0
+1,-2.4,M14532,ST PHOSPHOINOSITIDE 3 KINASE PATHWAY,M1,1,0
+1,-2.7,GO:0045066,regulatory T cell differentiation,M1,1,0
+1,-2.4,GO:0036508,"protein alpha-1,2-demannosylation",M1,1,0
+1,-3.6,GO:0010324,membrane invagination,M1,1,0
+1,-12,GO:0016570,histone modification,M1,1,0
+1,-5.9,GO:0006984,ER-nucleus signaling pathway,M1,1,0
+1,-3.3,GO:0002449,lymphocyte mediated immunity,M1,1,0
+1,-2.3,GO:0006354,"DNA-templated transcription, elongation",M1,1,0
+1,-3,GO:0060070,canonical Wnt signaling pathway,M1,1,0
+1,-3.6,R-HSA-400206,Regulation of lipid metabolism by PPARalpha,M1,1,0
+1,-6.8,GO:0018393,internal peptidyl-lysine acetylation,M1,1,0
+1,-2.8,R-HSA-9005895,Pervasive developmental disorders,M1,1,0
+1,-3.9,GO:1905268,negative regulation of chromatin organization,M1,1,0
+1,-5.7,WP2374,Oncostatin M signaling pathway,M1,1,0
+1,-2.6,GO:1903037,regulation of leukocyte cell-cell adhesion,M1,1,0
+1,-2,WP1541,Energy metabolism,M1,1,0
+1,-2.1,GO:0006509,membrane protein ectodomain proteolysis,M1,1,0
+1,-2.6,ko04922,Glucagon signaling pathway,M1,1,0
+1,-2.6,GO:0046475,glycerophospholipid catabolic process,M1,1,0
+1,-2.8,GO:0045912,negative regulation of carbohydrate metabolic process,M1,1,0
+1,-2.4,M58,PID AR PATHWAY,M1,1,0
+1,-4,GO:1903047,mitotic cell cycle process,M1,1,0
+1,-3.1,GO:0070059,intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress,M1,1,0
+1,-2.6,M164,PID ERBB1 DOWNSTREAM PATHWAY,M1,1,0
+1,-5.2,GO:0071407,cellular response to organic cyclic compound,M1,1,0
+1,-3.9,R-HSA-9614085,FOXO-mediated transcription,M1,1,0
+1,-2.6,WP4149,White fat cell differentiation,M1,1,0
+1,-2.9,ko04658,Th1 and Th2 cell differentiation,M1,1,0
+1,-2.5,R-HSA-2151201,Transcriptional activation of mitochondrial biogenesis,M1,1,0
+1,-2.2,M105,PID TELOMERASE PATHWAY,M1,1,0
+1,-2.1,GO:0090287,regulation of cellular response to growth factor stimulus,M1,1,0
+1,-3.5,GO:0051056,regulation of small GTPase mediated signal transduction,M1,1,0
+1,-4.1,WP4538,Regulatory circuits of the STAT3 signaling pathway,M1,1,0
+1,-2.4,CORUM:7582,ESR2-TRAP/Mediator coactivator complex,M1,1,0
+1,-5.2,GO:0032870,cellular response to hormone stimulus,M1,1,0
+1,-2.8,ko04392,Hippo signaling pathway -multiple species,M1,1,0
+1,-3.4,ko05168,Herpes simplex infection,M1,1,0
+1,-5.8,GO:0035710,"CD4-positive, alpha-beta T cell activation",M1,1,0
+1,-2.8,GO:0070849,response to epidermal growth factor,M1,1,0
+1,-2,GO:0035773,insulin secretion involved in cellular response to glucose stimulus,M1,1,0
+1,-2.1,GO:0070848,response to growth factor,M1,1,0
+1,-3.3,GO:0061136,regulation of proteasomal protein catabolic process,M1,1,0
+1,-3.1,WP4816,TGF-beta receptor signaling in skeletal dysplasias,M1,1,0
+1,-2.2,GO:0042307,positive regulation of protein import into nucleus,M1,1,0
+1,-5.2,GO:0042110,T cell activation,M1,1,0
+1,-2,GO:0030335,positive regulation of cell migration,M1,1,0
+1,-2.4,WP710,DNA damage response (only ATM dependent),M1,1,0
+1,-2.6,GO:0032418,lysosome localization,M1,1,0
+1,-2.3,GO:0030111,regulation of Wnt signaling pathway,M1,1,0
+1,-2.5,GO:0008333,endosome to lysosome transport,M1,1,0
+1,-2.6,GO:0045621,positive regulation of lymphocyte differentiation,M1,1,0
+1,-2.8,GO:0090311,regulation of protein deacetylation,M1,1,0
+1,-2.9,R-HSA-1483257,Phospholipid metabolism,M1,1,0
+1,-2.7,GO:2000345,regulation of hepatocyte proliferation,M1,1,0
+1,-5.8,M124,PID CXCR4 PATHWAY,M1,1,0
+1,-2.2,GO:2000756,regulation of peptidyl-lysine acetylation,M1,1,0
+1,-2.2,GO:0015914,phospholipid transport,M1,1,0
+1,-3.8,GO:0016032,viral process,M1,1,0
+1,-2.2,GO:0046777,protein autophosphorylation,M1,1,0
+1,-2.2,GO:0034620,cellular response to unfolded protein,M1,1,0
+1,-2,M2579,ST DIFFERENTIATION PATHWAY IN PC12 CELLS,M1,1,0
+1,-3,GO:0030518,intracellular steroid hormone receptor signaling pathway,M1,1,0
+1,-2.6,R-HSA-9022692,Regulation of MECP2 expression and activity,M1,1,0
+1,-2,GO:0090312,positive regulation of protein deacetylation,M1,1,0
+1,-3.7,R-HSA-400253,Circadian Clock,M1,1,0
+1,-2.4,GO:0001659,temperature homeostasis,M1,1,0
+1,-7.1,GO:0046632,alpha-beta T cell differentiation,M1,1,0
+1,-3.8,GO:0010498,proteasomal protein catabolic process,M1,1,0
+1,-3.8,R-HSA-199991,Membrane Trafficking,M1,1,0
+1,-2.7,GO:0043547,positive regulation of GTPase activity,M1,1,0
+1,-2.1,GO:0035307,positive regulation of protein dephosphorylation,M1,1,0
+1,-3.3,GO:0019941,modification-dependent protein catabolic process,M1,1,0
+1,-2.2,GO:0072575,epithelial cell proliferation involved in liver morphogenesis,M1,1,0
+1,-3.9,GO:0006405,RNA export from nucleus,M1,1,0
+1,-2.1,WP2369,Histone modifications,M1,1,0
+1,-3.5,GO:0016064,immunoglobulin mediated immune response,M1,1,0
+1,-4.5,ko05145,Toxoplasmosis,M1,1,0
+1,-2.8,R-HSA-9707564,Cytoprotection by HMOX1,M1,1,0
+1,-2.2,GO:0044403,biological process involved in symbiotic interaction,M1,1,0
+1,-2,GO:1903052,positive regulation of proteolysis involved in cellular protein catabolic process,M1,1,0
+1,-2.9,GO:0006333,chromatin assembly or disassembly,M1,1,0
+1,-2.4,GO:0035967,cellular response to topologically incorrect protein,M1,1,0
+1,-2,R-HSA-9705462,Inactivation of CSF3 (G-CSF) signaling,M1,1,0
+1,-2.3,GO:0022409,positive regulation of cell-cell adhesion,M1,1,0
+1,-3.2,R-HSA-6785807,Interleukin-4 and Interleukin-13 signaling,M1,1,0
+1,-5.6,GO:0032259,methylation,M1,1,0
+1,-6.8,GO:1903131,mononuclear cell differentiation,M1,1,0
+1,-2.1,GO:0022604,regulation of cell morphogenesis,M1,1,0
+1,-2.9,R-HSA-350054,Notch-HLH transcription pathway,M1,1,0
+1,-4.5,hsa04068,foxo signaling pathway,M1,1,0
+1,-3.2,WP481,Insulin signaling,M1,1,0
+1,-2.3,R-HSA-416572,Sema4D induced cell migration and growth-cone collapse,M1,1,0
+1,-2.6,R-HSA-156711,Polo-like kinase mediated events,M1,1,0
+1,-2.6,GO:0060323,head morphogenesis,M1,1,0
+1,-6.1,GO:0006914,autophagy,M1,1,0
+1,-2.6,hsa04144,Endocytosis ,M1,1,0
+1,-2.8,R-HSA-9005891,Loss of function of MECP2 in Rett syndrome,M1,1,0
+1,-2.5,GO:0034248,regulation of cellular amide metabolic process,M1,1,0
+1,-3,GO:0002699,positive regulation of immune effector process,M1,1,0
+1,-2.3,M176,PID FOXM1 PATHWAY,M1,1,0
+1,-2.1,WP4585,Cancer immunotherapy by PD-1 blockade,M1,1,0
+1,-3.3,GO:0060965,negative regulation of gene silencing by miRNA,M1,1,0
+1,-3.3,WP560,TGF-beta receptor signaling,M1,1,0
+1,-2.1,GO:0072576,liver morphogenesis,M1,1,0
+1,-2.9,R-HSA-9707616,Heme signaling,M1,1,0
+1,-5.7,GO:0046486,glycerolipid metabolic process,M1,1,0
+1,-2.9,WP3594,Circadian rhythm genes,M1,1,0
+1,-6.1,GO:0002768,immune response-regulating cell surface receptor signaling pathway,M1,1,0
+1,-5.4,GO:0048017,inositol lipid-mediated signaling,M1,1,0
+1,-2.3,R-HSA-9013695,NOTCH4 Intracellular Domain Regulates Transcription,M1,1,0
+1,-3.8,GO:0009299,mRNA transcription,M1,1,0
+1,-3.9,WP4754,IL-18 signaling pathway,M1,1,0
+1,-3.4,GO:0007420,brain development,M1,1,0
+1,-2.1,R-HSA-3214841,PKMTs methylate histone lysines,M1,1,0
+1,-3.7,R-HSA-3214847,HATs acetylate histones,M1,1,0
+1,-4.2,GO:0009896,positive regulation of catabolic process,M1,1,0
+1,-2.8,GO:0060828,regulation of canonical Wnt signaling pathway,M1,1,0
+1,-5.2,GO:0002250,adaptive immune response,M1,1,0
+1,-7.2,GO:0018394,peptidyl-lysine acetylation,M1,1,0
+1,-2.4,CORUM:6664,"STAGA complex, SPT3-linked",M1,1,0
+1,-2.3,GO:0009069,serine family amino acid metabolic process,M1,1,0
+1,-2.2,R-HSA-9012999,RHO GTPase cycle,M1,1,0
+1,-2,GO:0048871,multicellular organismal homeostasis,M1,1,0
+1,-2.2,GO:0010847,regulation of chromatin assembly,M1,1,0
+1,-2.9,GO:1901096,regulation of autophagosome maturation,M1,1,0
+1,-7,GO:0006913,nucleocytoplasmic transport,M1,1,0
+1,-3,GO:0017038,protein import,M1,1,0
+1,-2.1,GO:0097352,autophagosome maturation,M1,1,0
+1,-5.7,GO:0051251,positive regulation of lymphocyte activation,M1,1,0
+1,-2.3,GO:0043484,regulation of RNA splicing,M1,1,0
+1,-3.1,ko04910,Insulin signaling pathway,M1,1,0
+1,-3.6,GO:0097190,apoptotic signaling pathway,M1,1,0
+1,-3.1,GO:0090407,organophosphate biosynthetic process,M1,1,0
+1,-2.3,GO:0042752,regulation of circadian rhythm,M1,1,0
+1,-6.2,GO:0016573,histone acetylation,M1,1,0
+1,-2.8,hsa04330,Notch signaling pathway ,M1,1,0
+1,-2.8,hsa04392,Hippo signaling pathway -multiple species,M1,1,0
+1,-2.4,R-HSA-8939243,RUNX1 interacts with co-factors whose precise effect on RUNX1 targets is not known,M1,1,0
+1,-2,GO:1902106,negative regulation of leukocyte differentiation,M1,1,0
+1,-2.7,GO:0046578,regulation of Ras protein signal transduction,M1,1,0
+1,-2.2,GO:0034401,chromatin organization involved in regulation of transcription,M1,1,0
+1,-2.6,GO:0000280,nuclear division,M1,1,0
+1,-2.9,GO:1901655,cellular response to ketone,M1,1,0
+1,-8.2,GO:0002252,immune effector process,M1,1,0
+1,-3.6,GO:0051052,regulation of DNA metabolic process,M1,1,0
+1,-3.3,GO:0006956,complement activation,M1,1,0
+1,-4.1,GO:0051098,regulation of binding,M1,1,0
+1,-2.2,GO:1901796,regulation of signal transduction by p53 class mediator,M1,1,0
+1,-3.8,M101,PID HDAC CLASSI PATHWAY,M1,1,0
+1,-2.8,ko04330,Notch signaling pathway,M1,1,0
+1,-2.7,GO:0030968,endoplasmic reticulum unfolded protein response,M1,1,0
+1,-2.8,ko04070,Phosphatidylinositol signaling system,M1,1,0
+1,-2.8,GO:0048589,developmental growth,M1,1,0
+1,-2.6,GO:0050657,nucleic acid transport,M1,1,0
+1,-7,GO:1902275,regulation of chromatin organization,M1,1,0
+1,-3.3,GO:0043549,regulation of kinase activity,M1,1,0
+1,-2.2,ko05166,HTLV-I infection,M1,1,0
+1,-2.1,GO:0032200,telomere organization,M1,1,0
+1,-2.9,M183,PID IL6 7 PATHWAY,M1,1,0
+1,-2.8,hsa04919,thyroid hormone signaling pathway,M1,1,0
+1,-2,R-HSA-9609690,HCMV Early Events,M1,1,0
+1,-3.6,GO:0051101,regulation of DNA binding,M1,1,0
+1,-3.6,hsa00562,Inositol phosphate metabolism ,M1,1,0
+1,-2.6,GO:0030705,cytoskeleton-dependent intracellular transport,M1,1,0
+1,-2,GO:2000059,negative regulation of ubiquitin-dependent protein catabolic process,M1,1,0
+1,-3.1,GO:0060967,negative regulation of gene silencing by RNA,M1,1,0
+1,-2.4,WP2011,SREBF and miR33 in cholesterol and lipid homeostasis,M1,1,0
+1,-6.8,M136,PID FOXO PATHWAY,M1,1,0
+1,-2.4,GO:0080182,histone H3-K4 trimethylation,M1,1,0
+1,-2.5,GO:0048285,organelle fission,M1,1,0
+1,-2.3,GO:0018107,peptidyl-threonine phosphorylation,M1,1,0
+1,-2.2,R-HSA-186712,Regulation of beta-cell development,M1,1,0
+1,-3.1,hsa04910,Insulin signaling pathway ,M1,1,0
+1,-2.8,GO:0010638,positive regulation of organelle organization,M1,1,0
+1,-2.6,GO:0071559,response to transforming growth factor beta,M1,1,0
+1,-3.4,GO:0050847,progesterone receptor signaling pathway,M1,1,0
+1,-4.7,GO:0050867,positive regulation of cell activation,M1,1,0
+1,-4,GO:0032933,SREBP signaling pathway,M1,1,0
+1,-2.8,ko04390,Hippo signaling pathway,M1,1,0
+1,-2.8,WP1982,Sterol regulatory element-binding proteins (SREBP) signaling,M1,1,0
+1,-4,GO:0042113,B cell activation,M1,1,0
+1,-2.2,hsa05166,HTLV-I infection,M1,1,0
+1,-6.7,GO:0006475,internal protein amino acid acetylation,M1,1,0
+1,-3,GO:0033522,histone H2A ubiquitination,M1,1,0
+1,-2.6,hsa04922,Glucagon signaling pathway,M1,1,0
+1,-2.1,GO:0001763,morphogenesis of a branching structure,M1,1,0
+1,-2.1,GO:0032940,secretion by cell,M1,1,0
+1,-2.8,GO:0060964,regulation of gene silencing by miRNA,M1,1,0
+1,-3.6,GO:0071383,cellular response to steroid hormone stimulus,M1,1,0
+1,-2.2,WP49,IL-2 signaling pathway,M1,1,0
+1,-4.4,hsa05145,Toxoplasmosis,M1,1,0
+1,-2.2,GO:1900120,regulation of receptor binding,M1,1,0
+1,-2.5,GO:0071396,cellular response to lipid,M1,1,0
+1,-4.2,GO:0045732,positive regulation of protein catabolic process,M1,1,0
+1,-4.3,GO:0060969,negative regulation of gene silencing,M1,1,0
+1,-6,GO:0002757,immune response-activating signal transduction,M1,1,0
+1,-2.2,R-HSA-76002,"Platelet activation, signaling and aggregation",M1,1,0
+1,-3.7,GO:0034976,response to endoplasmic reticulum stress,M1,1,0
+1,-2,WP268,Notch signaling,M1,1,0
+1,-7.3,GO:0034504,protein localization to nucleus,M1,1,0
+1,-2.4,GO:0030220,platelet formation,M1,1,0
+1,-2.2,GO:0008037,cell recognition,M1,1,0
+1,-2.8,GO:0070988,demethylation,M1,1,0
+1,-3.3,GO:1905269,positive regulation of chromatin organization,M1,1,0
+1,-2,GO:0043254,regulation of protein-containing complex assembly,M1,1,0
+1,-3.1,GO:0046854,phosphatidylinositol phosphate biosynthetic process,M1,1,0
+1,-2.6,WP3915,Angiopoietin-like protein 8 regulatory pathway,M1,1,0
+1,-3,R-HSA-1989781,PPARA activates gene expression,M1,1,0
+1,-2.3,GO:0090207,regulation of triglyceride metabolic process,M1,1,0
+1,-3.1,R-HSA-2029480,Fcgamma receptor (FCGR) dependent phagocytosis,M1,1,0
+1,-4.1,GO:0006911,"phagocytosis, engulfment",M1,1,0
+1,-4,GO:0010452,histone H3-K36 methylation,M1,1,0
+1,-2.4,GO:0040029,"regulation of gene expression, epigenetic",M1,1,0
+1,-2.2,WP231,TNF-alpha signaling pathway,M1,1,0
+1,-2.6,GO:1900181,negative regulation of protein localization to nucleus,M1,1,0
+1,-2.6,GO:0043620,regulation of DNA-templated transcription in response to stress,M1,1,0
+1,-2.6,WP363,Wnt signaling pathway,M1,1,0
+1,-2.5,GO:0039694,viral RNA genome replication,M1,1,0
+1,-3,WP2853,Endoderm differentiation,M1,1,0
+1,-2.9,GO:0098732,macromolecule deacylation,M1,1,0
+1,-2.5,GO:1905898,positive regulation of response to endoplasmic reticulum stress,M1,1,0
+1,-2.6,GO:0007159,leukocyte cell-cell adhesion,M1,1,0
+1,-2.6,GO:1902235,regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway,M1,1,0
+1,-2.8,GO:0019058,viral life cycle,M1,1,0
+1,-2.4,ko04310,Wnt signaling pathway,M1,1,0
+1,-3.4,R-HSA-9029569,NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux,M1,1,0
+1,-3,WP5083,Neuroinflammation and glutamatergic signaling,M1,1,0
+1,-2.3,GO:0006470,protein dephosphorylation,M1,1,0
+1,-3.2,GO:0006958,"complement activation, classical pathway",M1,1,0
+1,-2.9,GO:0045581,negative regulation of T cell differentiation,M1,1,0
+1,-3.1,GO:0072384,organelle transport along microtubule,M1,1,0
+1,-2.3,GO:0007097,nuclear migration,M1,1,0
+1,-2,GO:0032434,regulation of proteasomal ubiquitin-dependent protein catabolic process,M1,1,0
+1,-2.4,GO:0046676,negative regulation of insulin secretion,M1,1,0
+1,-2.4,R-HSA-9013424,RHOV GTPase cycle,M1,1,0
+1,-3.5,GO:0010508,positive regulation of autophagy,M1,1,0
+1,-2.7,GO:1903799,negative regulation of production of miRNAs involved in gene silencing by miRNA,M1,1,0
+1,-3,M162,PID RXR VDR PATHWAY,M1,1,0
+1,-4.4,GO:0002697,regulation of immune effector process,M1,1,0
+1,-4,R-HSA-3108232,SUMO E3 ligases SUMOylate target proteins,M1,1,0
+1,-2.6,ko04144,Endocytosis,M1,1,0
+1,-6.8,GO:0051249,regulation of lymphocyte activation,M1,1,0
+1,-2,R-HSA-8854691,Interleukin-20 family signaling,M1,1,0
+1,-2.3,GO:0002377,immunoglobulin production,M1,1,0
+1,-3.2,M115,PID REG GR PATHWAY,M1,1,0
+1,-2,GO:0002009,morphogenesis of an epithelium,M1,1,0
+1,-4,GO:0008213,protein alkylation,M1,1,0
+1,-3.7,GO:0033157,regulation of intracellular protein transport,M1,1,0
+1,-4.6,GO:0046488,phosphatidylinositol metabolic process,M1,1,0
+1,-2.4,GO:0051402,neuron apoptotic process,M1,1,0
+1,-3.4,GO:0071166,ribonucleoprotein complex localization,M1,1,0
+1,-5.3,WP138,Androgen receptor signaling pathway,M1,1,0
+1,-2.4,GO:0032103,positive regulation of response to external stimulus,M1,1,0
+1,-3.2,GO:0071427,mRNA-containing ribonucleoprotein complex export from nucleus,M1,1,0
+1,-2,GO:0042832,defense response to protozoan,M1,1,0
+1,-2.9,GO:0006513,protein monoubiquitination,M1,1,0
+1,-3,GO:0045582,positive regulation of T cell differentiation,M1,1,0
+1,-3.3,M186,PID PDGFRB PATHWAY,M1,1,0
+1,-2.1,R-HSA-199992,trans-Golgi Network Vesicle Budding,M1,1,0
+1,-2.3,GO:0097306,cellular response to alcohol,M1,1,0
+1,-7.7,GO:0006473,protein acetylation,M1,1,0
+1,-2.1,M9526,ST T CELL SIGNAL TRANSDUCTION,M1,1,0
+1,-2.1,R-HSA-1280215,Cytokine Signaling in Immune system,M1,1,0
+1,-5.8,GO:0050865,regulation of cell activation,M1,1,0
+1,-2.5,GO:1905897,regulation of response to endoplasmic reticulum stress,M1,1,0
+1,-3.1,R-HSA-2426168,Activation of gene expression by SREBF (SREBP),M1,1,0
+1,-3.4,GO:0043161,proteasome-mediated ubiquitin-dependent protein catabolic process,M1,1,0
+1,-2.3,R-HSA-5621575,CD209 (DC-SIGN) signaling,M1,1,0
+1,-2.2,hsa04630,Jak-STAT signaling pathway ,M1,1,0
+1,-3.5,GO:0035196,production of miRNAs involved in gene silencing by miRNA,M1,1,0
+1,-2.2,GO:0050821,protein stabilization,M1,1,0
+1,-4.2,GO:0051603,proteolysis involved in cellular protein catabolic process,M1,1,0
+1,-3.9,GO:0051170,import into nucleus,M1,1,0
+1,-2.4,GO:0007169,transmembrane receptor protein tyrosine kinase signaling pathway,M1,1,0
+1,-2.8,GO:0060325,face morphogenesis,M1,1,0
+1,-6.7,GO:0043367,"CD4-positive, alpha-beta T cell differentiation",M1,1,0
+1,-3.3,hsa_M00130,"Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4",M1,1,0
+1,-2.8,WP23,B cell receptor signaling pathway,M1,1,0
+1,-4,GO:0006479,protein methylation,M1,1,0
+1,-2.4,GO:0010742,macrophage derived foam cell differentiation,M1,1,0
+1,-2.2,GO:0022407,regulation of cell-cell adhesion,M1,1,0
+1,-2.4,GO:0060260,regulation of transcription initiation from RNA polymerase II promoter,M1,1,0
+1,-4.6,GO:0050863,regulation of T cell activation,M1,1,0
+1,-2.6,GO:0045620,negative regulation of lymphocyte differentiation,M1,1,0
+1,-2.7,GO:0051028,mRNA transport,M1,1,0
+1,-5.5,GO:0030217,T cell differentiation,M1,1,0
+1,-2.4,GO:0031349,positive regulation of defense response,M1,1,0
+1,-5.9,GO:0002521,leukocyte differentiation,M1,1,0
+1,-3.9,GO:1903844,regulation of cellular response to transforming growth factor beta stimulus,M1,1,0
+1,-2,R-HSA-400685,Sema4D in semaphorin signaling,M1,1,0
+1,-5.6,GO:2000514,"regulation of CD4-positive, alpha-beta T cell activation",M1,1,0
+1,-4.5,GO:0060322,head development,M1,1,0
+1,-2,R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,M1,1,0
+1,-5.8,GO:0050778,positive regulation of immune response,M1,1,0
+1,-3.2,GO:0014066,regulation of phosphatidylinositol 3-kinase signaling,M1,1,0
+1,-3.2,GO:0010942,positive regulation of cell death,M1,1,0
+1,-2.8,GO:0050870,positive regulation of T cell activation,M1,1,0
+1,-2.3,WP673,ErbB signaling pathway,M1,1,0
+1,-2.2,GO:0010866,regulation of triglyceride biosynthetic process,M1,1,0
+1,-2.2,GO:0007589,body fluid secretion,M1,1,0
+1,-2.7,R-HSA-2262752,Cellular responses to stress,M1,1,0
+1,-3.3,M00130,"Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4",M1,1,0
+1,-2.9,hsa04066,HIF-1 signaling pathway,M1,1,0
+1,-2.7,GO:0045936,negative regulation of phosphate metabolic process,M1,1,0
+1,-2.1,R-HSA-69275,G2/M Transition,M1,1,0
+1,-2,GO:0033143,regulation of intracellular steroid hormone receptor signaling pathway,M1,1,0
+1,-3.9,R-HSA-3899300,SUMOylation of transcription cofactors,M1,1,0
+1,-4.8,GO:0008610,lipid biosynthetic process,M1,1,0
+1,-2.3,WP4871,Kisspeptin/kisspeptin receptor system in the ovary,M1,1,0
+1,-3.7,WP3935,Leptin-insulin signaling overlap,M1,1,0
+1,-2.8,R-HSA-9615017,"FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes",M1,1,0
+1,-7,GO:0002764,immune response-regulating signaling pathway,M1,1,0
+1,-2.4,hsa04390,Hippo signaling pathway,M1,1,0
+1,-2.5,GO:0033619,membrane protein proteolysis,M1,1,0
+1,-5.1,M261,PID P53 REGULATION PATHWAY,M1,1,0
+1,-2.4,GO:0010821,regulation of mitochondrion organization,M1,1,0
+1,-2.6,WP366,TGF-beta signaling pathway,M1,1,0
+1,-2.2,GO:0018210,peptidyl-threonine modification,M1,1,0
+1,-2.2,GO:0045624,positive regulation of T-helper cell differentiation,M1,1,0
+1,-2.1,GO:0042326,negative regulation of phosphorylation,M1,1,0
+1,-2.2,GO:0043967,histone H4 acetylation,M1,1,0
+1,-2.8,R-HSA-8957322,Metabolism of steroids,M1,1,0
+1,-6.3,GO:0006650,glycerophospholipid metabolic process,M1,1,0
+1,-5.3,GO:0030099,myeloid cell differentiation,M1,1,0
+1,-3.5,R-HSA-194315,Signaling by Rho GTPases,M1,1,0
+1,-3.3,GO:0045596,negative regulation of cell differentiation,M1,1,0
+1,-3.8,R-HSA-9024446,NR1H2 and NR1H3-mediated signaling,M1,1,0
+1,-2.6,M122,PID IL2 1PATHWAY,M1,1,0
+1,-2.3,GO:0016075,rRNA catabolic process,M1,1,0
+1,-2.2,GO:0000904,cell morphogenesis involved in differentiation,M1,1,0
+1,-2.2,GO:0090278,negative regulation of peptide hormone secretion,M1,1,0
+1,-3.3,WP4217,Ebola virus pathway in host,M1,1,0
+1,-2,GO:0006417,regulation of translation,M1,1,0
+1,-5.7,GO:0045580,regulation of T cell differentiation,M1,1,0
+1,-3,WP2858,Ectoderm differentiation,M1,1,0
+1,-3.1,GO:0051321,meiotic cell cycle,M1,1,0
+1,-3,GO:0046639,negative regulation of alpha-beta T cell differentiation,M1,1,0
+1,-2.3,GO:0032011,ARF protein signal transduction,M1,1,0
+1,-2.4,WP4659,Gastrin signaling pathway,M1,1,0
+1,-2.2,GO:0035690,cellular response to drug,M1,1,0
+1,-3.5,R-HSA-8878171,Transcriptional regulation by RUNX1,M1,1,0
+1,-3.5,GO:0048511,rhythmic process,M1,1,0
+1,-3.7,GO:0034968,histone lysine methylation,M1,1,0
+1,-3.1,GO:0043966,histone H3 acetylation,M1,1,0
+1,-2.4,GO:0006109,regulation of carbohydrate metabolic process,M1,1,0
+1,-2.4,GO:0045063,T-helper 1 cell differentiation,M1,1,0
+1,-3.5,GO:0051222,positive regulation of protein transport,M1,1,0
+1,-3.3,WP2857,Mesodermal commitment pathway,M1,1,0
+1,-2.9,R-HSA-212165,Epigenetic regulation of gene expression,M1,1,0
+1,-3.6,GO:0007179,transforming growth factor beta receptor signaling pathway,M1,1,0
+1,-2.8,WP3613,Photodynamic therapy-induced unfolded protein response,M1,1,0
+1,-2.7,GO:0071560,cellular response to transforming growth factor beta stimulus,M1,1,0
+1,-3.3,R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",M1,1,0
+1,-2.5,GO:0035518,histone H2A monoubiquitination,M1,1,0
+1,-3.3,GO:1904951,positive regulation of establishment of protein localization,M1,1,0
+1,-2.2,GO:0009267,cellular response to starvation,M1,1,0
+1,-4.3,GO:0010815,bradykinin catabolic process,M1,1,0
+1,-2.1,GO:0031057,negative regulation of histone modification,M1,1,0
+1,-2.3,GO:0031497,chromatin assembly,M1,1,0
+1,-2.4,WP3995,Prion disease pathway,M1,1,0
+1,-2.1,GO:0035966,response to topologically incorrect protein,M1,1,0
+1,-3,GO:0071364,cellular response to epidermal growth factor stimulus,M1,1,0
+1,-2.4,GO:0031445,regulation of heterochromatin assembly,M1,1,0
+1,-2,R-HSA-392451,G beta:gamma signalling through PI3Kgamma,M1,1,0
+1,-4.1,GO:0031647,regulation of protein stability,M1,1,0
+1,-2,GO:0034728,nucleosome organization,M1,1,0
+1,-2.9,GO:0031668,cellular response to extracellular stimulus,M1,1,0
+1,-2.4,GO:0090077,foam cell differentiation,M1,1,0
+1,-4,GO:0007623,circadian rhythm,M1,1,0
+1,-4,GO:0006606,protein import into nucleus,M1,1,0
+1,-7.6,GO:0002287,alpha-beta T cell activation involved in immune response,M1,1,0
+1,-5.3,GO:0002286,T cell activation involved in immune response,M1,1,0
+1,-2.1,GO:0071378,cellular response to growth hormone stimulus,M1,1,0
+1,-2.1,R-HSA-9711123,Cellular response to chemical stress,M1,1,0
+1,-2.9,GO:0001672,regulation of chromatin assembly or disassembly,M1,1,0
+1,-2.5,GO:0016575,histone deacetylation,M1,1,0
+1,-4.3,GO:0072538,T-helper 17 type immune response,M1,1,0
+1,-2.6,GO:0043401,steroid hormone mediated signaling pathway,M1,1,0
+1,-3.9,GO:0051223,regulation of protein transport,M1,1,0
+1,-2.4,hsa04310,Wnt signaling pathway ,M1,1,0
+1,-3.1,R-HSA-9013508,NOTCH3 Intracellular Domain Regulates Transcription,M1,1,0
+1,-3.4,GO:0031056,regulation of histone modification,M1,1,0
+1,-3.5,GO:0007051,spindle organization,M1,1,0
+1,-2.8,hsa04658,Th1 and Th2 cell differentiation,M1,1,0
+1,-3.1,GO:0060149,negative regulation of posttranscriptional gene silencing,M1,1,0
+1,-3.3,R-HSA-2894862,Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants,M1,1,0
+1,-6.6,GO:0043370,"regulation of CD4-positive, alpha-beta T cell differentiation",M1,1,0
+1,-7.6,GO:0046637,regulation of alpha-beta T cell differentiation,M1,1,0
+1,-4.1,M32,PID HDAC CLASSIII PATHWAY,M1,1,0
+1,-2.4,GO:0044772,mitotic cell cycle phase transition,M1,1,0
+1,-2,GO:0031667,response to nutrient levels,M1,1,0
+1,-2.1,hsa05143,African trypanosomiasis,M1,1,0
+1,-3.6,GO:0006991,response to sterol depletion,M1,1,0
+1,-2.1,GO:0060396,growth hormone receptor signaling pathway,M1,1,0
+1,-2.4,GO:1901800,positive regulation of proteasomal protein catabolic process,M1,1,0
+1,-3.4,GO:0198738,cell-cell signaling by wnt,M1,1,0
+1,-2.4,GO:0036507,protein demannosylation,M1,1,0
+1,-3.2,M195,PID CMYB PATHWAY,M1,1,0
+1,-4.8,GO:0006644,phospholipid metabolic process,M1,1,0
+1,-2.5,WP2261,Glioblastoma signaling pathways,M1,1,0
+1,-3.1,hsa04141,Protein processing in endoplasmic reticulum,M1,1,0
+1,-2.2,GO:0072574,hepatocyte proliferation,M1,1,0
+1,-13,GO:0016569,covalent chromatin modification,M1,1,0
+1,-8.9,GO:1903827,regulation of cellular protein localization,M1,1,0
+1,-2.3,R-HSA-2028269,Signaling by Hippo,M1,1,0
+1,-2.6,M290,PID IL12 STAT4 PATHWAY,M1,1,0
+1,-3.1,GO:0030155,regulation of cell adhesion,M1,1,0
+1,-4.6,GO:0050851,antigen receptor-mediated signaling pathway,M1,1,0
+1,-7,GO:0051169,nuclear transport,M1,1,0
+1,-2.4,GO:0007041,lysosomal transport,M1,1,0
+1,-2,R-HSA-157118,Signaling by NOTCH,M1,1,0
+1,-2.1,GO:0009991,response to extracellular stimulus,M1,1,0
+1,-2.4,GO:0120261,regulation of heterochromatin organization,M1,1,0
+1,-5.6,GO:0045017,glycerolipid biosynthetic process,M1,1,0
+1,-3.2,GO:0000018,regulation of DNA recombination,M1,1,0
+1,-2,GO:0042149,cellular response to glucose starvation,M1,1,0
+1,-3.9,GO:0031122,cytoplasmic microtubule organization,M1,1,0
+1,-7.6,GO:0002294,"CD4-positive, alpha-beta T cell differentiation involved in immune response",M1,1,0
+1,-2.4,GO:0031935,regulation of chromatin silencing,M1,1,0
+1,-7,GO:0002366,leukocyte activation involved in immune response,M1,1,0
+1,-2.6,WP3958,GPR40 pathway,M1,1,0
+1,-3.4,GO:0019724,B cell mediated immunity,M1,1,0
+1,-2,GO:0006897,endocytosis,M1,1,0
+1,-2,GO:0044283,small molecule biosynthetic process,M1,1,0
+1,-3.8,WP437,EGF/EGFR signaling pathway,M1,1,0
+1,-3.4,GO:0006910,"phagocytosis, recognition",M1,1,0
+1,-2.4,GO:0097549,chromatin organization involved in negative regulation of transcription,M1,1,0
+1,-3.1,GO:0002822,regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,M1,1,0
+1,-2.2,GO:0072657,protein localization to membrane,M1,1,0
+1,-2.2,GO:0099111,microtubule-based transport,M1,1,0
+1,-6.3,GO:1903829,positive regulation of cellular protein localization,M1,1,0
+1,-3.4,GO:0097692,histone H3-K4 monomethylation,M1,1,0
+1,-3.1,hsa04931,insulin resistance,M1,1,0
+1,-3.4,GO:0043388,positive regulation of DNA binding,M1,1,0
+1,-2.7,GO:0060147,regulation of posttranscriptional gene silencing,M1,1,0
+1,-2.6,R-HSA-210744,Regulation of gene expression in late stage (branching morphogenesis) pancreatic bud precursor cells,M1,1,0
+1,-2.6,GO:0032868,response to insulin,M1,1,0
+1,-2.9,GO:0072594,establishment of protein localization to organelle,M1,1,0
+1,-4.7,GO:0006661,phosphatidylinositol biosynthetic process,M1,1,0
+1,-3.5,GO:0031050,dsRNA processing,M1,1,0
+1,-4.8,GO:0043372,"positive regulation of CD4-positive, alpha-beta T cell differentiation",M1,1,0
+1,-3.1,GO:0042789,mRNA transcription by RNA polymerase II,M1,1,0
+1,-4.9,GO:0030162,regulation of proteolysis,M1,1,0
+1,-3.9,GO:0002443,leukocyte mediated immunity,M1,1,0
+1,-3.6,GO:0031331,positive regulation of cellular catabolic process,M1,1,0
+1,-3,WP364,IL-6 signaling pathway,M1,1,0
+1,-4,GO:0050853,B cell receptor signaling pathway,M1,1,0
+1,-2.3,GO:0048732,gland development,M1,1,0
+1,-3.4,GO:0006511,ubiquitin-dependent protein catabolic process,M1,1,0
+1,-4.6,GO:0046474,glycerophospholipid biosynthetic process,M1,1,0
+1,-5.3,GO:1900180,regulation of protein localization to nucleus,M1,1,0
+1,-2.6,GO:0002833,positive regulation of response to biotic stimulus,M1,1,0
+1,-3.9,R-HSA-1483255,PI Metabolism,M1,1,0
+1,-3.1,GO:0030879,mammary gland development,M1,1,0
+1,-3.5,GO:0016055,Wnt signaling pathway,M1,1,0
+1,-2.6,GO:0016584,nucleosome positioning,M1,1,0
+1,-6.9,GO:0002263,cell activation involved in immune response,M1,1,0
+1,-2.1,GO:0048608,reproductive structure development,M1,1,0
+1,-4.9,GO:0002696,positive regulation of leukocyte activation,M1,1,0
+1,-3,GO:1905475,regulation of protein localization to membrane,M1,1,0
+1,-3.9,GO:0090316,positive regulation of intracellular protein transport,M1,1,0
+1,-4.1,M17,PID NOTCH PATHWAY,M1,1,0
+1,-2.4,GO:0097242,amyloid-beta clearance,M1,1,0
+1,-2.1,ko05160,Hepatitis C,M1,1,0
+1,-3.4,GO:0010359,regulation of anion channel activity,M1,1,0
+1,-2,GO:0043618,regulation of transcription from RNA polymerase II promoter in response to stress,M1,1,0
+1,-6,GO:0043414,macromolecule methylation,M1,1,0
+1,-3.3,GO:0071103,DNA conformation change,M1,1,0
+1,-6.6,GO:0030098,lymphocyte differentiation,M1,1,0
+1,-3.6,ko05169,Epstein-Barr virus infection,M1,1,0
+1,-2.8,R-HSA-109582,Hemostasis,M1,1,0
+1,-2.1,R-HSA-453274,Mitotic G2-G2/M phases,M1,1,0
+1,-4.7,GO:0016071,mRNA metabolic process,M1,1,0
+1,-2.8,GO:0002819,regulation of adaptive immune response,M1,1,0

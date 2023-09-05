@@ -1,0 +1,1370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+<body ng-app="app">
+<div class="container">
+        <h2>Metascape Gene List Analysis Report</h2><p/>  <a href="http://metascape.org">metascape.org</a><sup>1</sup><p/>
+
+              <h3>Bar Graph Summary</h3>
+              <div class="panel panel-info">
+                <div class="panel-heading">Figure 1. Bar graph of enriched terms across input gene lists, colored by p-values.</div>
+                <div class="panel-body">
+
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./Enrichment_heatmap/HeatmapSelectedGO.png" style="width:1000px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='center'>
+                            
+                <a href='./Enrichment_heatmap/HeatmapSelectedGO.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a>
+                
+                        </td>
+                    </tr>
+                    
+                <tr><td>Metascape only visualizes the top 20 clusters. Up to 100 enriched clusters can be viewed here.<br>
+                <a href="./Enrichment_heatmap/HeatmapSelectedGOTop100.png"><img src="./Enrichment_heatmap/HeatmapSelectedGOTop100.png" style="height:auto; width:auto; max-height:100px;"></a>
+                <a href='./Enrichment_heatmap/HeatmapSelectedGOTop100.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a></td></tr>
+                
+                <tr><td>The top-level Gene Ontology biological processes can be viewed here.<br>
+                <a href="./Enrichment_heatmap/HeatmapSelectedGOParent.png"><img src="./Enrichment_heatmap/HeatmapSelectedGOParent.png" style="height:auto; width:auto; max-height:100px;"></a>
+                <a href='./Enrichment_heatmap/HeatmapSelectedGOParent.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a></td></tr>
+                
+                </table>
+                </div>
+              </div><p/>
+      <h3>Gene Lists</h3>
+      User-provided gene identifiers are first converted into their corresponding H. sapiens Entrez gene IDs using the latest version of the database (last updated on 2021-08-01).  If multiple identifiers correspond to the same Entrez gene ID, they will be considered as a single Entrez gene ID in downstream analyses.   The gene lists are summarized in Table 1.<p/>
+          <div class="panel panel-info">
+            <div class="panel-heading">Table 1. Statistics of input gene lists.</div>
+            <div class="panel-body"><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">Name</TH>
+      <TH class="info">Total</TH>
+      <TH class="info">Unique</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>MyList</TD>
+      <TD>503</TD>
+      <TD>493</TD>
+    </TR>
+  </TBODY>
+</TABLE></div>
+          </div>
+
+
+              <h3>Gene Annotation</h3>
+              The following are the list of annotations retrieved from the latest version of the database (last updated on 2021-08-01) (Table 2).<p/>
+              <div class="panel panel-info">
+                <div class="panel-heading">Table 2. Gene annotations extracted</div>
+                <div class="panel-body"><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">Name</TH>
+      <TH class="info">Type</TH>
+      <TH class="info">Description</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>Gene Symbol</TD>
+      <TD>Description</TD>
+      <TD>Primary HUGO gene symbol.</TD>
+    </TR>
+    <TR>
+      <TD>Description</TD>
+      <TD>Description</TD>
+      <TD>Short description.</TD>
+    </TR>
+    <TR>
+      <TD>Biological Process (GO)</TD>
+      <TD>Function/Location</TD>
+      <TD>Descriptions summarized based on gene ontology database, where up to three most informative GO terms are kept.</TD>
+    </TR>
+    <TR>
+      <TD>Kinase Class (UniProt)</TD>
+      <TD>Function/Location</TD>
+      <TD>Detailed kinase classes.</TD>
+    </TR>
+    <TR>
+      <TD>Protein Function (Protein Atlas)</TD>
+      <TD>Function/Location</TD>
+      <TD>Protein Function (Protein Atlas)</TD>
+    </TR>
+    <TR>
+      <TD>Subcellular Location (Protein Atlas)</TD>
+      <TD>Function/Location</TD>
+      <TD>Sucellular Location (Protein Atlas)</TD>
+    </TR>
+    <TR>
+      <TD>Drug (DrugBank)</TD>
+      <TD>Genotype/Phenotype/Disease</TD>
+      <TD>Drug information for the given gene as target.</TD>
+    </TR>
+    <TR>
+      <TD>Canonical Pathways
+</TD>
+      <TD>Ontology</TD>
+      <TD>Canonical Pathways
+</TD>
+    </TR>
+    <TR>
+      <TD>Hallmark Gene Sets
+</TD>
+      <TD>Ontology</TD>
+      <TD>Hallmark Gene Sets
+</TD>
+    </TR>
+  </TBODY>
+</TABLE></div>
+              </div><p/>
+
+
+              <h3>Pathway and Process Enrichment Analysis</h3>
+              For each given gene list, pathway and process enrichment analysis has been carried out with the following ontology sources: KEGG Pathway, GO Biological Processes, Reactome Gene Sets, Canonical Pathways, CORUM, TRRUST, DisGeNET, PaGenBase, Transcription Factor Targets, WikiPathways, PANTHER Pathway and COVID.  All genes in the genome have been used as the enrichment background. Terms with a p-value &lt; 0.01, a minimum count of 3, and an enrichment factor &gt; 1.5 (the enrichment factor is the ratio between the observed counts and the counts expected by chance) are collected and grouped into clusters based on their membership similarities.  More specifically, p-values are calculated based on the accumulative hypergeometric distribution<sup>2</sup>, and q-values are calculated using the Banjamini-Hochberg procedure to account for multiple testings<sup>3</sup>.  Kappa scores<sup>4</sup> are used as the similarity metric when performing hierachical clustering on the enriched terms, and sub-trees with a similarity of > 0.3 are considered a cluster.  The most statistically significant term within a cluster is chosen to represent the cluster.<p/>
+          <div class="panel panel-info">
+          <div class="panel-heading">Table 3. Top 20 clusters with their representative enriched terms (one per cluster).  "Count" is the number of genes in the user-provided lists with membership in the given ontology term. "%" is the percentage of all of the user-provided genes that are found in the given ontology term (only input genes with at least one ontology term annotation are included in the calculation).  "Log10(P)" is the p-value in log base 10.  "Log10(q)" is the multi-test adjusted p-value in log base 10.</div>
+                <div class="panel-body"><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Category</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Count</TH>
+      <TH class="info">%</TH>
+      <TH class="info">Log10(P)</TH>
+      <TH class="info">Log10(q)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>GO:0016569</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>covalent chromatin modification</TD>
+      <TD>37</TD>
+      <TD>7.51</TD>
+      <TD>-13.19</TD>
+      <TD>-8.83</TD>
+    </TR>
+    <TR>
+      <TD>GO:0046649</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>lymphocyte activation</TD>
+      <TD>42</TD>
+      <TD>8.52</TD>
+      <TD>-9.98</TD>
+      <TD>-6.10</TD>
+    </TR>
+    <TR>
+      <TD>GO:1903827</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>regulation of cellular protein localization</TD>
+      <TD>32</TD>
+      <TD>6.49</TD>
+      <TD>-8.85</TD>
+      <TD>-5.09</TD>
+    </TR>
+    <TR>
+      <TD>GO:0002294</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>CD4-positive, alpha-beta T cell differentiation involved in immune response</TD>
+      <TD>11</TD>
+      <TD>2.23</TD>
+      <TD>-7.65</TD>
+      <TD>-4.26</TD>
+    </TR>
+    <TR>
+      <TD>GO:0034504</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>protein localization to nucleus</TD>
+      <TD>21</TD>
+      <TD>4.26</TD>
+      <TD>-7.31</TD>
+      <TD>-4.02</TD>
+    </TR>
+    <TR>
+      <TD>GO:1902275</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>regulation of chromatin organization</TD>
+      <TD>17</TD>
+      <TD>3.45</TD>
+      <TD>-6.97</TD>
+      <TD>-3.97</TD>
+    </TR>
+    <TR>
+      <TD>M136</TD>
+      <TD>Canonical Pathways</TD>
+      <TD>PID FOXO PATHWAY</TD>
+      <TD>9</TD>
+      <TD>1.83</TD>
+      <TD>-6.80</TD>
+      <TD>-3.85</TD>
+    </TR>
+    <TR>
+      <TD>GO:0018105</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>peptidyl-serine phosphorylation</TD>
+      <TD>21</TD>
+      <TD>4.26</TD>
+      <TD>-6.68</TD>
+      <TD>-3.82</TD>
+    </TR>
+    <TR>
+      <TD>GO:0006650</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>glycerophospholipid metabolic process</TD>
+      <TD>20</TD>
+      <TD>4.06</TD>
+      <TD>-6.25</TD>
+      <TD>-3.49</TD>
+    </TR>
+    <TR>
+      <TD>GO:0006914</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>autophagy</TD>
+      <TD>27</TD>
+      <TD>5.48</TD>
+      <TD>-6.07</TD>
+      <TD>-3.36</TD>
+    </TR>
+    <TR>
+      <TD>GO:0043414</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>macromolecule methylation</TD>
+      <TD>20</TD>
+      <TD>4.06</TD>
+      <TD>-6.01</TD>
+      <TD>-3.31</TD>
+    </TR>
+    <TR>
+      <TD>GO:0006984</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>ER-nucleus signaling pathway</TD>
+      <TD>8</TD>
+      <TD>1.62</TD>
+      <TD>-5.92</TD>
+      <TD>-3.24</TD>
+    </TR>
+    <TR>
+      <TD>M124</TD>
+      <TD>Canonical Pathways</TD>
+      <TD>PID CXCR4 PATHWAY</TD>
+      <TD>11</TD>
+      <TD>2.23</TD>
+      <TD>-5.83</TD>
+      <TD>-3.18</TD>
+    </TR>
+    <TR>
+      <TD>GO:0042176</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>regulation of protein catabolic process</TD>
+      <TD>22</TD>
+      <TD>4.46</TD>
+      <TD>-5.72</TD>
+      <TD>-3.11</TD>
+    </TR>
+    <TR>
+      <TD>WP2374</TD>
+      <TD>WikiPathways</TD>
+      <TD>Oncostatin M signaling pathway</TD>
+      <TD>9</TD>
+      <TD>1.83</TD>
+      <TD>-5.66</TD>
+      <TD>-3.08</TD>
+    </TR>
+    <TR>
+      <TD>GO:0048015</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>phosphatidylinositol-mediated signaling</TD>
+      <TD>14</TD>
+      <TD>2.84</TD>
+      <TD>-5.53</TD>
+      <TD>-2.97</TD>
+    </TR>
+    <TR>
+      <TD>WP138</TD>
+      <TD>WikiPathways</TD>
+      <TD>Androgen receptor signaling pathway</TD>
+      <TD>10</TD>
+      <TD>2.03</TD>
+      <TD>-5.35</TD>
+      <TD>-2.83</TD>
+    </TR>
+    <TR>
+      <TD>GO:0030099</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>myeloid cell differentiation</TD>
+      <TD>21</TD>
+      <TD>4.26</TD>
+      <TD>-5.32</TD>
+      <TD>-2.80</TD>
+    </TR>
+    <TR>
+      <TD>GO:0071407</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>cellular response to organic cyclic compound</TD>
+      <TD>27</TD>
+      <TD>5.48</TD>
+      <TD>-5.24</TD>
+      <TD>-2.75</TD>
+    </TR>
+    <TR>
+      <TD>GO:0032870</TD>
+      <TD>GO Biological Processes</TD>
+      <TD>cellular response to hormone stimulus</TD>
+      <TD>27</TD>
+      <TD>5.48</TD>
+      <TD>-5.20</TD>
+      <TD>-2.72</TD>
+    </TR>
+  </TBODY>
+</TABLE></div>
+              </div><p/>
+                  To further capture the relationships between the terms, a subset of enriched terms have been selected and rendered as a network plot, where terms with a similarity &gt; 0.3 are connected by edges.  We select the terms with the best p-values from each of the 20 clusters, with the constraint that there are no more than 15 terms per cluster and no more than 250 terms in total.  The network is visualized using <a href="http://www.cytoscape.org">Cytoscape</a><sup>5</sup>, where each node represents an enriched term and is colored first by its cluster ID (Figure 2.a) and then by its p-value (Figure 2.b).  These networks can be interactively viewed in Cytoscape through the .cys files (contained in the Zip package, which also contains a publication-quality version as a PDF) or within a browser by clicking on the web icon.  For clarity, term labels are only shown for one term per cluster, so it is recommended to use Cytoscape or a browser to visualize the network in order to inspect all node labels.  We can also export the network into a PDF file within Cytoscape, and then edit the labels using Adobe Illustrator for publication purposes.  To switch off all labels, delete the "Label" mapping under the "Style" tab within Cytoscape, and then export the network view.<p/>
+                  <div class="panel panel-info">
+                    <div class="panel-heading">Figure 2. Network of enriched terms: (a) colored by cluster ID, where nodes that share the same cluster ID are typically close to each other; (b) colored by p-value, where terms containing more genes tend to have a more significant p-value.</div>
+                    <div class="panel-body">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="./Enrichment_GO/ColorByCluster.png" style="width:500px;">
+                            </td>
+                            <td>
+                                <img src="./Enrichment_GO/ColorByPValue.png" style="width:500px;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align='center'>
+                                <a href='./Enrichment_GO/ColorByCluster.pdf' title='download PDF file'>
+                        <img class='link' src='icon/PDF48.png' >
+                        </a>
+                     
+                        <a href='./Enrichment_GO/GONetwork.cys' title='download CYS file'>
+                        <img class='link' src='icon/CYS48.png' >
+                        </a>
+                    
+                        
+                    
+                        
+                        <a href='Enrichment_GO/GONetwork.html?Network=GONetwork&Style=ColorByCluster' title='interactive cytoscape' target='_blank'>
+                        <img class='link' src='icon/WEB_CYS48.png' >
+                        </a>
+                        
+                    
+                            </td>
+                            <td align='center'>
+                                <a href='./Enrichment_GO/ColorByPValue.pdf' title='download PDF file'>
+                        <img class='link' src='icon/PDF48.png' >
+                        </a>
+                     
+                        <a href='./Enrichment_GO/GONetwork.cys' title='download CYS file'>
+                        <img class='link' src='icon/CYS48.png' >
+                        </a>
+                    
+                        
+                    
+                        
+                        <a href='Enrichment_GO/GONetwork.html?Network=GONetwork&Style=ColorByPValue' title='interactive cytoscape' target='_blank'>
+                        <img class='link' src='icon/WEB_CYS48.png' >
+                        </a>
+                        
+                    
+                            </td>
+                        </tr>
+                    </table>
+                    </div>
+
+                  </div><p/>
+<h3>Protein-protein Interaction Enrichment Analysis</h3>
+For each given gene list, protein-protein interaction enrichment analysis has been carried out with the following databases: STRING<sup>6</sup>, BioGrid<sup>7</sup>, OmniPath<sup>8</sup>, InWeb_IM<sup>9</sup>.Only physical interactions in STRING (physical score &gt 0.132) and BioGrid are used (<a href="http://metascape.org/blog/?p=219">details</a>).  The resultant network contains the subset of proteins that form physical interactions with at least one other member in the list.  If the network contains between 3 and 500 proteins, the Molecular Complex Detection (MCODE) algorithm<sup>10</sup> has been applied to identify densely connected network components.  The MCODE networks identified for individual gene lists have been gathered and are shown in Figure 3.<p/>
+
+                    Pathway and process enrichment analysis has been applied to each MCODE component independently, and the three best-scoring terms by p-value have been retained as the functional description of the corresponding components, shown in the tables underneath corresponding network plots within Figure 3.<p/>
+
+      <div class="panel panel-info">
+        <div class="panel-heading">Figure 3. Protein-protein interaction network and MCODE components identified in the gene lists.</div>
+        <div class="panel-body">
+        
+                <table border-collapse='collapse'>
+                <tr><td><img src="./Enrichment_PPI/MyList_PPIColorByCluster.png" style="width:500px;"></td><td width="10px"></td><td><img src="./Enrichment_PPI/MyList_MCODE_ALL_PPIColorByCluster.png" style="width:500px;"></td></tr>
+                <tr><td align="center"><a href='./Enrichment_PPI/MyList_PPIColorByCluster.pdf' title='download PDF file'>
+                        <img class='link' src='icon/PDF48.png' >
+                        </a>
+                     
+                        <a href='./Enrichment_PPI/MCODE_PPI.cys' title='download CYS file'>
+                        <img class='link' src='icon/CYS48.png' >
+                        </a>
+                    
+                        
+                    
+                        
+                        <a href='Enrichment_PPI/PPINetwork.html?Network=MyList_PPIColorByCluster&Style=PPIColorByClusterNoLabel&isPPI=True' title='interactive cytoscape' target='_blank'>
+                        <img class='link' src='icon/WEB_CYS48.png' >
+                        </a>
+                        
+                    </td><td width="10px"></td><td align="center"><a href='./Enrichment_PPI/MyList_MCODE_ALL_PPIColorByCluster.pdf' title='download PDF file'>
+                        <img class='link' src='icon/PDF48.png' >
+                        </a>
+                     
+                        <a href='./Enrichment_PPI/MCODE_PPI.cys' title='download CYS file'>
+                        <img class='link' src='icon/CYS48.png' >
+                        </a>
+                    
+                        
+                    
+                        
+                        <a href='Enrichment_PPI/PPINetwork.html?Network=MyList_MCODE_ALL_PPIColorByCluster&Style=PPIColorByCluster&isPPI=True' title='interactive cytoscape' target='_blank'>
+                        <img class='link' src='icon/WEB_CYS48.png' >
+                        </a>
+                        
+                    </td></tr>
+                <tr><td align="center" valign="top"><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Log10(P)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>GO:0016569</TD>
+      <TD>covalent chromatin modification</TD>
+      <TD>-15.5</TD>
+    </TR>
+    <TR>
+      <TD>GO:0016570</TD>
+      <TD>histone modification</TD>
+      <TD>-14.4</TD>
+    </TR>
+    <TR>
+      <TD>GO:0018205</TD>
+      <TD>peptidyl-lysine modification</TD>
+      <TD>-9.2</TD>
+    </TR>
+  </TBODY>
+</TABLE></td><td width="10px"></td><td align="center" valign="top"><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">Color</TH>
+      <TH class="info">MCODE</TH>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Log10(P)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD><div style="background-color:#A6CEE3;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_1</TD>
+      <TD>GO:0051169</TD>
+      <TD>nuclear transport</TD>
+      <TD>-8.6</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#A6CEE3;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_1</TD>
+      <TD>GO:0006913</TD>
+      <TD>nucleocytoplasmic transport</TD>
+      <TD>-8.6</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#A6CEE3;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_1</TD>
+      <TD>GO:0046488</TD>
+      <TD>phosphatidylinositol metabolic process</TD>
+      <TD>-7.4</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#1F78B4;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_2</TD>
+      <TD>R-HSA-8951664</TD>
+      <TD>Neddylation</TD>
+      <TD>-12.6</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#1F78B4;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_2</TD>
+      <TD>R-HSA-983168</TD>
+      <TD>Antigen processing: Ubiquitination & Proteasome degradation</TD>
+      <TD>-11.6</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#1F78B4;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_2</TD>
+      <TD>R-HSA-983169</TD>
+      <TD>Class I MHC mediated antigen processing & presentation</TD>
+      <TD>-10.9</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#B2DF8A;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_3</TD>
+      <TD>GO:0002366</TD>
+      <TD>leukocyte activation involved in immune response</TD>
+      <TD>-11.6</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#B2DF8A;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_3</TD>
+      <TD>GO:0002263</TD>
+      <TD>cell activation involved in immune response</TD>
+      <TD>-11.5</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#B2DF8A;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_3</TD>
+      <TD>WP395</TD>
+      <TD>IL-4 signaling pathway</TD>
+      <TD>-11.0</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#33A02C;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_4</TD>
+      <TD>R-HSA-73894</TD>
+      <TD>DNA Repair</TD>
+      <TD>-6.2</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#33A02C;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_4</TD>
+      <TD>R-HSA-5250924</TD>
+      <TD>B-WICH complex positively regulates rRNA expression</TD>
+      <TD>-5.9</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#33A02C;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_4</TD>
+      <TD>R-HSA-5250913</TD>
+      <TD>Positive epigenetic regulation of rRNA expression</TD>
+      <TD>-5.7</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#FB9A99;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_5</TD>
+      <TD>GO:0018027</TD>
+      <TD>peptidyl-lysine dimethylation</TD>
+      <TD>-8.6</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#FB9A99;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_5</TD>
+      <TD>GO:0018023</TD>
+      <TD>peptidyl-lysine trimethylation</TD>
+      <TD>-7.7</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#FB9A99;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_5</TD>
+      <TD>ko00310</TD>
+      <TD>Lysine degradation</TD>
+      <TD>-7.5</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#FF7F00;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_8</TD>
+      <TD>R-HSA-2500257</TD>
+      <TD>Resolution of Sister Chromatid Cohesion</TD>
+      <TD>-7.1</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#FF7F00;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_8</TD>
+      <TD>R-HSA-2467813</TD>
+      <TD>Separation of Sister Chromatids</TD>
+      <TD>-6.5</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#FF7F00;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_8</TD>
+      <TD>R-HSA-68877</TD>
+      <TD>Mitotic Prometaphase</TD>
+      <TD>-6.4</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#6A3D9A;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_10</TD>
+      <TD>GO:0016055</TD>
+      <TD>Wnt signaling pathway</TD>
+      <TD>-5.4</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#6A3D9A;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_10</TD>
+      <TD>GO:0198738</TD>
+      <TD>cell-cell signaling by wnt</TD>
+      <TD>-5.4</TD>
+    </TR>
+    <TR>
+      <TD><div style="background-color:#6A3D9A;width:40px;height:20px;"></div></TD>
+      <TD>MCODE_10</TD>
+      <TD>GO:1905114</TD>
+      <TD>cell surface receptor signaling pathway involved in cell-cell signaling</TD>
+      <TD>-5.1</TD>
+    </TR>
+  </TBODY>
+</TABLE></td></tr>
+                </table>
+        </div>
+      </div><p/>
+
+<h3>Quality Control and Association Analysis</h3>
+
+<p>Gene list enrichments are identified in the following ontology categories: Transcription_Factor_Targets, TRRUST, DisGeNET, PaGenBase, COVID. All genes in the genome have been used as the enrichment background. Terms with a p-value &lt; 0.01, a minimum count of 3, and an enrichment factor &gt; 1.5 (the enrichment factor is the ratio between the observed counts and the counts expected by chance) are collected and grouped into clusters based on their membership similarities.  The top few enriched clusters (one term per cluster) are shown in the Figure 4-8.  The algorithm used here is the same as that is used for pathway and process enrichment analysis.<p/>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">Figure 4. Summary of enrichment analysis in Transcription_Factor_Targets<sup>11</sup>.</div>
+                <div class="panel-body">
+
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./Enrichment_QC/HeatmapSelectedGO_Transcription_Factor_Targets.png" style="width:1000px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='center'>
+                            
+                <a href='./Enrichment_QC/HeatmapSelectedGO_Transcription_Factor_Targets.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a>
+                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Count</TH>
+      <TH class="info">%</TH>
+      <TH class="info">Log10(P)</TH>
+      <TH class="info">Log10(q)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>M12880</TD>
+      <TD>YY1 02</TD>
+      <TD>19</TD>
+      <TD>3.90</TD>
+      <TD>-6.90</TD>
+      <TD>-3.70</TD>
+    </TR>
+    <TR>
+      <TD>M29991</TD>
+      <TD>HDAC4 TARGET GENES</TD>
+      <TD>32</TD>
+      <TD>6.50</TD>
+      <TD>-6.30</TD>
+      <TD>-3.20</TD>
+    </TR>
+    <TR>
+      <TD>M3265</TD>
+      <TD>NFMUE1 Q6</TD>
+      <TD>18</TD>
+      <TD>3.70</TD>
+      <TD>-6.30</TD>
+      <TD>-3.20</TD>
+    </TR>
+    <TR>
+      <TD>M17712</TD>
+      <TD>WGTTNNNNNAAA UNKNOWN</TD>
+      <TD>28</TD>
+      <TD>5.70</TD>
+      <TD>-6.20</TD>
+      <TD>-3.10</TD>
+    </TR>
+    <TR>
+      <TD>M18732</TD>
+      <TD>AP2ALPHA 01</TD>
+      <TD>17</TD>
+      <TD>3.40</TD>
+      <TD>-5.80</TD>
+      <TD>-2.80</TD>
+    </TR>
+    <TR>
+      <TD>M9140</TD>
+      <TD>RACTNNRTTTNC UNKNOWN</TD>
+      <TD>12</TD>
+      <TD>2.40</TD>
+      <TD>-5.50</TD>
+      <TD>-2.70</TD>
+    </TR>
+    <TR>
+      <TD>M9557</TD>
+      <TD>SP1 Q6 01</TD>
+      <TD>16</TD>
+      <TD>3.20</TD>
+      <TD>-5.10</TD>
+      <TD>-2.30</TD>
+    </TR>
+    <TR>
+      <TD>M30176</TD>
+      <TD>SOX3 TARGET GENES</TD>
+      <TD>25</TD>
+      <TD>5.10</TD>
+      <TD>-4.80</TD>
+      <TD>-2.10</TD>
+    </TR>
+    <TR>
+      <TD>M10112</TD>
+      <TD>RNGTGGGC UNKNOWN</TD>
+      <TD>31</TD>
+      <TD>6.30</TD>
+      <TD>-4.60</TD>
+      <TD>-2.00</TD>
+    </TR>
+    <TR>
+      <TD>M30337</TD>
+      <TD>ZNF513 TARGET GENES</TD>
+      <TD>30</TD>
+      <TD>6.10</TD>
+      <TD>-4.40</TD>
+      <TD>-1.90</TD>
+    </TR>
+    <TR>
+      <TD>M11698</TD>
+      <TD>YY1 Q6</TD>
+      <TD>15</TD>
+      <TD>3.00</TD>
+      <TD>-4.40</TD>
+      <TD>-1.90</TD>
+    </TR>
+    <TR>
+      <TD>M16396</TD>
+      <TD>AP2GAMMA 01</TD>
+      <TD>15</TD>
+      <TD>3.00</TD>
+      <TD>-4.40</TD>
+      <TD>-1.80</TD>
+    </TR>
+    <TR>
+      <TD>M2958</TD>
+      <TD>GATA1 05</TD>
+      <TD>16</TD>
+      <TD>3.20</TD>
+      <TD>-4.30</TD>
+      <TD>-1.80</TD>
+    </TR>
+    <TR>
+      <TD>M18044</TD>
+      <TD>AAGWWRNYGGC UNKNOWN</TD>
+      <TD>10</TD>
+      <TD>2.00</TD>
+      <TD>-4.20</TD>
+      <TD>-1.70</TD>
+    </TR>
+    <TR>
+      <TD>M4764</TD>
+      <TD>TGTTTGY HNF3 Q6</TD>
+      <TD>29</TD>
+      <TD>5.90</TD>
+      <TD>-4.20</TD>
+      <TD>-1.70</TD>
+    </TR>
+    <TR>
+      <TD>M171</TD>
+      <TD>GCCATNTTG YY1 Q6</TD>
+      <TD>20</TD>
+      <TD>4.10</TD>
+      <TD>-4.00</TD>
+      <TD>-1.60</TD>
+    </TR>
+    <TR>
+      <TD>M10836</TD>
+      <TD>SP3 Q3</TD>
+      <TD>14</TD>
+      <TD>2.80</TD>
+      <TD>-3.90</TD>
+      <TD>-1.50</TD>
+    </TR>
+    <TR>
+      <TD>M3403</TD>
+      <TD>GTGACGY E4F1 Q6</TD>
+      <TD>26</TD>
+      <TD>5.30</TD>
+      <TD>-3.80</TD>
+      <TD>-1.50</TD>
+    </TR>
+    <TR>
+      <TD>M8549</TD>
+      <TD>AREB6 04</TD>
+      <TD>14</TD>
+      <TD>2.80</TD>
+      <TD>-3.80</TD>
+      <TD>-1.40</TD>
+    </TR>
+    <TR>
+      <TD>M11469</TD>
+      <TD>AP2 Q3</TD>
+      <TD>14</TD>
+      <TD>2.80</TD>
+      <TD>-3.70</TD>
+      <TD>-1.40</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">Figure 5. Summary of enrichment analysis in TRRUST.</div>
+                <div class="panel-body">
+
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./Enrichment_QC/HeatmapSelectedGO_TRRUST.png" style="width:1000px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='center'>
+                            
+                <a href='./Enrichment_QC/HeatmapSelectedGO_TRRUST.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a>
+                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Count</TH>
+      <TH class="info">%</TH>
+      <TH class="info">Log10(P)</TH>
+      <TH class="info">Log10(q)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>TRR01277</TD>
+      <TD>Regulated by: STAT3</TD>
+      <TD>9</TD>
+      <TD>1.80</TD>
+      <TD>-2.70</TD>
+      <TD>-0.78</TD>
+    </TR>
+    <TR>
+      <TD>TRR01548</TD>
+      <TD>Regulated by: YY1</TD>
+      <TD>6</TD>
+      <TD>1.20</TD>
+      <TD>-2.10</TD>
+      <TD>-0.49</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">Figure 6. Summary of enrichment analysis in DisGeNET<sup>12</sup>.</div>
+                <div class="panel-body">
+
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./Enrichment_QC/HeatmapSelectedGO_DisGeNET.png" style="width:1000px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='center'>
+                            
+                <a href='./Enrichment_QC/HeatmapSelectedGO_DisGeNET.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a>
+                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Count</TH>
+      <TH class="info">%</TH>
+      <TH class="info">Log10(P)</TH>
+      <TH class="info">Log10(q)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0200638-source__ALL/_b./" target="_TERM">C0200638</a></TD>
+      <TD>Eosinophil count procedure</TD>
+      <TD>36</TD>
+      <TD>7.30</TD>
+      <TD>-9.60</TD>
+      <TD>-5.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0432072-source__ALL/_b./" target="_TERM">C0432072</a></TD>
+      <TD>Dysmorphic features</TD>
+      <TD>26</TD>
+      <TD>5.30</TD>
+      <TD>-7.10</TD>
+      <TD>-3.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0086437-source__ALL/_b./" target="_TERM">C0086437</a></TD>
+      <TD>Joint laxity</TD>
+      <TD>18</TD>
+      <TD>3.70</TD>
+      <TD>-7.00</TD>
+      <TD>-3.70</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C1328504-source__ALL/_b./" target="_TERM">C1328504</a></TD>
+      <TD>Hormone refractory prostate cancer</TD>
+      <TD>33</TD>
+      <TD>6.70</TD>
+      <TD>-6.70</TD>
+      <TD>-3.50</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0454644-source__ALL/_b./" target="_TERM">C0454644</a></TD>
+      <TD>Delayed speech and language development</TD>
+      <TD>29</TD>
+      <TD>5.90</TD>
+      <TD>-6.60</TD>
+      <TD>-3.40</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0240635-source__ALL/_b./" target="_TERM">C0240635</a></TD>
+      <TD>Byzanthine arch palate</TD>
+      <TD>27</TD>
+      <TD>5.50</TD>
+      <TD>-6.60</TD>
+      <TD>-3.40</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0024301-source__ALL/_b./" target="_TERM">C0024301</a></TD>
+      <TD>Lymphoma, Follicular</TD>
+      <TD>26</TD>
+      <TD>5.30</TD>
+      <TD>-6.40</TD>
+      <TD>-3.30</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0014772-source__ALL/_b./" target="_TERM">C0014772</a></TD>
+      <TD>Red Blood Cell Count measurement</TD>
+      <TD>33</TD>
+      <TD>6.70</TD>
+      <TD>-6.30</TD>
+      <TD>-3.20</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C3887980-source__ALL/_b./" target="_TERM">C3887980</a></TD>
+      <TD>Protanomaly</TD>
+      <TD>6</TD>
+      <TD>1.20</TD>
+      <TD>-6.20</TD>
+      <TD>-3.20</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0376544-source__ALL/_b./" target="_TERM">C0376544</a></TD>
+      <TD>Hematopoietic Neoplasms</TD>
+      <TD>20</TD>
+      <TD>4.10</TD>
+      <TD>-5.90</TD>
+      <TD>-2.90</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0278764-source__ALL/_b./" target="_TERM">C0278764</a></TD>
+      <TD>Adult Burkitt Lymphoma</TD>
+      <TD>25</TD>
+      <TD>5.10</TD>
+      <TD>-5.90</TD>
+      <TD>-2.90</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0278879-source__ALL/_b./" target="_TERM">C0278879</a></TD>
+      <TD>Childhood Burkitt Lymphoma</TD>
+      <TD>25</TD>
+      <TD>5.10</TD>
+      <TD>-5.90</TD>
+      <TD>-2.90</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0200641-source__ALL/_b./" target="_TERM">C0200641</a></TD>
+      <TD>Blood basophil count (lab test)</TD>
+      <TD>18</TD>
+      <TD>3.70</TD>
+      <TD>-5.80</TD>
+      <TD>-2.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C3900098-source__ALL/_b./" target="_TERM">C3900098</a></TD>
+      <TD>Adult Myelodysplastic Syndrome</TD>
+      <TD>20</TD>
+      <TD>4.10</TD>
+      <TD>-5.70</TD>
+      <TD>-2.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0036220-source__ALL/_b./" target="_TERM">C0036220</a></TD>
+      <TD>Kaposi Sarcoma</TD>
+      <TD>25</TD>
+      <TD>5.10</TD>
+      <TD>-5.70</TD>
+      <TD>-2.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0239234-source__ALL/_b./" target="_TERM">C0239234</a></TD>
+      <TD>Low set ears</TD>
+      <TD>25</TD>
+      <TD>5.10</TD>
+      <TD>-5.70</TD>
+      <TD>-2.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0006413-source__ALL/_b./" target="_TERM">C0006413</a></TD>
+      <TD>Burkitt Lymphoma</TD>
+      <TD>27</TD>
+      <TD>5.50</TD>
+      <TD>-5.60</TD>
+      <TD>-2.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C2347761-source__ALL/_b./" target="_TERM">C2347761</a></TD>
+      <TD>Childhood Myelodysplastic Syndrome</TD>
+      <TD>20</TD>
+      <TD>4.10</TD>
+      <TD>-5.60</TD>
+      <TD>-2.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C1292778-source__ALL/_b./" target="_TERM">C1292778</a></TD>
+      <TD>Chronic myeloproliferative disorder</TD>
+      <TD>21</TD>
+      <TD>4.30</TD>
+      <TD>-5.60</TD>
+      <TD>-2.70</TD>
+    </TR>
+    <TR>
+      <TD><a href="http://www.disgenet.org/browser/0/0/3/0/diseaseid__C0220597-source__ALL/_b./" target="_TERM">C0220597</a></TD>
+      <TD>Adult Hodgkin Lymphoma</TD>
+      <TD>22</TD>
+      <TD>4.50</TD>
+      <TD>-5.60</TD>
+      <TD>-2.70</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">Figure 7. Summary of enrichment analysis in PaGenBase<sup>13</sup>.</div>
+                <div class="panel-body">
+
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./Enrichment_QC/HeatmapSelectedGO_PaGenBase.png" style="width:1000px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='center'>
+                            
+                <a href='./Enrichment_QC/HeatmapSelectedGO_PaGenBase.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a>
+                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Count</TH>
+      <TH class="info">%</TH>
+      <TH class="info">Log10(P)</TH>
+      <TH class="info">Log10(q)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>PGB:00016</TD>
+      <TD>Tissue-specific: thymus</TD>
+      <TD>10</TD>
+      <TD>2.00</TD>
+      <TD>-2.40</TD>
+      <TD>-0.62</TD>
+    </TR>
+    <TR>
+      <TD>PGB:00029</TD>
+      <TD>Cell-specific: HL60</TD>
+      <TD>6</TD>
+      <TD>1.20</TD>
+      <TD>-2.10</TD>
+      <TD>-0.49</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+              </div>
+
+              <div class="panel panel-info">
+                <div class="panel-heading">Figure 8. Summary of enrichment analysis in COVID<sup>14</sup>.</div>
+                <div class="panel-body">
+
+                <table>
+                    <tr>
+                        <td>
+                            <img src="./Enrichment_QC/HeatmapSelectedGO_COVID.png" style="width:1000px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align='center'>
+                            
+                <a href='./Enrichment_QC/HeatmapSelectedGO_COVID.pdf' title='download PDF file'>
+                <img class='link' src='icon/PDF48.png' >
+                </a>
+                
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br><br><TABLE class="table">
+  <THEAD>
+    <TR>
+      <TH class="info">GO</TH>
+      <TH class="info">Description</TH>
+      <TH class="info">Count</TH>
+      <TH class="info">%</TH>
+      <TH class="info">Log10(P)</TH>
+      <TH class="info">Log10(q)</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID055" target="_TERM">COVID055</a></TD>
+      <TD>Phosphoproteome_Bouhaddou_Vero_E6_0h_Down</TD>
+      <TD>27</TD>
+      <TD>5.50</TD>
+      <TD>-12.00</TD>
+      <TD>-7.60</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID343" target="_TERM">COVID343</a></TD>
+      <TD>RNA_Wilk_B-cells_patient-C4_Up</TD>
+      <TD>18</TD>
+      <TD>3.70</TD>
+      <TD>-11.00</TD>
+      <TD>-7.20</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID059" target="_TERM">COVID059</a></TD>
+      <TD>Phosphoproteome_Bouhaddou_Vero_E6_24h_Down</TD>
+      <TD>26</TD>
+      <TD>5.30</TD>
+      <TD>-11.00</TD>
+      <TD>-6.70</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID061" target="_TERM">COVID061</a></TD>
+      <TD>Phosphoproteome_Bouhaddou_Vero_E6_2h_Down</TD>
+      <TD>26</TD>
+      <TD>5.30</TD>
+      <TD>-11.00</TD>
+      <TD>-6.70</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID234" target="_TERM">COVID234</a></TD>
+      <TD>Phosphoproteome_Klann_Caco-2_24h_Down</TD>
+      <TD>25</TD>
+      <TD>5.10</TD>
+      <TD>-9.80</TD>
+      <TD>-6.00</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID337" target="_TERM">COVID337</a></TD>
+      <TD>RNA_Wilk_B-cells_patient-C1B-severe_Up</TD>
+      <TD>14</TD>
+      <TD>2.80</TD>
+      <TD>-8.40</TD>
+      <TD>-4.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID057" target="_TERM">COVID057</a></TD>
+      <TD>Phosphoproteome_Bouhaddou_Vero_E6_12h_Down</TD>
+      <TD>23</TD>
+      <TD>4.70</TD>
+      <TD>-8.40</TD>
+      <TD>-4.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID065" target="_TERM">COVID065</a></TD>
+      <TD>Phosphoproteome_Bouhaddou_Vero_E6_8h_Down</TD>
+      <TD>23</TD>
+      <TD>4.70</TD>
+      <TD>-8.40</TD>
+      <TD>-4.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID345" target="_TERM">COVID345</a></TD>
+      <TD>RNA_Wilk_B-cells_patient-C5_Up</TD>
+      <TD>14</TD>
+      <TD>2.80</TD>
+      <TD>-7.80</TD>
+      <TD>-4.30</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID010" target="_TERM">COVID010</a></TD>
+      <TD>RNA_Blanco-Melo_A549-ACE2_Up</TD>
+      <TD>22</TD>
+      <TD>4.50</TD>
+      <TD>-7.70</TD>
+      <TD>-4.30</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID051" target="_TERM">COVID051</a></TD>
+      <TD>RNA_Xiong_BALF_Down</TD>
+      <TD>22</TD>
+      <TD>4.50</TD>
+      <TD>-7.70</TD>
+      <TD>-4.30</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID130" target="_TERM">COVID130</a></TD>
+      <TD>Phosphoproteome_Stukalov_A549-ACE2_24h_Down</TD>
+      <TD>22</TD>
+      <TD>4.50</TD>
+      <TD>-7.70</TD>
+      <TD>-4.30</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID193" target="_TERM">COVID193</a></TD>
+      <TD>RNA_Stukalov_A549-ACE2_30h_Up</TD>
+      <TD>22</TD>
+      <TD>4.50</TD>
+      <TD>-7.70</TD>
+      <TD>-4.30</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID323" target="_TERM">COVID323</a></TD>
+      <TD>RNA_Wilk_CD4+T-cells_patient-C2_Up</TD>
+      <TD>7</TD>
+      <TD>1.40</TD>
+      <TD>-7.30</TD>
+      <TD>-4.00</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID005" target="_TERM">COVID005</a></TD>
+      <TD>RNA_Appelberg_Huh-7_72h_Down</TD>
+      <TD>20</TD>
+      <TD>4.10</TD>
+      <TD>-6.40</TD>
+      <TD>-3.30</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID235" target="_TERM">COVID235</a></TD>
+      <TD>Phosphoproteome_Klann_Caco-2_24h_Up</TD>
+      <TD>20</TD>
+      <TD>4.10</TD>
+      <TD>-6.40</TD>
+      <TD>-3.30</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID243" target="_TERM">COVID243</a></TD>
+      <TD>RNA_Riva_Vero-E6_24h_Up</TD>
+      <TD>20</TD>
+      <TD>4.10</TD>
+      <TD>-6.40</TD>
+      <TD>-3.30</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID372" target="_TERM">COVID372</a></TD>
+      <TD>Interactome_Laurent_HEK293_24h_NSP16</TD>
+      <TD>19</TD>
+      <TD>3.90</TD>
+      <TD>-6.10</TD>
+      <TD>-3.10</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID341" target="_TERM">COVID341</a></TD>
+      <TD>RNA_Wilk_B-cells_patient-C3_Up</TD>
+      <TD>10</TD>
+      <TD>2.00</TD>
+      <TD>-5.80</TD>
+      <TD>-2.80</TD>
+    </TR>
+    <TR>
+      <TD><a href="https://metascape.org/COVID#200_COVID088" target="_TERM">COVID088</a></TD>
+      <TD>Interactome_Gordon_HEK-293T_38h_NSP13</TD>
+      <TD>7</TD>
+      <TD>1.40</TD>
+      <TD>-5.30</TD>
+      <TD>-2.50</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+              </div>
+    <h3>Reference</h3></p>
+    <ol style="list-style: decimal inside;">
+      <li>Zhou et al., Metascape provides a biologist-oriented resource for the analysis of systems-level datasets. Nature Communications (2019) 10(1):1523.</li>
+      <li>Zar, J.H. Biostatistical Analysis 1999 4th edn., NJ Prentice Hall, pp. 523</li>
+      <li>Hochberg Y., Benjamini Y. More powerful procedures for multiple significance testing. Statistics in Medicine (1990) 9:811-818.</li>
+      <li>Cohen, J. A coefficient of agreement for nominal scales. Educ. Psychol. Meas. (1960) 20:27-46.</li>
+      <li>Shannon P. et al., Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res (2003) 11:2498-2504.</li>
+      <li>Szklarczyk D. et al. STRING v11: protein-protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets. Nucleic Acids Res. (2019) 47:D607-613.</li>
+      <li>Stark C. et al. BioGRID: a general repository for interaction datasets. Nucleic Acids Res. (2006) 34:D535-539.</li>
+      <li>Turei D. et al. A scored human protein-protein interaction network to catalyze genomic interpretation. Nat. Methods. (2016) 13:966-967.</li>
+      <li>Li T. et al. A scored human protein-protein interaction network to catalyze genomic interpretation. Nat. Methods. (2017) 14:61-64.</li>
+      <li>Bader, G.D. et al. An automated method for finding molecular complexes in large protein interaction networks. BMC bioinformatics (2003) 4:2.</li>
+      <li>Subramanian A, et al. Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles. Proc Natl Acad Sci U S A 102, 15545-15550 (2005).</li>
+      <li>Pinero J, et al. DisGeNET: a comprehensive platform integrating information on human disease-associated genes and variants. Nucleic acids research 45, D833-D839 (2017).</li>
+      <li>Pan JB, et al. PaGenBase: a pattern gene database for the global and dynamic understanding of gene function. PLoS One 8, e80747 (2013).</li>
+      <li>https://metascape.org/COVID.</li>
+</ol>
+</div>
+
+</body></html>

@@ -1,0 +1,15 @@
+Network,Annotation
+MyList,R-HSA-909733|Interferon alpha/beta signaling|-31.0;R-HSA-913531|Interferon Signaling|-28.3;GO:0009615|response to virus|-27.8
+MyList_MCODE_ALL,R-HSA-913531|Interferon Signaling|-44.3;R-HSA-909733|Interferon alpha/beta signaling|-42.3;R-HSA-1280215|Cytokine Signaling in Immune system|-34.6
+MyList_SUB1_MCODE_1,R-HSA-909733|Interferon alpha/beta signaling|-56.1;R-HSA-913531|Interferon Signaling|-45.6;GO:0140546|defense response to symbiont|-36.4
+MyList_SUB1_MCODE_2,R-HSA-388396|GPCR downstream signalling|-16.5;R-HSA-372790|Signaling by GPCR|-16.0;R-HSA-9660821|ADORA2B mediated anti-inflammatory cytokines production|-14.3
+MyList_SUB1_MCODE_3,R-HSA-983168|Antigen processing: Ubiquitination & Proteasome degradation|-15.7;R-HSA-983169|Class I MHC mediated antigen processing & presentation|-15.0;R-HSA-1280218|Adaptive Immune System|-12.6
+MyList_SUB1_MCODE_4,ko04650|Natural killer cell mediated cytotoxicity|-10.9;hsa04650|Natural killer cell mediated cytotoxicity |-10.9;GO:0002443|leukocyte mediated immunity|-10.8
+MyList_SUB1_MCODE_5,R-HSA-141444|Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal|-12.4;R-HSA-141424|Amplification of signal from the kinetochores|-12.4;R-HSA-69618|Mitotic Spindle Checkpoint|-12.0
+MyList_SUB1_MCODE_6,R-HSA-877300|Interferon gamma signaling|-7.5;R-HSA-913531|Interferon Signaling|-6.5;R-HSA-1280215|Cytokine Signaling in Immune system|-4.8
+MyList_SUB1_MCODE_7,R-HSA-1169408|ISG15 antiviral mechanism|-7.8;R-HSA-1169410|Antiviral mechanism by IFN-stimulated genes|-7.7;R-HSA-913531|Interferon Signaling|-6.5
+MyList_SUB1_MCODE_8,GO:0010820|positive regulation of T cell chemotaxis|-9.9;GO:0010819|regulation of T cell chemotaxis|-9.8;GO:0140131|positive regulation of lymphocyte chemotaxis|-9.6
+MyList_SUB1_MCODE_9,R-HSA-5676594|TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway|-9.7;R-HSA-5668541|TNFR2 non-canonical NF-kB pathway|-7.3;ko04060|Cytokine-cytokine receptor interaction|-6.1
+MyList_SUB1_MCODE_10,"R-HSA-114608|Platelet degranulation |-7.0;R-HSA-76005|Response to elevated platelet cytosolic Ca2+|-7.0;R-HSA-76002|Platelet activation, signaling and aggregation|-6.1"
+MyList_SUB1_MCODE_12,R-HSA-2162123|Synthesis of Prostaglandins (PG) and Thromboxanes (TX)|-9.9;GO:0001516|prostaglandin biosynthetic process|-8.9;GO:0046457|prostanoid biosynthetic process|-8.9
+MyList_SUB1_MCODE_13,R-HSA-380284|Loss of proteins required for interphase microtubule organization from the centrosome|-7.8;R-HSA-380259|Loss of Nlp from mitotic centrosomes|-7.8;R-HSA-8854518|AURKA Activation by TPX2|-7.8

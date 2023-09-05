@@ -1,0 +1,21 @@
+_MEMBER_MyList,_LogP_MyList,GO,Description,_PATTERN_,_RANK_,CHILD_GO_MyList
+1,-36.45325594271833,GO:0009987,cellular process,M1,1,GO:1903047 mitotic cell cycle process
+1,-22.308369800568858,GO:0008152,metabolic process,M1,1,GO:0016569 covalent chromatin modification
+1,-17.040470151921507,GO:0050789,regulation of biological process,M1,1,GO:0033044 regulation of chromosome organization
+1,-14.28559344046007,GO:0051179,localization,M1,1,GO:0006606 protein import into nucleus
+1,-13.956079363618871,GO:0048519,negative regulation of biological process,M1,1,GO:0097549 chromatin organization involved in negative regulation of transcription
+1,-13.25774662170792,GO:0002376,immune system process,M1,1,GO:0046649 lymphocyte activation
+1,-12.00725943573526,GO:0050896,response to stimulus,M1,1,GO:0006281 DNA repair
+1,-11.822567226015204,GO:0022414,reproductive process,M1,1,GO:0051321 meiotic cell cycle
+1,-10.48564553953904,GO:0048518,positive regulation of biological process,M1,1,GO:1903829 positive regulation of cellular protein localization
+1,-7.985399938370403,GO:0065007,biological regulation,M1,1,GO:0051098 regulation of binding
+1,-6.63264569031739,GO:0022610,biological adhesion,M1,1,GO:1903038 negative regulation of leukocyte cell-cell adhesion
+1,-6.282224391308007,GO:0048511,rhythmic process,M1,1,GO:0048511 rhythmic process
+1,-5.736701296804735,GO:0016032,viral process,M1,1,GO:0016032 viral process
+1,-5.341903027049973,GO:0023052,signaling,M1,1,GO:0097193 intrinsic apoptotic signaling pathway
+1,-4.7306028416807875,GO:0032501,multicellular organismal process,M1,1,GO:0001817 regulation of cytokine production
+1,-4.541896248528929,GO:0032502,developmental process,M1,1,GO:0009792 embryo development ending in birth or egg hatching
+1,-4.19350741536523,GO:0040007,growth,M1,1,GO:0048589 developmental growth
+1,-4.168342180398218,GO:0044419,biological process involved in interspecies interaction between organisms,M1,1,GO:0042832 defense response to protozoan
+1,-3.8443918947374094,GO:0051704,multi-organism process,M1,1,GO:0007143 female meiotic nuclear division
+1,-3.761070567584192,GO:0040011,locomotion,M1,1,GO:0030335 positive regulation of cell migration

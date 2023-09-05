@@ -1,0 +1,12 @@
+Network,Annotation
+MyList,"R-HSA-3247509|Chromatin modifying enzymes|-19.0;R-HSA-4839726|Chromatin organization|-19.0;R-HSA-69278|Cell Cycle, Mitotic|-18.8"
+MyList_MCODE_ALL,R-HSA-3214847|HATs acetylate histones|-28.0;R-HSA-3214815|HDACs deacetylate histones|-25.7;R-HSA-3214858|RMTs methylate histone arginines|-25.1
+MyList_SUB1_MCODE_1,R-HSA-3214847|HATs acetylate histones|-43.3;R-HSA-4839726|Chromatin organization|-40.2;R-HSA-3247509|Chromatin modifying enzymes|-40.2
+MyList_SUB1_MCODE_2,R-HSA-68877|Mitotic Prometaphase|-16.5;GO:0000226|microtubule cytoskeleton organization|-14.1;R-HSA-68886|M Phase|-13.7
+MyList_SUB1_MCODE_3,GO:0034470|ncRNA processing|-4.8;GO:0022613|ribonucleoprotein complex biogenesis|-4.5;GO:0034660|ncRNA metabolic process|-4.4
+MyList_SUB1_MCODE_4,R-HSA-8856828|Clathrin-mediated endocytosis|-13.8;R-HSA-199991|Membrane Trafficking|-9.9;R-HSA-5653656|Vesicle-mediated transport|-9.7
+MyList_SUB1_MCODE_5,GO:0016024|CDP-diacylglycerol biosynthetic process|-12.9;GO:0046341|CDP-diacylglycerol metabolic process|-12.7;hsa00564|Glycerophospholipid metabolism |-12.4
+MyList_SUB1_MCODE_7,R-HSA-416476|G alpha (q) signalling events|-8.5;R-HSA-500792|GPCR ligand binding|-7.1;R-HSA-388396|GPCR downstream signalling|-6.6
+MyList_SUB1_MCODE_8,"R-HSA-114608|Platelet degranulation |-9.4;R-HSA-76005|Response to elevated platelet cytosolic Ca2+|-9.3;R-HSA-76002|Platelet activation, signaling and aggregation|-8.1"
+MyList_SUB1_MCODE_10,R-HSA-6807505|RNA polymerase II transcribes snRNA genes|-7.8;GO:0031123|RNA 3'-end processing|-7.2
+MyList_SUB1_MCODE_11,R-HSA-381340|Transcriptional regulation of white adipocyte differentiation|-7.6;R-HSA-1989781|PPARA activates gene expression|-7.2;R-HSA-400206|Regulation of lipid metabolism by PPARalpha|-7.1

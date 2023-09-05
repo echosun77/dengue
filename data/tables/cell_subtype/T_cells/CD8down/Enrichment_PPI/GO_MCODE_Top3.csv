@@ -1,0 +1,11 @@
+Network,Annotation
+MyList,R-HSA-909733|Interferon alpha/beta signaling|-13.6;R-HSA-913531|Interferon Signaling|-13.0;GO:0009615|response to virus|-12.9
+MyList_MCODE_ALL,R-HSA-909733|Interferon alpha/beta signaling|-19.6;R-HSA-913531|Interferon Signaling|-17.2;R-HSA-1280215|Cytokine Signaling in Immune system|-16.8
+MyList_SUB1_MCODE_1,R-HSA-909733|Interferon alpha/beta signaling|-29.0;R-HSA-913531|Interferon Signaling|-23.8;GO:0140546|defense response to symbiont|-19.3
+MyList_SUB1_MCODE_2,R-HSA-983168|Antigen processing: Ubiquitination & Proteasome degradation|-11.2;R-HSA-983169|Class I MHC mediated antigen processing & presentation|-10.6;R-HSA-8951664|Neddylation|-9.9
+MyList_SUB1_MCODE_3,CORUM:5450|Mediator complex|-10.3;CORUM:230|Mediator complex|-10.0;CORUM:867|TRAP-SMCC mediator complex|-8.7
+MyList_SUB1_MCODE_4,R-HSA-9658195|Leishmania infection|-8.9;R-HSA-9660821|ADORA2B mediated anti-inflammatory cytokines production|-7.8;R-HSA-418555|G alpha (s) signalling events|-7.6
+MyList_SUB1_MCODE_5,ko05152|Tuberculosis|-7.6;hsa05152|Tuberculosis|-7.5;GO:0007249|I-kappaB kinase/NF-kappaB signaling|-6.8
+MyList_SUB1_MCODE_6,R-HSA-2559586|DNA Damage/Telomere Stress Induced Senescence|-9.5;R-HSA-3214815|HDACs deacetylate histones|-9.2;R-HSA-2559583|Cellular Senescence|-7.9
+MyList_SUB1_MCODE_7,R-HSA-2424491|DAP12 signaling|-9.0;R-HSA-2172127|DAP12 interactions|-8.4;GO:0001912|positive regulation of leukocyte mediated cytotoxicity|-8.1
+MyList_SUB1_MCODE_8,GO:0002429|immune response-activating cell surface receptor signaling pathway|-6.0;GO:0002757|immune response-activating signal transduction|-6.0;GO:0002768|immune response-regulating cell surface receptor signaling pathway|-5.9

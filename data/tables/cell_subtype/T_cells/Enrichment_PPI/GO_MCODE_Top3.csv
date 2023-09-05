@@ -1,0 +1,10 @@
+Network,Annotation
+MyList,GO:0016569|covalent chromatin modification|-15.5;GO:0016570|histone modification|-14.4;GO:0018205|peptidyl-lysine modification|-9.2
+MyList_MCODE_ALL,GO:0006913|nucleocytoplasmic transport|-12.0;GO:0051169|nuclear transport|-12.0;GO:0016569|covalent chromatin modification|-11.5
+MyList_SUB1_MCODE_1,GO:0051169|nuclear transport|-8.6;GO:0006913|nucleocytoplasmic transport|-8.6;GO:0046488|phosphatidylinositol metabolic process|-7.4
+MyList_SUB1_MCODE_2,R-HSA-8951664|Neddylation|-12.6;R-HSA-983168|Antigen processing: Ubiquitination & Proteasome degradation|-11.6;R-HSA-983169|Class I MHC mediated antigen processing & presentation|-10.9
+MyList_SUB1_MCODE_3,GO:0002366|leukocyte activation involved in immune response|-11.6;GO:0002263|cell activation involved in immune response|-11.5;WP395|IL-4 signaling pathway|-11.0
+MyList_SUB1_MCODE_4,R-HSA-73894|DNA Repair|-6.2;R-HSA-5250924|B-WICH complex positively regulates rRNA expression|-5.9;R-HSA-5250913|Positive epigenetic regulation of rRNA expression|-5.7
+MyList_SUB1_MCODE_5,GO:0018027|peptidyl-lysine dimethylation|-8.6;GO:0018023|peptidyl-lysine trimethylation|-7.7;ko00310|Lysine degradation|-7.5
+MyList_SUB1_MCODE_8,R-HSA-2500257|Resolution of Sister Chromatid Cohesion|-7.1;R-HSA-2467813|Separation of Sister Chromatids|-6.5;R-HSA-68877|Mitotic Prometaphase|-6.4
+MyList_SUB1_MCODE_10,GO:0016055|Wnt signaling pathway|-5.4;GO:0198738|cell-cell signaling by wnt|-5.4;GO:1905114|cell surface receptor signaling pathway involved in cell-cell signaling|-5.1

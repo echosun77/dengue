@@ -1,0 +1,13 @@
+Network,Annotation
+MyList,"R-HSA-1640170|Cell Cycle|-54.0;R-HSA-69278|Cell Cycle, Mitotic|-48.7;GO:1903047|mitotic cell cycle process|-39.4"
+MyList_MCODE_ALL,"R-HSA-1640170|Cell Cycle|-62.6;R-HSA-69278|Cell Cycle, Mitotic|-57.5;R-HSA-68886|M Phase|-36.8"
+MyList_SUB1_MCODE_1,"R-HSA-1640170|Cell Cycle|-20.8;R-HSA-69278|Cell Cycle, Mitotic|-13.4;GO:0006260|DNA replication|-12.9"
+MyList_SUB1_MCODE_2,R-HSA-2132295|MHC class II antigen presentation|-5.4;WP383|Striated muscle contraction pathway|-5.3;R-HSA-437239|Recycling pathway of L1|-5.0
+MyList_SUB1_MCODE_3,GO:0046425|regulation of receptor signaling pathway via JAK-STAT|-6.1;ko04144|Endocytosis|-6.0;hsa04144|Endocytosis |-6.0
+MyList_SUB1_MCODE_4,R-HSA-2500257|Resolution of Sister Chromatid Cohesion|-45.3;R-HSA-68877|Mitotic Prometaphase|-41.0;R-HSA-68882|Mitotic Anaphase|-39.8
+MyList_SUB1_MCODE_5,R-HSA-9609690|HCMV Early Events|-9.6;R-HSA-9609646|HCMV Infection|-9.1;R-HSA-3108214|SUMOylation of DNA damage response and repair proteins|-8.8
+MyList_SUB1_MCODE_6,R-HSA-3247509|Chromatin modifying enzymes|-20.0;R-HSA-4839726|Chromatin organization|-20.0;GO:0006333|chromatin assembly or disassembly|-19.1
+MyList_SUB1_MCODE_7,"CORUM:160|Condensin II|-12.2;R-HSA-6798695|Neutrophil degranulation|-11.3;R-HSA-69278|Cell Cycle, Mitotic|-9.1"
+MyList_SUB1_MCODE_8,CORUM:1098|DNA synthesome complex (13 subunits)|-7.2;R-HSA-1640170|Cell Cycle|-6.9;CORUM:1099|DNA synthesome complex (17 subunits)|-6.8
+MyList_SUB1_MCODE_9,R-HSA-8856828|Clathrin-mediated endocytosis|-5.3;R-HSA-199991|Membrane Trafficking|-3.4;GO:0006897|endocytosis|-3.4
+MyList_SUB1_MCODE_10,WP2374|Oncostatin M signaling pathway|-7.3;WP4666|Hepatitis B infection|-6.2;ko04630|Jak-STAT signaling pathway|-6.2
